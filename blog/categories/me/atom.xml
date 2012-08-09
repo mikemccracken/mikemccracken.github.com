@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: me | michael-mccracken.net]]></title>
-  <link href="http://michael-mccracken.net/blog/categories/me/atom.xml" rel="self"/>
-  <link href="http://michael-mccracken.net/"/>
-  <updated>2012-08-09T00:03:35-07:00</updated>
-  <id>http://michael-mccracken.net/</id>
+  <link href="http://mikemccracken.github.com/blog/categories/me/atom.xml" rel="self"/>
+  <link href="http://mikemccracken.github.com/"/>
+  <updated>2012-08-09T00:37:19-07:00</updated>
+  <id>http://mikemccracken.github.com/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Tinkering in the Sideshow]]></title>
-    <link href="http://michael-mccracken.net/blog/2010/02/02/tinkering-in-the-sideshow/"/>
+    <link href="http://mikemccracken.github.com/blog/2010/02/02/tinkering-in-the-sideshow/"/>
     <updated>2010-02-02T18:31:06-08:00</updated>
-    <id>http://michael-mccracken.net/blog/2010/02/02/tinkering-in-the-sideshow</id>
+    <id>http://mikemccracken.github.com/blog/2010/02/02/tinkering-in-the-sideshow</id>
     <content type="html"><![CDATA[<p>Last week, <a href="http://al3x.net/2010/01/28/ipad.html">Alex Payne</a> and <a href="http://diveintomark.org/archives/2010/01/29/tinkerers-sunset">Mark Pilgrim</a> both made some heartfelt arguments explaining why they think the fact that Apple's vision of the computing future as a relatively closed appliance is depressing. I agree, and I want to explain exactly why, now that I think I've figured it out.</p>
 
 <p>Each post got plenty of responses. Dissenters have a wide variety of reasons for why it's no big deal, ranging from "tomorrows tinkerers will just play with different technology, like <a href="http://diveintomark.org/archives/2010/01/29/tinkerers-sunset#comment-13600">bio-mecha</a>" (fascinating!), to a lot of people saying, essentially, "Just don't buy the appliance if you want a computer" (obvious!).</p>
@@ -40,9 +40,9 @@
   
   <entry>
     <title type="html"><![CDATA[Share how you use BibDesk]]></title>
-    <link href="http://michael-mccracken.net/blog/2007/02/22/share-how-you-use-bibdesk/"/>
+    <link href="http://mikemccracken.github.com/blog/2007/02/22/share-how-you-use-bibdesk/"/>
     <updated>2007-02-22T04:14:29-08:00</updated>
-    <id>http://michael-mccracken.net/blog/2007/02/22/share-how-you-use-bibdesk</id>
+    <id>http://mikemccracken.github.com/blog/2007/02/22/share-how-you-use-bibdesk</id>
     <content type="html"><![CDATA[<p>If you use <a href="http://bibdesk.sourceforge.net/">BibDesk</a>, I want to hear how you use it - what features you use most, and how you have it set up.</p>
 
 <p>I've added a page to the BibDesk wiki to share <a href="http://bibdesk.sourceforge.net/wiki/index.php/User_Screenshots">User Screenshots</a> - add a section there about what you do with BibDesk, and share your experiences. I added my own thoughts already, to get things started.</p>
@@ -53,9 +53,9 @@
   
   <entry>
     <title type="html"><![CDATA[Leopard Tech Talk, Jan 19: LA]]></title>
-    <link href="http://michael-mccracken.net/blog/2007/01/09/leopard-tech-talk-jan-19-la/"/>
+    <link href="http://mikemccracken.github.com/blog/2007/01/09/leopard-tech-talk-jan-19-la/"/>
     <updated>2007-01-09T07:10:52-08:00</updated>
-    <id>http://michael-mccracken.net/blog/2007/01/09/leopard-tech-talk-jan-19-la</id>
+    <id>http://mikemccracken.github.com/blog/2007/01/09/leopard-tech-talk-jan-19-la</id>
     <content type="html"><![CDATA[<p>I couldn't make it to WWDC last year, I'm not at Macworld this week, but I will be making it up to LA on the 19th for the <a href="http://developer.apple.com/events/techtalks/northamerica.html">Leopard Tech Talk</a>, to catch up. I'll probably be there the day before, owing to traffic and an inability to wake up early.</p>
 
 <p>If any area mac devs are meeting up around then, drop me a note.</p>
@@ -66,9 +66,9 @@
   
   <entry>
     <title type="html"><![CDATA[GTD Habits]]></title>
-    <link href="http://michael-mccracken.net/blog/2006/11/15/gtd-habits/"/>
+    <link href="http://mikemccracken.github.com/blog/2006/11/15/gtd-habits/"/>
     <updated>2006-11-15T04:07:26-08:00</updated>
-    <id>http://michael-mccracken.net/blog/2006/11/15/gtd-habits</id>
+    <id>http://mikemccracken.github.com/blog/2006/11/15/gtd-habits</id>
     <content type="html"><![CDATA[<p>After years of being aware of <a href="http://davidco.com/">David Allen's</a> GTD system through <a href="http://www.43folders.com/topics/gtd">43 Folders</a> and other sites, I took the dive about a month ago and dumped all my various to-do lists and project ideas into <a href="http://kinkless.com">Kinkless GTD</a>. I had tried to keep reminders and actions in a variety of other systems, including emacs <a href="http://staff.science.uva.nl/~dominik/Tools/org/">org-mode</a> and <a href="http://voodoopad.com">VoodooPad</a>, which I use extensively for notes.</p>
 
 <p>I never kept up a system for very long, and I believe the contexts were the key problem - having to look at tasks with different contexts in the same list is daunting - I end up not writing things down to avoid a frightening list, and keeping multiple lists around is difficult in every system I tried, until I tried Kinkless. Organizing by context gives a great feeling of confidence when I ignore huge lists that I just can't do right now. Knowing what you can't do makes getting the rest started much easier.</p>
@@ -79,9 +79,9 @@
   
   <entry>
     <title type="html"><![CDATA[Supercomputing 2006 BOF: "Is 99% Utilization of a Supercomputer a Good Thing?"]]></title>
-    <link href="http://michael-mccracken.net/blog/2006/10/30/supercomputing-2006-bof-is-99-utilization-of-a-supercomputer-a-good-thing/"/>
+    <link href="http://mikemccracken.github.com/blog/2006/10/30/supercomputing-2006-bof-is-99-utilization-of-a-supercomputer-a-good-thing/"/>
     <updated>2006-10-30T07:28:56-08:00</updated>
-    <id>http://michael-mccracken.net/blog/2006/10/30/supercomputing-2006-bof-is-99-utilization-of-a-supercomputer-a-good-thing</id>
+    <id>http://mikemccracken.github.com/blog/2006/10/30/supercomputing-2006-bof-is-99-utilization-of-a-supercomputer-a-good-thing</id>
     <content type="html"><![CDATA[<p>For those few readers who are interested in High Performance Computing and might be going to this year's <a href="http://sc06.supercomputing.org/">Supercomputing</a> conference in Tampa, my advisor Allan Snavely and Jeremy Kepner from Lincoln Labs are putting on a BOF with an intriguing subject: <a href="http://sc06.supercomputing.org/schedule/event_detail.php?evid=5193">"Is 99% Utilization of a Supercomputer a Good Thing?"</a></p>
 
 <p>It'll be on Thursday Nov. 16th at 12:15PM.</p>

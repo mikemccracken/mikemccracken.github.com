@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: productivity | michael-mccracken.net]]></title>
-  <link href="http://michael-mccracken.net/blog/categories/productivity/atom.xml" rel="self"/>
-  <link href="http://michael-mccracken.net/"/>
-  <updated>2012-08-09T00:03:35-07:00</updated>
-  <id>http://michael-mccracken.net/</id>
+  <link href="http://mikemccracken.github.com/blog/categories/productivity/atom.xml" rel="self"/>
+  <link href="http://mikemccracken.github.com/"/>
+  <updated>2012-08-09T00:37:19-07:00</updated>
+  <id>http://mikemccracken.github.com/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[VoodooPad, OmniFocus and Terminal Integration Wish List]]></title>
-    <link href="http://michael-mccracken.net/blog/2011/07/06/voodoopad-omnifocus-and-terminal-integration-wish-list/"/>
+    <link href="http://mikemccracken.github.com/blog/2011/07/06/voodoopad-omnifocus-and-terminal-integration-wish-list/"/>
     <updated>2011-07-06T07:05:48-07:00</updated>
-    <id>http://michael-mccracken.net/blog/2011/07/06/voodoopad-omnifocus-and-terminal-integration-wish-list</id>
+    <id>http://mikemccracken.github.com/blog/2011/07/06/voodoopad-omnifocus-and-terminal-integration-wish-list</id>
     <content type="html"><![CDATA[<p>Here are some features I want but I'll never have time to write the scripts for VoodooPad to do.</p>
 
 <p>I use VP mostly as a running log of notes, shell commands and todos. I also use OmniFocus for task tracking, but sometimes it's easier to just start typing in VP and work out the tasks later. So I often end up with VP pages that have a bunch of todos mixed in with project headers and miscellaneous notes.</p>
@@ -50,9 +50,9 @@
   
   <entry>
     <title type="html"><![CDATA[Something Buckets]]></title>
-    <link href="http://michael-mccracken.net/blog/2009/02/09/something-buckets/"/>
+    <link href="http://mikemccracken.github.com/blog/2009/02/09/something-buckets/"/>
     <updated>2009-02-09T23:27:49-08:00</updated>
-    <id>http://michael-mccracken.net/blog/2009/02/09/something-buckets</id>
+    <id>http://mikemccracken.github.com/blog/2009/02/09/something-buckets</id>
     <content type="html"><![CDATA[<p>Alex Payne's recent post <a href="http://al3x.net/2009/01/31/against-everything-buckets.html">The case against everything buckets</a> makes a strong point in favor of using the filesystem for filing. To paraphrase: If your problem is that you have a bunch of files you need to search through, and possibly tag, then the filesystem and Spotlight are probably closer to solving your problem than you expect.</p>
 
 <p>I enjoyed reading his post, because I like rules of thumb for simple design, and one of my favorites is "why not just use files?" - there are often reasons to do something else, but the filesystem is faster, more reliable, and more open than anything you're likely to come up with on the first try. So you'd better be sure you're not just poorly reimplementing it.</p>
@@ -69,9 +69,9 @@
   
   <entry>
     <title type="html"><![CDATA[go juggle — an attention callback]]></title>
-    <link href="http://michael-mccracken.net/blog/2008/08/28/go-juggle-an-attention-callback/"/>
+    <link href="http://mikemccracken.github.com/blog/2008/08/28/go-juggle-an-attention-callback/"/>
     <updated>2008-08-28T12:31:05-07:00</updated>
-    <id>http://michael-mccracken.net/blog/2008/08/28/go-juggle-an-attention-callback</id>
+    <id>http://mikemccracken.github.com/blog/2008/08/28/go-juggle-an-attention-callback</id>
     <content type="html"><![CDATA[<p>Sometimes progress on a project for me consists of a few short bursts of activity in between stretches of waiting for some long-running thing to complete so I can figure out what I need to do with it next.</p>
 
 <p>Because I always have more than one project going, I don't actually wait much. I just switch workspaces and try to make progress on the next thing. If I can't make progress on anything immediate, I'll end up checking email or looking up something for a side project.</p>
@@ -102,9 +102,9 @@ Also, I've found it can mess with shell quoting as is, so sometimes I have to do
   
   <entry>
     <title type="html"><![CDATA[TaskPaper adds just enough to stick]]></title>
-    <link href="http://michael-mccracken.net/blog/2007/11/01/taskpaper-adds-just-enough-to-stick/"/>
+    <link href="http://mikemccracken.github.com/blog/2007/11/01/taskpaper-adds-just-enough-to-stick/"/>
     <updated>2007-11-01T05:47:31-07:00</updated>
-    <id>http://michael-mccracken.net/blog/2007/11/01/taskpaper-adds-just-enough-to-stick</id>
+    <id>http://mikemccracken.github.com/blog/2007/11/01/taskpaper-adds-just-enough-to-stick</id>
     <content type="html"><![CDATA[<p>My favorite apps, the ones that slip easily into everyday use and stick there, just start with plain text and add some extra sauce. <a href="http://voodoopad.com">VoodooPad</a> is a great example, and Hog Bay Software's new app <a href="http://hogbaysoftware.com/products/taskpaper">TaskPaper</a> is, too.</p>
 
 <p>I've used both <a href="http://kinkless.com/kgtd">kgtd</a> and <a href="http://bargiel.home.pl/iGTD/">iGTD</a>, and played around with a few others. I came closest to sticking with a system using kgtd, but switched to iGTD because manually syncing kgtd got old.</p>
@@ -137,9 +137,9 @@ When I downloaded the 1.0 release, I found a conflict with TextExtras and wrote 
   
   <entry>
     <title type="html"><![CDATA[Processing Email]]></title>
-    <link href="http://michael-mccracken.net/blog/2007/07/26/processing-email/"/>
+    <link href="http://mikemccracken.github.com/blog/2007/07/26/processing-email/"/>
     <updated>2007-07-26T05:11:17-07:00</updated>
-    <id>http://michael-mccracken.net/blog/2007/07/26/processing-email</id>
+    <id>http://mikemccracken.github.com/blog/2007/07/26/processing-email</id>
     <content type="html"><![CDATA[<p>I watched Merlin Mann's <a href="http://www.43folders.com/2007/07/25/merlins-inbox-zero-talk/">Google Tech Talk about processing email</a> yesterday, and even though I'd followed his posts on <a href="http://inboxzero.com">Inbox Zero</a> when they came out, it's good to get a reminder, and Merlin's an entertaining speaker - I recommend you watch it.</p>
 
 <p>He talks about strategies for keeping an empty inbox based on processing email as it comes in, and deciding what to do with each message as you read it so nothing just sits there reminding you of vague, unspecified amounts of work you need to deal with sometime.</p>

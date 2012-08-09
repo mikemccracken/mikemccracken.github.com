@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: tips | michael-mccracken.net]]></title>
-  <link href="http://michael-mccracken.net/blog/categories/tips/atom.xml" rel="self"/>
-  <link href="http://michael-mccracken.net/"/>
-  <updated>2012-08-09T00:03:35-07:00</updated>
-  <id>http://michael-mccracken.net/</id>
+  <link href="http://mikemccracken.github.com/blog/categories/tips/atom.xml" rel="self"/>
+  <link href="http://mikemccracken.github.com/"/>
+  <updated>2012-08-09T00:37:19-07:00</updated>
+  <id>http://mikemccracken.github.com/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[VoodooPad, OmniFocus and Terminal Integration Wish List]]></title>
-    <link href="http://michael-mccracken.net/blog/2011/07/06/voodoopad-omnifocus-and-terminal-integration-wish-list/"/>
+    <link href="http://mikemccracken.github.com/blog/2011/07/06/voodoopad-omnifocus-and-terminal-integration-wish-list/"/>
     <updated>2011-07-06T07:05:48-07:00</updated>
-    <id>http://michael-mccracken.net/blog/2011/07/06/voodoopad-omnifocus-and-terminal-integration-wish-list</id>
+    <id>http://mikemccracken.github.com/blog/2011/07/06/voodoopad-omnifocus-and-terminal-integration-wish-list</id>
     <content type="html"><![CDATA[<p>Here are some features I want but I'll never have time to write the scripts for VoodooPad to do.</p>
 
 <p>I use VP mostly as a running log of notes, shell commands and todos. I also use OmniFocus for task tracking, but sometimes it's easier to just start typing in VP and work out the tasks later. So I often end up with VP pages that have a bunch of todos mixed in with project headers and miscellaneous notes.</p>
@@ -50,9 +50,9 @@
   
   <entry>
     <title type="html"><![CDATA[A script for text placeholders in VoodooPad]]></title>
-    <link href="http://michael-mccracken.net/blog/2007/03/28/a-script-for-text-placeholders-in-voodoopad/"/>
+    <link href="http://mikemccracken.github.com/blog/2007/03/28/a-script-for-text-placeholders-in-voodoopad/"/>
     <updated>2007-03-28T03:59:47-07:00</updated>
-    <id>http://michael-mccracken.net/blog/2007/03/28/a-script-for-text-placeholders-in-voodoopad</id>
+    <id>http://mikemccracken.github.com/blog/2007/03/28/a-script-for-text-placeholders-in-voodoopad</id>
     <content type="html"><![CDATA[<p>Last year I wrote about my <a href="http://michael-mccracken.net/wp/?p=39">new page template for VoodooPad</a>. I still use something like it - I like the uniform look and the built-in navigation starters I get in every page.</p>
 
 <p>I got tired of all the clicking around it took to fill in the navigation every time I put in a new page, so I decided to write a script to mimic XCode's "Select Next Placeholder" command. In XCode, if you use code completion, you might get something like this:
@@ -66,9 +66,9 @@
   
   <entry>
     <title type="html"><![CDATA[Linking the OS X Clipboard and XTerm's selection]]></title>
-    <link href="http://michael-mccracken.net/blog/2007/02/19/linking-the-os-x-clipboard-and-xterms-selection/"/>
+    <link href="http://mikemccracken.github.com/blog/2007/02/19/linking-the-os-x-clipboard-and-xterms-selection/"/>
     <updated>2007-02-19T10:23:22-08:00</updated>
-    <id>http://michael-mccracken.net/blog/2007/02/19/linking-the-os-x-clipboard-and-xterms-selection</id>
+    <id>http://mikemccracken.github.com/blog/2007/02/19/linking-the-os-x-clipboard-and-xterms-selection</id>
     <content type="html"><![CDATA[<p>If you only use X11 for XTerm, it might seem like the handling of the clipboard in Apple's X11.app is broken. You can select text and paste it with a click of the middle mouse button (opt-click on my Powerbook), and that works when pasting into other X apps, but it doesn't change the Mac clipboard at all.</p>
 
 <p>Why not? Is X11.app just ignoring the X clipboard?</p>

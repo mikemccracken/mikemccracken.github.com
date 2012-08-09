@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: grad-school | michael-mccracken.net]]></title>
-  <link href="http://michael-mccracken.net/blog/categories/grad-school/atom.xml" rel="self"/>
-  <link href="http://michael-mccracken.net/"/>
-  <updated>2012-08-09T00:03:35-07:00</updated>
-  <id>http://michael-mccracken.net/</id>
+  <link href="http://mikemccracken.github.com/blog/categories/grad-school/atom.xml" rel="self"/>
+  <link href="http://mikemccracken.github.com/"/>
+  <updated>2012-08-09T00:37:19-07:00</updated>
+  <id>http://mikemccracken.github.com/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Announcing Skim: Stop printing - Start Skimming.]]></title>
-    <link href="http://michael-mccracken.net/blog/2007/04/02/announcing-skim-stop-printing-start-skimming/"/>
+    <link href="http://mikemccracken.github.com/blog/2007/04/02/announcing-skim-stop-printing-start-skimming/"/>
     <updated>2007-04-02T04:12:22-07:00</updated>
-    <id>http://michael-mccracken.net/blog/2007/04/02/announcing-skim-stop-printing-start-skimming</id>
+    <id>http://mikemccracken.github.com/blog/2007/04/02/announcing-skim-stop-printing-start-skimming</id>
     <content type="html"><![CDATA[<p>If you spend a lot of time reading articles and research papers that you get in PDF form, then you might be interested in the latest app from the folks who brought you <a href="http://bibdesk.sf.net">BibDesk</a>. If you already use BibDesk, then you certainly want to take a look.</p>
 
 <p>Even though we keep our research papers stored on disk as PDF, all too often we print them out to read and write notes on. There's something missing in the experience of reading papers on a computer, but it doesn't have to be that way.</p>
@@ -53,9 +53,9 @@
   
   <entry>
     <title type="html"><![CDATA[Tomorrow's Professor Blog]]></title>
-    <link href="http://michael-mccracken.net/blog/2006/03/07/tomorrows-professor-blog/"/>
+    <link href="http://mikemccracken.github.com/blog/2006/03/07/tomorrows-professor-blog/"/>
     <updated>2006-03-07T10:13:31-08:00</updated>
-    <id>http://michael-mccracken.net/blog/2006/03/07/tomorrows-professor-blog</id>
+    <id>http://mikemccracken.github.com/blog/2006/03/07/tomorrows-professor-blog</id>
     <content type="html"><![CDATA[<p>The <a href="http://ctl.stanford.edu/Tomprof/index.shtml">Tomorrow's Professor Mailing List</a>, a great resource for tips and info about what professors actually do (as opposed to what you learn in grad school), is now out in a weblog form, in case you'd rather read in an aggregator than a mail client: <a href="http://amps-tools.mit.edu/tomprofblog/">Tomorrow's Professor Blog</a></p>
 
 <p>I'd recommend poking through the back issues - there's a lot of wisdom in there.</p>
@@ -64,9 +64,9 @@
   
   <entry>
     <title type="html"><![CDATA[Introducing LENS]]></title>
-    <link href="http://michael-mccracken.net/blog/2006/02/14/introducing-lens/"/>
+    <link href="http://mikemccracken.github.com/blog/2006/02/14/introducing-lens/"/>
     <updated>2006-02-14T12:29:10-08:00</updated>
-    <id>http://michael-mccracken.net/blog/2006/02/14/introducing-lens</id>
+    <id>http://mikemccracken.github.com/blog/2006/02/14/introducing-lens</id>
     <content type="html"><![CDATA[<p>I've just put up the website for my current project (to be part of my Ph.D. dissertation work): <a href="http://www.cse.ucsd.edu/~mmccrack/lens/">LENS</a>, a framework for program information manipulation that presents a uniform interface to selective user and automated queries about many types of program metrics, including success and diagnostic information about compiler optimizations and code generation.</p>
 
 <p>I'm not sure how many readers of my weblog will be interested, but there's a link to a technical report on there if you want the gory details.</p>
@@ -77,9 +77,9 @@
   
   <entry>
     <title type="html"><![CDATA[Jorge Cham and "The Power of Procrastination"]]></title>
-    <link href="http://michael-mccracken.net/blog/2006/02/08/jorge-cham-and-the-power-of-procrastination/"/>
+    <link href="http://mikemccracken.github.com/blog/2006/02/08/jorge-cham-and-the-power-of-procrastination/"/>
     <updated>2006-02-08T13:26:31-08:00</updated>
-    <id>http://michael-mccracken.net/blog/2006/02/08/jorge-cham-and-the-power-of-procrastination</id>
+    <id>http://mikemccracken.github.com/blog/2006/02/08/jorge-cham-and-the-power-of-procrastination</id>
     <content type="html"><![CDATA[<p>Just went to see Jorge Cham's talk <a href="http://www.phdcomics.com/speaking.htm">"The Power of Procrastination"</a> about grad school.
 There were plenty of good grad-school jokes and a general feeling of relief that comes with being in a big room full of people who laugh at the same old chestnuts about how nobody ever really feels like they fit in and always feel guilty about whatever it is you spend your free time doing - you know, when you <em>should</em> be doing research!</p>
 
@@ -89,9 +89,9 @@ There were plenty of good grad-school jokes and a general feeling of relief that
   
   <entry>
     <title type="html"><![CDATA[What's hot in CS]]></title>
-    <link href="http://michael-mccracken.net/blog/2006/02/04/whats-hot-in-cs/"/>
+    <link href="http://mikemccracken.github.com/blog/2006/02/04/whats-hot-in-cs/"/>
     <updated>2006-02-04T17:02:08-08:00</updated>
-    <id>http://michael-mccracken.net/blog/2006/02/04/whats-hot-in-cs</id>
+    <id>http://mikemccracken.github.com/blog/2006/02/04/whats-hot-in-cs</id>
     <content type="html"><![CDATA[<p>Today, a group of graduating PhD students in our department met up to brief each other on what's new and hot in their respective fields, to remind each other of what's going on outside their respective specialties. The idea is that when interviewing for jobs, you have to hold up your end of a conversation with professors outside your specialty, and it helps to know a bit about their field.</p>
 
 <p>To quote one professor in our department, "...there is a special circle

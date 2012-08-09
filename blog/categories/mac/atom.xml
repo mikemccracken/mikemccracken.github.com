@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: mac | michael-mccracken.net]]></title>
-  <link href="http://michael-mccracken.net/blog/categories/mac/atom.xml" rel="self"/>
-  <link href="http://michael-mccracken.net/"/>
-  <updated>2012-08-09T00:03:35-07:00</updated>
-  <id>http://michael-mccracken.net/</id>
+  <link href="http://mikemccracken.github.com/blog/categories/mac/atom.xml" rel="self"/>
+  <link href="http://mikemccracken.github.com/"/>
+  <updated>2012-08-09T00:37:19-07:00</updated>
+  <id>http://mikemccracken.github.com/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Getting notes to work with LaTeX Beamer and Skim]]></title>
-    <link href="http://michael-mccracken.net/blog/2010/04/30/getting-notes-to-work-with-latex-beamer-and-skim/"/>
+    <link href="http://mikemccracken.github.com/blog/2010/04/30/getting-notes-to-work-with-latex-beamer-and-skim/"/>
     <updated>2010-04-30T02:34:56-07:00</updated>
-    <id>http://michael-mccracken.net/blog/2010/04/30/getting-notes-to-work-with-latex-beamer-and-skim</id>
+    <id>http://mikemccracken.github.com/blog/2010/04/30/getting-notes-to-work-with-latex-beamer-and-skim</id>
     <content type="html"><![CDATA[<p>I'm writing a presentation with <a href="http://bitbucket.org/rivanvx/beamer/wiki/Home">Beamer</a>, a LaTeX class for making PDF slides.</p>
 
 <p>There's a built-in way to generate "notes", which was geared towards Acrobat Reader - it basically makes a double-wide PDF page and Reader will show the 'notes' page on the second screen. (I'm guessing it assumes your laptop screen is arranged on the right of your presentation screen, it's the same size or bigger, etc...)</p>
@@ -30,9 +30,9 @@
   
   <entry>
     <title type="html"><![CDATA[Tinkering]]></title>
-    <link href="http://michael-mccracken.net/blog/2009/09/07/tinkering/"/>
+    <link href="http://mikemccracken.github.com/blog/2009/09/07/tinkering/"/>
     <updated>2009-09-07T05:04:59-07:00</updated>
-    <id>http://michael-mccracken.net/blog/2009/09/07/tinkering</id>
+    <id>http://mikemccracken.github.com/blog/2009/09/07/tinkering</id>
     <content type="html"><![CDATA[<p>I really liked a recent post by Alex Payne titled <a href="http://al3x.net/2009/08/10/switching-season.html">Switching Season</a>.  He says he gets an itch every year or so to go try something different, and I can sympathize. What he says at the end really resonates:</p>
 
 <blockquote><p>It’s about computer <em>usage</em> as a creative act, something that becomes harder and harder to experience the more proficient one gets with a computer.</p></blockquote>
@@ -47,9 +47,9 @@
   
   <entry>
     <title type="html"><![CDATA[Subversion Client Issues]]></title>
-    <link href="http://michael-mccracken.net/blog/2009/07/13/subversion-clients/"/>
+    <link href="http://mikemccracken.github.com/blog/2009/07/13/subversion-clients/"/>
     <updated>2009-07-13T00:17:14-07:00</updated>
-    <id>http://michael-mccracken.net/blog/2009/07/13/subversion-clients</id>
+    <id>http://mikemccracken.github.com/blog/2009/07/13/subversion-clients</id>
     <content type="html"><![CDATA[<p>I use subversion, and won't switch to something newer for a while, so it's worth looking at how to polish that old hammer. I'm used to using the command line svn, or emacs. But recently I decided to try out a few of the nice GUI clients that are around, including <a href="http://versionsapp.com/">Versions</a>, <a href="http://zigzig.com/">ZigVersion</a> and <a href="http://www.zennaware.com/cornerstone/">Cornerstone</a>.</p>
 
 <p>Of these, the only one that's polished enough to lure me away from emacs and seems to support my favorite mode of working is Cornerstone, and it still gets it a little wrong.</p>
@@ -64,9 +64,9 @@
   
   <entry>
     <title type="html"><![CDATA[Something Buckets]]></title>
-    <link href="http://michael-mccracken.net/blog/2009/02/09/something-buckets/"/>
+    <link href="http://mikemccracken.github.com/blog/2009/02/09/something-buckets/"/>
     <updated>2009-02-09T23:27:49-08:00</updated>
-    <id>http://michael-mccracken.net/blog/2009/02/09/something-buckets</id>
+    <id>http://mikemccracken.github.com/blog/2009/02/09/something-buckets</id>
     <content type="html"><![CDATA[<p>Alex Payne's recent post <a href="http://al3x.net/2009/01/31/against-everything-buckets.html">The case against everything buckets</a> makes a strong point in favor of using the filesystem for filing. To paraphrase: If your problem is that you have a bunch of files you need to search through, and possibly tag, then the filesystem and Spotlight are probably closer to solving your problem than you expect.</p>
 
 <p>I enjoyed reading his post, because I like rules of thumb for simple design, and one of my favorites is "why not just use files?" - there are often reasons to do something else, but the filesystem is faster, more reliable, and more open than anything you're likely to come up with on the first try. So you'd better be sure you're not just poorly reimplementing it.</p>
@@ -83,9 +83,9 @@
   
   <entry>
     <title type="html"><![CDATA[iCal's Text Field Jumble]]></title>
-    <link href="http://michael-mccracken.net/blog/2008/11/02/text-field-jumble/"/>
+    <link href="http://mikemccracken.github.com/blog/2008/11/02/text-field-jumble/"/>
     <updated>2008-11-02T06:38:46-08:00</updated>
-    <id>http://michael-mccracken.net/blog/2008/11/02/text-field-jumble</id>
+    <id>http://mikemccracken.github.com/blog/2008/11/02/text-field-jumble</id>
     <content type="html"><![CDATA[<p>I've written here before about text fields, particularly the problem of having a good-looking 'display' mode and a separate 'edit' mode for data you don't edit so often, like in AddressBook.</p>
 
 <p>The most recent version of iCal decided that events are write-once-read-many as well. You now have to use cmd-E to get into edit mode, while cmd-I just gives you a small display mode.</p>

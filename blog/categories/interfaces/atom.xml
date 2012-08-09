@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: interfaces | michael-mccracken.net]]></title>
-  <link href="http://michael-mccracken.net/blog/categories/interfaces/atom.xml" rel="self"/>
-  <link href="http://michael-mccracken.net/"/>
-  <updated>2012-08-09T00:03:35-07:00</updated>
-  <id>http://michael-mccracken.net/</id>
+  <link href="http://mikemccracken.github.com/blog/categories/interfaces/atom.xml" rel="self"/>
+  <link href="http://mikemccracken.github.com/"/>
+  <updated>2012-08-09T00:37:19-07:00</updated>
+  <id>http://mikemccracken.github.com/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Introducing Overlay Scrollbars in Unity « Canonical Design]]></title>
-    <link href="http://michael-mccracken.net/blog/2011/03/04/overlay-scrollbars-canonical-design/"/>
+    <link href="http://mikemccracken.github.com/blog/2011/03/04/overlay-scrollbars-canonical-design/"/>
     <updated>2011-03-04T04:16:07-08:00</updated>
-    <id>http://michael-mccracken.net/blog/2011/03/04/overlay-scrollbars-canonical-design</id>
+    <id>http://mikemccracken.github.com/blog/2011/03/04/overlay-scrollbars-canonical-design</id>
     <content type="html"><![CDATA[<p>From the always-interesting Canonical Design blog:
 <a href="http://design.canonical.com/2011/03/introducing-overlay-scrollbars-in-unity/">Introducing Overlay Scrollbars in Unity</a>. (Who wouldn't love to see an Apple Design blog? It's fun to follow along as some serious, talented people rethink stuff we use everyday…)</p>
 

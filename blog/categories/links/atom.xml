@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: links | michael-mccracken.net]]></title>
-  <link href="http://michael-mccracken.net/blog/categories/links/atom.xml" rel="self"/>
-  <link href="http://michael-mccracken.net/"/>
-  <updated>2012-08-09T00:03:35-07:00</updated>
-  <id>http://michael-mccracken.net/</id>
+  <link href="http://mikemccracken.github.com/blog/categories/links/atom.xml" rel="self"/>
+  <link href="http://mikemccracken.github.com/"/>
+  <updated>2012-08-09T00:37:19-07:00</updated>
+  <id>http://mikemccracken.github.com/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Links: Hacking, Music in Python, Rust & unitaskimg]]></title>
-    <link href="http://michael-mccracken.net/blog/2012/04/11/links-hacking-music-in-python-rust-unitaskimg/"/>
+    <link href="http://mikemccracken.github.com/blog/2012/04/11/links-hacking-music-in-python-rust-unitaskimg/"/>
     <updated>2012-04-11T09:15:15-07:00</updated>
-    <id>http://michael-mccracken.net/blog/2012/04/11/links-hacking-music-in-python-rust-unitaskimg</id>
+    <id>http://mikemccracken.github.com/blog/2012/04/11/links-hacking-music-in-python-rust-unitaskimg</id>
     <content type="html"><![CDATA[<p>My shared links for April 5th through April 6th:</p>
 
 <ul>
@@ -48,9 +48,9 @@ Done
   
   <entry>
     <title type="html"><![CDATA[Links: Flattr, Haskell, Haskell QuickCheck, and Stuart Cheshire (of Bolo fame)]]></title>
-    <link href="http://michael-mccracken.net/blog/2012/04/06/links-flattr-haskell-haskell-quickcheck-and-stuart-cheshire-of-bolo-fame/"/>
+    <link href="http://mikemccracken.github.com/blog/2012/04/06/links-flattr-haskell-haskell-quickcheck-and-stuart-cheshire-of-bolo-fame/"/>
     <updated>2012-04-06T09:20:31-07:00</updated>
-    <id>http://michael-mccracken.net/blog/2012/04/06/links-flattr-haskell-haskell-quickcheck-and-stuart-cheshire-of-bolo-fame</id>
+    <id>http://mikemccracken.github.com/blog/2012/04/06/links-flattr-haskell-haskell-quickcheck-and-stuart-cheshire-of-bolo-fame</id>
     <content type="html"><![CDATA[<p>My shared links for April 4th:</p>
 
 <ul>
@@ -72,9 +72,9 @@ Done
   
   <entry>
     <title type="html"><![CDATA[Links: Haskell, Music OCD Tools, Terrorism, Probability for Ranking things]]></title>
-    <link href="http://michael-mccracken.net/blog/2012/04/06/links-haskell-music-ocd-tools-terrorism-probability-for-ranking-things/"/>
+    <link href="http://mikemccracken.github.com/blog/2012/04/06/links-haskell-music-ocd-tools-terrorism-probability-for-ranking-things/"/>
     <updated>2012-04-06T09:16:32-07:00</updated>
-    <id>http://michael-mccracken.net/blog/2012/04/06/links-haskell-music-ocd-tools-terrorism-probability-for-ranking-things</id>
+    <id>http://mikemccracken.github.com/blog/2012/04/06/links-haskell-music-ocd-tools-terrorism-probability-for-ranking-things</id>
     <content type="html"><![CDATA[<p>My shared links for March 30th through April 3rd:</p>
 
 <ul>
@@ -101,18 +101,18 @@ Browse your music library graphically through a Web browser and play it in any b
   
   <entry>
     <title type="html"><![CDATA[Canonical design blog on Holistic UI]]></title>
-    <link href="http://michael-mccracken.net/blog/2012/03/30/canonical-design-blog-on-where-small-pieces-loosely-joined-needs-some-tweaking/"/>
+    <link href="http://mikemccracken.github.com/blog/2012/03/30/canonical-design-blog-on-where-small-pieces-loosely-joined-needs-some-tweaking/"/>
     <updated>2012-03-30T05:29:00-07:00</updated>
-    <id>http://michael-mccracken.net/blog/2012/03/30/canonical-design-blog-on-where-small-pieces-loosely-joined-needs-some-tweaking</id>
+    <id>http://mikemccracken.github.com/blog/2012/03/30/canonical-design-blog-on-where-small-pieces-loosely-joined-needs-some-tweaking</id>
     <content type="html"><![CDATA[<p><a href="http://design.canonical.com/2012/03/holistic-ui-is-smarter-ux/">Holistic UI is smarter UX</a> - They use notifications as an example of why small pieces loosely joined might not be great UI. It's really interesting to see how common UI devices such as notifications have evolved across various platforms. Someone should do a gallery of notifications over the years - bonus points if you start with a ␇!</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Links for mid-March see scalable python around corners. And Future Spies on Facebook!]]></title>
-    <link href="http://michael-mccracken.net/blog/2012/03/30/links-for-mid-march-see-scalable-python-around-corners-and-future-spies-on-facebook/"/>
+    <link href="http://mikemccracken.github.com/blog/2012/03/30/links-for-mid-march-see-scalable-python-around-corners-and-future-spies-on-facebook/"/>
     <updated>2012-03-30T05:20:56-07:00</updated>
-    <id>http://michael-mccracken.net/blog/2012/03/30/links-for-mid-march-see-scalable-python-around-corners-and-future-spies-on-facebook</id>
+    <id>http://mikemccracken.github.com/blog/2012/03/30/links-for-mid-march-see-scalable-python-around-corners-and-future-spies-on-facebook</id>
     <content type="html"><![CDATA[<p>My shared links for March 18th through March 26th:</p>
 
 <ul>

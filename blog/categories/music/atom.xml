@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: music | michael-mccracken.net]]></title>
-  <link href="http://michael-mccracken.net/blog/categories/music/atom.xml" rel="self"/>
-  <link href="http://michael-mccracken.net/"/>
-  <updated>2012-08-09T00:03:35-07:00</updated>
-  <id>http://michael-mccracken.net/</id>
+  <link href="http://mikemccracken.github.com/blog/categories/music/atom.xml" rel="self"/>
+  <link href="http://mikemccracken.github.com/"/>
+  <updated>2012-08-09T00:37:19-07:00</updated>
+  <id>http://mikemccracken.github.com/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Fresh Air: Stan Getz in the '50s]]></title>
-    <link href="http://michael-mccracken.net/blog/2011/04/04/fresh-air-stan-getz-in-the-50s/"/>
+    <link href="http://mikemccracken.github.com/blog/2011/04/04/fresh-air-stan-getz-in-the-50s/"/>
     <updated>2011-04-04T03:09:47-07:00</updated>
-    <id>http://michael-mccracken.net/blog/2011/04/04/fresh-air-stan-getz-in-the-50s</id>
+    <id>http://mikemccracken.github.com/blog/2011/04/04/fresh-air-stan-getz-in-the-50s</id>
     <content type="html"><![CDATA[<p>Some great samples and historical tidbits from Fresh Air: <a href="http://www.npr.org/2011/03/18/134652613/before-ipanema-stan-getzs-exquisite-quintets?ft=1&amp;f;=13&amp;sc;=17">Before Ipanema: Stan Getz's exquisite quintets</a></p>
 
 <blockquote><p>Before he was famous for popularizing bossa nova with "The Girl from Ipanema" in the early 1960s, saxophonist Stan Getz recorded with small jazz groups all through the '50s. Jazz critic Kevin Whitehead says a new reissue shows Getz was one of the best at playing pretty.</p></blockquote>
@@ -28,9 +28,9 @@
   
   <entry>
     <title type="html"><![CDATA[iTunes Skip Count]]></title>
-    <link href="http://michael-mccracken.net/blog/2006/10/30/itunes-skip-count/"/>
+    <link href="http://mikemccracken.github.com/blog/2006/10/30/itunes-skip-count/"/>
     <updated>2006-10-30T10:16:13-08:00</updated>
-    <id>http://michael-mccracken.net/blog/2006/10/30/itunes-skip-count</id>
+    <id>http://mikemccracken.github.com/blog/2006/10/30/itunes-skip-count</id>
     <content type="html"><![CDATA[<p>It's been mentioned before, for example <a href="http://digg.com/apple/New_iTunes_7_SKIP_COUNT_feature">on Digg</a>, but iTunes 7 has a new feature that counts the number of times you've <em>skipped</em> a track, which is defined as playing the song for at least two seconds but no longer than twenty (after which it is counted as played fully).</p>
 
 <p>I'm curious how they chose twenty seconds as the cutoff - when I was working on an (unreleased and unfinished) project for generating smart shuffles, I defined skips as not listening past the first fifteen seconds, but didn't count a full play until the song ended.</p>
@@ -41,9 +41,9 @@
   
   <entry>
     <title type="html"><![CDATA[Matt Pond PA]]></title>
-    <link href="http://michael-mccracken.net/blog/2006/03/19/matt-pond-pa/"/>
+    <link href="http://mikemccracken.github.com/blog/2006/03/19/matt-pond-pa/"/>
     <updated>2006-03-19T13:40:20-08:00</updated>
-    <id>http://michael-mccracken.net/blog/2006/03/19/matt-pond-pa</id>
+    <id>http://mikemccracken.github.com/blog/2006/03/19/matt-pond-pa</id>
     <content type="html"><![CDATA[<p>I meant to post this just after the show, but I didn't.</p>
 
 <p>I saw <a href="http://mattpondpa.com/">Matt Pond PA</a> play on March 7th at the Epicentre in Mira Mesa.</p>
@@ -60,9 +60,9 @@
   
   <entry>
     <title type="html"><![CDATA[Takk… etc.]]></title>
-    <link href="http://michael-mccracken.net/blog/2006/01/04/takk-etc/"/>
+    <link href="http://mikemccracken.github.com/blog/2006/01/04/takk-etc/"/>
     <updated>2006-01-04T12:17:24-08:00</updated>
-    <id>http://michael-mccracken.net/blog/2006/01/04/takk-etc</id>
+    <id>http://mikemccracken.github.com/blog/2006/01/04/takk-etc</id>
     <content type="html"><![CDATA[<p>I bought three new albums with my iTunes gift card this Christmas, and I thought I'd share how they've turned out so far:</p>
 
 <ol>

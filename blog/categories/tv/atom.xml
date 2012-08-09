@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: tv | michael-mccracken.net]]></title>
-  <link href="http://michael-mccracken.net/blog/categories/tv/atom.xml" rel="self"/>
-  <link href="http://michael-mccracken.net/"/>
-  <updated>2012-08-09T00:03:35-07:00</updated>
-  <id>http://michael-mccracken.net/</id>
+  <link href="http://mikemccracken.github.com/blog/categories/tv/atom.xml" rel="self"/>
+  <link href="http://mikemccracken.github.com/"/>
+  <updated>2012-08-09T00:37:19-07:00</updated>
+  <id>http://mikemccracken.github.com/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[NHL on Google Video]]></title>
-    <link href="http://michael-mccracken.net/blog/2006/11/07/nhl-on-google-video/"/>
+    <link href="http://mikemccracken.github.com/blog/2006/11/07/nhl-on-google-video/"/>
     <updated>2006-11-07T17:06:33-08:00</updated>
-    <id>http://michael-mccracken.net/blog/2006/11/07/nhl-on-google-video</id>
+    <id>http://mikemccracken.github.com/blog/2006/11/07/nhl-on-google-video</id>
     <content type="html"><![CDATA[<p>Last spring, when I <a href="http://michael-mccracken.net/wp/?p=48">wrote</a> about highlights from the NHL Playoffs being available on the iTunes store, I said:</p>
 
 <blockquote><p>the sensation I felt when I noticed the announcement of NHL playoff video available on iTunes was that of Steve Jobs signing my name on a check for ten dollars and winking.</p></blockquote>
@@ -28,9 +28,9 @@
   
   <entry>
     <title type="html"><![CDATA[Buying my TV from the iTunes Music Store?]]></title>
-    <link href="http://michael-mccracken.net/blog/2006/04/01/buying-my-tv-from-the-itunes-music-store/"/>
+    <link href="http://mikemccracken.github.com/blog/2006/04/01/buying-my-tv-from-the-itunes-music-store/"/>
     <updated>2006-04-01T18:23:45-08:00</updated>
-    <id>http://michael-mccracken.net/blog/2006/04/01/buying-my-tv-from-the-itunes-music-store</id>
+    <id>http://mikemccracken.github.com/blog/2006/04/01/buying-my-tv-from-the-itunes-music-store</id>
     <content type="html"><![CDATA[<p>I don't have cable TV service anymore. Now I have NetFlix and books instead, and so far that's working out OK for me - but as much as I can't handle 300 channels, I would really like to be able to pick a few programs to watch.</p>
 
 <p>Thus, I'm cautiously optimistic about getting my TV over the internet. I think it could be cost-effective for me - cable bills can be pretty expensive, so even though TV <em>seems</em> cheap, consider how much crap you have to watch to get the price per show lower than $2. Is it worth it? Suppose I watch two games a week and three shows each week. At current iTunes rates, that's about $10 a week or $40 a month, assuming I don't get discounts for season passes, or screwed on sporting events. That's not bad.</p>

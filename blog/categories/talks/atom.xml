@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: talks | michael-mccracken.net]]></title>
-  <link href="http://michael-mccracken.net/blog/categories/talks/atom.xml" rel="self"/>
-  <link href="http://michael-mccracken.net/"/>
-  <updated>2012-08-09T00:03:35-07:00</updated>
-  <id>http://michael-mccracken.net/</id>
+  <link href="http://mikemccracken.github.com/blog/categories/talks/atom.xml" rel="self"/>
+  <link href="http://mikemccracken.github.com/"/>
+  <updated>2012-08-09T00:37:19-07:00</updated>
+  <id>http://mikemccracken.github.com/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Stallman at UCSD]]></title>
-    <link href="http://michael-mccracken.net/blog/2007/03/01/stallman-at-ucsd/"/>
+    <link href="http://mikemccracken.github.com/blog/2007/03/01/stallman-at-ucsd/"/>
     <updated>2007-03-01T04:08:51-08:00</updated>
-    <id>http://michael-mccracken.net/blog/2007/03/01/stallman-at-ucsd</id>
+    <id>http://mikemccracken.github.com/blog/2007/03/01/stallman-at-ucsd</id>
     <content type="html"><![CDATA[<p><a href="http://www.flickr.com/photos/michaelmccracken/406122624/"><img src="http://farm1.static.flickr.com/141/406122624_83b39c417e_t.jpg" alt="Saint IGNUcius at UCSD" /></a></p>
 
 <p><a href="http://www.stallman.org">Richard Stallman</a> gave a talk at the UCSD CS department yesterday, and packed the auditorium despite just one email announcement the afternoon before. There were some people I recognized from SDSC, plenty of students and faculty, and even a bunch of people from the nearby tech companies. His talk was about his philosophy of Free Software, which you can read more about <a href="http://www.gnu.org/philosophy/">here</a> - I went to the talk to see him in person, even though I was pretty sure I'd heard most of what he had to say on the topic already, from his writing on the web and his biography, <a href="http://www.oreilly.com/openbook/freedom/">"Free as in Freedom"</a>, by Sam Williams.</p>

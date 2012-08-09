@@ -1,0 +1,318 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Snakes on Demand: How to write a Python Launchd Agent   - michael-mccracken.net</title>
+  <meta name="author" content="Michael McCracken">
+
+  
+  <meta name="description" content="Suppose you want to write a Launchd agent in Python that communicates using UNIX domain sockets. There&#8217;s no sample code for that, but the &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://michael-mccracken.net/blog/2010/03/14/snakes-on-demand-how-to-write-a-python-launchd-agent/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="michael-mccracken.net" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1818984-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">michael-mccracken.net</a></h1>
+  
+    <h2>A Weblog</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:michael-mccracken.net" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Snakes on Demand: How to Write a Python Launchd Agent</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-03-14T14:23:52-07:00" pubdate data-updated="true">Mar 14<span>th</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Suppose you want to write a Launchd agent in Python that communicates using UNIX domain sockets. There&#8217;s no sample code for that, but the information is out there to figure out how (especially because the <a href="http://launchd.macosforge.net">launchd source code</a> is available). Most search results will tell you that you need to read the <a href="http://developer.apple.com/mac/library/technotes/tn2005/tn2083.html">Daemons and Agents Tech Report TN2083</a>, but it&#8217;s pretty long and not a great tutorial. A better intro reference is Chris Hanson&#8217;s blog post <a href="http://chanson.livejournal.com/179229.html">&#8220;Launchd: better than sliced bread!&#8221;</a>, but that doesn&#8217;t tell you everything, and doesn&#8217;t mention Python.</p>
+
+<p>I decided I&#8217;d share what I&#8217;ve learned recently to make getting started a little easier. I&#8217;ll give a short description here and post the resulting code to bitbucket at <a href="http://bitbucket.org/mikemccracken/py-launchd/">py-launchd</a>.</p>
+
+<p><em>Note:</em> This was written and tested on OS X 10.5.8 with the default <code>/usr/bin/python</code>, version 2.5.1.
+Since I wanted to use multiprocessing, I used the backport to 2.5 available at <a href="http://code.google.com/p/python-multiprocessing/">google code: python-multiprocessing</a> . For convenience, it&#8217;s included in the repository, and so is its license.</p>
+
+<h3>Goal</h3>
+
+<p>What we&#8217;re trying to do is have some python code that gets called when launchd notices someone connecting to a <a href="http://en.wikipedia.org/wiki/Unix_domain_socket">UNIX domain socket</a>. UNIX domain sockets are local-only, so this is ideal for agents that only serve local apps. We&#8217;re also using launchd &#8220;agents&#8221; not &#8220;daemons&#8221;, so we&#8217;re assuming that it&#8217;s OK to have one agent process for each user. If you&#8217;re managing access to something that needs to be unique system-wide, then this won&#8217;t work (but you can still use Launchd).</p>
+
+<h3>launchd overview</h3>
+
+<p>The launchd process will read a launchd plist you give it (at login, via launchctl or the 10.6 framework), and listen on the socket you tell it to. Once it sees a connection, it&#8217;ll start the agent program you specified in the plist, and that program can make some calls using the launchd C API to get a file descriptor for the socket that was connected. This is important - you don&#8217;t need to call bind() or listen() on the socket, because launchd already did. It&#8217;s just handing the open socket&#8217;s file descriptor straight to you and your code can just call accept() on it.</p>
+
+<h3>Using launchd with Python</h3>
+
+<p>You need to create a C/ObjC tool that can do the launchd check-in to get the open file descriptor, then pass that off to your Python code. This is pretty straightforward using the Python framework included in OS X and the Python C APIs.</p>
+
+<p>What I&#8217;ve done is create an agent loader that I called PyLaunchd that loads and runs server code in Agent.py. It expects Agent.py to be in the same directory.</p>
+
+<p>PyLaunchd is built separately and copied into the test app&#8217;s Resources folder with an XCode script phase.</p>
+
+<p>I have the app delegate copy <code>PyLaunchd</code> and <code>Agent.py</code> to <code>~/Library/Application Support/PyLaunchd/</code> on loading.
+It also customizes the launchd plist to set the path correctly for the current user, then writes that to <code>~/Library/LaunchAgents/</code>, and loads it. (Actually it first unloads it, then reloads it. I&#8217;m not convinced this is the right way to do it). It uses system() to call launchctl, but I believe in OS X 10.6 there&#8217;s an API you can call to do it directly.</p>
+
+<p>Finally, the sample app is really simple - it just opens the socket using the multiprocessing Client class, and sends whatever you type. The example Agent I&#8217;ve included will ROT13 it and send it back.</p>
+
+<p>Please let me know if you have any comments, questions, or improvements.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Michael McCracken</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-03-14T14:23:52-07:00" pubdate data-updated="true">Mar 14<span>th</span>, 2010</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://michael-mccracken.net/blog/2010/03/14/snakes-on-demand-how-to-write-a-python-launchd-agent/" data-via="mikemccracken" data-counturl="http://michael-mccracken.net/blog/2010/03/14/snakes-on-demand-how-to-write-a-python-launchd-agent/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2010/02/16/how-bibdesk-generates-apple-help-and-a-web-manual/" title="Previous Post: How BibDesk generates Apple Help and a web manual">&laquo; How BibDesk generates Apple Help and a web manual</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2010/03/19/lets-start-things-off-with-a-key-shortcut-gripe-from-thunderbird-3-forward-is-e28c98-l-not-e28c98-f/" title="Next Post: Let's start things off with a key-shortcut gripe from Thunderbird 3.
+"Forward" is ⌘-L. Not ⌘-F (">Let's start things off with a key-shortcut gripe from Thunderbird 3.
+"Forward" is ⌘-L. Not ⌘-F ( &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/04/11/links-hacking-music-in-python-rust-unitaskimg/">Links: Hacking, Music in Python, Rust & unitaskimg</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/04/06/links-flattr-haskell-haskell-quickcheck-and-stuart-cheshire-of-bolo-fame/">Links: Flattr, Haskell, Haskell QuickCheck, and Stuart Cheshire (of Bolo fame)</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/04/06/links-haskell-music-ocd-tools-terrorism-probability-for-ranking-things/">Links: Haskell, Music OCD Tools, Terrorism, Probability for Ranking things</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/03/30/canonical-design-blog-on-where-small-pieces-loosely-joined-needs-some-tweaking/">Canonical design blog on Holistic UI</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/03/30/links-for-mid-march-see-scalable-python-around-corners-and-future-spies-on-facebook/">Links for mid-March see scalable python around corners. And Future Spies on Facebook!</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/mikemccracken">@mikemccracken</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'mikemccracken',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("mikemccracken", 0, true);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/mikemccracken" class="twitter-follow-button" data-show-count="false">Follow @mikemccracken</a>
+  
+</section>
+
+
+<section>
+  <h1>My Pinboard</h1>
+  <ul id="pinboard_linkroll">Fetching linkroll...</ul>
+  <p><a href="http://pinboard.in/u:mmc">My Pinboard Bookmarks &raquo;</a></p>
+</section>
+<script type="text/javascript">
+  var linkroll = 'pinboard_linkroll'; //id target for pinboard list
+  var pinboard_user = "mmc"; //id target for pinboard list
+  var pinboard_count = 3; //id target for pinboard list
+  (function(){
+    var pinboardInit = document.createElement('script');
+    pinboardInit.type = 'text/javascript';
+    pinboardInit.async = true;
+    pinboardInit.src = '/javascripts/pinboard.js';
+    document.getElementsByTagName('head')[0].appendChild(pinboardInit);
+  })();
+</script>
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Michael McCracken -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

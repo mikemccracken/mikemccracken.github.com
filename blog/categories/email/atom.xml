@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: email | michael-mccracken.net]]></title>
+  <link href="http://michael-mccracken.net/blog/categories/email/atom.xml" rel="self"/>
+  <link href="http://michael-mccracken.net/"/>
+  <updated>2012-08-09T00:03:35-07:00</updated>
+  <id>http://michael-mccracken.net/</id>
+  <author>
+    <name><![CDATA[Michael McCracken]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Email Workflow]]></title>
+    <link href="http://michael-mccracken.net/blog/2011/06/29/email-workflow/"/>
+    <updated>2011-06-29T10:06:07-07:00</updated>
+    <id>http://michael-mccracken.net/blog/2011/06/29/email-workflow</id>
+    <content type="html"><![CDATA[<p>Last week, Chuq van Rospach had a tear of great posts about email and online communication in general. I already linked to his first two, about the value (and certain doom) of an email charter <a href="http://michael-mccracken.net/2011/06/email-charters-lists-as-parties/">here</a>.
+He then went on to discuss what he's learned about how to manage email without first trying to change other people's behavior, in two parts titled "Avoiding email bankruptcy" <a href="http://www.chuqui.com/2011/06/avoiding-email-bankruptcy-part-1/">Part 1</a> and <a href="http://www.chuqui.com/2011/06/avoiding-email-bankruptcy-part-2/">Part 2</a>. Both are well worth a full read, but I'll also summarize a bit here.</p>
+
+<p>His <a href="http://www.chuqui.com/2011/06/avoiding-email-bankruptcy-part-1/">Part 1</a> says in effect "email takes real time, so budget that time." His points about never catching up if you try to just fit it in during an otherwise busy day ring especially true. I'd add that any reputation benefit you get from fast turnaround is lost by being that guy who is checking email during meetings.</p>
+
+<p>His <a href="http://www.chuqui.com/2011/06/avoiding-email-bankruptcy-part-2/">Part 2</a> goes into detail on his email workflow. I was pleased to see that my own workflow is similar - I don't get nearly as much mail as he does (sending 225 and reading 400 messages a day? Ouch), so it's nice to see that my approach could scale.</p>
+
+<p>The high points we have in common are</p>
+
+<ul>
+<li>Separate work and home email accounts. <em>Very important</em>. I couldn't agree more, and people who want unified inboxes in a mail client baffle me.</li>
+<li>try to decide what to do with an email the first time you read it, then archive it right away</li>
+<li>no filing, just one big Archive.</li>
+<li>filter lists out of the inbox ( I only do this for high-traffic lists, but my idea of "high" is not that high. )</li>
+<li>simple filtering - I don't try to use filters to pick out "important" emails - my goal is to read every mail. If I can't, I need to reduce the incoming flow, not tweak my mail client setup.</li>
+</ul>
+
+
+<p>One difference is that he says he uses his inbox as a to-do list, where I prefer to move things to OmniFocus as soon as I understand what the task is. But it's possible we're just calling the same thing by different names.</p>
+
+<p>He also does more manual management of his archive folder than I do - but maybe this is because there are less than 10,000 emails in there right now. I imagine his archives are bigger. Mail.app doesn't have much trouble with mine.</p>
+
+<p>Also my archive is a local folder - so it never has to sync with IMAP. This is due to a server mailbox size limit, and it's not ideal. It'd be nice if I could see my archive on my phone, but hey, it's only 2011.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Email Charters & Lists as Parties]]></title>
+    <link href="http://michael-mccracken.net/blog/2011/06/21/email-charters-lists-as-parties/"/>
+    <updated>2011-06-21T16:01:55-07:00</updated>
+    <id>http://michael-mccracken.net/blog/2011/06/21/email-charters-lists-as-parties</id>
+    <content type="html"><![CDATA[<p>Chuq van Rospach shares some insight on the long battle to make email work better socially: In <a href="http://www.chuqui.com/2011/06/help-create-an-email-charter-part-1/">part one</a>, he argues that any attempt to codify good behavior will fail to create utopia, but may influence future tools and enough people to be worth trying. In  <a href="http://www.chuqui.com/2011/06/help-create-an-email-charter-part-2/">part two</a>, he says the only real way to fix problems in email is with tools, not by trying to influence behavior, if only because there are too many people using email for any lasting consensus on how to use it.</p>
+
+<p>In the comments to Chuq's post, there's a link to a really interesting proposal to make mailing lists easier to use - <a href="http://tieguy.org/blog/2010/03/17/lists-parties/">Luis Villa: "Mailing lists are parties. Or the should be."</a> The idea here is that the tools should help us give and receive some of the social cues that make parties successful where mailing lists aren't, like politely showing someone that they're boring or annoying you (by leaving the conversation), or quickly finding the interesting conversations (by seeing who and how many people are paying attention to it).</p>
+
+<p>I really like Luis' suggestions, because you could do this with mailing list software today.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The redesigned message view in Postbox 2.5]]></title>
+    <link href="http://michael-mccracken.net/blog/2011/05/11/more-postbox-2-5-teases/"/>
+    <updated>2011-05-11T14:47:06-07:00</updated>
+    <id>http://michael-mccracken.net/blog/2011/05/11/more-postbox-2-5-teases</id>
+    <content type="html"><![CDATA[<p>The Postbox team posted another tease for their upcoming redesign in version 2.5, this time the <a href="http://www3.postbox-inc.com/?/blog/entry/postbox_2_5_-_message_view_redesign/">new message view</a>.</p>
+
+<p>I'm not going to re-post all of these, but I thought this one was worth pointing out because it shows some of the thinking behind the changes - and hints at an interesting design principle:</p>
+
+<p><em>Detail views that don't change visual structure when the item they're displaying changes feel faster and more solid</em>.</p>
+
+<p>Do you agree?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Postbox 2.5's New Addressing Widget]]></title>
+    <link href="http://michael-mccracken.net/blog/2011/04/26/postbox-2-5s-new-addressing-widget/"/>
+    <updated>2011-04-26T04:34:46-07:00</updated>
+    <id>http://michael-mccracken.net/blog/2011/04/26/postbox-2-5s-new-addressing-widget</id>
+    <content type="html"><![CDATA[<p>Over at the <a href="http://www.postbox-inc.com/blog">Postbox blog</a>, they're teasing the upcoming version 2.5 with a post about a <a href="http://www.postbox-inc.com/blog/entry/postbox_2-5_new_addressing_widget/">New Addressing Widget</a>. There's only a screenshot, but it looks like a nice usability improvement - it looks more Mac-like. To and CC are in separate fields, so it's easier to add a CC without using the mouse now, and they use the token field widget (the little blue lozenge introduced in Apple Mail in 2005) to make it easier to drag around whole addresses.</p>
+
+<p>They do say they're working on some re-styling and finishing touches - so I'll reserve judgement until I use it. For now, it's still catch-up.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Handling Reference Emails]]></title>
+    <link href="http://michael-mccracken.net/blog/2011/04/26/handling-reference-emails/"/>
+    <updated>2011-04-26T02:44:38-07:00</updated>
+    <id>http://michael-mccracken.net/blog/2011/04/26/handling-reference-emails</id>
+    <content type="html"><![CDATA[<p>Sometimes you need to refer to your email. (I've written about this <a href="http://michael-mccracken.net/2007/06/the-read-once-email-client-and-reference-emails/">before</a>).</p>
+
+<p>Maybe it's to integrate comments from a bunch of people while you're editing a report, or it's a set of mails with instructions for something, like how to configure &amp; install a source code package or submit expense reports in the new system. These emails could all be in one thread, but just as often it's a few mails spread throughout several threads and scattered in time.</p>
+
+<p>A good mail client should make it easy to keep arbitrary groups of messages visible for reference. Since they're reference emails, you're just reading them, and the display shouldn't really be more than the text of the mail. You should be able to fit a few of these on screen without overlapping what you're actually working on, and you don't need a big toolbar with a bunch of actions that won't be happening.</p>
+
+<p>When I'm doing something in another app, I want to arrange my reference mails in an empty part of the screen, then not click back over to the mail client until I'm ready to close them. The faster it is to set up this display and get on with things, the better.</p>
+
+<p>Let's look at how a few existing clients support this kind of thing:</p>
+
+<h3>Gmail</h3>
+
+<p>It's easy to open a conversation and refer to it, and you can hide the body of messages that aren't relevant. But you can't move things around, so if it's a really long thread, you might be in for some scrolling. If you want to refer to more than one thread, you will have to open each in its own window.</p>
+
+<h3>Apple Mail</h3>
+
+<p>Because of its lack of a conversation-style thread view, the way to do this is to just open separate windows for each message. You can't look at a single thread in one window - have to open N windows for N messages. Ugh.</p>
+
+<p>Since Mail is what I use most often, when I have this problem I always end up with a flock of windows, and lots of clicking, scrolling and cmd-tabbing around to see what I need, followed by looking at all my open windows and trying not to close any unrelated drafts or accidentally send or delete something important.</p>
+
+<h3>Postbox &amp; Thunderbird</h3>
+
+<p>The experience with Postbox is similar to, but a little worse than GMail.
+In Postbox, there's a thread view where I can hide uninteresting messages like GMail, but if I want to pop the thread out into a separate window, I can't - only single messages can be popped into separate windows. I can make tabs with the thread view by double-clicking on a thread, but I can't figure out how to get a new window. Of course, if I need to see multiple emails at once, tabs are no good.</p>
+
+<p>Thunderbird is basically the same, except at least in 3.0.4, the default view when you select a thread is less useful than Postbox's - it looks more like a debug dump of the message's text than a well-designed display.</p>
+
+<h3>MailMate</h3>
+
+<p>MailMate is similar to Postbox &amp; Thunderbird - except that you get a nice linear conversation-style view with any selection, not just a single thread. (Postbox has a nice view but only for a thread, and TBird shows you any selection but not a nice view.)</p>
+
+<p>Still, as with those others, the linear conversation view can't be popped into its own reading-oriented window, and it's strictly linear.</p>
+
+<h3>Summary</h3>
+
+<p>I don't think any of the clients I looked at have a good solution for this. Is that a problem? Is this actually important?</p>
+
+<p>I think so. I bet if you think about when you actually look at an email, it's usually one of three times - when you first read it, as you write a reply to it, and when you're searching for it later. In both of the second two cases, I've found that I often have more than one mail or thread that I want to look at while I write or do something in another app, and a dedicated view to support that would be great. I could search through just those messages. I could minimize or move them all at once. Just think of the possibilities!</p>
+
+<p>Finally, if it's easy to keep this set of emails around for later reference without cluttering up my screen in the meantime - and without actually moving the messages into some separate folder on my server - that'd be really great. Because you always have another expense report to file, and really, who wants to memorize <em>that</em> procedure?</p>
+
+<p>Thanks for reading this far, and please feel free to leave a comment - am I missing something great in one of these clients?</p>
+]]></content>
+  </entry>
+  
+</feed>

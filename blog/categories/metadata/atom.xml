@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: metadata | michael-mccracken.net]]></title>
+  <link href="http://michael-mccracken.net/blog/categories/metadata/atom.xml" rel="self"/>
+  <link href="http://michael-mccracken.net/"/>
+  <updated>2012-08-09T00:03:35-07:00</updated>
+  <id>http://michael-mccracken.net/</id>
+  <author>
+    <name><![CDATA[Michael McCracken]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[BibDesk and the hCite Microformat]]></title>
+    <link href="http://michael-mccracken.net/blog/2007/01/25/bibdesk-and-the-hcite-microformat/"/>
+    <updated>2007-01-25T23:06:24-08:00</updated>
+    <id>http://michael-mccracken.net/blog/2007/01/25/bibdesk-and-the-hcite-microformat</id>
+    <content type="html"><![CDATA[<p>This is about building an iTunes store-style interface to the web's bibliographic information.</p>
+
+<p>I've been pushing along the <a href="http://microformats.org/wiki/citation">hCite </a> Microformat process, which will set a standard for HTML publishers to add simple semantic markup to their pages that programs like BibDesk can read as citation metadata.</p>
+
+<p>In stark contrast to great but complex things like Z39.50, if you can publish a web page, you can serve citation metadata. No need to have servers to support complicated queries, let google do the hard work.</p>
+
+<p>The progress on the standard has been slow, and so far there is only one beta implementation to help focus the talks - Brian Suda's <a href="http://suda.co.uk/projects/microformats/X2C/">X2C</a> XSL stylesheet.</p>
+
+<p>In the spirit of building momentum, I've added support for parsing hCite to a private build of BibDesk. For now, we're just discussing how to merge it, but soon the feature will show up in nightly builds, and anyone can start testing and getting experience with the emerging standard. I'll update when it's available, but until then, here's a rough screenshot:</p>
+
+<p><img src="http://michael-mccracken.net/img/bdwebgroupscreenshot.png" alt="" /></p>
+
+<p><strong>Update:</strong> this feature is now in the latest <a href="http://bibdesk.demokratia.org/beta/">nightly builds</a>, but it's hidden because hCite isn't final. To see the web group, type <code>defaults write edu.ucsd.cs.mmccrack.bibdesk BDSKShouldShowWebGroup true</code> (all one line) at the command line before running a recent nightly.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[AutoFill: BibDesk and DC-HTML]]></title>
+    <link href="http://michael-mccracken.net/blog/2006/08/28/autofill-bibdesk-and-dc-html/"/>
+    <updated>2006-08-28T12:55:45-07:00</updated>
+    <id>http://michael-mccracken.net/blog/2006/08/28/autofill-bibdesk-and-dc-html</id>
+    <content type="html"><![CDATA[<p>For my first contribution to <a href="http://bibdesk.sf.net">BibDesk</a> in a while, I've added the ability to read Dublin Core metadata when it is encoded in HTML META tags on a web page.</p>
+
+<p>What this means is that when using the "New Publications from Web" feature, some sites you browse to will have the publication's information filled in for you, so you don't have to type anything at all. The <a href="http://www.eprints.org/">Eprints.org</a> open archive software does this, so check out their <a href="http://www.eprints.org/software/archives/">list of archives</a> for examples to test it out on.</p>
+
+<p>It'll be in the next version, which isn't scheduled yet, so if you'd like to try it out sooner, see the <a href="http://bibdesk.demokratia.org/beta/">nightly builds</a> page and heed its warnings.</p>
+
+<p>If you publish web sites with one-page-per-pubcation and want info about embedding DC terms in your meta tags, see the <a href="http://dublincore.org/documents/dcq-html/">Dublin Core recommendation</a>.</p>
+
+<p>If you want to support AutoFill for a site that doesn't have one page per publication, or would like to provide more metadata, I suggest waiting for the <a href="http://microformats.org/wiki/citation">citation microformat</a>. Feel free to ask why...</p>
+
+<p><em>Update</em>: I made a 12-second movie of how it works - <a href="http://michael-mccracken.net/img/BibDesk-DCHTML-screencast.mov">BibDesk, EPrints and Dublin Core</a></p>
+]]></content>
+  </entry>
+  
+</feed>

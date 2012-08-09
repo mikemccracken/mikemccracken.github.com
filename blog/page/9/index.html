@@ -1,0 +1,701 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>michael-mccracken.net</title>
+  <meta name="author" content="Michael McCracken">
+
+  
+  <meta name="description" content="How well does Thunderbird 3 let me create filters to handle heavy traffic lists? There&#8217;s not much support for using a message to build a filter &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://michael-mccracken.net/blog/page/9/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="michael-mccracken.net" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1818984-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">michael-mccracken.net</a></h1>
+  
+    <h2>A Weblog</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:michael-mccracken.net" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/05/27/filters-thunderbird-3/">Filters: Thunderbird 3</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-05-27T23:00:00-07:00" pubdate data-updated="true">May 27<span>th</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>How well does Thunderbird 3 let me create filters to handle heavy traffic lists?</p>
+
+<p>There&#8217;s not much support for using a message to build a filter from, which I think is the most natural workflow. The menu item &#8220;Tools > Message Filters…&#8221; opens a dialog box that could use some simplification. For example, the buttons to move filters up and down in order are unnecessary - you should be able to just drag the filters around in the table. There are plenty of other non-mac-like UI elements here. Another example of overcomplicated UI is the &#8220;Filter Log&#8221; button. At best this is an &#8220;advanced&#8221; preference, but it&#8217;s a big button at the top - and it&#8217;s misnamed. It opens a sheet to let you turn the logging on, but who knows how you actually view the logging?</p>
+
+<p><img src="http://media.tumblr.com/tumblr_l33l1uJlv51qz505e.png" alt="" /></p>
+
+<p>There are some other UI problems when trying to add the filter - I didn&#8217;t think ahead of time that I&#8217;d need to create the folder to send the filtered messages to. The Message Filters dialog seems modal, because the menubar goes away when it&#8217;s in focus, but it&#8217;s not really - so I just created the new folder back on the main window while the new-filter sheet was still open. A little strange, but it worked.</p>
+
+<p>It&#8217;s also lacking a way to do a dry-run of the filter- to test which messages will match, before just letting it loose on your mailbox. This is a really important feature, especially when filters can do destructive or un-recoverable things like running a script (not in Thunderbird, but present in other mailers) or send a response.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/05/27/dealing-with-high-traffic-lists-and-filters/">Dealing With High-traffic Lists and Filters</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-05-27T03:02:56-07:00" pubdate data-updated="true">May 27<span>th</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>One thing that can make a big difference in a client is how well it helps you cope with heavy-traffic lists. Sometimes we need to stay on top of a firehose, and a client that helps filter out the noise and lets you keep track of what&#8217;s going on in sometimes very long threads is an invaluable tool.</p>
+
+<p>You&#8217;ll find plenty of opinions about how to do this, but I think it&#8217;s well established that daily digests are not a great way to deal with traffic. It&#8217;s great to only check things occasionally, but most list software doesn&#8217;t let you say when it&#8217;ll dump the huge pile into your inbox, and most mail software doesn&#8217;t handle the multipart/digest format very well - usually it just gets combined into one big message.</p>
+
+<p>I think the best way is first to filter the list messages out of the inbox, and only check in on it every so often (more often if it&#8217;s an important list for your job). You want to be able to quickly skim what&#8217;s new since you last checked in - new threads, what changed in threads you&#8217;ve looked at already, etc. One way to do this is to have another filter to flag messages that are &#8220;interesting&#8221; in some way - either to me or mentioning me or my topics of interest, or from interesting people.</p>
+
+<p>I&#8217;m going to spread out comments on each client into a few posts over the next few days.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/05/25/software-aging-well-vs-ui-that-triggers-ocd/">Software Aging Well vs. UI That Triggers OCD</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-05-25T03:30:01-07:00" pubdate data-updated="true">May 25<span>th</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I had an idea the other day that I shared on Twitter:</p>
+
+<blockquote><p>@mikemccracken: It would be cool if there was a way for well-used &amp; loved GUI software to gracefully show its age, like a good leather wallet…</p></blockquote>
+
+<p>I still like this idea, and I loved the example that <a href="https://twitter.com/skabaru">Bryan Knight</a> replied with - the OS 8 Color Picker crayons, seen in the third &#8220;Colour Selector&#8221; image on the <a href="http://guidebookgallery.org/screenshots/macos80">OS 8 GUIdebook page</a>.</p>
+
+<p>However, it just occurred to me that it&#8217;d be hard to design a UI that shows its age or use gracefully without looking &#8220;dirty&#8221; and triggering the kind of OCD that makes some of us empty the trash just because the icon looks full. I can think of a few other things that do that to me:</p>
+
+<ul>
+<li>Of course, the full trash can</li>
+<li>Unread counts of all kinds</li>
+<li>MS Word 08 showing &#8220;[Compatibility Mode]&#8221; in the window title for files that aren&#8217;t .docx format</li>
+<li>Badges on files in the finder that show source control status - I tried this once and it drove me crazy</li>
+</ul>
+
+
+<p>There are probably more. Share yours in the comments if you like. I&#8217;d also be really interested in other examples besides the crayons where UI changes gracefully as you use the software more…</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/05/14/a-quick-note-about-mobile-me-mail-beta/">A Quick Note About Mobile Me Mail Beta</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-05-14T06:40:45-07:00" pubdate data-updated="true">May 14<span>th</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Link: <a href="http://www.apple.com/mobileme/news/2010/05/the-next-mobileme-mail-now-in-beta.html">A quick note about Mobile Me Mail beta</a></p>
+
+<p>Apple&#8217;s Mobile Me mail - a webmail that always struck me as trying too hard to be like a desktop mail client - has been re-designed, and it added two features that I completely agree with in a mail client - widescreen view (a message should be the entire height of a window) and a one-click archive button, to help achieve <a href="http://inboxzero.com">Inbox Zero</a> as fast as possible.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/05/05/i-ran-across-this-video-in-my-bookmarks-this-looks-like-the-result-of-yahoo-acquiring-xoopithttpxoopitcom-it-looks-like-theyve-got-a-platform-for-building-applications-that-users-can-add-into-their-we/">I Ran Across This Video in My Bookmarks - This Looks Like the Result of Yahoo Acquiring [Xoopit](htt</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-05-05T00:53:12-07:00" pubdate data-updated="true">May 5<span>th</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I ran across this video in my bookmarks - this looks like the result of Yahoo acquiring <a href="http://xoopit.com/">Xoopit</a>. It looks like they&#8217;ve got a platform for building &#8220;applications&#8221; that users can add into their webmail client. (Here&#8217;s the <a href="http://developer.yahoo.com/mailapplications/">developer info</a> )</p>
+
+<p>It&#8217;s a little like Facebook&#8217;s games and other apps, and I&#8217;d be surprised if that&#8217;s not what they&#8217;re competing with. However, it&#8217;s another good idea from web apps that would work in desktop apps too - why not allow other applications to easily see and work with the data you&#8217;ve got in mail? This kind of app could either be a plug-in add-on to the mail client or a separate app that just accesses the mail data directly. Supporting both would be great.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/04/30/getting-notes-to-work-with-latex-beamer-and-skim/">Getting Notes to Work With LaTeX Beamer and Skim</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-04-30T02:34:56-07:00" pubdate data-updated="true">Apr 30<span>th</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&#8217;m writing a presentation with <a href="http://bitbucket.org/rivanvx/beamer/wiki/Home">Beamer</a>, a LaTeX class for making PDF slides.</p>
+
+<p>There&#8217;s a built-in way to generate &#8220;notes&#8221;, which was geared towards Acrobat Reader - it basically makes a double-wide PDF page and Reader will show the &#8216;notes&#8217; page on the second screen. (I&#8217;m guessing it assumes your laptop screen is arranged on the right of your presentation screen, it&#8217;s the same size or bigger, etc&#8230;)</p>
+
+<p>This doesn&#8217;t work for my personal favorite PDF reader, <a href="http://skim-app.sf.net">Skim</a> - but luckily there is a full explanation of how to make it work on the <a href="http://sourceforge.net/apps/mediawiki/skim-app/index.php?title=Tips_and_Tricks#Interaction_with_LaTeX_Beamer">Skim Wiki: Tips and Tricks page</a>. The short of it is you create three tex files - one with all the content and two wrappers that generate two versions of the same presentation. One version has slides and the other has notes. Then you can set up Skim to auto-scroll the notes PDF as you move through the slides PDF in presentation mode.</p>
+
+<p>Big thanks to whoever wrote that tip - and to Christiaan for making such a great app.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/04/28/new-ideas-in-email-kwaga/">New Ideas in Email: Kwaga</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-04-28T08:17:34-07:00" pubdate data-updated="true">Apr 28<span>th</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Occasionally, I&#8217;m going to take a break from nit-picking existing mail clients to point to some interesting new ideas for email. It&#8217;ll be focused on ideas you can use soon, that work with existing email standards - I&#8217;m going to hold off on talking about Google Wave until I understand what it&#8217;s really for.</p>
+
+<p>Today, there&#8217;s <a href="http://kwaga.com/">Kwaga</a> - they have a desktop app that shows you what&#8217;s important in your inboxes. I haven&#8217;t tried it, but from the website I can tell that they have a lot of good ideas about what might make an email important, and they&#8217;re willing to spend some CPU cycles to figure it out.</p>
+
+<p>It&#8217;s basically a service that reads your mail, does some processing, and tells you if there&#8217;s something you need to see - either it&#8217;s important or it&#8217;s a request of some kind, etc. The desktop app then links you back to the web client you use for mail, either GMail or Yahoo.</p>
+
+<p>I love the idea of automated importance filtering - but I haven&#8217;t tried it, because I <em>dont</em> like the fact that their server reads my email to do the filtering. If they have a desktop app, why not do that processing on the desktop? To be fair, they do say that the servers do not store the emails, and they&#8217;re moving to OAuth for GMail, so they won&#8217;t even store your passwords. But it still doesn&#8217;t sit well, and promises like that won&#8217;t fly at work.</p>
+
+<p>Anyway, it looks like this kind of thing might be the closest most of us will get to having a personal assistant - so it&#8217;s worth taking a look at. If anyone reading tries it, please let us know in the comments what you think.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/04/27/just-something-i-noticed-in-postbox-just-now-when-i-select-a-thread-it-marks-every-message-as-rea/">Just Something I Noticed in Postbox Just Now - When I Select a Thread, It Marks Every Message as Rea</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-04-27T07:15:19-07:00" pubdate data-updated="true">Apr 27<span>th</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Just something I noticed in Postbox just now - when I select a thread, it marks every message as read whether or not it was actually displayed.</p>
+
+<p>This might be going down a rathole here, but I think I&#8217;d like <em>read</em> to mean that I&#8217;ve had the chance to see it…</p>
+
+<p>I think the important thing here is separating &#8220;I&#8217;m done with this&#8221; from &#8220;Read&#8221; - which is not the way clients are written these days. Read should just be metadata. It&#8217;s OK to archive things I haven&#8217;t read.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/04/22/conversation-view-keeping-up-with-lists/">Conversation View & Keeping Up With Lists</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-04-22T05:57:00-07:00" pubdate data-updated="true">Apr 22<span>nd</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Here&#8217;s a set of screenshots that show how conversation view can help keeping up with a public list.</p>
+
+<p>I&#8217;ve been subscribed to the LLVM-dev mailing list for years in GMail, and for about a week in my mikechecksmail test account. I&#8217;m not active in the LLVM project - it&#8217;s just something I want to check in on occasionally. (For a while I had a filter that popped up any mention of Fortran). So when I check in, I want to skim the threads and read anything that&#8217;s interesting. Usually that means I&#8217;m finding a thread that&#8217;s already pretty long and I&#8217;m reading the whole thread from the beginning the first time I see it.</p>
+
+<p>I&#8217;m interested to hear if that&#8217;s not how you read public high-traffic lists - do you try to keep up with all the threads as they come in? I did that for a while, but it&#8217;s hard to keep up with and probably isn&#8217;t actually your job.</p>
+
+<p>So, with that workflow in mind, how do our clients fare?</p>
+
+<p><strong>GMail</strong></p>
+
+<p>In GMail, when you click on a new thread (aka &#8220;conversation&#8221;) you get the messages all on one page, starting with the earliest - perfect for reading from the beginning. This shot shows the first couple of messages in a medium size thread:</p>
+
+<p><img src="http://media.tumblr.com/tumblr_l1ai4mO4Al1qz505e.png" alt="" /></p>
+
+<p>It&#8217;s pretty good about handling quotes, too. If you&#8217;re reading through an entire thread at a time, it&#8217;s nice to have quoted text collapsed so you don&#8217;t end up scrolling past the same paragraphs over and over. Of course, quoted text can be critical for understanding the new text:</p>
+
+<pre><code>- show quoted text -
+Yes.
+
+- show quoted text -
+No!!
+</code></pre>
+
+<p>But in my judgement, barring some natural language analysis, the best default is to collapse and let the user click to expand quotes when necessary.</p>
+
+<p>Finally, if you return to a thread and it has new messages, it&#8217;ll collapse the ones you&#8217;ve seen before, handy to get a quick update:</p>
+
+<p><img src="http://media.tumblr.com/tumblr_l1ajpwBp531qz505e.png" alt="" /></p>
+
+<p><strong>Postbox</strong></p>
+
+<p>If you select &#8220;Show Conversations&#8221; in the &#8220;View&#8221; menu, Postbox shows something like a conversation-view when you select an entire thread. If you don&#8217;t have that option on, or you select more than one message in any other way - like shift-or-command-clicking multiple messages, you get a blank content view. Not very useful, but a minor point - after all, GMail doesn&#8217;t really show the list in the same page as the content anyway, so they&#8217;ve avoided that design problem.</p>
+
+<p>The major problem with Postbox&#8217;s conversation view - for this list-catchup task - is that it sorts the messages with the newest ones at the top. This is exactly the wrong thing for reading a whole thread, and I couldn&#8217;t find a way to change this sort order.</p>
+
+<p>Here&#8217;s what it looks like on that same thread:</p>
+
+<p><img src="http://media.tumblr.com/tumblr_l1ajxnHkKi1qz505e.png" alt="" /></p>
+
+<p>There are a couple other minor nitpicks - the info pane with the sender and links on the right-hand side only shows its info for the most recent message - if you want that info for another message, you have to select just that message in the list view.</p>
+
+<p>If you revisit the thread, it marks every message as read, and there&#8217;s no way to see what&#8217;s new:</p>
+
+<p><img src="http://media.tumblr.com/tumblr_l1ajzroxSb1qz505e.png" alt="" /></p>
+
+<p>If you&#8217;re still looking at the thread when new messages in that thread come in, it&#8217;ll give you a nice alert and lets you refresh the view, but then the problem is still there - it&#8217;s up to you to see what&#8217;s new.</p>
+
+<p><strong>Thunderbird</strong></p>
+
+<p>Thunderbird 3 has a summary view, but it&#8217;s not thread-centric.
+It just shows the sender, date and first few lines (smashed together without newlines) of each message you&#8217;ve selected. If you select a thread, it&#8217;s kind of like a conversation view, but if you select multiple unrelated messages, it&#8217;ll just show the messages in order.</p>
+
+<p>Here&#8217;s what that looks like:</p>
+
+<p><img src="http://media.tumblr.com/tumblr_l1ak9yEo0u1qz505e.png" alt="" /></p>
+
+<p>Clearly there&#8217;s some room for improvement there. I won&#8217;t pick on it too much, except to say that smashing the text together for a summary makes this view basically useless.</p>
+
+<p><strong>Apple Mail</strong></p>
+
+<p>Apple Mail doesn&#8217;t really try to give you a summary of a thread or a conversation view - it&#8217;ll show which mails are new, but then you have to click through to an individual view of each message. Here&#8217;s what it looks like:</p>
+
+<p><img src="http://media.tumblr.com/tumblr_l1akg4XWv41qz505e.png" alt="" /></p>
+
+<p>This isn&#8217;t sloppy like Thunderbird&#8217;s view, but it&#8217;s not very useful either. For this and other reasons, keeping up with public mailing lists in Apple Mail is pretty painful. That&#8217;s why I moved most of my list subscriptions over to GMail a few years ago.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2010/04/20/delight-innovation/">Delight Innovation</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-04-20T03:48:47-07:00" pubdate data-updated="true">Apr 20<span>th</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&#8217;ve recently seen the concept of <em>delight</em> in software brought up in a couple different places, and I just wanted to cheer it on.</p>
+
+<p>Jesper at <a href="http://waffle.wootest.net">waffle</a> is starting an open-source web browser project to revive the spirit of OmniWeb, called <a href="http://waffle.wootest.net/2010/04/18/rouse-involvement/">rouse</a>. He coins the phrase &#8220;delight innovation&#8221;. I love that phrase. He&#8217;s talking about taking a browser, something that&#8217;s relatively stable, and looking for ways to make it noticeably better again. I love that impulse - it&#8217;s something I&#8217;m hoping to see in email clients too.</p>
+
+<p>Another place that delight showed up (along with Surprise and Joy), was at <a href="http://52weeksofux.com">52 weeks of UX</a> in a post called <a href="http://52weeksofux.com/post/531355592/design-for-delight">&#8220;design for delight&#8221;</a>. That post  seemed to be a little more about the parts of design that don&#8217;t affect functionality, but do add personality. I really agree with this angle too - I like a program that has little details that are <a href="http://borkware.com/quickies/single?id=319">just for fun</a>.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/blog/page/10/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/blog/page/8/">Newer &rarr;</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/04/11/links-hacking-music-in-python-rust-unitaskimg/">Links: Hacking, Music in Python, Rust & unitaskimg</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/04/06/links-flattr-haskell-haskell-quickcheck-and-stuart-cheshire-of-bolo-fame/">Links: Flattr, Haskell, Haskell QuickCheck, and Stuart Cheshire (of Bolo fame)</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/04/06/links-haskell-music-ocd-tools-terrorism-probability-for-ranking-things/">Links: Haskell, Music OCD Tools, Terrorism, Probability for Ranking things</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/03/30/canonical-design-blog-on-where-small-pieces-loosely-joined-needs-some-tweaking/">Canonical design blog on Holistic UI</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/03/30/links-for-mid-march-see-scalable-python-around-corners-and-future-spies-on-facebook/">Links for mid-March see scalable python around corners. And Future Spies on Facebook!</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/mikemccracken">@mikemccracken</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'mikemccracken',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("mikemccracken", 0, true);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/mikemccracken" class="twitter-follow-button" data-show-count="false">Follow @mikemccracken</a>
+  
+</section>
+
+
+<section>
+  <h1>My Pinboard</h1>
+  <ul id="pinboard_linkroll">Fetching linkroll&#8230;</ul>
+  <p><a href="http://pinboard.in/u:mmc">My Pinboard Bookmarks &raquo;</a></p>
+</section>
+<script type="text/javascript">
+  var linkroll = 'pinboard_linkroll'; //id target for pinboard list
+  var pinboard_user = "mmc"; //id target for pinboard list
+  var pinboard_count = 3; //id target for pinboard list
+  (function(){
+    var pinboardInit = document.createElement('script');
+    pinboardInit.type = 'text/javascript';
+    pinboardInit.async = true;
+    pinboardInit.src = '/javascripts/pinboard.js';
+    document.getElementsByTagName('head')[0].appendChild(pinboardInit);
+  })();
+</script>
+
+
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Michael McCracken -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

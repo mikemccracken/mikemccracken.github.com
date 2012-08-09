@@ -1,0 +1,302 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Subversion Client Issues - michael-mccracken.net</title>
+  <meta name="author" content="Michael McCracken">
+
+  
+  <meta name="description" content="I use subversion, and won&#8217;t switch to something newer for a while, so it&#8217;s worth looking at how to polish that old hammer. I&#8217;m used &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://michael-mccracken.net/blog/2009/07/13/subversion-clients/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="michael-mccracken.net" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1818984-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">michael-mccracken.net</a></h1>
+  
+    <h2>A Weblog</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:michael-mccracken.net" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Subversion Client Issues</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-07-13T00:17:14-07:00" pubdate data-updated="true">Jul 13<span>th</span>, 2009</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>I use subversion, and won&#8217;t switch to something newer for a while, so it&#8217;s worth looking at how to polish that old hammer. I&#8217;m used to using the command line svn, or emacs. But recently I decided to try out a few of the nice GUI clients that are around, including <a href="http://versionsapp.com/">Versions</a>, <a href="http://zigzig.com/">ZigVersion</a> and <a href="http://www.zennaware.com/cornerstone/">Cornerstone</a>.</p>
+
+<p>Of these, the only one that&#8217;s polished enough to lure me away from emacs and seems to support my favorite mode of working is Cornerstone, and it still gets it a little wrong.</p>
+
+<p>I like to write log comments while looking at (and scrolling through) the diffs for the files I&#8217;m committing. This means I want a text field for writing log comments on the same screen as the diffs, that isn&#8217;t modal, and doesn&#8217;t stop me from moving around between multiple diffs.</p>
+
+<p>As far as I could tell, I couldn&#8217;t get the comment field and the diff display shown together in Versions, and while I could in ZigVersion, that app had a subpar diff display and lacked polish overall, missing key shortcuts where I&#8217;d expect them, for instance. Cornerstone almost lets me do what I want, but it displays the comment field in a modal sheet, so I have to cancel to change which diff I&#8217;m looking at.</p>
+
+<p>This is easy in emacs, but I like a nicer diff GUI. Am I just missing something? This feels like a natural workflow, so it seems strange that no clients support it well.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Michael McCracken</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-07-13T00:17:14-07:00" pubdate data-updated="true">Jul 13<span>th</span>, 2009</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/mac/'>mac</a>, <a class='category' href='/blog/categories/programming/'>programming</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://michael-mccracken.net/blog/2009/07/13/subversion-clients/" data-via="mikemccracken" data-counturl="http://michael-mccracken.net/blog/2009/07/13/subversion-clients/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2009/02/09/something-buckets/" title="Previous Post: Something Buckets">&laquo; Something Buckets</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2009/07/13/i-wouldnt-normally-post-something-abou/" title="Next Post: I wouldn't normally post something abou...">I wouldn't normally post something abou... &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2012/04/11/links-hacking-music-in-python-rust-unitaskimg/">Links: Hacking, Music in Python, Rust & unitaskimg</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/04/06/links-flattr-haskell-haskell-quickcheck-and-stuart-cheshire-of-bolo-fame/">Links: Flattr, Haskell, Haskell QuickCheck, and Stuart Cheshire (of Bolo fame)</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/04/06/links-haskell-music-ocd-tools-terrorism-probability-for-ranking-things/">Links: Haskell, Music OCD Tools, Terrorism, Probability for Ranking things</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/03/30/canonical-design-blog-on-where-small-pieces-loosely-joined-needs-some-tweaking/">Canonical design blog on Holistic UI</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/03/30/links-for-mid-march-see-scalable-python-around-corners-and-future-spies-on-facebook/">Links for mid-March see scalable python around corners. And Future Spies on Facebook!</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/mikemccracken">@mikemccracken</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'mikemccracken',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("mikemccracken", 0, true);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/mikemccracken" class="twitter-follow-button" data-show-count="false">Follow @mikemccracken</a>
+  
+</section>
+
+
+<section>
+  <h1>My Pinboard</h1>
+  <ul id="pinboard_linkroll">Fetching linkroll...</ul>
+  <p><a href="http://pinboard.in/u:mmc">My Pinboard Bookmarks &raquo;</a></p>
+</section>
+<script type="text/javascript">
+  var linkroll = 'pinboard_linkroll'; //id target for pinboard list
+  var pinboard_user = "mmc"; //id target for pinboard list
+  var pinboard_count = 3; //id target for pinboard list
+  (function(){
+    var pinboardInit = document.createElement('script');
+    pinboardInit.type = 'text/javascript';
+    pinboardInit.async = true;
+    pinboardInit.src = '/javascripts/pinboard.js';
+    document.getElementsByTagName('head')[0].appendChild(pinboardInit);
+  })();
+</script>
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Michael McCracken -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

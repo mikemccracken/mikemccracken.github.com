@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: hpc | michael-mccracken.net]]></title>
+  <link href="http://michael-mccracken.net/blog/categories/hpc/atom.xml" rel="self"/>
+  <link href="http://michael-mccracken.net/"/>
+  <updated>2012-08-09T00:03:35-07:00</updated>
+  <id>http://michael-mccracken.net/</id>
+  <author>
+    <name><![CDATA[Michael McCracken]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[HPC blogs and news sites]]></title>
+    <link href="http://michael-mccracken.net/blog/2007/05/04/hpc-blogs-and-news-sites/"/>
+    <updated>2007-05-04T07:17:42-07:00</updated>
+    <id>http://michael-mccracken.net/blog/2007/05/04/hpc-blogs-and-news-sites</id>
+    <content type="html"><![CDATA[<p>I've always liked the programming-languages community website <a href="http://lambda-the-ultimate.org/">Lambda the Ultimate</a>, and recently I went looking for something similar for the High-Performance Computing community. I didn't find exactly that*, but I did find a few great resources for news about HPC and computing research policy:</p>
+
+<p><a href="http://hpcwire.com">HPCWire</a> is a well-known news source for HPC. It has daily news updates, and occasional columns by guests from around the industry. Most of the news is press releases from companies and government labs, but it's nice to have a single place to check for them. However, there is apparently no RSS feed, and to get email updates, you have to buy a subscription. I haven't, but I do check back occasionally to read the columns.</p>
+
+<p><a href="http://supercomputingonline.com">Supercomputing Online</a> is another professional news outlet, which reads a little less like a press release,
+ seems to have more coverage of academic news, and does have an RSS feed.</p>
+
+<p><a href="http://insideHPC.com/">insideHPC.com</a> is more of a weblog than either of the first two - John E. West covers news stories in brief with some added perspective and analysis. I like his approach, and <a href="http://insidehpc.com/2007/05/02/introducing-mike/">I've joined him</a> to help cover academic HPC issues, both computing research and issues affecting computational scientists.</p>
+
+<p>One of many blogs at Sun is the <a href="http://blogs.sun.com/HPC/">HPC Watercooler</a>, covering Sun's HPC products and services, as well as some non-Sun related news. I've found it pretty interesting already, and I'd be interested to see weblogs from other HPC vendors.</p>
+
+<p>Finally, a couple of blogs that are less directly related to HPC but still very relevant for computing researchers, are <a href="http://www.renci.org/blog/index.php">Dan Reed's weblog</a> at the Renaissance Computing Institute, and the <a href="http://www.cra.org/govaffairs/blog/">CRA Computing Research Policy Blog</a>, both of which cover computing research policy and funding issues that don't often show up in news coverage of either government or computing.</p>
+
+<p><em>* - if anyone wants to start an LTU-alike site for HPC research, or point me to one, I'll sign up and contribute in an instant.</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The TRIPS processor]]></title>
+    <link href="http://michael-mccracken.net/blog/2007/04/25/the-trips-processor/"/>
+    <updated>2007-04-25T04:01:48-07:00</updated>
+    <id>http://michael-mccracken.net/blog/2007/04/25/the-trips-processor</id>
+    <content type="html"><![CDATA[<p>The UT-Austin <a href="http://www.cs.utexas.edu/~trips/">TRIPS project</a> will be unveiling their new processor next Monday. (<a href="http://oea.cs.utexas.edu/articles/index2007/trips_unveiling07.html">event details</a>)</p>
+
+<p>This is a pretty interesting attempt to get around the problems facing processor design today. Clock speeds have stalled, but the actual Moore's Law - the one about transistor count, not "speed" - is still going, so we have the problem of what to do with just a lot of copies of basically the same old chip?</p>
+
+<p>A lot of answers you hear involve pushing that complexity up to the programmer, forcing more people to become parallel programmers. This is almost certain to happen at least a little, but let's hope we don't have to give up on the sequential programming model completely. If you think software is bad now…</p>
+
+<p>The TRIPS processor is an example of another approach - placing more of the burden of finding and using parallelism onto the compiler and architecture, keeping programmers' heads above water. It's pretty exciting to see something this different make its way into actual silicon.</p>
+
+<p>The basic idea is that instead of a single piece of control logic organizing the actions of multiple functional units, finding concurrency within a window of instructions using reordering, the TRIPS processor is distributed at the lowest level - each functional unit is a mini-processor (called a tile), and instructions executing on separate processor tiles communicate operands directly, not through a register file. Usually this is described as executing a graph of instructions instead of a single instruction at a time.</p>
+
+<p>Current processors certainly don't just execute one instruction at a time, and they do plenty of moving instructions around, so I tend to see this explicit-data-graph description as just the far end of a spectrum that starts with old superscalar designs, continues through out-of-order processors and multithreaded architectures, and currently seems to end here.</p>
+
+<p>A TRIPS processor can run four thread contexts at once, with an instruction window of 1024 instructions to reorder and 256 memory operations in flight at once. For comparison, the late '90s Tera MTA ran 128 threads at once (128 different program counters), and the 2003-vintage Cray X1 processors kept track of 512 memory operations at once. Just like TRIPS, each of those architectures required extensive compiler support for good performance.</p>
+
+<p>A particularly interesting point is the fully partitioned L1 cache - meaning that there are multiple distributed L1 caches on the chip, so where your instructions are physically executing will be important for performance - if they're near the cache bank holding their operands, they will execute sooner.</p>
+
+<p>The natural question when looking at a new and interesting architecture like this, especially one that promises a tera-op on a chip, is whether it will make its way to a laptop you can buy anytime soon. I have no idea if the UT team has any industry deals in the works, but I would bet against something like this becoming mainstream quickly - the fact that these architectures rely so much on a custom compiler with aggressive optimization means that a lot of dirty work is required to move existing software to it.</p>
+
+<p>It will be interesting to follow this project and see how their actual hardware performs.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Supercomputing 2006 BOF: "Is 99% Utilization of a Supercomputer a Good Thing?"]]></title>
+    <link href="http://michael-mccracken.net/blog/2006/10/30/supercomputing-2006-bof-is-99-utilization-of-a-supercomputer-a-good-thing/"/>
+    <updated>2006-10-30T07:28:56-08:00</updated>
+    <id>http://michael-mccracken.net/blog/2006/10/30/supercomputing-2006-bof-is-99-utilization-of-a-supercomputer-a-good-thing</id>
+    <content type="html"><![CDATA[<p>For those few readers who are interested in High Performance Computing and might be going to this year's <a href="http://sc06.supercomputing.org/">Supercomputing</a> conference in Tampa, my advisor Allan Snavely and Jeremy Kepner from Lincoln Labs are putting on a BOF with an intriguing subject: <a href="http://sc06.supercomputing.org/schedule/event_detail.php?evid=5193">"Is 99% Utilization of a Supercomputer a Good Thing?"</a></p>
+
+<p>It'll be on Thursday Nov. 16th at 12:15PM.</p>
+
+<p>As with all really interesting questions, this has a quick, easy answer that reveals your point of view. My immediate answer is "No", because of the productivity problems the focus on high utilization causes for many HPC users, mainly through the use of a batch queue. However, when considering the interests of everyone involved (including the people who have to evaluate how money is spent on these systems), the only responsible way to answer is "it depends".</p>
+
+<p>It's an interesting topic that never fails to generate some controversy, and from what I can tell we'll have some diverse speakers at the BOF (including myself, discussing user surveys we've conducted as part of DARPA HPCS). It should be enlightening.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Instant replay in QuickTime Player]]></title>
+    <link href="http://michael-mccracken.net/blog/2006/08/01/instant-replay-in-quicktime-player/"/>
+    <updated>2006-08-01T06:12:07-07:00</updated>
+    <id>http://michael-mccracken.net/blog/2006/08/01/instant-replay-in-quicktime-player</id>
+    <content type="html"><![CDATA[<p>A feature I really miss from having a DVR is the '8 seconds back' button, to catch a play or repeat something funny.</p>
+
+<p>Recently I've been listening to recorded interviews we've been doing of HPC developers, and updating my notes (in <a href="http://voodoopad.com/">VoodooPad</a> using them. Since people mumble and use jargon I don't always understand, I decided I really needed an instant replay button in QuickTime Player. It'll come in handy if I watch sports on my laptop again, too.</p>
+
+<p>In order to get it, I wrote this quick AppleScript and bound it to a <a href="http://docs.blacktree.com/quicksilver/qstriggersprefpane?s=trigger">Quicksilver trigger</a>. If you run it while the movie is playing, it backs up 4 seconds and keeps playing from there.</p>
+
+<pre><code>-- 4secondsback.scpt
+tell application "QuickTime Player"
+    set theMovie to movie 1
+
+    set ctime to current time of theMovie
+    set tscale to time scale of theMovie
+
+    set current time of theMovie to ctime - (4 * tscale)
+end tell
+</code></pre>
+
+<p>Update: I just realized that for transcribing interviews I also needed a 'play/pause' command that could control QuickTime Player while keeping it in the background, just as the 4secondsback script does. It's a really simple script, but since QuickTime Player lacks the convenient 'playpause' command that iTunes's scripting dictionary has, I had to do this:</p>
+
+<pre><code>tell application "QuickTime Player"
+    if movie 1 is playing then
+        pause movie 1
+    else
+        play movie 1
+    end if
+end tell
+</code></pre>
+
+<p>I have this set as a trigger for Control-Option-Space, and the 4secondsback script is control-option-'b'. This way I can listen, type, and control the recordings without leaving VoodooPad. Brilliant!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Supercomputers as art and cultural artifacts]]></title>
+    <link href="http://michael-mccracken.net/blog/2006/05/30/supercomputers-as-art-and-cultural-artifacts/"/>
+    <updated>2006-05-30T08:19:05-07:00</updated>
+    <id>http://michael-mccracken.net/blog/2006/05/30/supercomputers-as-art-and-cultural-artifacts</id>
+    <content type="html"><![CDATA[<p>From <a href="http://bldgblog.blogspot.com">BLDGBLOG</a>, some <a href="http://bldgblog.blogspot.com/2006/05/rooms-of-algebraic-theology.html">pictures and romantic musings</a> about everyone's favorite kind of computer - big, expensive, finicky and shared: the Supercomputer.</p>
+
+<p>Be sure to click through to see the picture of the <a href="http://www.bsc.es/resources/marenostrum,en.htm">MareNostrum</a> system filling a glass box in a chapel in Barcelona. There are more great photos on photographer <a href="http://www.simonnorfolk.com/">Simon Norfolk's site</a>.</p>
+
+<p>I wish there was more well-done photography of these systems - not all are nearly as photogenic overall as MareNostrum, but there are plenty of great details, and so many are already lost to history. My vote for favorite detail is the Cray 2 coolant waterfall:</p>
+
+<p><img src="http://www.spikynorman.dsl.pipex.com/CrayWWWStuff/Criscan/Cray2cascade.jpg" alt="" /></p>
+
+<p>(It's the blue glowing thing in the top center - from <a href="http://www.spikynorman.dsl.pipex.com/CrayWWWStuff/Cfaqp2.html">SpikyNorman.net</a>)</p>
+
+<p>Here are some interesting quotes from the BLDGBLOG post:</p>
+
+<blockquote><p>These computers, Norfolk continues, 'are omniscient and omnipresent and these are not qualities in which we find a simulacrum of ourselves - these are qualities that describe the Divine. The problem is not that these computers might one day resemble humans; it is that they already resemble gods.'</p></blockquote>
+
+<p>I would say <a href="http://en.wikipedia.org/wiki/Golem">Golem</a>.</p>
+
+<blockquote><p>So if I were forced to take issue with the existence of these machines, it would not be because of their use in modeling new nuclear warheads - as Norfolk makes clear they do - but in something far more secondary, even faintly absurd: what I'd call the lack of a <em>supercomputer poetics</em>, or a more imaginative role for these machines to play in our literary and even religious lives. Oracular, Delphic, radically non-secular: they are either all or none of the above.</p></blockquote>
+
+<p>If we'd all agree to think clearly about climate science, there's quite a bit of Oracular prediction using supercomputers going on there. I'd love to see high-performance computing become more a part of the culture, as computer security undoubtedly has. I think such stories are unlikely to be told visually, though - it's hard to imagine how it'd be done without being either overdramatized and silly or dreadfully boring. After all, how do you make a movie out of editing text and waiting?</p>
+]]></content>
+  </entry>
+  
+</feed>

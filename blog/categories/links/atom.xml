@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: links | michael-mccracken.net]]></title>
+  <link href="http://michael-mccracken.net/blog/categories/links/atom.xml" rel="self"/>
+  <link href="http://michael-mccracken.net/"/>
+  <updated>2012-08-09T00:03:35-07:00</updated>
+  <id>http://michael-mccracken.net/</id>
+  <author>
+    <name><![CDATA[Michael McCracken]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Links: Hacking, Music in Python, Rust & unitaskimg]]></title>
+    <link href="http://michael-mccracken.net/blog/2012/04/11/links-hacking-music-in-python-rust-unitaskimg/"/>
+    <updated>2012-04-11T09:15:15-07:00</updated>
+    <id>http://michael-mccracken.net/blog/2012/04/11/links-hacking-music-in-python-rust-unitaskimg</id>
+    <content type="html"><![CDATA[<p>My shared links for April 5th through April 6th:</p>
+
+<ul>
+<li><p><a href="http://lemire.me/blog/archives/2011/06/06/why-i-still-program/">Why I still program</a> - "I believe that the rejection of programming as a lower activity can be explained by the Theory of the leisure class. In effect, we do not seek utility but prestige. There is no prestige in tool-making, cooking or farming. To maximize your prestige, you must rise up to the leisure class: you work must not be immediately useful."</p></li>
+<li><p><a href="http://lemire.me/blog/archives/2012/03/20/from-counting-citations-to-measuring-usage-help-needed/">From counting citations to measuring usage (help needed!)</a> - Building a Better Citation Index</p></li>
+<li><p><a href="http://mailplaneapp.com/blog/entry/workhacks.com_top_3_gmail_management_apps_for_mac">workhacks.com: Top 3 Gmail Management Apps for Mac - Mailplane Blog</a> - includes a list of gmail plugins that look useful</p></li>
+<li><p><a href="http://prezjordan.github.com/Melopy/">Melopy</a> -
+<code>  <br/>
+"""</p>
+
+<blockquote><blockquote><blockquote><p>from melopy import Melopy
+m = Melopy('mysong')
+m.add_quarter_note('A4')
+m.add_quarter_note('C#5')
+m.add_quarter_note('E5')
+m.render()
+[==================================================] 100%
+Done
+"""
+</code></p></blockquote></blockquote></blockquote></li>
+<li><p><a href="http://doc.rust-lang.org/doc/tutorial.html#expression-syntax">Rust Language Tutorial: Expression Syntax</a> - Starts out good, but the "leave out a semicolon to return a value" leaves a bad taste. Why overload semicolons like that? Why not just use 'ret'?</p></li>
+<li><p><a href="http://www.deliberatism.com/blog/forget-self-improvement/">Forget Self-Improvement</a> -</p></li>
+<li><p><a href="http://blogs.hbr.org/schwartz/2012/03/the-magic-of-doing-one-thing-a.html">The Magic of Doing One Thing at a Time - Tony Schwartz - Harvard Business Review</a> - A few good points on avoiding multitasking burnout. Nothing too new, but maybe if people keep repeating it in places like HBR, then it'll start to become conventional business wisdom?</p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Links: Flattr, Haskell, Haskell QuickCheck, and Stuart Cheshire (of Bolo fame)]]></title>
+    <link href="http://michael-mccracken.net/blog/2012/04/06/links-flattr-haskell-haskell-quickcheck-and-stuart-cheshire-of-bolo-fame/"/>
+    <updated>2012-04-06T09:20:31-07:00</updated>
+    <id>http://michael-mccracken.net/blog/2012/04/06/links-flattr-haskell-haskell-quickcheck-and-stuart-cheshire-of-bolo-fame</id>
+    <content type="html"><![CDATA[<p>My shared links for April 4th:</p>
+
+<ul>
+<li><p><a href="http://www.stuartcheshire.org/rants/Networkdynamics.html">Stuart's "Law of Networkdynamics"</a> -</p></li>
+<li><p><a href="https://flattr.com/">Flattr - Social micropayments</a> - An interesting model that I hadn't heard of. You set a monthly amount to spend and when you see a flattr button, you click on it. They then divide your monthly amount among the people you clicked on that month.</p></li>
+</ul>
+
+
+<p>Sounds great but I have never seen a button, unless it's been hidden among many other warts.</p>
+
+<ul>
+<li><p><a href="http://bos.github.com/strange-loop-2011/slides/slides.html#(1">Haskell: Functional Programming, Solid Code, Big Data (1)</a>) - Bryan O'Sullivan's Haskell tutorial from Strange Loop 2011</p></li>
+<li><p><a href="http://www.yellosoft.us/quickcheck">QuickCheck | YELLOSOFT</a> - Lots of ports of QuickCheck</p></li>
+<li><p><a href="http://dan.bravender.us/2009/6/21/Simple_Quickcheck_implementation_for_Python.html">Simple Quickcheck implementation for Python</a> - Random test generation that is not as nice as Haskell's quickcheck but will do the job.</p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Links: Haskell, Music OCD Tools, Terrorism, Probability for Ranking things]]></title>
+    <link href="http://michael-mccracken.net/blog/2012/04/06/links-haskell-music-ocd-tools-terrorism-probability-for-ranking-things/"/>
+    <updated>2012-04-06T09:16:32-07:00</updated>
+    <id>http://michael-mccracken.net/blog/2012/04/06/links-haskell-music-ocd-tools-terrorism-probability-for-ranking-things</id>
+    <content type="html"><![CDATA[<p>My shared links for March 30th through April 3rd:</p>
+
+<ul>
+<li><p><a href="http://magicmaps.evanmiller.org/">Magic Maps: Now You See It.</a> - Very cool app for working with maps and time series data</p></li>
+<li><p><a href="http://evanmiller.org/how-not-to-sort-by-average-rating.html">How Not To Sort By Average Rating</a> - Shows the best way to sort by positive/negative rankings that is robust to small sample sizes</p></li>
+<li><p><a href="http://m.foreignaffairs.com/articles/66186/john-mueller-and-mark-g-stewart/hardly-existential">terrorism hardly existential threat. 2010</a> -</p></li>
+<li><p><a href="http://mailplaneapp.com/blog/entry/workhacks.com_top_3_gmail_management_apps_for_mac/#When:12:06:06Z">workhacks.com: Top 3 Gmail Management Apps for Mac</a> includes a list of gmail plugins that look useful</p></li>
+<li><p><a href="http://www.yesodweb.com/">Yesod Web Framework for Haskell</a> -</p></li>
+<li><p><a href="http://beets.radbox.org/">beets: the music geek's media organizer</a> - The purpose of beets is to get your music collection right once and for all. It catalogs your collection, automatically improving its metadata as it goes using the MusicBrainz database. (It also downloads cover art for albums it imports.) Then it provides a bouquet of tools for manipulating and accessing your music.</p></li>
+</ul>
+
+
+<p>Because beets is designed as a library, it can do almost anything you can imagine for your music collection. Via plugins, beets becomes a panacea:</p>
+
+<p>Embed and extract album art from files' tags.
+Listen to your library with a music player that speaks the MPD protocol and works with a staggering variety of interfaces.
+Fetch lyrics for all your songs from databases on the Web.
+Manage your MusicBrainz music collection.
+Analyze music files' metadata from the command line.
+Clean up crufty tags left behind by other, less-awesome tools.
+Browse your music library graphically through a Web browser and play it in any browser that supports HTML5 Audio.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Canonical design blog on Holistic UI]]></title>
+    <link href="http://michael-mccracken.net/blog/2012/03/30/canonical-design-blog-on-where-small-pieces-loosely-joined-needs-some-tweaking/"/>
+    <updated>2012-03-30T05:29:00-07:00</updated>
+    <id>http://michael-mccracken.net/blog/2012/03/30/canonical-design-blog-on-where-small-pieces-loosely-joined-needs-some-tweaking</id>
+    <content type="html"><![CDATA[<p><a href="http://design.canonical.com/2012/03/holistic-ui-is-smarter-ux/">Holistic UI is smarter UX</a> - They use notifications as an example of why small pieces loosely joined might not be great UI. It's really interesting to see how common UI devices such as notifications have evolved across various platforms. Someone should do a gallery of notifications over the years - bonus points if you start with a ␇!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Links for mid-March see scalable python around corners. And Future Spies on Facebook!]]></title>
+    <link href="http://michael-mccracken.net/blog/2012/03/30/links-for-mid-march-see-scalable-python-around-corners-and-future-spies-on-facebook/"/>
+    <updated>2012-03-30T05:20:56-07:00</updated>
+    <id>http://michael-mccracken.net/blog/2012/03/30/links-for-mid-march-see-scalable-python-around-corners-and-future-spies-on-facebook</id>
+    <content type="html"><![CDATA[<p>My shared links for March 18th through March 26th:</p>
+
+<ul>
+<li><p><a href="http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html">7 Years of YouTube Scalability Lessons in 30 Minutes</a> - Notes from a PyCon talk about the very pragmatic design philosophy at YouTube.</p></li>
+<li><p><a href="https://github.com/bkad/discoball">bkad/discoball * GitHub</a> - shell tool to match and colorize lines of text</p></li>
+<li><p><a href="http://pragprog.com/book/kcdc/the-developer-s-code">The Pragmatic Bookshelf | The Developer's Code</a> -</p></li>
+<li><p><a href="http://www.nature.com/news/how-to-see-around-corners-1.10258">How to see around corners : Nature News &amp; Comment</a> - And we thought the future was flying cars.</p></li>
+<li><p><a href="http://www.theregister.co.uk/2012/03/19/cia_internet_of_things/page2.html">ARM's ultra-low-power fridge-puter chips: Just what the CIA ordered • The Register</a> - Out of context interesting quote: "The spy boss was chiefly concerned with the huge amounts of data that can be collected from American citizens who intend to become CIA agents - in an age when parents set up Twitter and Tumblr accounts for their newborns, managing the identities of future operatives suddenly becomes non-trivial."</p></li>
+<li><p><a href="http://reprog.wordpress.com/2012/02/27/who-needs-access-you-need-access/">Who needs access? You need access!</a> - new site about open access to research aimed at lay people (I think)</p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: productivity | michael-mccracken.net]]></title>
+  <link href="http://michael-mccracken.net/blog/categories/productivity/atom.xml" rel="self"/>
+  <link href="http://michael-mccracken.net/"/>
+  <updated>2012-08-09T00:03:35-07:00</updated>
+  <id>http://michael-mccracken.net/</id>
+  <author>
+    <name><![CDATA[Michael McCracken]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[VoodooPad, OmniFocus and Terminal Integration Wish List]]></title>
+    <link href="http://michael-mccracken.net/blog/2011/07/06/voodoopad-omnifocus-and-terminal-integration-wish-list/"/>
+    <updated>2011-07-06T07:05:48-07:00</updated>
+    <id>http://michael-mccracken.net/blog/2011/07/06/voodoopad-omnifocus-and-terminal-integration-wish-list</id>
+    <content type="html"><![CDATA[<p>Here are some features I want but I'll never have time to write the scripts for VoodooPad to do.</p>
+
+<p>I use VP mostly as a running log of notes, shell commands and todos. I also use OmniFocus for task tracking, but sometimes it's easier to just start typing in VP and work out the tasks later. So I often end up with VP pages that have a bunch of todos mixed in with project headers and miscellaneous notes.</p>
+
+<p>I've been thinking some integration would be nice. I want an <del><a href="http://orgmode.org/">emacs org-mode</a></del> (update: I meant <a href="http://www.isi.edu/~johnh/SOFTWARE/NOTES_MODE/">notes-mode</a>) style "new day" script that creates a new page for the day and does the following:</p>
+
+<ul>
+<li>adds a link to the new page to the previous note page</li>
+<li>moves any pending todos (I mark them as lines starting with a &lt;# todo #> placeholder so I can jump to them) off yesterday's page and into OmniFocus</li>
+<li>starts a new header (line starting with #, in bold) in the new page for every header that had leftover todos. These headers usually correspond to projects in OmniFocus.</li>
+<li>adds new headers and todo lines for any tasks that are due today</li>
+</ul>
+
+
+<p>I want to have VP autocomplete project names from OmniFocus when I start a header line. Then add a link next to the new header pointing to the last page containing that header.</p>
+
+<p>I'd also like to have OmniFocus update the VP document when I check off a task in OF - I want to use VP as a log, so I can track down when I did something. Maybe projects should all have their own VP pages, that are kind of an auto-updated index of progress on the tasks.</p>
+
+<p>It'd also be nice if when I edited a todo line in VP, it could update OF. I guess I want VP to be an supplemental synchronized view onto my OF tasks.</p>
+
+<p>For the Terminal: I do a lot of copying and pasting shell commands into VP so I can remember things like important paths, or the exact configure settings I used to build something two years ago. This is really useful, but it'd be nice if it was easier to do without leaving the terminal. Ideally I could just prefix a command with something like '@' to add it to the current page in VP (or '@pagename#headername' to get fancy). You could get this with a script named '@' - on your local machine. But it also has to work when you're working remotely, so it will get a little more complicated.</p>
+
+<p>Finally - this is something I wanted to try doing with an InputManager before that mechanism went away: I'd like CamelCase links in every text field on the system (probably with some exceptions) to automatically link to VP pages. But it sounds like the days of modifying system-wide behavior on Macs are history, so I'll probably never get this. Who knows, maybe it would've been a disaster.</p>
+
+<p>I always thought the path to improvement in work computing was more and deeper integration between 3rd-party apps, as well as more system functionality that's usable by all those apps, but it looks to me* like in OS X we're only getting the latter.</p>
+
+<p><em>* - since 10.7 is about to come out, it might be worth pointing out that I have no special advance developer info. I haven't even been a dev program member for a few years now.</em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Something Buckets]]></title>
+    <link href="http://michael-mccracken.net/blog/2009/02/09/something-buckets/"/>
+    <updated>2009-02-09T23:27:49-08:00</updated>
+    <id>http://michael-mccracken.net/blog/2009/02/09/something-buckets</id>
+    <content type="html"><![CDATA[<p>Alex Payne's recent post <a href="http://al3x.net/2009/01/31/against-everything-buckets.html">The case against everything buckets</a> makes a strong point in favor of using the filesystem for filing. To paraphrase: If your problem is that you have a bunch of files you need to search through, and possibly tag, then the filesystem and Spotlight are probably closer to solving your problem than you expect.</p>
+
+<p>I enjoyed reading his post, because I like rules of thumb for simple design, and one of my favorites is "why not just use files?" - there are often reasons to do something else, but the filesystem is faster, more reliable, and more open than anything you're likely to come up with on the first try. So you'd better be sure you're not just poorly reimplementing it.</p>
+
+<p>Buzz Andersen has a <a href="http://log.scifihifi.com/post/76989703/everything-buckets">thorough response</a>, centering on the fact that VoodooPad is a very useful app. Certainly I agree - I use it all the time, and its hyperlinking sets it apart from other notes apps (and the filesystem). So yes, VoodooPad is a Good Idea.</p>
+
+<p>But is VoodooPad really an "Everything Bucket"? I'm not sold - you can use it to store PDFs and images and other files, but it really focuses on pages, and those files are just attachments to your pages. I see it as a notes app. I think if your problem is keeping notes - with images if necessary, linking between them, and searching those notes, then VoodooPad is clearly better than the filesystem. But you don't have to put everything else in there too.</p>
+
+<p>I agree with Alex that I don't want one program to keep everything in a proprietary database. I like apps that keep my files as files. (like <a href="http://c-command.com/eaglefiler/">EagleFiler</a>.) But I do want layers on top of the filesystem - you wouldn't want to use just files for email, for example.</p>
+
+<p>The only solution that's always bad is the solution to someone else's problem.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[go juggle — an attention callback]]></title>
+    <link href="http://michael-mccracken.net/blog/2008/08/28/go-juggle-an-attention-callback/"/>
+    <updated>2008-08-28T12:31:05-07:00</updated>
+    <id>http://michael-mccracken.net/blog/2008/08/28/go-juggle-an-attention-callback</id>
+    <content type="html"><![CDATA[<p>Sometimes progress on a project for me consists of a few short bursts of activity in between stretches of waiting for some long-running thing to complete so I can figure out what I need to do with it next.</p>
+
+<p>Because I always have more than one project going, I don't actually wait much. I just switch workspaces and try to make progress on the next thing. If I can't make progress on anything immediate, I'll end up checking email or looking up something for a side project.</p>
+
+<p>This kind of multitasking is inefficient, but inevitable when I might have to wait for 20 minutes or more for a compute job or a compile to finish.</p>
+
+<p>The problem with this approach is that the things I'm waiting for often finish while I'm off doing something else, and if I get too involved, the low-priority research or emails will eat up my day while the high-priority work sits waiting for me.</p>
+
+<p>I've attacked this problem in the past when using OS X with <a href="gr">growl</a>, but I can't call growlnotify from remote systems. However, I just found <a href="dzen">dzen</a> for X Windows, a lightweight notification display utility that compiles easily on every system I've tried, and works remotely with ssh X forwarding.</p>
+
+<p>I wrote a simple script called <code>go</code>, which just executes its arguments and runs <code>dzen</code> when it's done. Now I type (for example) <code>go make</code> and I can switch over to something else, confident that I'll see a big popup window letting me know when I can get back to working on my highest priority project.</p>
+
+<p>Here's basically the entire <code>go</code> script:</p>
+
+<pre><code>#!/bin/ksh
+echo $@
+$@
+echo $@ completed on `hostname` \
+ | dzen2 -p -h 64 -bg darkblue
+</code></pre>
+
+<p>It's simple but it's working great for me. I've tried some improvements like randomizing window placement to avoid overlapping notifications, but the simple version above really does all I need.</p>
+
+<p>Finally, a couple of details. zsh always seems to want to spell-check 'go', so I really named it '~/bin/executeAndNotify.sh' and just aliased 'go' to that.
+Also, I've found it can mess with shell quoting as is, so sometimes I have to do <code>'somecommand ; go echo done'</code>. If someone has a tip on getting the quoting right in the script, I'd love to hear it. The problem crops up when you try something like 'go make CC="cc -g"' - the quotes don't make it through.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[TaskPaper adds just enough to stick]]></title>
+    <link href="http://michael-mccracken.net/blog/2007/11/01/taskpaper-adds-just-enough-to-stick/"/>
+    <updated>2007-11-01T05:47:31-07:00</updated>
+    <id>http://michael-mccracken.net/blog/2007/11/01/taskpaper-adds-just-enough-to-stick</id>
+    <content type="html"><![CDATA[<p>My favorite apps, the ones that slip easily into everyday use and stick there, just start with plain text and add some extra sauce. <a href="http://voodoopad.com">VoodooPad</a> is a great example, and Hog Bay Software's new app <a href="http://hogbaysoftware.com/products/taskpaper">TaskPaper</a> is, too.</p>
+
+<p>I've used both <a href="http://kinkless.com/kgtd">kgtd</a> and <a href="http://bargiel.home.pl/iGTD/">iGTD</a>, and played around with a few others. I came closest to sticking with a system using kgtd, but switched to iGTD because manually syncing kgtd got old.</p>
+
+<p>All the extra <em>stuff</em> in iGTD was appealing, but I left tasks in the inbox for weeks, and never reviewed much of my vast forest of projects. I eventually fell back into tending short lists in Stickies, with titles like "<strong>NOW</strong>:" and "<strong>BY TUESDAY!</strong>:".</p>
+
+<p>When I moved those Stickies lists into TaskPaper, all I had to do was copy and paste - it uses the same format I do when I get lazy, and that has to be a good sign. I haven't found a reason to jot a note somewhere else yet.</p>
+
+<p>Moving tasks from iGTD was more sobering. Half those "next actions" had been done for weeks, and the other half were clearly scheduled for next Neversday. As Merlin Mann pointed out, <a href="http://www.43folders.com/2007/06/04/getting-ready-for-omnifocus">switching apps is a good excuse for a real review</a>.</p>
+
+<p>TaskPaper adds automatic formatting, tabs, search, and a bit of hyperlinking to plain text.
+Tasks are lines that start with a dash, and can be tagged by starting any word with an at-sign. Clicking a tag starts a search for that tag. I use them in a couple of ways - as contexts, and for scheduling. They can really be anything that makes sense as a visible search keyword.</p>
+
+<p>I have been keeping a few tabs open - one to edit tasks, and a couple others with live searches to look at what's on my plate. When I want to schedule something, I'll tag it as @now or @tomorrow - I have those two as open tabs, and as I work I keep the @now tab open.
+Other tabs come and go to look at contexts, like @email or @errand.</p>
+
+<p>I like that the tags can be part of the sentence, so I don't have to tab through a bunch of controls to set tags - I just write something like '@email Bob @home'... easy.</p>
+
+<p>I also set up an inbox project (by typing "Inbox:", naturally) to collect notes quickly, and that's worked pretty well so far.</p>
+
+<p>As with any 1.0, there's some room for improvement. It's not very scriptable, but it is plain text, so it could be worked around. Quicksilver integration was important with both kGTD and iGTD, and I'm not sure yet if I'll really miss that here.
+It can clean up tasks marked as done into an "Archive" project, but doesn't yet note when they were finished, if that kind of thing matters to you. Finally, I'm not sure what the best way to sync with other devices would be, but there is a <a href="http://hogbaysoftware.com/products/taskpaper_web">web interface</a> in development - maybe that would be a good iPhone option.</p>
+
+<p>TaskPaper is a solid, clear, and nicely minimalist app. Over the week I've been using it, it has made keeping to-dos in one place too easy to avoid, and added just enough functionality to sort through them without being distracting.</p>
+
+<p>Note:
+When I downloaded the 1.0 release, I found a conflict with TextExtras and wrote a <a href="http://hogbaysoftware.com/forums/taskpaper/topics/294_Archive_bug_in_1_22_">bug report</a>. In reply, Jesse sent me a complimentary license. Nice guy. I was going to write about it anyway, but I thought I should mention that I got it for free, as a surprise.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Processing Email]]></title>
+    <link href="http://michael-mccracken.net/blog/2007/07/26/processing-email/"/>
+    <updated>2007-07-26T05:11:17-07:00</updated>
+    <id>http://michael-mccracken.net/blog/2007/07/26/processing-email</id>
+    <content type="html"><![CDATA[<p>I watched Merlin Mann's <a href="http://www.43folders.com/2007/07/25/merlins-inbox-zero-talk/">Google Tech Talk about processing email</a> yesterday, and even though I'd followed his posts on <a href="http://inboxzero.com">Inbox Zero</a> when they came out, it's good to get a reminder, and Merlin's an entertaining speaker - I recommend you watch it.</p>
+
+<p>He talks about strategies for keeping an empty inbox based on processing email as it comes in, and deciding what to do with each message as you read it so nothing just sits there reminding you of vague, unspecified amounts of work you need to deal with sometime.</p>
+
+<p>You may have to accept on faith that an empty inbox is a worthwhile goal. Some people <a href="http://www.wordyard.com/2007/07/12/inbox-slaves/">disagree</a>, but I think it's safe to say that for most people, moving the things you get as email into more appropriate places like notes apps, calendars or to-do lists is a great way to get in control of your work. Process it, then get to work. I've been doing this for a while, and it's a good feeling to know you don't have any surprises laying forgotten in old mail.</p>
+
+<p>One point from Merlin's talk that I'd like to comment on is that email is just a medium, and it's worth thinking about whether it's really the best medium for what you're trying to do. This has been in my mind lately as I've been working on a project with a series of parallel email-based heavily technical conversations, sometimes with three or four people replying every couple of minutes. I struggle with the feeling that email is just not the best way to do this, but it seems like the only way to include everyone.</p>
+
+<p>Merlin made the point that sometimes email dysfunction is just a symptom of an organizational communications problem, and no amount of email system adjustment can solve it. I agree - if you're really just tracking bugs, use a bug tracker. If you're coordinating things in real time, use IMs or IRC. If you're collaborating on a document, use something like Google Docs. Please stop overloading email.</p>
+]]></content>
+  </entry>
+  
+</feed>

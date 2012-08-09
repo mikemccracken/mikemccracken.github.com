@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: windows | michael-mccracken.net]]></title>
+  <link href="http://michael-mccracken.net/blog/categories/windows/atom.xml" rel="self"/>
+  <link href="http://michael-mccracken.net/"/>
+  <updated>2012-08-09T00:03:35-07:00</updated>
+  <id>http://michael-mccracken.net/</id>
+  <author>
+    <name><![CDATA[Michael McCracken]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[That Windows feeling]]></title>
+    <link href="http://michael-mccracken.net/blog/2007/09/04/that-windows-feeling/"/>
+    <updated>2007-09-04T04:44:40-07:00</updated>
+    <id>http://michael-mccracken.net/blog/2007/09/04/that-windows-feeling</id>
+    <content type="html"><![CDATA[<p>I started this post more than a year ago. Not much has changed, and it's time to just let it out.</p>
+
+<p>Uninvited dialogs popping to the front or stealing keyboard focus in OS X have been giving me <strong>that Windows feeling</strong> lately. It was part of the old Mac OS's comfortable "I'm in control" feeling, and was always immediately noticeable using Windows - popups and splash screens everywhere.</p>
+
+<p>It's particularly bad with multiple monitors, when you may not notice that a dialog opened on the other monitor and is stealing all your keypresses, making the app you thought you were using seem unresponsive and rudely interrupting your work.</p>
+
+<p>Here are just a few that I notice all the time:</p>
+
+<ul>
+<li><p>Apple Backup: Every damn time it runs a backup I get an annoying alert, sometimes two if the media isn't ready when it wants to run. This is the one single situation that I can remember Retrospect's UI being better.</p></li>
+<li><p>Apple Mail: If a message is sent but the SMTP server can't be contacted, the message pops back up with a sheet to pick a new server to be used until you change locations - a feature I endure daily to cope with my home ISP insisting I use their SMTP server. This window pops to the front and steals key focus, so if you're typing in another mail message, you lose letters.</p></li>
+<li><p>Safari with GMail: sometimes GMail just pops to the front of the stack. I don't ever want a web page deciding that it needs to be in the front - what is going wrong here? (note, now that I use my WebMail app, this doesn't happen to me anymore…)</p></li>
+<li><p>Safari also pops the download window up when it starts a download - good idea right? Not if it took a while to start the download and I'm now editing something in a totally unrelated browser window...</p></li>
+<li><p>Growl: Growl could be a solution to some of these problems, but it adds its own annoyance.  Just waving your pointer over a notification - or even having it sitting in the spot the notification appears at - steals key focus from the current app. I use a variety of sticky notifications that I have to click on, and so this happens to me all the time.</p></li>
+<li><p>FileMerge: if it takes a while to open a merge and I've moved away, it still pops the window to the front and takes key.</p></li>
+<li><p>iTunes: changes to the music store status (like it finally loading a page), cause background windows to pop up in front of other iTunes windows. This doesn't happen in browsers, why here?</p></li>
+<li><p>iTunes: A more debatable example is if your iPod battery is completely drained, it will charge for a while before bringing iTunes to the front at a random time when it's ready to sync. This is only if you've already requested iTunes to be shown when you plug in your iPod, so maybe it's not their fault it annoys me.</p></li>
+<li><p>Keychain security - because I have sensitive passwords on my laptop, my keychains lock when it sleeps, and time out. So I see a lot of the keychain password dialog, which steals key focus - even when it's invoked from an app in the background. Backup makes this happen regularly. The dialog is small enough that I often don't notice it on the other monitor.</p></li>
+</ul>
+
+
+<p>If this annoys you too, share your examples in the comments.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Windows User]]></title>
+    <link href="http://michael-mccracken.net/blog/2006/09/20/windows-user/"/>
+    <updated>2006-09-20T15:18:11-07:00</updated>
+    <id>http://michael-mccracken.net/blog/2006/09/20/windows-user</id>
+    <content type="html"><![CDATA[<p>I've been a Windows User for two weeks now. Since <a href="http://michael-mccracken.net/wp/?p=64">my powerbook disk died</a>, I've been working on a loaner Dell Lattitude with XP.</p>
+
+<p>I get by. It's not as hard as I would have guessed. Most of my work these days just needs a decent terminal, and SSH from ssh.com (who knew there was a commercial SSH?) works OK. I don't understand why it doesn't save my keyboard preferences, but I muddle through.</p>
+
+<p>I'm using <a href="http://www.washington.edu/pine/">pine</a> for email, and the lack of <a href="http://c-command.com/spamsieve">SpamSieve</a> is shockingly obvious. Sometimes control characters in spam emails garble the screen so badly that I can't tell what I'm deleting.</p>
+
+<p>Otherwise, I use Firefox, and Google calendar keeps my schedule. So far, I haven't missed my iCal integration applescripts (<a href="http://michael-mccracken.net/blog/blosxom.pl/computers/mac/todoQuickSilver.html">new-todo-in-quicksilver</a>,
+<a href="http://michael-mccracken.net/blog/blosxom.pl/computers/mac/programming/ASiCal.html">new-event-from-email</a>, and <a href="http://michael-mccracken.net/wp/?p=30">new-todo-from-email</a>), but I'm sure I will if this goes on longer.</p>
+
+<p>I miss the years of notes I had inVoodooPad. In its place, I've been using emacs org-mode in a terminal. I like the outlining and todo/agenda gathering it can do, and wouldn't be opposed to similar features in VoodooPad. I'd actually been using it in the weeks before my forced <em>switch</em>, but just for the todos.</p>
+
+<p>I've accidentally tried to print about a hundred times when editing text, expecting the old emacs shortcuts to be there. This is OK, though, because I can't configure printers.</p>
+
+<p>There is a similar story for almost every key shortcut I want to use - I have no idea how to switch between tabs in Firefox, and when I did find out how to minimize windows from the keyboard (Alt-space, 'n'), I wished I hadn't, because it only works in half of the programs I use.</p>
+
+<p>One thing Windows does is make me want to give up earlier. I actually just don't care if I can't figure out a good way to do something. This is an exciting new feeling - I just give up and get back to work, and each time, I feel a little more like a real grownup. You know, how you feel after all your youthful dreams have died.</p>
+
+<p>I get more done at work with Windows. I no longer install programs just to try them out (scary!), or hack on minor projects (no friendly tools built-in). Even just surfing around is just not as tempting, and I do less of it, both at work and at home. In moments of weakness, I have considered swapping my PowerBook for three pound Windows laptop, just so I can finish sooner and with better posture. I know I could never do it, but the thought lingers.</p>
+]]></content>
+  </entry>
+  
+</feed>

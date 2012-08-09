@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: X Windows | michael-mccracken.net]]></title>
+  <link href="http://michael-mccracken.net/blog/categories/x-windows/atom.xml" rel="self"/>
+  <link href="http://michael-mccracken.net/"/>
+  <updated>2012-08-09T00:03:35-07:00</updated>
+  <id>http://michael-mccracken.net/</id>
+  <author>
+    <name><![CDATA[Michael McCracken]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[go juggle — an attention callback]]></title>
+    <link href="http://michael-mccracken.net/blog/2008/08/28/go-juggle-an-attention-callback/"/>
+    <updated>2008-08-28T12:31:05-07:00</updated>
+    <id>http://michael-mccracken.net/blog/2008/08/28/go-juggle-an-attention-callback</id>
+    <content type="html"><![CDATA[<p>Sometimes progress on a project for me consists of a few short bursts of activity in between stretches of waiting for some long-running thing to complete so I can figure out what I need to do with it next.</p>
+
+<p>Because I always have more than one project going, I don't actually wait much. I just switch workspaces and try to make progress on the next thing. If I can't make progress on anything immediate, I'll end up checking email or looking up something for a side project.</p>
+
+<p>This kind of multitasking is inefficient, but inevitable when I might have to wait for 20 minutes or more for a compute job or a compile to finish.</p>
+
+<p>The problem with this approach is that the things I'm waiting for often finish while I'm off doing something else, and if I get too involved, the low-priority research or emails will eat up my day while the high-priority work sits waiting for me.</p>
+
+<p>I've attacked this problem in the past when using OS X with <a href="gr">growl</a>, but I can't call growlnotify from remote systems. However, I just found <a href="dzen">dzen</a> for X Windows, a lightweight notification display utility that compiles easily on every system I've tried, and works remotely with ssh X forwarding.</p>
+
+<p>I wrote a simple script called <code>go</code>, which just executes its arguments and runs <code>dzen</code> when it's done. Now I type (for example) <code>go make</code> and I can switch over to something else, confident that I'll see a big popup window letting me know when I can get back to working on my highest priority project.</p>
+
+<p>Here's basically the entire <code>go</code> script:</p>
+
+<pre><code>#!/bin/ksh
+echo $@
+$@
+echo $@ completed on `hostname` \
+ | dzen2 -p -h 64 -bg darkblue
+</code></pre>
+
+<p>It's simple but it's working great for me. I've tried some improvements like randomizing window placement to avoid overlapping notifications, but the simple version above really does all I need.</p>
+
+<p>Finally, a couple of details. zsh always seems to want to spell-check 'go', so I really named it '~/bin/executeAndNotify.sh' and just aliased 'go' to that.
+Also, I've found it can mess with shell quoting as is, so sometimes I have to do <code>'somecommand ; go echo done'</code>. If someone has a tip on getting the quoting right in the script, I'd love to hear it. The problem crops up when you try something like 'go make CC="cc -g"' - the quotes don't make it through.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Linking the OS X Clipboard and XTerm's selection]]></title>
+    <link href="http://michael-mccracken.net/blog/2007/02/19/linking-the-os-x-clipboard-and-xterms-selection/"/>
+    <updated>2007-02-19T10:23:22-08:00</updated>
+    <id>http://michael-mccracken.net/blog/2007/02/19/linking-the-os-x-clipboard-and-xterms-selection</id>
+    <content type="html"><![CDATA[<p>If you only use X11 for XTerm, it might seem like the handling of the clipboard in Apple's X11.app is broken. You can select text and paste it with a click of the middle mouse button (opt-click on my Powerbook), and that works when pasting into other X apps, but it doesn't change the Mac clipboard at all.</p>
+
+<p>Why not? Is X11.app just ignoring the X clipboard?</p>
+
+<p>No - X11.app <em>does</em> synchronize the two clipboards. The problem is that the selection pasting in XTerm is using a completely different buffer. There's a full and clear explanation, with some interesting details about (X)Emacs' behavior, at <a href="http://www.jwz.org/doc/x-cut-and-paste.html">jwz.org</a>.</p>
+
+<p>If, like me, you only use X11 for Emacs and XTerm, you might want to link the selection in XTerm to the X clipboard, so X11.app will then sync that with the system clipboard and you can select in XTerm and paste with Cmd-V in say, Mail.app.</p>
+
+<p>I'll tell you how in a sec, but first the caveat - I said if you only use X11 for Emacs and XTerm because what we're going to do is make setting the XTerm selection always overwrite the clipboard contents. If you use X apps that use the X clipboard, sometimes you don't want that. So beware. If you use Emacs, it just pushes onto the kill ring, so you're good.</p>
+
+<p>OK, now that that's over, add these lines to your ~/.Xdefaults:</p>
+
+<pre><code>XTerm*VT100.Translations: #override\
+&lt;BtnUp&gt;: select-end(CLIPBOARD,PRIMARY)\n\
+&lt;Btn2Down&gt;: insert-selection(PRIMARY)\n\
+</code></pre>
+
+<p>Note that the backslashes at the end of the lines are important.</p>
+
+<p>Update: The first version of this post didn't include the Btn2Down action. Without that, the original paste behavior goes away - the man page doesn't really explain the "#override" keyword, so I'm not sure why.</p>
+]]></content>
+  </entry>
+  
+</feed>

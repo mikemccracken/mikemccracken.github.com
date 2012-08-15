@@ -82,15 +82,15 @@ googleplus_hidden: false
 
 # Pinboard
 pinboard_user: mmc
-pinboard_count: 3
+pinboard_count: 10
 
 # Delicious
 delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
-disqus_show_comment_count: false
+disqus_short_name: michaelmccrackennet
+disqus_show_comment_count: true
 
 # Google Analytics
 google_analytics_tracking_id: UA-1818984-1

@@ -4,7 +4,7 @@
   <title><![CDATA[michael-mccracken.net]]></title>
   <link href="http://mikemccracken.github.com/atom.xml" rel="self"/>
   <link href="http://mikemccracken.github.com/"/>
-  <updated>2012-08-15T09:00:02-07:00</updated>
+  <updated>2012-08-15T13:00:41-07:00</updated>
   <id>http://mikemccracken.github.com/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
@@ -18,7 +18,9 @@
     <link href="http://mikemccracken.github.com/blog/2012/08/15/no-more-wordpress/"/>
     <updated>2012-08-15T08:21:00-07:00</updated>
     <id>http://mikemccracken.github.com/blog/2012/08/15/no-more-wordpress</id>
-    <content type="html"><![CDATA[<p>These posts about blogging are really only interesting years later,
+    <content type="html"><![CDATA[<p>My last wordpress upgrade was a long time ago, and it&#8217;s going to stay that way.</p>
+
+<p>These posts about blogging are really only interesting years later,
 and only to me, when I look back and think about what I was doing that
 I thought I had time to mess with blogging software.</p>
 
@@ -28,7 +30,10 @@ parents&#8217; house and had nothing to do after everyone went to bed at 9pm.</p
 
 <p>These days I can&#8217;t remember the feeling of having nothing to do, but I
 went ahead and switched things up anyway, exactly because I don&#8217;t have
-time to mess with things like upgrading wordpress. Here we go…</p>
+time to mess with things like upgrading wordpress.</p>
+
+<p>So I&#8217;m going with octopress on github user pages. I like generating a
+static site from text files, and github pages are sort of convenient. (sort of)</p>
 ]]></content>
   </entry>
   

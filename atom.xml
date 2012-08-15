@@ -4,7 +4,7 @@
   <title><![CDATA[michael-mccracken.net]]></title>
   <link href="http://mikemccracken.github.com/atom.xml" rel="self"/>
   <link href="http://mikemccracken.github.com/"/>
-  <updated>2012-08-09T00:37:19-07:00</updated>
+  <updated>2012-08-15T09:00:02-07:00</updated>
   <id>http://mikemccracken.github.com/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[My last wordpress upgrade]]></title>
+    <link href="http://mikemccracken.github.com/blog/2012/08/15/no-more-wordpress/"/>
+    <updated>2012-08-15T08:21:00-07:00</updated>
+    <id>http://mikemccracken.github.com/blog/2012/08/15/no-more-wordpress</id>
+    <content type="html"><![CDATA[<p>These posts about blogging are really only interesting years later,
+and only to me, when I look back and think about what I was doing that
+I thought I had time to mess with blogging software.</p>
+
+<p><a href="http://mikemccracken.github.com/blog/2005/12/25/test-wordpress/">Last time</a> I made a major change was switching to wordpress from
+blosxom back in December 2005, over Christmas break. I was at my
+parents&#8217; house and had nothing to do after everyone went to bed at 9pm.</p>
+
+<p>These days I can&#8217;t remember the feeling of having nothing to do, but I
+went ahead and switched things up anyway, exactly because I don&#8217;t have
+time to mess with things like upgrading wordpress. Here we go…</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Links: Hacking, Music in Python, Rust & unitaskimg]]></title>
@@ -458,20 +477,6 @@ U1DB is a database API for synchronised databases of JSON documents. It&#8217;s 
 unlikely that there will ever be.  If you&#8217;re into parallelism, better
 investigate message-passing interfaces.&#8221;</p></li>
 <li><p><a href="http://caml.inria.fr/pub/ml-archives/caml-list/2002/04/a20d07d890dc2ebd525fbe3eed177492.en.html">Archives of the Caml mailing list > Message from Benjamin C. Pierce</a> - Lots of links about CPS and continuations in Ocaml and others.</p></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Links for January 11th]]></title>
-    <link href="http://mikemccracken.github.com/blog/2012/01/11/links-for-january-11th/"/>
-    <updated>2012-01-11T04:19:47-08:00</updated>
-    <id>http://mikemccracken.github.com/blog/2012/01/11/links-for-january-11th</id>
-    <content type="html"><![CDATA[<p>My shared links for January 11th:</p>
-
-<ul>
-<li><a href="http://matt.might.net/articles/best-programming-languages/">Advanced programming languages</a> Matt Might on languages you should know. Lots of good links for each. SNEAK PEAK: OCaml, SML, scheme, Scala! And C!</li>
 </ul>
 
 ]]></content>

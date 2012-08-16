@@ -2,8 +2,8 @@
 comments: true
 date: 2012-04-11 16:15:15
 layout: post
-slug: links-hacking-music-in-python-rust-unitaskimg
-title: 'Links: Hacking, Music in Python, Rust & unitaskimg'
+slug: links-hacking-music-in-python-rust-unitasking
+title: 'Links: Hacking, Music in Python, Rust & unitasking'
 wordpress_id: 749
 categories:
 - links

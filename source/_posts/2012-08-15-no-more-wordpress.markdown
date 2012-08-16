@@ -21,6 +21,6 @@ went ahead and switched things up anyway, exactly because I don't have
 time to mess with things like upgrading wordpress. 
 
 So I'm going with octopress on github user pages. I like generating a
-static site from text files, and github pages are sort of convenient.
+static site from text files, and github pages are sort of convenient. (sort of)
 
 

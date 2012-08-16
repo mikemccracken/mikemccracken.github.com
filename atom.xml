@@ -4,7 +4,7 @@
   <title><![CDATA[michael-mccracken.net]]></title>
   <link href="http://mikemccracken.github.com/atom.xml" rel="self"/>
   <link href="http://mikemccracken.github.com/"/>
-  <updated>2012-08-15T13:00:41-07:00</updated>
+  <updated>2012-08-15T23:19:38-07:00</updated>
   <id>http://mikemccracken.github.com/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
@@ -38,7 +38,7 @@ static site from text files, and github pages are sort of convenient. (sort of)<
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Links: Hacking, Music in Python, Rust & unitaskimg]]></title>
+    <title type="html"><![CDATA[Links: Hacking, Music in Python, Rust & unitasking]]></title>
     <link href="http://mikemccracken.github.com/blog/2012/04/11/links-hacking-music-in-python-rust-unitaskimg/"/>
     <updated>2012-04-11T09:15:15-07:00</updated>
     <id>http://mikemccracken.github.com/blog/2012/04/11/links-hacking-music-in-python-rust-unitaskimg</id>

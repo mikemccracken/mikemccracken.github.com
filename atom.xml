@@ -4,7 +4,7 @@
   <title><![CDATA[michael-mccracken.net]]></title>
   <link href="http://mikemccracken.github.com/atom.xml" rel="self"/>
   <link href="http://mikemccracken.github.com/"/>
-  <updated>2012-08-15T23:19:38-07:00</updated>
+  <updated>2012-08-16T23:38:27-07:00</updated>
   <id>http://mikemccracken.github.com/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Selected Links from this April]]></title>
+    <link href="http://mikemccracken.github.com/blog/2012/08/15/selected-links-from-this-summer/"/>
+    <updated>2012-08-15T15:06:00-07:00</updated>
+    <id>http://mikemccracken.github.com/blog/2012/08/15/selected-links-from-this-summer</id>
+    <content type="html"><![CDATA[<p>Since my new blogging setup doesn&#8217;t automatically pull pinboard links
+into summary posts like before, I&#8217;m going to run through my bookmarks
+manually. Sound like fun? Let&#8217;s go:</p>
+
+<ul>
+<li><a href="http://ivory.idyll.org/blog/apr-12/replication-i">Our approach to replication in computational science</a> - &#8220;bioinformatician makes code and all analyses available. very admirable, and yet a little worrying that this is so rare. It is also rare in computer science, where it is arguably easier to share.&#8221;</li>
+<li><a href="http://www.modsquadhockey.com/forums/">ModSquadHockey Forums</a> - good reviews of equipment with painful forum UI. BTW, yes, a Bauer Concept II full shield will definitely fit a Stealth S19 (2010 model) helmet. You&#8217;re welcome.</li>
+<li><a href="http://www.hockeymonkey.com/helmet-compatibility-charts.html">Hockey Helmet Cage/Visor Compatibility Charts</a> - really useful, but sadly not fully complete. An impossible task.</li>
+<li><a href="http://www.inference.phy.cam.ac.uk/opengazer/">Opengazer: open source gaze tracker for ordinary webcams</a> - Presented without comment. Have you used this?</li>
+<li><a href="https://storm.canonical.com/">Storm Python ORM</a> - Python ORM from Canonical, used in launchpad.</li>
+<li><a href="http://radar.oreilly.com/2012/04/great-machine-learning-products.html">What it takes to build great machine learning products</a> - I think the answer was careful definition of the problem domain?</li>
+<li><a href="http://news.ycombinator.com/item?id=3851691">A calculator that only shows the answer after you give a suitable estimate</a> - Really cool idea. The magic is in how to adjust the tolerance so it seems fair. Linked to the HN post because the comments are so polarized - it&#8217;s interesting to swatch people violently miss the point.</li>
+<li><a href="http://www.gnu.org/software/parallel/">GNU Parallel</a> - Well if you don&#8217;t know, now you know: &#8220;GNU parallel is a shell tool for executing jobs in parallel using one or more computers.&#8221; Super useful. You don&#8217;t have to use GNU parallel if you like something else that&#8217;s similar, but you should probably know at least one tool for this stuff.</li>
+<li><a href="http://do.cooperteam.net/">GNOME + Do</a> - quicksilver for gnome. I left out the part in the page title that says &#8220;Crazy Delicious&#8221; because come on, people. These are computers.</li>
+<li><a href="http://openendedgroup.com/field/">Field visualization software</a> - &#8220;An environment for writing code to rapidly and experimentally assemble and explore algorithmic systems&#8221; - A really fascinating project. It looks like big ball of squeak, python, and processing that Bret Victor rolled up. I wanted to try it out in April but haven&#8217;t had a chance.</li>
+<li><a href="http://circa-lang.org/about/introduction.html">circa</a> - A programming language that lets you manipulate the AST and do round trips. I forget what I meant by that exactly. I also wrote that &#8216;state is first class&#8217;. You&#8217;d better go look at the page if that sounds interesting. Don&#8217;t ask me!</li>
+</ul>
+
+
+<p>That&#8217;s it for April. Look for May&#8217;s bookmarks sometime in 2014.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[My last wordpress upgrade]]></title>
@@ -450,38 +478,6 @@ U1DB is a database API for synchronised databases of JSON documents. It&#8217;s 
 <li><p><a href="http://www.cs.nott.ac.uk/~gmh/book.html">Programming in Haskell</a> - well-reviewed intro haskell book</p></li>
 <li><p><a href="http://www.bluebytesoftware.com/blog/2010/01/03/ABriefRetrospectiveOnTransactionalMemory.aspx">Joe Duffy&#8217;s Weblog : A (brief) retrospective on transactional memory</a> - Not really brief. Lots of interesting detail about TM in practice.</p></li>
 <li><p><a href="http://blog.ezyang.com/2011/11/how-to-read-haskell/">How to read Haskell like Python : Inside 233</a> -</p></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Links for January 12th through January 18th]]></title>
-    <link href="http://mikemccracken.github.com/blog/2012/01/19/links-for-january-12th-through-january-18th/"/>
-    <updated>2012-01-19T03:44:11-08:00</updated>
-    <id>http://mikemccracken.github.com/blog/2012/01/19/links-for-january-12th-through-january-18th</id>
-    <content type="html"><![CDATA[<p>My shared links for January 12th through January 18th:</p>
-
-<ul>
-<li><p><a href="http://stevenf.com/notes/">Steven Frank: Notes: Home</a> -</p></li>
-<li><p><a href="http://www.stanford.edu/~ttinoco/cvxpy/">CVXPY documentation &#8211; CVXPY v0.0.1 documentation</a> - Optimization, uses Disciplined Convex Programming</p></li>
-<li><p><a href="http://chplib.wordpress.com/2010/02/04/progression-supporting-optimisation-in-haskell/">Progression: Supporting Optimisation in Haskell « Communicating Haskell Processes</a> - Tools for benchmarking haskell performance</p></li>
-<li><p><a href="http://www.jamesmolloy.co.uk/tutorial_html/1.-Environment%20setup.html">1.-Environment setup</a> -</p></li>
-<li><p><a href="http://www.gprolog.org/">The GNU Prolog web site</a> - Free GNU Prolog - supports ISO</p></li>
-<li><p><a href="http://www.ciaohome.org/">The Ciao System</a> - &#8220;Ciao is a general-purpose programming language which supports logic, constraint, functional, higher-order, and object-oriented programming styles. Its main design objectives are high expressive power, extensibility, safety, reliability, and efficient execution&#8221;</p></li>
-<li><p><a href="http://marmalade-repo.org/">Marmalade: Spreadable Elisp</a> - A repository for elisp packages. Uses ELPA. Didn&#8217;t work when I tried it, but maybe a firewall issue?</p></li>
-<li><p><a href="http://www.haskell.org/haddock/">Haddock Documentation Generator for Haskell</a> - Really nice documentation generator for Haskell code.</p></li>
-</ul>
-
-
-<p>I particularly like the synopsis tab.</p>
-
-<ul>
-<li><p><a href="http://caml.inria.fr/pub/ml-archives/caml-list/2002/11/64c14acb90cb14bedb2cacb73338fb15.fr.html">Archives of the Caml mailing list > Message from Xavier Leroy [2002]</a> - From 2002:
-&#8220;In summary: there is no SMP support in OCaml, and it is very very
-unlikely that there will ever be.  If you&#8217;re into parallelism, better
-investigate message-passing interfaces.&#8221;</p></li>
-<li><p><a href="http://caml.inria.fr/pub/ml-archives/caml-list/2002/04/a20d07d890dc2ebd525fbe3eed177492.en.html">Archives of the Caml mailing list > Message from Benjamin C. Pierce</a> - Lots of links about CPS and continuations in Ocaml and others.</p></li>
 </ul>
 
 ]]></content>

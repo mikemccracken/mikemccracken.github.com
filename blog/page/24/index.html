@@ -9,7 +9,7 @@
   <meta name="author" content="Michael McCracken">
 
   
-  <meta name="description" content="I completely missed this year&#8217;s State of the Union address, but was pleased to see this quote from the speech: First, I propose to double the &hellip;">
+  <meta name="description" content="In a recent largescale systems seminar*, we had Bart Miller from Wisconsin talk about some of the upcoming work on DynInst. DynInst is an API for &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,6 +78,58 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2006/02/03/talk-bart-miller-and-dyninst/">Talk: Bart Miller and Dyninst</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-02-03T07:33:09-08:00" pubdate data-updated="true">Feb 3<span>rd</span>, 2006</time>
+        
+         | <a href="/blog/2006/02/03/talk-bart-miller-and-dyninst/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>In a recent largescale systems seminar*, we had <a href="http://www.cs.wisc.edu/~bart/">Bart Miller</a> from <a href="http://www.cs.wisc.edu/">Wisconsin</a> talk about some of the upcoming work on <a href="http://www.dyninst.org">DynInst</a>. DynInst is an API for runtime code patching, which lets you do things like attach to a running program and insert your own code around every network call, or replace procedures with your own versions. You can even do something as insane as calling a function every time the instrumented program accesses memory. (We do roughly that here at <a href="http://www.sdsc.edu/PMaC/">PMaC</a> with <a href="http://www.sdsc.edu/PMaC/MetaSim/metasim.html">MetaSim</a>.)</p>
+
+<p>Bart talked about some of the challenges they&#8217;ve had to face with DynInst and the directions they&#8217;re planning to take it in the future. The major news is that they&#8217;re planning to improve support for binary rewriting, in which you use the same interface to instrument an object file and produce a new executable instead of just doing it in memory. Also, they are planning on breaking it up into a few smaller libraries so you don&#8217;t have to link everything in if you&#8217;re building a tool that doesn&#8217;t need all of DynInst. These are both good news for users.</p>
+
+<p>He discussed some interesting applications of DynInst (such as trapping and removing calls to license checking code), and some odd situations that have driven development, like users who needed to instrument binaries that were hundreds of megabytes large (not with linked libraries, just the one file). He also highlighted some cases where DynInst really shines, such as needing to instrument a program that you can&#8217;t even relink, due to lack of source code access or simple overwhelming makefile confusion. The facility for removing instrumentation led to a clever code coverage tool that removed instrumentation on a block after the block was touched once, leading to a really impressive speedup.</p>
+
+<p>They&#8217;ve also used it to observe viruses without allowing them to write to disk, including nifty tricks like waiting until the virus uncompresses itself, then saving the uncompressed virus for later analysis. The extensive work they&#8217;ve done on binary analysis is important here, because viruses don&#8217;t really come with symbol tables for handy debugging.</p>
+
+<p>I thought that the most interesting part of the talk was about the challenges they&#8217;ve addressed through the course of the project. For instance, it is surprising how often with production compilers, that the symbol tables contain entries which are totally bogus. An example he used was that the function size information in most symbol tables is never right. Few tools pay attention to this, so it goes unfixed. One reason for this inaccuracy is another reason to consider using DynInst or something like it to build program analysis tools - object code layout is getting pretty confusing, and they&#8217;ve done the hard work of analysis already. For instance, noncontiguous functions are common. Apparently that&#8217;s rampant in Microsoft&#8217;s products, due to optimizations that reorder hot basic-blocks. Other weird code arrangements are common, including functions sharing object code. Compilers sometimes appear to be active adversaries to program analysis tools, and many tools in common use are making assumptions about code layout that are increasingly less likely to be correct.</p>
+
+<p>I asked how symbol table information needs to be improved to let tools keep up, and what more information one needs to get from the compiler, and his response was that expecting many-to-many relationships for mapping code to source is very important if your tools need to deal with real code.</p>
+
+<p>Thanks to Bart Miller for the talk - any errors above are mine, the ideas and hard work described are all theirs!</p>
+
+<p>*I had wanted to post about it right away, but I didn&#8217;t get to it until two weeks later.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -515,42 +567,6 @@ Jeremy Lau, Matthew Arnold, Michael Hind, Brad Calder</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2006/01/10/universal/">Universal</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2006-01-10T09:26:56-08:00" pubdate data-updated="true">Jan 10<span>th</span>, 2006</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Quick note - I tried to build a universal binary version of Blapp because I thought it&#8217;d be simple, but I forgot it uses a library that is built with autoconf, and apple&#8217;s <a href="http://developer.apple.com/technotes/tn2005/tn2137.html">basic transition instructions for autoconf projects</a> didn&#8217;t fly in 2 minutes, so I gave up for now.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/25/">&larr; Older</a>
@@ -572,6 +588,10 @@ Jeremy Lau, Matthew Arnold, Michael Hind, Brad Calder</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2012/08/15/selected-links-from-this-summer/">Selected Links from this April</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/08/15/no-more-wordpress/">My last wordpress upgrade</a>
       </li>
     
@@ -585,10 +605,6 @@ Jeremy Lau, Matthew Arnold, Michael Hind, Brad Calder</p>
     
       <li class="post">
         <a href="/blog/2012/04/06/links-haskell-music-ocd-tools-terrorism-probability-for-ranking-things/">Links: Haskell, Music OCD Tools, Terrorism, Probability for Ranking things</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/03/30/canonical-design-blog-on-where-small-pieces-loosely-joined-needs-some-tweaking/">Canonical design blog on Holistic UI</a>
       </li>
     
   </ul>

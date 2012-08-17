@@ -4,7 +4,7 @@
   <title><![CDATA[Category: links | michael-mccracken.net]]></title>
   <link href="http://mikemccracken.github.com/blog/categories/links/atom.xml" rel="self"/>
   <link href="http://mikemccracken.github.com/"/>
-  <updated>2012-08-15T23:19:38-07:00</updated>
+  <updated>2012-08-16T23:38:27-07:00</updated>
   <id>http://mikemccracken.github.com/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Selected Links from this April]]></title>
+    <link href="http://mikemccracken.github.com/blog/2012/08/15/selected-links-from-this-summer/"/>
+    <updated>2012-08-15T15:06:00-07:00</updated>
+    <id>http://mikemccracken.github.com/blog/2012/08/15/selected-links-from-this-summer</id>
+    <content type="html"><![CDATA[<p>Since my new blogging setup doesn't automatically pull pinboard links
+into summary posts like before, I'm going to run through my bookmarks
+manually. Sound like fun? Let's go:</p>
+
+<ul>
+<li><a href="http://ivory.idyll.org/blog/apr-12/replication-i">Our approach to replication in computational science</a> - "bioinformatician makes code and all analyses available. very admirable, and yet a little worrying that this is so rare. It is also rare in computer science, where it is arguably easier to share."</li>
+<li><a href="http://www.modsquadhockey.com/forums/">ModSquadHockey Forums</a> - good reviews of equipment with painful forum UI. BTW, yes, a Bauer Concept II full shield will definitely fit a Stealth S19 (2010 model) helmet. You're welcome.</li>
+<li><a href="http://www.hockeymonkey.com/helmet-compatibility-charts.html">Hockey Helmet Cage/Visor Compatibility Charts</a> - really useful, but sadly not fully complete. An impossible task.</li>
+<li><a href="http://www.inference.phy.cam.ac.uk/opengazer/">Opengazer: open source gaze tracker for ordinary webcams</a> - Presented without comment. Have you used this?</li>
+<li><a href="https://storm.canonical.com/">Storm Python ORM</a> - Python ORM from Canonical, used in launchpad.</li>
+<li><a href="http://radar.oreilly.com/2012/04/great-machine-learning-products.html">What it takes to build great machine learning products</a> - I think the answer was careful definition of the problem domain?</li>
+<li><a href="http://news.ycombinator.com/item?id=3851691">A calculator that only shows the answer after you give a suitable estimate</a> - Really cool idea. The magic is in how to adjust the tolerance so it seems fair. Linked to the HN post because the comments are so polarized - it's interesting to swatch people violently miss the point.</li>
+<li><a href="http://www.gnu.org/software/parallel/">GNU Parallel</a> - Well if you don't know, now you know: "GNU parallel is a shell tool for executing jobs in parallel using one or more computers." Super useful. You don't have to use GNU parallel if you like something else that's similar, but you should probably know at least one tool for this stuff.</li>
+<li><a href="http://do.cooperteam.net/">GNOME + Do</a> - quicksilver for gnome. I left out the part in the page title that says "Crazy Delicious" because come on, people. These are computers.</li>
+<li><a href="http://openendedgroup.com/field/">Field visualization software</a> - "An environment for writing code to rapidly and experimentally assemble and explore algorithmic systems" - A really fascinating project. It looks like big ball of squeak, python, and processing that Bret Victor rolled up. I wanted to try it out in April but haven't had a chance.</li>
+<li><a href="http://circa-lang.org/about/introduction.html">circa</a> - A programming language that lets you manipulate the AST and do round trips. I forget what I meant by that exactly. I also wrote that 'state is first class'. You'd better go look at the page if that sounds interesting. Don't ask me!</li>
+</ul>
+
+
+<p>That's it for April. Look for May's bookmarks sometime in 2014.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Links: Hacking, Music in Python, Rust & unitasking]]></title>
@@ -105,25 +133,6 @@ Browse your music library graphically through a Web browser and play it in any b
     <updated>2012-03-30T05:29:00-07:00</updated>
     <id>http://mikemccracken.github.com/blog/2012/03/30/canonical-design-blog-on-where-small-pieces-loosely-joined-needs-some-tweaking</id>
     <content type="html"><![CDATA[<p><a href="http://design.canonical.com/2012/03/holistic-ui-is-smarter-ux/">Holistic UI is smarter UX</a> - They use notifications as an example of why small pieces loosely joined might not be great UI. It's really interesting to see how common UI devices such as notifications have evolved across various platforms. Someone should do a gallery of notifications over the years - bonus points if you start with a ␇!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Links for mid-March see scalable python around corners. And Future Spies on Facebook!]]></title>
-    <link href="http://mikemccracken.github.com/blog/2012/03/30/links-for-mid-march-see-scalable-python-around-corners-and-future-spies-on-facebook/"/>
-    <updated>2012-03-30T05:20:56-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2012/03/30/links-for-mid-march-see-scalable-python-around-corners-and-future-spies-on-facebook</id>
-    <content type="html"><![CDATA[<p>My shared links for March 18th through March 26th:</p>
-
-<ul>
-<li><p><a href="http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html">7 Years of YouTube Scalability Lessons in 30 Minutes</a> - Notes from a PyCon talk about the very pragmatic design philosophy at YouTube.</p></li>
-<li><p><a href="https://github.com/bkad/discoball">bkad/discoball * GitHub</a> - shell tool to match and colorize lines of text</p></li>
-<li><p><a href="http://pragprog.com/book/kcdc/the-developer-s-code">The Pragmatic Bookshelf | The Developer's Code</a> -</p></li>
-<li><p><a href="http://www.nature.com/news/how-to-see-around-corners-1.10258">How to see around corners : Nature News &amp; Comment</a> - And we thought the future was flying cars.</p></li>
-<li><p><a href="http://www.theregister.co.uk/2012/03/19/cia_internet_of_things/page2.html">ARM's ultra-low-power fridge-puter chips: Just what the CIA ordered • The Register</a> - Out of context interesting quote: "The spy boss was chiefly concerned with the huge amounts of data that can be collected from American citizens who intend to become CIA agents - in an age when parents set up Twitter and Tumblr accounts for their newborns, managing the identities of future operatives suddenly becomes non-trivial."</p></li>
-<li><p><a href="http://reprog.wordpress.com/2012/02/27/who-needs-access-you-need-access/">Who needs access? You need access!</a> - new site about open access to research aimed at lay people (I think)</p></li>
-</ul>
-
 ]]></content>
   </entry>
   

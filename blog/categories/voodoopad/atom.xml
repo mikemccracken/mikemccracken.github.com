@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: VoodooPad | michael-mccracken.net]]></title>
-  <link href="http://mikemccracken.github.com/blog/categories/voodoopad/atom.xml" rel="self"/>
-  <link href="http://mikemccracken.github.com/"/>
-  <updated>2012-08-17T00:23:52-07:00</updated>
-  <id>http://mikemccracken.github.com/</id>
+  <link href="http://michael-mccracken.net/blog/categories/voodoopad/atom.xml" rel="self"/>
+  <link href="http://michael-mccracken.net/"/>
+  <updated>2012-08-17T08:51:19-07:00</updated>
+  <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Something Buckets]]></title>
-    <link href="http://mikemccracken.github.com/blog/2009/02/09/something-buckets/"/>
+    <link href="http://michael-mccracken.net/2009/02/something-buckets/"/>
     <updated>2009-02-09T23:27:49-08:00</updated>
-    <id>http://mikemccracken.github.com/blog/2009/02/09/something-buckets</id>
+    <id>http://michael-mccracken.net/2009/02/something-buckets</id>
     <content type="html"><![CDATA[<p>Alex Payne's recent post <a href="http://al3x.net/2009/01/31/against-everything-buckets.html">The case against everything buckets</a> makes a strong point in favor of using the filesystem for filing. To paraphrase: If your problem is that you have a bunch of files you need to search through, and possibly tag, then the filesystem and Spotlight are probably closer to solving your problem than you expect.</p>
 
 <p>I enjoyed reading his post, because I like rules of thumb for simple design, and one of my favorites is "why not just use files?" - there are often reasons to do something else, but the filesystem is faster, more reliable, and more open than anything you're likely to come up with on the first try. So you'd better be sure you're not just poorly reimplementing it.</p>
@@ -34,9 +34,9 @@
   
   <entry>
     <title type="html"><![CDATA[VoodooPad 3.5]]></title>
-    <link href="http://mikemccracken.github.com/blog/2008/02/11/voodoopad-35/"/>
+    <link href="http://michael-mccracken.net/2008/02/voodoopad-35/"/>
     <updated>2008-02-11T08:00:44-08:00</updated>
-    <id>http://mikemccracken.github.com/blog/2008/02/11/voodoopad-35</id>
+    <id>http://michael-mccracken.net/2008/02/voodoopad-35</id>
     <content type="html"><![CDATA[<p>From Flying Meat, <a href="http://flyingmeat.com/voodoopad">VoodooPad</a> 3.5 is out.
 (<a href="http://www.flyingmeat.com/fs/flystashweb.cgi/2dc35f78-ac3e-01dc-01d4-c0cbe4c4bd91">release notes here</a>).</p>
 
@@ -56,9 +56,9 @@
   
   <entry>
     <title type="html"><![CDATA[A script for text placeholders in VoodooPad]]></title>
-    <link href="http://mikemccracken.github.com/blog/2007/03/28/a-script-for-text-placeholders-in-voodoopad/"/>
+    <link href="http://michael-mccracken.net/2007/03/a-script-for-text-placeholders-in-voodoopad/"/>
     <updated>2007-03-28T03:59:47-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2007/03/28/a-script-for-text-placeholders-in-voodoopad</id>
+    <id>http://michael-mccracken.net/2007/03/a-script-for-text-placeholders-in-voodoopad</id>
     <content type="html"><![CDATA[<p>Last year I wrote about my <a href="http://michael-mccracken.net/wp/?p=39">new page template for VoodooPad</a>. I still use something like it - I like the uniform look and the built-in navigation starters I get in every page.</p>
 
 <p>I got tired of all the clicking around it took to fill in the navigation every time I put in a new page, so I decided to write a script to mimic XCode's "Select Next Placeholder" command. In XCode, if you use code completion, you might get something like this:

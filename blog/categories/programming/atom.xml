@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: programming | michael-mccracken.net]]></title>
-  <link href="http://mikemccracken.github.com/blog/categories/programming/atom.xml" rel="self"/>
-  <link href="http://mikemccracken.github.com/"/>
-  <updated>2012-08-17T00:23:52-07:00</updated>
-  <id>http://mikemccracken.github.com/</id>
+  <link href="http://michael-mccracken.net/blog/categories/programming/atom.xml" rel="self"/>
+  <link href="http://michael-mccracken.net/"/>
+  <updated>2012-08-17T08:51:19-07:00</updated>
+  <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA['Editor Wars']]></title>
-    <link href="http://mikemccracken.github.com/blog/2012/08/16/editor-wars/"/>
+    <link href="http://michael-mccracken.net/2012/08/editor-wars/"/>
     <updated>2012-08-16T23:44:00-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2012/08/16/editor-wars</id>
+    <id>http://michael-mccracken.net/2012/08/editor-wars</id>
     <content type="html"><![CDATA[<p>An idea I'd like to see: Editor Wars, the game of hacking at code.</p>
 
 <p>Hackers compete on how fast they can complete code editing tasks from
@@ -59,9 +59,9 @@ editor timings.</p>
   
   <entry>
     <title type="html"><![CDATA[Link: The Axis of Eval: What's a condition system and why do you want one?]]></title>
-    <link href="http://mikemccracken.github.com/blog/2011/06/28/link-the-axis-of-eval-whats-a-condition-system-and-why-do-you-want-one/"/>
+    <link href="http://michael-mccracken.net/2011/06/link-the-axis-of-eval-whats-a-condition-system-and-why-do-you-want-one/"/>
     <updated>2011-06-28T10:08:01-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2011/06/28/link-the-axis-of-eval-whats-a-condition-system-and-why-do-you-want-one</id>
+    <id>http://michael-mccracken.net/2011/06/link-the-axis-of-eval-whats-a-condition-system-and-why-do-you-want-one</id>
     <content type="html"><![CDATA[<p>A nice explanation of conditions in Common Lisp from Manuel Simoni, with example code. This looks like a major improvement on the exception handling in any language I've used for anything big.</p>
 
 <p><a href="http://axisofeval.blogspot.com/2011/04/whats-condition-system-and-why-do-you.html">The Axis of Eval: What's a condition system and why do you want one?</a>.</p>
@@ -70,9 +70,9 @@ editor timings.</p>
   
   <entry>
     <title type="html"><![CDATA[Cram & Simple testing for shell programs]]></title>
-    <link href="http://mikemccracken.github.com/blog/2011/04/05/cram-simple-testing-for-shell-programs/"/>
+    <link href="http://michael-mccracken.net/2011/04/cram-simple-testing-for-shell-programs/"/>
     <updated>2011-04-05T07:36:25-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2011/04/05/cram-simple-testing-for-shell-programs</id>
+    <id>http://michael-mccracken.net/2011/04/cram-simple-testing-for-shell-programs</id>
     <content type="html"><![CDATA[<p><a href="http://bitheap.org/cram/">Cram</a> is a test framework for command line programs, originally written for mercurial's test suite.</p>
 
 <p>I like the approach - it just reads a shell transcript and runs the commands it finds. If the output doesn't match, it shows you a diff. It's kind of like doctest.</p>
@@ -90,9 +90,9 @@ If not, it just uses the return value to determine success.</p>
   
   <entry>
     <title type="html"><![CDATA[Early Days of Java in Sun Labs - Chuck McManis on HN, via Manuel Simoni]]></title>
-    <link href="http://mikemccracken.github.com/blog/2011/03/30/early-days-of-java-in-sun-labs-chuck-mcmanis-on-hn-via-manuel-simoni/"/>
+    <link href="http://michael-mccracken.net/2011/03/early-days-of-java-in-sun-labs-chuck-mcmanis-on-hn-via-manuel-simoni/"/>
     <updated>2011-03-30T03:26:40-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2011/03/30/early-days-of-java-in-sun-labs-chuck-mcmanis-on-hn-via-manuel-simoni</id>
+    <id>http://michael-mccracken.net/2011/03/early-days-of-java-in-sun-labs-chuck-mcmanis-on-hn-via-manuel-simoni</id>
     <content type="html"><![CDATA[<p>From <a href="http://axisofeval.blogspot.com/2011/03/truth-is-stranger-than-fiction.html">The Axis of Eval: "Truth IS stranger than fiction"</a>: Chuck McManis explains the cancellation and subsequent fame of Java.</p>
 
 <p>It's fascinating to me how often you hear about these overnight successes that took years to develop and were canceled, given up for dead, etc. many times.</p>
@@ -103,9 +103,9 @@ If not, it just uses the return value to determine success.</p>
   
   <entry>
     <title type="html"><![CDATA[Subversion Client Issues]]></title>
-    <link href="http://mikemccracken.github.com/blog/2009/07/13/subversion-clients/"/>
+    <link href="http://michael-mccracken.net/2009/07/subversion-clients/"/>
     <updated>2009-07-13T00:17:14-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2009/07/13/subversion-clients</id>
+    <id>http://michael-mccracken.net/2009/07/subversion-clients</id>
     <content type="html"><![CDATA[<p>I use subversion, and won't switch to something newer for a while, so it's worth looking at how to polish that old hammer. I'm used to using the command line svn, or emacs. But recently I decided to try out a few of the nice GUI clients that are around, including <a href="http://versionsapp.com/">Versions</a>, <a href="http://zigzig.com/">ZigVersion</a> and <a href="http://www.zennaware.com/cornerstone/">Cornerstone</a>.</p>
 
 <p>Of these, the only one that's polished enough to lure me away from emacs and seems to support my favorite mode of working is Cornerstone, and it still gets it a little wrong.</p>

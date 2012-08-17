@@ -1,0 +1,311 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>iCal's Text Field Jumble - michael-mccracken.net</title>
+  <meta name="author" content="Michael McCracken">
+
+  
+  <meta name="description" content="I&#8217;ve written here before about text fields, particularly the problem of having a good-looking &#8216;display&#8217; mode and a separate &#8216; &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://michael-mccracken.net/2008/11/text-field-jumble/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="michael-mccracken.net" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<!-- <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css"> -->
+<!-- <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css"> -->
+<link href="http://fonts.googleapis.com/css?family=Michroma" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1818984-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">michael-mccracken.net</a></h1>
+  
+    <h2>A Weblog</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:michael-mccracken.net" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">iCal's Text Field Jumble</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-11-02T06:38:46-08:00" pubdate data-updated="true">Nov 2<span>nd</span>, 2008</time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>I&#8217;ve written here before about text fields, particularly the problem of having a good-looking &#8216;display&#8217; mode and a separate &#8216;edit&#8217; mode for data you don&#8217;t edit so often, like in AddressBook.</p>
+
+<p>The most recent version of iCal decided that events are write-once-read-many as well. You now have to use cmd-E to get into edit mode, while cmd-I just gives you a small display mode.</p>
+
+<p>I&#8217;m mostly OK with that, although I find I edit events about as often as I look at their info windows - after editing I usually just deal with alarms, not the events themselves. The casual glance at the time and title is always enough - I think either you&#8217;re looking at the time and title or you&#8217;re editing. I don&#8217;t see the appeal in the new &#8216;info-only&#8217; mode (if it&#8217;s actually new - it seems new.)</p>
+
+<p>However, the change does highlight the jumble of editable text fields and text-like fields in the edit window:
+<a href="http://michael-mccracken.net/wp2/wp-content/uploads/2008/11/pastedgraphic-1.tiff"><img src="http://michael-mccracken.net/wp2/wp-content/uploads/2008/11/pastedgraphic-1.tiff" alt="" /></a></p>
+
+<p><a href="http://michael-mccracken.net/wp2/wp-content/uploads/2008/11/pastedgraphic.tiff"><img src="http://michael-mccracken.net/wp2/wp-content/uploads/2008/11/pastedgraphic.tiff" alt="" /></a></p>
+
+<p>The &#8220;Add Attendees&#8221; link and the &#8220;None&#8221; placeholder for url act the same - you click on them, and enter text.
+One&#8217;s a link and one&#8217;s mute gray text. Why?
+For my part, I think the gray text is too understated, and the link is too garish.</p>
+
+<p>There are other differences: you can tab to the &#8220;url&#8221; field, but you can&#8217;t tab to &#8220;attendees&#8221;&#8230; until you add one, then you can. Once you click on either of them, the url field pops up a plain white raised NSTextField, but the attendees field is sunken and translucent, apparently an NSTokenField?</p>
+
+<p>Both of the blue links could also be buttons. I&#8217;m still not completely sold on replacing buttons with links, but I can understand the trend. I think a small plus-sign button would be fine for &#8220;Add File&#8221;, though, and &#8220;Attendees&#8221; ought to be a text field. Why force the user to use the mouse when adding data to an event?</p>
+
+<p>All in all, I think the &#8220;Add Attendees&#8221; link/field is pretty strange. I&#8217;m curious if I missing a precedent somewhere.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Michael McCracken</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-11-02T06:38:46-08:00" pubdate data-updated="true">Nov 2<span>nd</span>, 2008</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/mac/'>mac</a>, <a class='category' href='/blog/categories/programming/'>programming</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://michael-mccracken.net/2008/11/text-field-jumble/" data-via="mikemccracken" data-counturl="http://michael-mccracken.net/2008/11/text-field-jumble/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/2008/08/go-juggle-an-attention-callback/" title="Previous Post: go juggle — an attention callback">&laquo; go juggle — an attention callback</a>
+      
+      
+        <a class="basic-alignment right" href="/2009/02/something-buckets/" title="Next Post: Something Buckets">Something Buckets &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>About Me</h1>
+  <p>Mike lives in San Diego and works for Canonical, on Ubuntu One.</p>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2012/08/editor-wars/">'Editor Wars'</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/08/selected-links-from-this-summer/">Selected Links from this April</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/08/no-more-wordpress/">My last wordpress upgrade</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/04/links-hacking-music-in-python-rust-unitaskimg/">Links: Hacking, Music in Python, Rust & unitasking</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/04/links-flattr-haskell-haskell-quickcheck-and-stuart-cheshire-of-bolo-fame/">Links: Flattr, Haskell, Haskell QuickCheck, and Stuart Cheshire (of Bolo fame)</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("mikemccracken", 0, true);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/mikemccracken" class="twitter-follow-button" data-show-count="false">Follow @mikemccracken</a>
+  
+</section>
+
+
+<section>
+  <h1>My Pinboard</h1>
+  <ul id="pinboard_linkroll">Fetching linkroll...</ul>
+  <p><a href="http://pinboard.in/u:mmc">My Pinboard Bookmarks &raquo;</a></p>
+</section>
+<script type="text/javascript">
+  var linkroll = 'pinboard_linkroll'; //id target for pinboard list
+  var pinboard_user = "mmc"; //id target for pinboard list
+  var pinboard_count = 10; //id target for pinboard list
+  (function(){
+    var pinboardInit = document.createElement('script');
+    pinboardInit.type = 'text/javascript';
+    pinboardInit.async = true;
+    pinboardInit.src = '/javascripts/pinboard.js';
+    document.getElementsByTagName('head')[0].appendChild(pinboardInit);
+  })();
+</script>
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Michael McCracken -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'michaelmccrackennet';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://michael-mccracken.net/2008/11/text-field-jumble/';
+        var disqus_url = 'http://michael-mccracken.net/2008/11/text-field-jumble/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

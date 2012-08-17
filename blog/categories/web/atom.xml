@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: web | michael-mccracken.net]]></title>
-  <link href="http://mikemccracken.github.com/blog/categories/web/atom.xml" rel="self"/>
-  <link href="http://mikemccracken.github.com/"/>
-  <updated>2012-08-17T00:23:52-07:00</updated>
-  <id>http://mikemccracken.github.com/</id>
+  <link href="http://michael-mccracken.net/blog/categories/web/atom.xml" rel="self"/>
+  <link href="http://michael-mccracken.net/"/>
+  <updated>2012-08-17T08:51:19-07:00</updated>
+  <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Twitter Stats in SVG using gnuplot]]></title>
-    <link href="http://mikemccracken.github.com/blog/2008/01/02/twitter-stats-in-svg-using-gnuplot/"/>
+    <link href="http://michael-mccracken.net/2008/01/twitter-stats-in-svg-using-gnuplot/"/>
     <updated>2008-01-02T05:15:15-08:00</updated>
-    <id>http://mikemccracken.github.com/blog/2008/01/02/twitter-stats-in-svg-using-gnuplot</id>
+    <id>http://michael-mccracken.net/2008/01/twitter-stats-in-svg-using-gnuplot</id>
     <content type="html"><![CDATA[<p><a href="http://twitter.com/dacort">Damon Cortesi</a> just shared a handy script for grabbing your tweets and compiling some stats about when you post to twitter and who you reply to.</p>
 
 <p>His script generates a list of numbers and included a Numbers template to paste them into. Since I don't have Numbers, I've modified <a href="http://dcortesi.com/2007/12/27/twitter-stats/">his script</a> to write a file that can be read by <a href="http://gnuplot.info">gnuplot</a>, and wrote a basic gnuplot script to output an SVG file version of the stats.</p>
@@ -36,9 +36,9 @@ Sorry, it looks like your browser doesn't support SVG. You're really not missing
   
   <entry>
     <title type="html"><![CDATA[HPC blogs and news sites]]></title>
-    <link href="http://mikemccracken.github.com/blog/2007/05/04/hpc-blogs-and-news-sites/"/>
+    <link href="http://michael-mccracken.net/2007/05/hpc-blogs-and-news-sites/"/>
     <updated>2007-05-04T07:17:42-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2007/05/04/hpc-blogs-and-news-sites</id>
+    <id>http://michael-mccracken.net/2007/05/hpc-blogs-and-news-sites</id>
     <content type="html"><![CDATA[<p>I've always liked the programming-languages community website <a href="http://lambda-the-ultimate.org/">Lambda the Ultimate</a>, and recently I went looking for something similar for the High-Performance Computing community. I didn't find exactly that*, but I did find a few great resources for news about HPC and computing research policy:</p>
 
 <p><a href="http://hpcwire.com">HPCWire</a> is a well-known news source for HPC. It has daily news updates, and occasional columns by guests from around the industry. Most of the news is press releases from companies and government labs, but it's nice to have a single place to check for them. However, there is apparently no RSS feed, and to get email updates, you have to buy a subscription. I haven't, but I do check back occasionally to read the columns.</p>
@@ -58,9 +58,9 @@ Sorry, it looks like your browser doesn't support SVG. You're really not missing
   
   <entry>
     <title type="html"><![CDATA[Quick n' Dirty OmniOutliner to MediaWiki Applescript]]></title>
-    <link href="http://mikemccracken.github.com/blog/2007/01/30/quick-n-dirty-omnioutliner-to-mediawiki-applescript/"/>
+    <link href="http://michael-mccracken.net/2007/01/quick-n-dirty-omnioutliner-to-mediawiki-applescript/"/>
     <updated>2007-01-30T10:42:37-08:00</updated>
-    <id>http://mikemccracken.github.com/blog/2007/01/30/quick-n-dirty-omnioutliner-to-mediawiki-applescript</id>
+    <id>http://michael-mccracken.net/2007/01/quick-n-dirty-omnioutliner-to-mediawiki-applescript</id>
     <content type="html"><![CDATA[<p>The other day, I had a big outline on a wiki that I wanted to edit in <a href="http://www.omnigroup.com/applications/omnioutliner/">OmniOutliner</a> so I could hide and move things around with a real outliner, then export it back out to the wiki.</p>
 
 <p>I managed to get it into OO with copy and paste and a lot of RSI-inducing tabbing, but the text export options can't be massaged to export MediaWiki-style (eg, '#' for level one, '##' for level two).</p>
@@ -93,9 +93,9 @@ end tell
   
   <entry>
     <title type="html"><![CDATA[NHL on Google Video]]></title>
-    <link href="http://mikemccracken.github.com/blog/2006/11/07/nhl-on-google-video/"/>
+    <link href="http://michael-mccracken.net/2006/11/nhl-on-google-video/"/>
     <updated>2006-11-07T17:06:33-08:00</updated>
-    <id>http://mikemccracken.github.com/blog/2006/11/07/nhl-on-google-video</id>
+    <id>http://michael-mccracken.net/2006/11/nhl-on-google-video</id>
     <content type="html"><![CDATA[<p>Last spring, when I <a href="http://michael-mccracken.net/wp/?p=48">wrote</a> about highlights from the NHL Playoffs being available on the iTunes store, I said:</p>
 
 <blockquote><p>the sensation I felt when I noticed the announcement of NHL playoff video available on iTunes was that of Steve Jobs signing my name on a check for ten dollars and winking.</p></blockquote>
@@ -106,9 +106,9 @@ end tell
   
   <entry>
     <title type="html"><![CDATA[Dear GMail spam filter]]></title>
-    <link href="http://mikemccracken.github.com/blog/2006/10/06/dear-gmail-spam-filter/"/>
+    <link href="http://michael-mccracken.net/2006/10/dear-gmail-spam-filter/"/>
     <updated>2006-10-06T07:36:56-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2006/10/06/dear-gmail-spam-filter</id>
+    <id>http://michael-mccracken.net/2006/10/dear-gmail-spam-filter</id>
     <content type="html"><![CDATA[<p>Dear spam filter,</p>
 
 <p>I cannot read Russian. If a message is in Russian, it is spam, just like all the other Russian messages I have marked as spam.</p>

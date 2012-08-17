@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: research | michael-mccracken.net]]></title>
-  <link href="http://mikemccracken.github.com/blog/categories/research/atom.xml" rel="self"/>
-  <link href="http://mikemccracken.github.com/"/>
-  <updated>2012-08-17T00:23:52-07:00</updated>
-  <id>http://mikemccracken.github.com/</id>
+  <link href="http://michael-mccracken.net/blog/categories/research/atom.xml" rel="self"/>
+  <link href="http://michael-mccracken.net/"/>
+  <updated>2012-08-17T08:51:19-07:00</updated>
+  <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Link: The Future of Computing Performance: Game Over or Next Level?]]></title>
-    <link href="http://mikemccracken.github.com/blog/2011/06/27/link-the-future-of-computing-performance-game-over-or-next-level/"/>
+    <link href="http://michael-mccracken.net/2011/06/link-the-future-of-computing-performance-game-over-or-next-level/"/>
     <updated>2011-06-27T04:10:01-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2011/06/27/link-the-future-of-computing-performance-game-over-or-next-level</id>
+    <id>http://michael-mccracken.net/2011/06/link-the-future-of-computing-performance-game-over-or-next-level</id>
     <content type="html"><![CDATA[<p>From the National Academies:</p>
 
 <p><a href="http://nap.edu/catalog.php?record_id=12980">The Future of Computing Performance: Game Over or Next Level?</a>.</p>
@@ -30,9 +30,9 @@
   
   <entry>
     <title type="html"><![CDATA["Squeezing a CS Research Idea"]]></title>
-    <link href="http://mikemccracken.github.com/blog/2011/05/27/squeezing-a-cs-research-idea/"/>
+    <link href="http://michael-mccracken.net/2011/05/squeezing-a-cs-research-idea/"/>
     <updated>2011-05-27T03:03:59-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2011/05/27/squeezing-a-cs-research-idea</id>
+    <id>http://michael-mccracken.net/2011/05/squeezing-a-cs-research-idea</id>
     <content type="html"><![CDATA[<p>An interesting post about how to evaluate a research idea. Basically, try to think about the bounds: what's the maximum impact? Includes some good rules of thumb, like pay attention to physical constraints like the speed of light :)</p>
 
 <p><a href="http://blog.regehr.org/archives/537">Embedded in Academia : Squeezing a CS Research Idea</a>.</p>
@@ -41,9 +41,9 @@
   
   <entry>
     <title type="html"><![CDATA[Volatile and Decentralized: The death of Intel Labs and what it means for industrial research]]></title>
-    <link href="http://mikemccracken.github.com/blog/2011/04/05/volatile-and-decentralized-the-death-of-intel-labs-and-what-it-means-for-industrial-research/"/>
+    <link href="http://michael-mccracken.net/2011/04/volatile-and-decentralized-the-death-of-intel-labs-and-what-it-means-for-industrial-research/"/>
     <updated>2011-04-05T16:55:10-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2011/04/05/volatile-and-decentralized-the-death-of-intel-labs-and-what-it-means-for-industrial-research</id>
+    <id>http://michael-mccracken.net/2011/04/volatile-and-decentralized-the-death-of-intel-labs-and-what-it-means-for-industrial-research</id>
     <content type="html"><![CDATA[<p><a href="http://matt-welsh.blogspot.com/2011/04/death-of-intel-labs-and-what-it-means.html">Volatile and Decentralized: The death of Intel Labs and what it means for industrial research</a>.</p>
 
 <p>Matt Welsh (ex Harvard Professor, now at Google) on the phasing out of Intel's "Lablets", which were a new kind of company-supported research center that was co-located with major universities. His blog post title notwithstanding, this doesn't seem to be about Intel moving away from research in general, just this particular model of heavy university interaction.</p>
@@ -58,9 +58,9 @@
   
   <entry>
     <title type="html"><![CDATA[HPC blogs and news sites]]></title>
-    <link href="http://mikemccracken.github.com/blog/2007/05/04/hpc-blogs-and-news-sites/"/>
+    <link href="http://michael-mccracken.net/2007/05/hpc-blogs-and-news-sites/"/>
     <updated>2007-05-04T07:17:42-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2007/05/04/hpc-blogs-and-news-sites</id>
+    <id>http://michael-mccracken.net/2007/05/hpc-blogs-and-news-sites</id>
     <content type="html"><![CDATA[<p>I've always liked the programming-languages community website <a href="http://lambda-the-ultimate.org/">Lambda the Ultimate</a>, and recently I went looking for something similar for the High-Performance Computing community. I didn't find exactly that*, but I did find a few great resources for news about HPC and computing research policy:</p>
 
 <p><a href="http://hpcwire.com">HPCWire</a> is a well-known news source for HPC. It has daily news updates, and occasional columns by guests from around the industry. Most of the news is press releases from companies and government labs, but it's nice to have a single place to check for them. However, there is apparently no RSS feed, and to get email updates, you have to buy a subscription. I haven't, but I do check back occasionally to read the columns.</p>
@@ -80,9 +80,9 @@
   
   <entry>
     <title type="html"><![CDATA[The TRIPS processor]]></title>
-    <link href="http://mikemccracken.github.com/blog/2007/04/25/the-trips-processor/"/>
+    <link href="http://michael-mccracken.net/2007/04/the-trips-processor/"/>
     <updated>2007-04-25T04:01:48-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2007/04/25/the-trips-processor</id>
+    <id>http://michael-mccracken.net/2007/04/the-trips-processor</id>
     <content type="html"><![CDATA[<p>The UT-Austin <a href="http://www.cs.utexas.edu/~trips/">TRIPS project</a> will be unveiling their new processor next Monday. (<a href="http://oea.cs.utexas.edu/articles/index2007/trips_unveiling07.html">event details</a>)</p>
 
 <p>This is a pretty interesting attempt to get around the problems facing processor design today. Clock speeds have stalled, but the actual Moore's Law - the one about transistor count, not "speed" - is still going, so we have the problem of what to do with just a lot of copies of basically the same old chip?</p>

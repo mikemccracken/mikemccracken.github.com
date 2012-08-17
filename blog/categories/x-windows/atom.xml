@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: X Windows | michael-mccracken.net]]></title>
-  <link href="http://mikemccracken.github.com/blog/categories/x-windows/atom.xml" rel="self"/>
-  <link href="http://mikemccracken.github.com/"/>
-  <updated>2012-08-17T00:23:52-07:00</updated>
-  <id>http://mikemccracken.github.com/</id>
+  <link href="http://michael-mccracken.net/blog/categories/x-windows/atom.xml" rel="self"/>
+  <link href="http://michael-mccracken.net/"/>
+  <updated>2012-08-17T08:51:19-07:00</updated>
+  <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[go juggle — an attention callback]]></title>
-    <link href="http://mikemccracken.github.com/blog/2008/08/28/go-juggle-an-attention-callback/"/>
+    <link href="http://michael-mccracken.net/2008/08/go-juggle-an-attention-callback/"/>
     <updated>2008-08-28T12:31:05-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2008/08/28/go-juggle-an-attention-callback</id>
+    <id>http://michael-mccracken.net/2008/08/go-juggle-an-attention-callback</id>
     <content type="html"><![CDATA[<p>Sometimes progress on a project for me consists of a few short bursts of activity in between stretches of waiting for some long-running thing to complete so I can figure out what I need to do with it next.</p>
 
 <p>Because I always have more than one project going, I don't actually wait much. I just switch workspaces and try to make progress on the next thing. If I can't make progress on anything immediate, I'll end up checking email or looking up something for a side project.</p>
@@ -48,9 +48,9 @@ Also, I've found it can mess with shell quoting as is, so sometimes I have to do
   
   <entry>
     <title type="html"><![CDATA[Linking the OS X Clipboard and XTerm's selection]]></title>
-    <link href="http://mikemccracken.github.com/blog/2007/02/19/linking-the-os-x-clipboard-and-xterms-selection/"/>
+    <link href="http://michael-mccracken.net/2007/02/linking-the-os-x-clipboard-and-xterms-selection/"/>
     <updated>2007-02-19T10:23:22-08:00</updated>
-    <id>http://mikemccracken.github.com/blog/2007/02/19/linking-the-os-x-clipboard-and-xterms-selection</id>
+    <id>http://michael-mccracken.net/2007/02/linking-the-os-x-clipboard-and-xterms-selection</id>
     <content type="html"><![CDATA[<p>If you only use X11 for XTerm, it might seem like the handling of the clipboard in Apple's X11.app is broken. You can select text and paste it with a click of the middle mouse button (opt-click on my Powerbook), and that works when pasting into other X apps, but it doesn't change the Mac clipboard at all.</p>
 
 <p>Why not? Is X11.app just ignoring the X clipboard?</p>

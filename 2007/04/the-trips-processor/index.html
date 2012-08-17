@@ -1,0 +1,310 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>The TRIPS processor - michael-mccracken.net</title>
+  <meta name="author" content="Michael McCracken">
+
+  
+  <meta name="description" content="The UT-Austin TRIPS project will be unveiling their new processor next Monday. (event details) This is a pretty interesting attempt to get around the &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://michael-mccracken.net/2007/04/the-trips-processor/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="michael-mccracken.net" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<!-- <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css"> -->
+<!-- <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css"> -->
+<link href="http://fonts.googleapis.com/css?family=Michroma" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1818984-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">michael-mccracken.net</a></h1>
+  
+    <h2>A Weblog</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:michael-mccracken.net" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">The TRIPS Processor</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-04-25T04:01:48-07:00" pubdate data-updated="true">Apr 25<span>th</span>, 2007</time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>The UT-Austin <a href="http://www.cs.utexas.edu/~trips/">TRIPS project</a> will be unveiling their new processor next Monday. (<a href="http://oea.cs.utexas.edu/articles/index2007/trips_unveiling07.html">event details</a>)</p>
+
+<p>This is a pretty interesting attempt to get around the problems facing processor design today. Clock speeds have stalled, but the actual Moore&#8217;s Law - the one about transistor count, not &#8220;speed&#8221; - is still going, so we have the problem of what to do with just a lot of copies of basically the same old chip?</p>
+
+<p>A lot of answers you hear involve pushing that complexity up to the programmer, forcing more people to become parallel programmers. This is almost certain to happen at least a little, but let&#8217;s hope we don&#8217;t have to give up on the sequential programming model completely. If you think software is bad now…</p>
+
+<p>The TRIPS processor is an example of another approach - placing more of the burden of finding and using parallelism onto the compiler and architecture, keeping programmers&#8217; heads above water. It&#8217;s pretty exciting to see something this different make its way into actual silicon.</p>
+
+<p>The basic idea is that instead of a single piece of control logic organizing the actions of multiple functional units, finding concurrency within a window of instructions using reordering, the TRIPS processor is distributed at the lowest level - each functional unit is a mini-processor (called a tile), and instructions executing on separate processor tiles communicate operands directly, not through a register file. Usually this is described as executing a graph of instructions instead of a single instruction at a time.</p>
+
+<p>Current processors certainly don&#8217;t just execute one instruction at a time, and they do plenty of moving instructions around, so I tend to see this explicit-data-graph description as just the far end of a spectrum that starts with old superscalar designs, continues through out-of-order processors and multithreaded architectures, and currently seems to end here.</p>
+
+<p>A TRIPS processor can run four thread contexts at once, with an instruction window of 1024 instructions to reorder and 256 memory operations in flight at once. For comparison, the late &#8217;90s Tera MTA ran 128 threads at once (128 different program counters), and the 2003-vintage Cray X1 processors kept track of 512 memory operations at once. Just like TRIPS, each of those architectures required extensive compiler support for good performance.</p>
+
+<p>A particularly interesting point is the fully partitioned L1 cache - meaning that there are multiple distributed L1 caches on the chip, so where your instructions are physically executing will be important for performance - if they&#8217;re near the cache bank holding their operands, they will execute sooner.</p>
+
+<p>The natural question when looking at a new and interesting architecture like this, especially one that promises a tera-op on a chip, is whether it will make its way to a laptop you can buy anytime soon. I have no idea if the UT team has any industry deals in the works, but I would bet against something like this becoming mainstream quickly - the fact that these architectures rely so much on a custom compiler with aggressive optimization means that a lot of dirty work is required to move existing software to it.</p>
+
+<p>It will be interesting to follow this project and see how their actual hardware performs.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Michael McCracken</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-04-25T04:01:48-07:00" pubdate data-updated="true">Apr 25<span>th</span>, 2007</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/compilers/'>compilers</a>, <a class='category' href='/blog/categories/computers/'>computers</a>, <a class='category' href='/blog/categories/hpc/'>hpc</a>, <a class='category' href='/blog/categories/research/'>research</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://michael-mccracken.net/2007/04/the-trips-processor/" data-via="mikemccracken" data-counturl="http://michael-mccracken.net/2007/04/the-trips-processor/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/2007/04/hack-like-a-champion-today/" title="Previous Post: Hack Like a Champion Today">&laquo; Hack Like a Champion Today</a>
+      
+      
+        <a class="basic-alignment right" href="/2007/05/hpc-blogs-and-news-sites/" title="Next Post: HPC blogs and news sites">HPC blogs and news sites &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>About Me</h1>
+  <p>Mike lives in San Diego and works for Canonical, on Ubuntu One.</p>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2012/08/editor-wars/">'Editor Wars'</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/08/selected-links-from-this-summer/">Selected Links from this April</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/08/no-more-wordpress/">My last wordpress upgrade</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/04/links-hacking-music-in-python-rust-unitaskimg/">Links: Hacking, Music in Python, Rust & unitasking</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/04/links-flattr-haskell-haskell-quickcheck-and-stuart-cheshire-of-bolo-fame/">Links: Flattr, Haskell, Haskell QuickCheck, and Stuart Cheshire (of Bolo fame)</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("mikemccracken", 0, true);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/mikemccracken" class="twitter-follow-button" data-show-count="false">Follow @mikemccracken</a>
+  
+</section>
+
+
+<section>
+  <h1>My Pinboard</h1>
+  <ul id="pinboard_linkroll">Fetching linkroll...</ul>
+  <p><a href="http://pinboard.in/u:mmc">My Pinboard Bookmarks &raquo;</a></p>
+</section>
+<script type="text/javascript">
+  var linkroll = 'pinboard_linkroll'; //id target for pinboard list
+  var pinboard_user = "mmc"; //id target for pinboard list
+  var pinboard_count = 10; //id target for pinboard list
+  (function(){
+    var pinboardInit = document.createElement('script');
+    pinboardInit.type = 'text/javascript';
+    pinboardInit.async = true;
+    pinboardInit.src = '/javascripts/pinboard.js';
+    document.getElementsByTagName('head')[0].appendChild(pinboardInit);
+  })();
+</script>
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Michael McCracken -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'michaelmccrackennet';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://michael-mccracken.net/2007/04/the-trips-processor/';
+        var disqus_url = 'http://michael-mccracken.net/2007/04/the-trips-processor/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

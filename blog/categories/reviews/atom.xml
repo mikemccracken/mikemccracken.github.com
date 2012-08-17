@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: reviews | michael-mccracken.net]]></title>
-  <link href="http://mikemccracken.github.com/blog/categories/reviews/atom.xml" rel="self"/>
-  <link href="http://mikemccracken.github.com/"/>
-  <updated>2012-08-17T00:23:52-07:00</updated>
-  <id>http://mikemccracken.github.com/</id>
+  <link href="http://michael-mccracken.net/blog/categories/reviews/atom.xml" rel="self"/>
+  <link href="http://michael-mccracken.net/"/>
+  <updated>2012-08-17T08:51:19-07:00</updated>
+  <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[TaskPaper adds just enough to stick]]></title>
-    <link href="http://mikemccracken.github.com/blog/2007/11/01/taskpaper-adds-just-enough-to-stick/"/>
+    <link href="http://michael-mccracken.net/2007/11/taskpaper-adds-just-enough-to-stick/"/>
     <updated>2007-11-01T05:47:31-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2007/11/01/taskpaper-adds-just-enough-to-stick</id>
+    <id>http://michael-mccracken.net/2007/11/taskpaper-adds-just-enough-to-stick</id>
     <content type="html"><![CDATA[<p>My favorite apps, the ones that slip easily into everyday use and stick there, just start with plain text and add some extra sauce. <a href="http://voodoopad.com">VoodooPad</a> is a great example, and Hog Bay Software's new app <a href="http://hogbaysoftware.com/products/taskpaper">TaskPaper</a> is, too.</p>
 
 <p>I've used both <a href="http://kinkless.com/kgtd">kgtd</a> and <a href="http://bargiel.home.pl/iGTD/">iGTD</a>, and played around with a few others. I came closest to sticking with a system using kgtd, but switched to iGTD because manually syncing kgtd got old.</p>
@@ -50,9 +50,9 @@ When I downloaded the 1.0 release, I found a conflict with TextExtras and wrote 
   
   <entry>
     <title type="html"><![CDATA[FlexTime 1.0 Launches]]></title>
-    <link href="http://mikemccracken.github.com/blog/2006/08/17/flextime-10-launches/"/>
+    <link href="http://michael-mccracken.net/2006/08/flextime-10-launches/"/>
     <updated>2006-08-17T08:25:24-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2006/08/17/flextime-10-launches</id>
+    <id>http://michael-mccracken.net/2006/08/flextime-10-launches</id>
     <content type="html"><![CDATA[<p>I've been using Red Sweater software's <a href="http://www.red-sweater.com/flextime/">FlexTime</a> for a while now, and Daniel just announced version 1.0.</p>
 
 <p>FlexTime is a repeating-timer program that is great for either set routines or one-off reminders. (It also has a pretty great name, don't you think?)</p>
@@ -69,9 +69,9 @@ When I downloaded the 1.0 release, I found a conflict with TextExtras and wrote 
   
   <entry>
     <title type="html"><![CDATA[Full Screen Focus]]></title>
-    <link href="http://mikemccracken.github.com/blog/2006/04/19/full-screen-focus/"/>
+    <link href="http://michael-mccracken.net/2006/04/full-screen-focus/"/>
     <updated>2006-04-19T10:38:08-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2006/04/19/full-screen-focus</id>
+    <id>http://michael-mccracken.net/2006/04/full-screen-focus</id>
     <content type="html"><![CDATA[<p>I visit <a href="http://www.43folders.com">43Folders</a> only about once a week now - I couldn't deal with the cognitive dissonance implied by procrastinating by visiting a site about how to be more efficient and avoid procrastination.</p>
 
 <p>I was really glad yesterday to see Merlin's post about <a href="http://www.43folders.com/2006/04/17/fsm2-electric-boogaloo/">faking full screen mode</a> with a trio of useful apps. I had tried <a href="http://www.macupdate.com/info.php/id/16640">Menushade</a> before, and didn't really see the point - the menu bar doesn't bug me - but in combination with the other two that Merlin recommends, <a href="http://www.macupdate.com/info.php/id/15844">Spirited Away</a> and <a href="http://www.macupdate.com/info.php/id/15426">BackDrop</a>, his scheme is a really great way to turn your computer into a tool for focus and not diversion.</p>
@@ -86,9 +86,9 @@ When I downloaded the 1.0 release, I found a conflict with TextExtras and wrote 
   
   <entry>
     <title type="html"><![CDATA[Ingredients: prunes, salt.]]></title>
-    <link href="http://mikemccracken.github.com/blog/2006/04/01/ingredients-prunes-salt/"/>
+    <link href="http://michael-mccracken.net/2006/04/ingredients-prunes-salt/"/>
     <updated>2006-04-01T19:13:39-08:00</updated>
-    <id>http://mikemccracken.github.com/blog/2006/04/01/ingredients-prunes-salt</id>
+    <id>http://michael-mccracken.net/2006/04/ingredients-prunes-salt</id>
     <content type="html"><![CDATA[<p>If you're ever at the liquor store down the block and see a tempting new combination of previously unconnected flavors, and you feel a sudden urge, a <em>tug</em>, to buy that bag of Salted Prune Saladitos and rush home, eager to shut the door behind you and experience something alien and tasty in private, stop. Just pay for your diet coke, leave a penny, and walk home a fortunate, humbler man.</p>
 
 <p><img src="http://michael-mccracken.net/img/Saladitos.jpg" alt="Saladitos." /></p>
@@ -105,9 +105,9 @@ When I downloaded the 1.0 release, I found a conflict with TextExtras and wrote 
   
   <entry>
     <title type="html"><![CDATA[Buying my TV from the iTunes Music Store?]]></title>
-    <link href="http://mikemccracken.github.com/blog/2006/04/01/buying-my-tv-from-the-itunes-music-store/"/>
+    <link href="http://michael-mccracken.net/2006/04/buying-my-tv-from-the-itunes-music-store/"/>
     <updated>2006-04-01T18:23:45-08:00</updated>
-    <id>http://mikemccracken.github.com/blog/2006/04/01/buying-my-tv-from-the-itunes-music-store</id>
+    <id>http://michael-mccracken.net/2006/04/buying-my-tv-from-the-itunes-music-store</id>
     <content type="html"><![CDATA[<p>I don't have cable TV service anymore. Now I have NetFlix and books instead, and so far that's working out OK for me - but as much as I can't handle 300 channels, I would really like to be able to pick a few programs to watch.</p>
 
 <p>Thus, I'm cautiously optimistic about getting my TV over the internet. I think it could be cost-effective for me - cable bills can be pretty expensive, so even though TV <em>seems</em> cheap, consider how much crap you have to watch to get the price per show lower than $2. Is it worth it? Suppose I watch two games a week and three shows each week. At current iTunes rates, that's about $10 a week or $40 a month, assuming I don't get discounts for season passes, or screwed on sporting events. That's not bad.</p>

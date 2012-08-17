@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: hpc | michael-mccracken.net]]></title>
-  <link href="http://mikemccracken.github.com/blog/categories/hpc/atom.xml" rel="self"/>
-  <link href="http://mikemccracken.github.com/"/>
-  <updated>2012-08-17T00:23:52-07:00</updated>
-  <id>http://mikemccracken.github.com/</id>
+  <link href="http://michael-mccracken.net/blog/categories/hpc/atom.xml" rel="self"/>
+  <link href="http://michael-mccracken.net/"/>
+  <updated>2012-08-17T08:51:19-07:00</updated>
+  <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[HPC blogs and news sites]]></title>
-    <link href="http://mikemccracken.github.com/blog/2007/05/04/hpc-blogs-and-news-sites/"/>
+    <link href="http://michael-mccracken.net/2007/05/hpc-blogs-and-news-sites/"/>
     <updated>2007-05-04T07:17:42-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2007/05/04/hpc-blogs-and-news-sites</id>
+    <id>http://michael-mccracken.net/2007/05/hpc-blogs-and-news-sites</id>
     <content type="html"><![CDATA[<p>I've always liked the programming-languages community website <a href="http://lambda-the-ultimate.org/">Lambda the Ultimate</a>, and recently I went looking for something similar for the High-Performance Computing community. I didn't find exactly that*, but I did find a few great resources for news about HPC and computing research policy:</p>
 
 <p><a href="http://hpcwire.com">HPCWire</a> is a well-known news source for HPC. It has daily news updates, and occasional columns by guests from around the industry. Most of the news is press releases from companies and government labs, but it's nice to have a single place to check for them. However, there is apparently no RSS feed, and to get email updates, you have to buy a subscription. I haven't, but I do check back occasionally to read the columns.</p>
@@ -37,9 +37,9 @@
   
   <entry>
     <title type="html"><![CDATA[The TRIPS processor]]></title>
-    <link href="http://mikemccracken.github.com/blog/2007/04/25/the-trips-processor/"/>
+    <link href="http://michael-mccracken.net/2007/04/the-trips-processor/"/>
     <updated>2007-04-25T04:01:48-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2007/04/25/the-trips-processor</id>
+    <id>http://michael-mccracken.net/2007/04/the-trips-processor</id>
     <content type="html"><![CDATA[<p>The UT-Austin <a href="http://www.cs.utexas.edu/~trips/">TRIPS project</a> will be unveiling their new processor next Monday. (<a href="http://oea.cs.utexas.edu/articles/index2007/trips_unveiling07.html">event details</a>)</p>
 
 <p>This is a pretty interesting attempt to get around the problems facing processor design today. Clock speeds have stalled, but the actual Moore's Law - the one about transistor count, not "speed" - is still going, so we have the problem of what to do with just a lot of copies of basically the same old chip?</p>
@@ -64,9 +64,9 @@
   
   <entry>
     <title type="html"><![CDATA[Supercomputing 2006 BOF: "Is 99% Utilization of a Supercomputer a Good Thing?"]]></title>
-    <link href="http://mikemccracken.github.com/blog/2006/10/30/supercomputing-2006-bof-is-99-utilization-of-a-supercomputer-a-good-thing/"/>
+    <link href="http://michael-mccracken.net/2006/10/supercomputing-2006-bof-is-99-utilization-of-a-supercomputer-a-good-thing/"/>
     <updated>2006-10-30T07:28:56-08:00</updated>
-    <id>http://mikemccracken.github.com/blog/2006/10/30/supercomputing-2006-bof-is-99-utilization-of-a-supercomputer-a-good-thing</id>
+    <id>http://michael-mccracken.net/2006/10/supercomputing-2006-bof-is-99-utilization-of-a-supercomputer-a-good-thing</id>
     <content type="html"><![CDATA[<p>For those few readers who are interested in High Performance Computing and might be going to this year's <a href="http://sc06.supercomputing.org/">Supercomputing</a> conference in Tampa, my advisor Allan Snavely and Jeremy Kepner from Lincoln Labs are putting on a BOF with an intriguing subject: <a href="http://sc06.supercomputing.org/schedule/event_detail.php?evid=5193">"Is 99% Utilization of a Supercomputer a Good Thing?"</a></p>
 
 <p>It'll be on Thursday Nov. 16th at 12:15PM.</p>
@@ -79,9 +79,9 @@
   
   <entry>
     <title type="html"><![CDATA[Instant replay in QuickTime Player]]></title>
-    <link href="http://mikemccracken.github.com/blog/2006/08/01/instant-replay-in-quicktime-player/"/>
+    <link href="http://michael-mccracken.net/2006/08/instant-replay-in-quicktime-player/"/>
     <updated>2006-08-01T06:12:07-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2006/08/01/instant-replay-in-quicktime-player</id>
+    <id>http://michael-mccracken.net/2006/08/instant-replay-in-quicktime-player</id>
     <content type="html"><![CDATA[<p>A feature I really miss from having a DVR is the '8 seconds back' button, to catch a play or repeat something funny.</p>
 
 <p>Recently I've been listening to recorded interviews we've been doing of HPC developers, and updating my notes (in <a href="http://voodoopad.com/">VoodooPad</a> using them. Since people mumble and use jargon I don't always understand, I decided I really needed an instant replay button in QuickTime Player. It'll come in handy if I watch sports on my laptop again, too.</p>
@@ -116,9 +116,9 @@ end tell
   
   <entry>
     <title type="html"><![CDATA[Supercomputers as art and cultural artifacts]]></title>
-    <link href="http://mikemccracken.github.com/blog/2006/05/30/supercomputers-as-art-and-cultural-artifacts/"/>
+    <link href="http://michael-mccracken.net/2006/05/supercomputers-as-art-and-cultural-artifacts/"/>
     <updated>2006-05-30T08:19:05-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2006/05/30/supercomputers-as-art-and-cultural-artifacts</id>
+    <id>http://michael-mccracken.net/2006/05/supercomputers-as-art-and-cultural-artifacts</id>
     <content type="html"><![CDATA[<p>From <a href="http://bldgblog.blogspot.com">BLDGBLOG</a>, some <a href="http://bldgblog.blogspot.com/2006/05/rooms-of-algebraic-theology.html">pictures and romantic musings</a> about everyone's favorite kind of computer - big, expensive, finicky and shared: the Supercomputer.</p>
 
 <p>Be sure to click through to see the picture of the <a href="http://www.bsc.es/resources/marenostrum,en.htm">MareNostrum</a> system filling a glass box in a chapel in Barcelona. There are more great photos on photographer <a href="http://www.simonnorfolk.com/">Simon Norfolk's site</a>.</p>

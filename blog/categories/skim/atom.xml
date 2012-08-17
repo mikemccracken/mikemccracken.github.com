@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: skim | michael-mccracken.net]]></title>
-  <link href="http://mikemccracken.github.com/blog/categories/skim/atom.xml" rel="self"/>
-  <link href="http://mikemccracken.github.com/"/>
-  <updated>2012-08-17T00:23:52-07:00</updated>
-  <id>http://mikemccracken.github.com/</id>
+  <link href="http://michael-mccracken.net/blog/categories/skim/atom.xml" rel="self"/>
+  <link href="http://michael-mccracken.net/"/>
+  <updated>2012-08-17T08:51:19-07:00</updated>
+  <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Skim 0.7]]></title>
-    <link href="http://mikemccracken.github.com/blog/2007/08/31/skim-07/"/>
+    <link href="http://michael-mccracken.net/2007/08/skim-07/"/>
     <updated>2007-08-31T12:20:06-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2007/08/31/skim-07</id>
+    <id>http://michael-mccracken.net/2007/08/skim-07</id>
     <content type="html"><![CDATA[<p>The amazing Christiaan Hofman has released another nice update to <a href="http://skim-app.sourceforge.net/">Skim</a>, the great PDF reader that is quite literally my dream reader app.</p>
 
 <p>As usual, there are detailed and complete <a href="http://sourceforge.net/project/shownotes.php?group_id=192583&amp;release;_id=535138">release notes</a>, and I'd like to call attention to my favorite new feature, because I use it all the time, and actually wrote part of it:</p>
@@ -30,9 +30,9 @@
   
   <entry>
     <title type="html"><![CDATA[Announcing Skim: Stop printing - Start Skimming.]]></title>
-    <link href="http://mikemccracken.github.com/blog/2007/04/02/announcing-skim-stop-printing-start-skimming/"/>
+    <link href="http://michael-mccracken.net/2007/04/announcing-skim-stop-printing-start-skimming/"/>
     <updated>2007-04-02T04:12:22-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2007/04/02/announcing-skim-stop-printing-start-skimming</id>
+    <id>http://michael-mccracken.net/2007/04/announcing-skim-stop-printing-start-skimming</id>
     <content type="html"><![CDATA[<p>If you spend a lot of time reading articles and research papers that you get in PDF form, then you might be interested in the latest app from the folks who brought you <a href="http://bibdesk.sf.net">BibDesk</a>. If you already use BibDesk, then you certainly want to take a look.</p>
 
 <p>Even though we keep our research papers stored on disk as PDF, all too often we print them out to read and write notes on. There's something missing in the experience of reading papers on a computer, but it doesn't have to be that way.</p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: blogging | michael-mccracken.net]]></title>
-  <link href="http://mikemccracken.github.com/blog/categories/blogging/atom.xml" rel="self"/>
-  <link href="http://mikemccracken.github.com/"/>
-  <updated>2012-08-17T00:23:52-07:00</updated>
-  <id>http://mikemccracken.github.com/</id>
+  <link href="http://michael-mccracken.net/blog/categories/blogging/atom.xml" rel="self"/>
+  <link href="http://michael-mccracken.net/"/>
+  <updated>2012-08-17T08:51:19-07:00</updated>
+  <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[My last wordpress upgrade]]></title>
-    <link href="http://mikemccracken.github.com/blog/2012/08/15/no-more-wordpress/"/>
+    <link href="http://michael-mccracken.net/2012/08/no-more-wordpress/"/>
     <updated>2012-08-15T08:21:00-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2012/08/15/no-more-wordpress</id>
+    <id>http://michael-mccracken.net/2012/08/no-more-wordpress</id>
     <content type="html"><![CDATA[<p>My last wordpress upgrade was a long time ago, and it's going to stay that way.</p>
 
 <p>These posts about blogging are really only interesting years later,

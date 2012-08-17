@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: computers | michael-mccracken.net]]></title>
-  <link href="http://mikemccracken.github.com/blog/categories/computers/atom.xml" rel="self"/>
-  <link href="http://mikemccracken.github.com/"/>
-  <updated>2012-08-17T00:23:52-07:00</updated>
-  <id>http://mikemccracken.github.com/</id>
+  <link href="http://michael-mccracken.net/blog/categories/computers/atom.xml" rel="self"/>
+  <link href="http://michael-mccracken.net/"/>
+  <updated>2012-08-17T08:51:19-07:00</updated>
+  <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Link: The Future of Computing Performance: Game Over or Next Level?]]></title>
-    <link href="http://mikemccracken.github.com/blog/2011/06/27/link-the-future-of-computing-performance-game-over-or-next-level/"/>
+    <link href="http://michael-mccracken.net/2011/06/link-the-future-of-computing-performance-game-over-or-next-level/"/>
     <updated>2011-06-27T04:10:01-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2011/06/27/link-the-future-of-computing-performance-game-over-or-next-level</id>
+    <id>http://michael-mccracken.net/2011/06/link-the-future-of-computing-performance-game-over-or-next-level</id>
     <content type="html"><![CDATA[<p>From the National Academies:</p>
 
 <p><a href="http://nap.edu/catalog.php?record_id=12980">The Future of Computing Performance: Game Over or Next Level?</a>.</p>
@@ -30,9 +30,9 @@
   
   <entry>
     <title type="html"><![CDATA["Squeezing a CS Research Idea"]]></title>
-    <link href="http://mikemccracken.github.com/blog/2011/05/27/squeezing-a-cs-research-idea/"/>
+    <link href="http://michael-mccracken.net/2011/05/squeezing-a-cs-research-idea/"/>
     <updated>2011-05-27T03:03:59-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2011/05/27/squeezing-a-cs-research-idea</id>
+    <id>http://michael-mccracken.net/2011/05/squeezing-a-cs-research-idea</id>
     <content type="html"><![CDATA[<p>An interesting post about how to evaluate a research idea. Basically, try to think about the bounds: what's the maximum impact? Includes some good rules of thumb, like pay attention to physical constraints like the speed of light :)</p>
 
 <p><a href="http://blog.regehr.org/archives/537">Embedded in Academia : Squeezing a CS Research Idea</a>.</p>
@@ -41,9 +41,9 @@
   
   <entry>
     <title type="html"><![CDATA[kickingbear» Regarding Objective-C & Copland 2010]]></title>
-    <link href="http://mikemccracken.github.com/blog/2011/05/24/kickingbearc2bb-regarding-objective-c-copland-2010/"/>
+    <link href="http://michael-mccracken.net/2011/05/kickingbearc2bb-regarding-objective-c-copland-2010/"/>
     <updated>2011-05-24T02:31:38-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2011/05/24/kickingbearc2bb-regarding-objective-c-copland-2010</id>
+    <id>http://michael-mccracken.net/2011/05/kickingbearc2bb-regarding-objective-c-copland-2010</id>
     <content type="html"><![CDATA[<p>I read John Siracusa's "Copland 2010" article back in '05, and listened to his recent update of it on his podcast. I wasn't very convinced, but I couldn't figure out quite how to say why. Today I think Guy nailed it:</p>
 
 <blockquote><p>Siracusa argues that abstraction is the all consuming beast of computer science, I think he’s mostly correct but I can’t help but feel he’s more worried about abstracting yesterday’s issues than tomorrow’s.</p></blockquote>
@@ -54,9 +54,9 @@
   
   <entry>
     <title type="html"><![CDATA[Early Days of Java in Sun Labs - Chuck McManis on HN, via Manuel Simoni]]></title>
-    <link href="http://mikemccracken.github.com/blog/2011/03/30/early-days-of-java-in-sun-labs-chuck-mcmanis-on-hn-via-manuel-simoni/"/>
+    <link href="http://michael-mccracken.net/2011/03/early-days-of-java-in-sun-labs-chuck-mcmanis-on-hn-via-manuel-simoni/"/>
     <updated>2011-03-30T03:26:40-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2011/03/30/early-days-of-java-in-sun-labs-chuck-mcmanis-on-hn-via-manuel-simoni</id>
+    <id>http://michael-mccracken.net/2011/03/early-days-of-java-in-sun-labs-chuck-mcmanis-on-hn-via-manuel-simoni</id>
     <content type="html"><![CDATA[<p>From <a href="http://axisofeval.blogspot.com/2011/03/truth-is-stranger-than-fiction.html">The Axis of Eval: "Truth IS stranger than fiction"</a>: Chuck McManis explains the cancellation and subsequent fame of Java.</p>
 
 <p>It's fascinating to me how often you hear about these overnight successes that took years to develop and were canceled, given up for dead, etc. many times.</p>
@@ -67,9 +67,9 @@
   
   <entry>
     <title type="html"><![CDATA[Introducing Overlay Scrollbars in Unity « Canonical Design]]></title>
-    <link href="http://mikemccracken.github.com/blog/2011/03/04/overlay-scrollbars-canonical-design/"/>
+    <link href="http://michael-mccracken.net/2011/03/overlay-scrollbars-canonical-design/"/>
     <updated>2011-03-04T04:16:07-08:00</updated>
-    <id>http://mikemccracken.github.com/blog/2011/03/04/overlay-scrollbars-canonical-design</id>
+    <id>http://michael-mccracken.net/2011/03/overlay-scrollbars-canonical-design</id>
     <content type="html"><![CDATA[<p>From the always-interesting Canonical Design blog:
 <a href="http://design.canonical.com/2011/03/introducing-overlay-scrollbars-in-unity/">Introducing Overlay Scrollbars in Unity</a>. (Who wouldn't love to see an Apple Design blog? It's fun to follow along as some serious, talented people rethink stuff we use everyday…)</p>
 

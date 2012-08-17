@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[michael-mccracken.net]]></title>
-  <link href="http://mikemccracken.github.com/atom.xml" rel="self"/>
-  <link href="http://mikemccracken.github.com/"/>
-  <updated>2012-08-17T00:23:52-07:00</updated>
-  <id>http://mikemccracken.github.com/</id>
+  <link href="http://michael-mccracken.net/atom.xml" rel="self"/>
+  <link href="http://michael-mccracken.net/"/>
+  <updated>2012-08-17T08:51:19-07:00</updated>
+  <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA['Editor Wars']]></title>
-    <link href="http://mikemccracken.github.com/blog/2012/08/16/editor-wars/"/>
+    <link href="http://michael-mccracken.net/2012/08/editor-wars/"/>
     <updated>2012-08-16T23:44:00-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2012/08/16/editor-wars</id>
+    <id>http://michael-mccracken.net/2012/08/editor-wars</id>
     <content type="html"><![CDATA[<p>An idea I&#8217;d like to see: Editor Wars, the game of hacking at code.</p>
 
 <p>Hackers compete on how fast they can complete code editing tasks from
@@ -59,9 +59,9 @@ editor timings.</p>
   
   <entry>
     <title type="html"><![CDATA[Selected Links from this April]]></title>
-    <link href="http://mikemccracken.github.com/blog/2012/08/15/selected-links-from-this-summer/"/>
+    <link href="http://michael-mccracken.net/2012/08/selected-links-from-this-summer/"/>
     <updated>2012-08-15T15:06:00-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2012/08/15/selected-links-from-this-summer</id>
+    <id>http://michael-mccracken.net/2012/08/selected-links-from-this-summer</id>
     <content type="html"><![CDATA[<p>Since my new blogging setup doesn&#8217;t automatically pull pinboard links
 into summary posts like before, I&#8217;m going to run through my bookmarks
 manually. Sound like fun? Let&#8217;s go:</p>
@@ -87,16 +87,16 @@ manually. Sound like fun? Let&#8217;s go:</p>
   
   <entry>
     <title type="html"><![CDATA[My last wordpress upgrade]]></title>
-    <link href="http://mikemccracken.github.com/blog/2012/08/15/no-more-wordpress/"/>
+    <link href="http://michael-mccracken.net/2012/08/no-more-wordpress/"/>
     <updated>2012-08-15T08:21:00-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2012/08/15/no-more-wordpress</id>
+    <id>http://michael-mccracken.net/2012/08/no-more-wordpress</id>
     <content type="html"><![CDATA[<p>My last wordpress upgrade was a long time ago, and it&#8217;s going to stay that way.</p>
 
 <p>These posts about blogging are really only interesting years later,
 and only to me, when I look back and think about what I was doing that
 I thought I had time to mess with blogging software.</p>
 
-<p><a href="http://mikemccracken.github.com/blog/2005/12/25/test-wordpress/">Last time</a> I made a major change was switching to wordpress from
+<p><a href="http://michael-mccracken.net/blog/2005/12/25/test-wordpress/">Last time</a> I made a major change was switching to wordpress from
 blosxom back in December 2005, over Christmas break. I was at my
 parents&#8217; house and had nothing to do after everyone went to bed at 9pm.</p>
 
@@ -111,9 +111,9 @@ static site from text files, and github pages are sort of convenient. (sort of)<
   
   <entry>
     <title type="html"><![CDATA[Links: Hacking, Music in Python, Rust & unitasking]]></title>
-    <link href="http://mikemccracken.github.com/blog/2012/04/11/links-hacking-music-in-python-rust-unitaskimg/"/>
+    <link href="http://michael-mccracken.net/2012/04/links-hacking-music-in-python-rust-unitaskimg/"/>
     <updated>2012-04-11T09:15:15-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2012/04/11/links-hacking-music-in-python-rust-unitaskimg</id>
+    <id>http://michael-mccracken.net/2012/04/links-hacking-music-in-python-rust-unitaskimg</id>
     <content type="html"><![CDATA[<p>My shared links for April 5th through April 6th:</p>
 
 <ul>
@@ -144,9 +144,9 @@ Done
   
   <entry>
     <title type="html"><![CDATA[Links: Flattr, Haskell, Haskell QuickCheck, and Stuart Cheshire (of Bolo fame)]]></title>
-    <link href="http://mikemccracken.github.com/blog/2012/04/06/links-flattr-haskell-haskell-quickcheck-and-stuart-cheshire-of-bolo-fame/"/>
+    <link href="http://michael-mccracken.net/2012/04/links-flattr-haskell-haskell-quickcheck-and-stuart-cheshire-of-bolo-fame/"/>
     <updated>2012-04-06T09:20:31-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2012/04/06/links-flattr-haskell-haskell-quickcheck-and-stuart-cheshire-of-bolo-fame</id>
+    <id>http://michael-mccracken.net/2012/04/links-flattr-haskell-haskell-quickcheck-and-stuart-cheshire-of-bolo-fame</id>
     <content type="html"><![CDATA[<p>My shared links for April 4th:</p>
 
 <ul>
@@ -168,9 +168,9 @@ Done
   
   <entry>
     <title type="html"><![CDATA[Links: Haskell, Music OCD Tools, Terrorism, Probability for Ranking things]]></title>
-    <link href="http://mikemccracken.github.com/blog/2012/04/06/links-haskell-music-ocd-tools-terrorism-probability-for-ranking-things/"/>
+    <link href="http://michael-mccracken.net/2012/04/links-haskell-music-ocd-tools-terrorism-probability-for-ranking-things/"/>
     <updated>2012-04-06T09:16:32-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2012/04/06/links-haskell-music-ocd-tools-terrorism-probability-for-ranking-things</id>
+    <id>http://michael-mccracken.net/2012/04/links-haskell-music-ocd-tools-terrorism-probability-for-ranking-things</id>
     <content type="html"><![CDATA[<p>My shared links for March 30th through April 3rd:</p>
 
 <ul>
@@ -197,18 +197,18 @@ Browse your music library graphically through a Web browser and play it in any b
   
   <entry>
     <title type="html"><![CDATA[Canonical design blog on Holistic UI]]></title>
-    <link href="http://mikemccracken.github.com/blog/2012/03/30/canonical-design-blog-on-where-small-pieces-loosely-joined-needs-some-tweaking/"/>
+    <link href="http://michael-mccracken.net/2012/03/canonical-design-blog-on-where-small-pieces-loosely-joined-needs-some-tweaking/"/>
     <updated>2012-03-30T05:29:00-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2012/03/30/canonical-design-blog-on-where-small-pieces-loosely-joined-needs-some-tweaking</id>
+    <id>http://michael-mccracken.net/2012/03/canonical-design-blog-on-where-small-pieces-loosely-joined-needs-some-tweaking</id>
     <content type="html"><![CDATA[<p><a href="http://design.canonical.com/2012/03/holistic-ui-is-smarter-ux/">Holistic UI is smarter UX</a> - They use notifications as an example of why small pieces loosely joined might not be great UI. It&#8217;s really interesting to see how common UI devices such as notifications have evolved across various platforms. Someone should do a gallery of notifications over the years - bonus points if you start with a ␇!</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Links for mid-March see scalable python around corners. And Future Spies on Facebook!]]></title>
-    <link href="http://mikemccracken.github.com/blog/2012/03/30/links-for-mid-march-see-scalable-python-around-corners-and-future-spies-on-facebook/"/>
+    <link href="http://michael-mccracken.net/2012/03/links-for-mid-march-see-scalable-python-around-corners-and-future-spies-on-facebook/"/>
     <updated>2012-03-30T05:20:56-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2012/03/30/links-for-mid-march-see-scalable-python-around-corners-and-future-spies-on-facebook</id>
+    <id>http://michael-mccracken.net/2012/03/links-for-mid-march-see-scalable-python-around-corners-and-future-spies-on-facebook</id>
     <content type="html"><![CDATA[<p>My shared links for March 18th through March 26th:</p>
 
 <ul>
@@ -225,9 +225,9 @@ Browse your music library graphically through a Web browser and play it in any b
   
   <entry>
     <title type="html"><![CDATA[Links: JS, LaTeX, Live drawing and sound.]]></title>
-    <link href="http://mikemccracken.github.com/blog/2012/03/19/links-js-latex-live-drawing-and-sound/"/>
+    <link href="http://michael-mccracken.net/2012/03/links-js-latex-live-drawing-and-sound/"/>
     <updated>2012-03-19T07:29:25-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2012/03/19/links-js-latex-live-drawing-and-sound</id>
+    <id>http://michael-mccracken.net/2012/03/links-js-latex-live-drawing-and-sound</id>
     <content type="html"><![CDATA[<p>My shared links for March 5th through March 17th:</p>
 
 <ul>
@@ -249,9 +249,9 @@ Browse your music library graphically through a Web browser and play it in any b
   
   <entry>
     <title type="html"><![CDATA[Links: More PyPy, Academia, Censorship we Love, and Monads]]></title>
-    <link href="http://mikemccracken.github.com/blog/2012/03/06/more-pypy-academia-censorship-we-love-and-monads/"/>
+    <link href="http://michael-mccracken.net/2012/03/more-pypy-academia-censorship-we-love-and-monads/"/>
     <updated>2012-03-06T03:39:03-08:00</updated>
-    <id>http://mikemccracken.github.com/blog/2012/03/06/more-pypy-academia-censorship-we-love-and-monads</id>
+    <id>http://michael-mccracken.net/2012/03/more-pypy-academia-censorship-we-love-and-monads</id>
     <content type="html"><![CDATA[<p>My shared links for March 1st through March 5th:</p>
 
 <ul>
@@ -273,9 +273,9 @@ Browse your music library graphically through a Web browser and play it in any b
   
   <entry>
     <title type="html"><![CDATA[Links: Structure editing, Unix History, OSS Legal Issues Primer]]></title>
-    <link href="http://mikemccracken.github.com/blog/2012/03/01/links-structure-editing-unix-history-oss-legal-issues-primer/"/>
+    <link href="http://michael-mccracken.net/2012/03/links-structure-editing-unix-history-oss-legal-issues-primer/"/>
     <updated>2012-03-01T04:53:14-08:00</updated>
-    <id>http://mikemccracken.github.com/blog/2012/03/01/links-structure-editing-unix-history-oss-legal-issues-primer</id>
+    <id>http://michael-mccracken.net/2012/03/links-structure-editing-unix-history-oss-legal-issues-primer</id>
     <content type="html"><![CDATA[<p>My shared links for February 27th through March 1st:</p>
 
 <ul>
@@ -291,9 +291,9 @@ Browse your music library graphically through a Web browser and play it in any b
   
   <entry>
     <title type="html"><![CDATA[Links: Cheap wardrobe, App Stores, Javascript & Parsing.]]></title>
-    <link href="http://mikemccracken.github.com/blog/2012/03/01/links-cheap-wardrobe-app-stores-javascript-parsing/"/>
+    <link href="http://michael-mccracken.net/2012/03/links-cheap-wardrobe-app-stores-javascript-parsing/"/>
     <updated>2012-03-01T04:51:07-08:00</updated>
-    <id>http://mikemccracken.github.com/blog/2012/03/01/links-cheap-wardrobe-app-stores-javascript-parsing</id>
+    <id>http://michael-mccracken.net/2012/03/links-cheap-wardrobe-app-stores-javascript-parsing</id>
     <content type="html"><![CDATA[<p>My shared links for February 23rd:</p>
 
 <ul>
@@ -323,9 +323,9 @@ return left
   
   <entry>
     <title type="html"><![CDATA[Skim Knockoff(s) on the Mac App Store]]></title>
-    <link href="http://mikemccracken.github.com/blog/2012/02/23/skim-knockoffs-on-the-mac-app-store/"/>
+    <link href="http://michael-mccracken.net/2012/02/skim-knockoffs-on-the-mac-app-store/"/>
     <updated>2012-02-23T05:15:37-08:00</updated>
-    <id>http://mikemccracken.github.com/blog/2012/02/23/skim-knockoffs-on-the-mac-app-store</id>
+    <id>http://michael-mccracken.net/2012/02/skim-knockoffs-on-the-mac-app-store</id>
     <content type="html"><![CDATA[<p>Sometime in January, a <a href="http://skim-app.sourceforge.net">Skim</a> user asked the developers if we&#8217;d submitted it to the Mac App Store. We hadn&#8217;t.</p>
 
 <p>The app listed for sale for $29 on the store as &#8220;PDF Reader&#8221; is actually our free and open source Skim app, although no mention of the Skim Sourceforge project is made in the description, and the support link just goes to a livejournal post where the Skim web page ad copy has been pasted. There is also a $19 app called &#8220;PDF Expert&#8221; that appears to be another copy. That one even went ahead and used Adobe&#8217;s Acrobat trademark in their icon!</p>
@@ -351,9 +351,9 @@ They could get a better product for free.</p>
   
   <entry>
     <title type="html"><![CDATA[Links: screen for X, computer history, Linux]]></title>
-    <link href="http://mikemccracken.github.com/blog/2012/02/22/links-screen-for-x-computer-history-linux/"/>
+    <link href="http://michael-mccracken.net/2012/02/links-screen-for-x-computer-history-linux/"/>
     <updated>2012-02-22T03:53:54-08:00</updated>
-    <id>http://mikemccracken.github.com/blog/2012/02/22/links-screen-for-x-computer-history-linux</id>
+    <id>http://michael-mccracken.net/2012/02/links-screen-for-x-computer-history-linux</id>
     <content type="html"><![CDATA[<p>My shared links for February 21st through February 22nd:</p>
 
 <ul>
@@ -371,9 +371,9 @@ They could get a better product for free.</p>
   
   <entry>
     <title type="html"><![CDATA[Links: Chicken Pasta, Parsing, DEVONsphere and superpages!]]></title>
-    <link href="http://mikemccracken.github.com/blog/2012/02/20/links-for-february-15th-through-february-20th/"/>
+    <link href="http://michael-mccracken.net/2012/02/links-for-february-15th-through-february-20th/"/>
     <updated>2012-02-20T11:04:43-08:00</updated>
-    <id>http://mikemccracken.github.com/blog/2012/02/20/links-for-february-15th-through-february-20th</id>
+    <id>http://michael-mccracken.net/2012/02/links-for-february-15th-through-february-20th</id>
     <content type="html"><![CDATA[<p>My shared links for February 15th through February 20th:</p>
 
 <ul>
@@ -395,9 +395,9 @@ misses;</p></li>
   
   <entry>
     <title type="html"><![CDATA[Links for February 7th through February 9th]]></title>
-    <link href="http://mikemccracken.github.com/blog/2012/02/09/links-for-february-7th-through-february-9th/"/>
+    <link href="http://michael-mccracken.net/2012/02/links-for-february-7th-through-february-9th/"/>
     <updated>2012-02-09T06:46:24-08:00</updated>
-    <id>http://mikemccracken.github.com/blog/2012/02/09/links-for-february-7th-through-february-9th</id>
+    <id>http://michael-mccracken.net/2012/02/links-for-february-7th-through-february-9th</id>
     <content type="html"><![CDATA[<p>My shared links for February 7th through February 9th:</p>
 
 <ul>
@@ -430,9 +430,9 @@ Any combination you can imagine, Conduit will take care of the conversion and sy
   
   <entry>
     <title type="html"><![CDATA[Links for February 3rd through February 6th]]></title>
-    <link href="http://mikemccracken.github.com/blog/2012/02/06/links-for-february-3rd-through-february-6th/"/>
+    <link href="http://michael-mccracken.net/2012/02/links-for-february-3rd-through-february-6th/"/>
     <updated>2012-02-06T09:00:29-08:00</updated>
-    <id>http://mikemccracken.github.com/blog/2012/02/06/links-for-february-3rd-through-february-6th</id>
+    <id>http://michael-mccracken.net/2012/02/links-for-february-3rd-through-february-6th</id>
     <content type="html"><![CDATA[<p>My shared links for February 3rd through February 6th:</p>
 
 <ul>
@@ -447,9 +447,9 @@ Any combination you can imagine, Conduit will take care of the conversion and sy
   
   <entry>
     <title type="html"><![CDATA[Links for January 27th through February 3rd]]></title>
-    <link href="http://mikemccracken.github.com/blog/2012/02/03/links-for-january-27th-through-february-3rd/"/>
+    <link href="http://michael-mccracken.net/2012/02/links-for-january-27th-through-february-3rd/"/>
     <updated>2012-02-03T10:08:39-08:00</updated>
-    <id>http://mikemccracken.github.com/blog/2012/02/03/links-for-january-27th-through-february-3rd</id>
+    <id>http://michael-mccracken.net/2012/02/links-for-january-27th-through-february-3rd</id>
     <content type="html"><![CDATA[<p>My shared links for January 27th through February 3rd:</p>
 
 <ul>
@@ -465,9 +465,9 @@ needs usboverdrive for macs</p></li>
   
   <entry>
     <title type="html"><![CDATA[Links for January 23rd through January 25th]]></title>
-    <link href="http://mikemccracken.github.com/blog/2012/01/27/links-for-january-23rd-through-january-25th/"/>
+    <link href="http://michael-mccracken.net/2012/01/links-for-january-23rd-through-january-25th/"/>
     <updated>2012-01-27T03:57:27-08:00</updated>
-    <id>http://mikemccracken.github.com/blog/2012/01/27/links-for-january-23rd-through-january-25th</id>
+    <id>http://michael-mccracken.net/2012/01/links-for-january-23rd-through-january-25th</id>
     <content type="html"><![CDATA[<p>My shared links for January 23rd through January 25th:</p>
 
 <ul>
@@ -484,9 +484,9 @@ U1DB is a database API for synchronised databases of JSON documents. It&#8217;s 
   
   <entry>
     <title type="html"><![CDATA[Links for January 11th]]></title>
-    <link href="http://mikemccracken.github.com/blog/2012/01/27/links-for-january-11th-2/"/>
+    <link href="http://michael-mccracken.net/2012/01/links-for-january-11th-2/"/>
     <updated>2012-01-27T03:52:23-08:00</updated>
-    <id>http://mikemccracken.github.com/blog/2012/01/27/links-for-january-11th-2</id>
+    <id>http://michael-mccracken.net/2012/01/links-for-january-11th-2</id>
     <content type="html"><![CDATA[<p>My shared links for January 11th:</p>
 
 <ul>

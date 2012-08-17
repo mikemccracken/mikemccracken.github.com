@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: wwdc | michael-mccracken.net]]></title>
-  <link href="http://mikemccracken.github.com/blog/categories/wwdc/atom.xml" rel="self"/>
-  <link href="http://mikemccracken.github.com/"/>
-  <updated>2012-08-17T00:23:52-07:00</updated>
-  <id>http://mikemccracken.github.com/</id>
+  <link href="http://michael-mccracken.net/blog/categories/wwdc/atom.xml" rel="self"/>
+  <link href="http://michael-mccracken.net/"/>
+  <updated>2012-08-17T08:51:19-07:00</updated>
+  <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[XCode 3.0]]></title>
-    <link href="http://mikemccracken.github.com/blog/2006/08/07/xcode-30/"/>
+    <link href="http://michael-mccracken.net/2006/08/xcode-30/"/>
     <updated>2006-08-07T16:27:53-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2006/08/07/xcode-30</id>
+    <id>http://michael-mccracken.net/2006/08/xcode-30</id>
     <content type="html"><![CDATA[<p>Apple's <a href="http://www.apple.com/macosx/leopard/xcode.html">XCode 3.0 preview page</a> is a cornucopia of new stuff that I somehow missed all day - until now.</p>
 
 <p>No doubt this is the stuff that everyone at WWDC is talking about. This page represents no less than 3 or 4 really significant changes and some really nice details. Here's a hit list that I haven't seen in any of the coverage I've been looking at today:</p>
@@ -39,9 +39,9 @@
   
   <entry>
     <title type="html"><![CDATA[Take me to WWDC!]]></title>
-    <link href="http://mikemccracken.github.com/blog/2006/08/03/take-me-to-wwdc/"/>
+    <link href="http://michael-mccracken.net/2006/08/take-me-to-wwdc/"/>
     <updated>2006-08-03T12:51:32-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2006/08/03/take-me-to-wwdc</id>
+    <id>http://michael-mccracken.net/2006/08/take-me-to-wwdc</id>
     <content type="html"><![CDATA[<p>I can't make it in person to either WWDC or Buzz's party this year, and as a result, I'm bummed right out. But I haven't sulked, I thought of your feelings too. I came up with a way to make it seem kind of like I was there anyway. It's so crazy, it just might work:</p>
 
 <p><strong>Mike McCracken WWDC flashcards!</strong></p>

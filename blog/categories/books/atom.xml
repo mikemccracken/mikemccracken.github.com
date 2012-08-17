@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: books | michael-mccracken.net]]></title>
-  <link href="http://mikemccracken.github.com/blog/categories/books/atom.xml" rel="self"/>
-  <link href="http://mikemccracken.github.com/"/>
-  <updated>2012-08-17T00:23:52-07:00</updated>
-  <id>http://mikemccracken.github.com/</id>
+  <link href="http://michael-mccracken.net/blog/categories/books/atom.xml" rel="self"/>
+  <link href="http://michael-mccracken.net/"/>
+  <updated>2012-08-17T08:51:19-07:00</updated>
+  <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Goodbye, Kurt Vonnegut]]></title>
-    <link href="http://mikemccracken.github.com/blog/2007/04/12/goodbye-kurt-vonnegut/"/>
+    <link href="http://michael-mccracken.net/2007/04/goodbye-kurt-vonnegut/"/>
     <updated>2007-04-12T02:17:50-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2007/04/12/goodbye-kurt-vonnegut</id>
+    <id>http://michael-mccracken.net/2007/04/goodbye-kurt-vonnegut</id>
     <content type="html"><![CDATA[<p>After I heard the news today, I found this in my <a href="http://web.pitas.com/mmc/">oldest weblog</a>, from October 1999:</p>
 
 <blockquote><p>To quote a bathroom stall in west Patee library, "READ VONNEGUT!"</p></blockquote>

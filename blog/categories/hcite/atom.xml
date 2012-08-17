@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: hcite | michael-mccracken.net]]></title>
-  <link href="http://mikemccracken.github.com/blog/categories/hcite/atom.xml" rel="self"/>
-  <link href="http://mikemccracken.github.com/"/>
-  <updated>2012-08-17T00:23:52-07:00</updated>
-  <id>http://mikemccracken.github.com/</id>
+  <link href="http://michael-mccracken.net/blog/categories/hcite/atom.xml" rel="self"/>
+  <link href="http://michael-mccracken.net/"/>
+  <updated>2012-08-17T08:51:19-07:00</updated>
+  <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[BibDesk and the hCite Microformat]]></title>
-    <link href="http://mikemccracken.github.com/blog/2007/01/25/bibdesk-and-the-hcite-microformat/"/>
+    <link href="http://michael-mccracken.net/2007/01/bibdesk-and-the-hcite-microformat/"/>
     <updated>2007-01-25T23:06:24-08:00</updated>
-    <id>http://mikemccracken.github.com/blog/2007/01/25/bibdesk-and-the-hcite-microformat</id>
+    <id>http://michael-mccracken.net/2007/01/bibdesk-and-the-hcite-microformat</id>
     <content type="html"><![CDATA[<p>This is about building an iTunes store-style interface to the web's bibliographic information.</p>
 
 <p>I've been pushing along the <a href="http://microformats.org/wiki/citation">hCite </a> Microformat process, which will set a standard for HTML publishers to add simple semantic markup to their pages that programs like BibDesk can read as citation metadata.</p>

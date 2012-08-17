@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: windows | michael-mccracken.net]]></title>
-  <link href="http://mikemccracken.github.com/blog/categories/windows/atom.xml" rel="self"/>
-  <link href="http://mikemccracken.github.com/"/>
-  <updated>2012-08-17T00:23:52-07:00</updated>
-  <id>http://mikemccracken.github.com/</id>
+  <link href="http://michael-mccracken.net/blog/categories/windows/atom.xml" rel="self"/>
+  <link href="http://michael-mccracken.net/"/>
+  <updated>2012-08-17T08:51:19-07:00</updated>
+  <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[That Windows feeling]]></title>
-    <link href="http://mikemccracken.github.com/blog/2007/09/04/that-windows-feeling/"/>
+    <link href="http://michael-mccracken.net/2007/09/that-windows-feeling/"/>
     <updated>2007-09-04T04:44:40-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2007/09/04/that-windows-feeling</id>
+    <id>http://michael-mccracken.net/2007/09/that-windows-feeling</id>
     <content type="html"><![CDATA[<p>I started this post more than a year ago. Not much has changed, and it's time to just let it out.</p>
 
 <p>Uninvited dialogs popping to the front or stealing keyboard focus in OS X have been giving me <strong>that Windows feeling</strong> lately. It was part of the old Mac OS's comfortable "I'm in control" feeling, and was always immediately noticeable using Windows - popups and splash screens everywhere.</p>
@@ -45,9 +45,9 @@
   
   <entry>
     <title type="html"><![CDATA[Windows User]]></title>
-    <link href="http://mikemccracken.github.com/blog/2006/09/20/windows-user/"/>
+    <link href="http://michael-mccracken.net/2006/09/windows-user/"/>
     <updated>2006-09-20T15:18:11-07:00</updated>
-    <id>http://mikemccracken.github.com/blog/2006/09/20/windows-user</id>
+    <id>http://michael-mccracken.net/2006/09/windows-user</id>
     <content type="html"><![CDATA[<p>I've been a Windows User for two weeks now. Since <a href="http://michael-mccracken.net/wp/?p=64">my powerbook disk died</a>, I've been working on a loaner Dell Lattitude with XP.</p>
 
 <p>I get by. It's not as hard as I would have guessed. Most of my work these days just needs a decent terminal, and SSH from ssh.com (who knew there was a commercial SSH?) works OK. I don't understand why it doesn't save my keyboard preferences, but I muddle through.</p>

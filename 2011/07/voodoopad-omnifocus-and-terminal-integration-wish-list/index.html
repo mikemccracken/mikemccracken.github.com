@@ -1,0 +1,318 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>VoodooPad, OmniFocus and Terminal Integration Wish List - michael-mccracken.net</title>
+  <meta name="author" content="Michael McCracken">
+
+  
+  <meta name="description" content="Here are some features I want but I&#8217;ll never have time to write the scripts for VoodooPad to do. I use VP mostly as a running log of notes, &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://michael-mccracken.net/2011/07/voodoopad-omnifocus-and-terminal-integration-wish-list/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="michael-mccracken.net" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<!-- <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css"> -->
+<!-- <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css"> -->
+<link href="http://fonts.googleapis.com/css?family=Michroma" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1818984-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">michael-mccracken.net</a></h1>
+  
+    <h2>A Weblog</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:michael-mccracken.net" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">VoodooPad, OmniFocus and Terminal Integration Wish List</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-06T07:05:48-07:00" pubdate data-updated="true">Jul 6<span>th</span>, 2011</time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Here are some features I want but I&#8217;ll never have time to write the scripts for VoodooPad to do.</p>
+
+<p>I use VP mostly as a running log of notes, shell commands and todos. I also use OmniFocus for task tracking, but sometimes it&#8217;s easier to just start typing in VP and work out the tasks later. So I often end up with VP pages that have a bunch of todos mixed in with project headers and miscellaneous notes.</p>
+
+<p>I&#8217;ve been thinking some integration would be nice. I want an <del><a href="http://orgmode.org/">emacs org-mode</a></del> (update: I meant <a href="http://www.isi.edu/~johnh/SOFTWARE/NOTES_MODE/">notes-mode</a>) style &#8220;new day&#8221; script that creates a new page for the day and does the following:</p>
+
+<ul>
+<li>adds a link to the new page to the previous note page</li>
+<li>moves any pending todos (I mark them as lines starting with a &lt;# todo #> placeholder so I can jump to them) off yesterday&#8217;s page and into OmniFocus</li>
+<li>starts a new header (line starting with #, in bold) in the new page for every header that had leftover todos. These headers usually correspond to projects in OmniFocus.</li>
+<li>adds new headers and todo lines for any tasks that are due today</li>
+</ul>
+
+
+<p>I want to have VP autocomplete project names from OmniFocus when I start a header line. Then add a link next to the new header pointing to the last page containing that header.</p>
+
+<p>I&#8217;d also like to have OmniFocus update the VP document when I check off a task in OF - I want to use VP as a log, so I can track down when I did something. Maybe projects should all have their own VP pages, that are kind of an auto-updated index of progress on the tasks.</p>
+
+<p>It&#8217;d also be nice if when I edited a todo line in VP, it could update OF. I guess I want VP to be an supplemental synchronized view onto my OF tasks.</p>
+
+<p>For the Terminal: I do a lot of copying and pasting shell commands into VP so I can remember things like important paths, or the exact configure settings I used to build something two years ago. This is really useful, but it&#8217;d be nice if it was easier to do without leaving the terminal. Ideally I could just prefix a command with something like &#8216;@&#8217; to add it to the current page in VP (or &#8216;@pagename#headername&#8217; to get fancy). You could get this with a script named &#8216;@&#8217; - on your local machine. But it also has to work when you&#8217;re working remotely, so it will get a little more complicated.</p>
+
+<p>Finally - this is something I wanted to try doing with an InputManager before that mechanism went away: I&#8217;d like CamelCase links in every text field on the system (probably with some exceptions) to automatically link to VP pages. But it sounds like the days of modifying system-wide behavior on Macs are history, so I&#8217;ll probably never get this. Who knows, maybe it would&#8217;ve been a disaster.</p>
+
+<p>I always thought the path to improvement in work computing was more and deeper integration between 3rd-party apps, as well as more system functionality that&#8217;s usable by all those apps, but it looks to me* like in OS X we&#8217;re only getting the latter.</p>
+
+<p><em>* - since 10.7 is about to come out, it might be worth pointing out that I have no special advance developer info. I haven&#8217;t even been a dev program member for a few years now.</em></p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Michael McCracken</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-06T07:05:48-07:00" pubdate data-updated="true">Jul 6<span>th</span>, 2011</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/productivity/'>productivity</a>, <a class='category' href='/blog/categories/tips/'>tips</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://michael-mccracken.net/2011/07/voodoopad-omnifocus-and-terminal-integration-wish-list/" data-via="mikemccracken" data-counturl="http://michael-mccracken.net/2011/07/voodoopad-omnifocus-and-terminal-integration-wish-list/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/2011/07/links-for-july-5th-through-july-6th/" title="Previous Post: Links for July 5th through July 6th">&laquo; Links for July 5th through July 6th</a>
+      
+      
+        <a class="basic-alignment right" href="/2011/07/links-for-july-6th/" title="Next Post: Links for July 6th">Links for July 6th &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>About Me</h1>
+  <p>Mike lives in San Diego and works for Canonical, on Ubuntu One.</p>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2012/08/editor-wars/">'Editor Wars'</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/08/selected-links-from-this-summer/">Selected Links from this April</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/08/no-more-wordpress/">My last wordpress upgrade</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/04/links-hacking-music-in-python-rust-unitaskimg/">Links: Hacking, Music in Python, Rust & unitasking</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/04/links-flattr-haskell-haskell-quickcheck-and-stuart-cheshire-of-bolo-fame/">Links: Flattr, Haskell, Haskell QuickCheck, and Stuart Cheshire (of Bolo fame)</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("mikemccracken", 0, true);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/mikemccracken" class="twitter-follow-button" data-show-count="false">Follow @mikemccracken</a>
+  
+</section>
+
+
+<section>
+  <h1>My Pinboard</h1>
+  <ul id="pinboard_linkroll">Fetching linkroll...</ul>
+  <p><a href="http://pinboard.in/u:mmc">My Pinboard Bookmarks &raquo;</a></p>
+</section>
+<script type="text/javascript">
+  var linkroll = 'pinboard_linkroll'; //id target for pinboard list
+  var pinboard_user = "mmc"; //id target for pinboard list
+  var pinboard_count = 10; //id target for pinboard list
+  (function(){
+    var pinboardInit = document.createElement('script');
+    pinboardInit.type = 'text/javascript';
+    pinboardInit.async = true;
+    pinboardInit.src = '/javascripts/pinboard.js';
+    document.getElementsByTagName('head')[0].appendChild(pinboardInit);
+  })();
+</script>
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Michael McCracken -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'michaelmccrackennet';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://michael-mccracken.net/2011/07/voodoopad-omnifocus-and-terminal-integration-wish-list/';
+        var disqus_url = 'http://michael-mccracken.net/2011/07/voodoopad-omnifocus-and-terminal-integration-wish-list/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

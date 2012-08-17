@@ -4,7 +4,7 @@
   <title><![CDATA[michael-mccracken.net]]></title>
   <link href="http://mikemccracken.github.com/atom.xml" rel="self"/>
   <link href="http://mikemccracken.github.com/"/>
-  <updated>2012-08-16T23:38:27-07:00</updated>
+  <updated>2012-08-17T00:14:08-07:00</updated>
   <id>http://mikemccracken.github.com/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
@@ -12,6 +12,50 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA['Editor Wars']]></title>
+    <link href="http://mikemccracken.github.com/blog/2012/08/16/editor-wars/"/>
+    <updated>2012-08-16T23:44:00-07:00</updated>
+    <id>http://mikemccracken.github.com/blog/2012/08/16/editor-wars</id>
+    <content type="html"><![CDATA[<p>An idea I&#8217;d like to see: Editor Wars, the game of hacking at code.</p>
+
+<p>Hackers compete on how fast they can complete code editing tasks from
+a variety of languages, with results plotted and dissected on a
+web leaderboard. The idea is not to evaluate language understanding or
+design, but simply editing skill and speed in the kind of thing that
+editor flame wars start over.</p>
+
+<p>The tasks could be simple refactorings, like renaming a function
+throughout a source tree, or extracting code into a method. I&#8217;d expect
+this would show advantages of specialized refactoring tools in some
+IDEs. Other tasks might be more complex, like writing a new set of
+functions, a whole class, or adding functions to a class to conform to
+a protocol or interface. Good template support and autocomplete might
+be an advantage here. Or maybe you want to add conditional debug
+logging around a set of functions, with each call having a separate
+hardcoded counter value? Surely powerful macros win this task?
+Naturally, new tasks could be submitted by the public, and voted on.
+Each task would have a &#8220;correct&#8221; answer, but if you&#8217;re really clever
+you could always suggest a better correct answer.</p>
+
+<p>Use of extensions and custom macros would be happily encouraged, as
+long as you can share what you&#8217;ve used.</p>
+
+<p>You&#8217;d need either an editor plugin or at least something that watches
+files efficiently to get the split-second timing your contestants will
+demand. Ideally you&#8217;d be able to record keystrokes and grab the source
+for any macros you call, then the site would be able to show a replay
+for the viewing public.</p>
+
+<p>It&#8217;d be fascinating to learn how other people use your favorite editor
+by watching the best of the best compete. Not to mention, just imagine
+the forum threads arguing over the graphs from the vast database of
+editor timings.</p>
+
+<p>Anyone want to build this?</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Selected Links from this April]]></title>
@@ -458,26 +502,6 @@ U1DB is a database API for synchronised databases of JSON documents. It&#8217;s 
 <ul>
 <li><p><a href="http://www.michaeleisen.org/blog/?p=807">Elsevier-funded NY Congresswoman Carolyn Maloney Wants to Deny Americans Access to Taxpayer Funded Research</a> -</p></li>
 <li><p><a href="http://byrdandbelle.bigcartel.com/">byrd and belle</a> - Nice looking sleeves with wool felt and leather</p></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Links for January 20th through January 21st]]></title>
-    <link href="http://mikemccracken.github.com/blog/2012/01/22/links-for-january-20th-through-january-21st/"/>
-    <updated>2012-01-22T12:50:28-08:00</updated>
-    <id>http://mikemccracken.github.com/blog/2012/01/22/links-for-january-20th-through-january-21st</id>
-    <content type="html"><![CDATA[<p>My shared links for January 20th through January 21st:</p>
-
-<ul>
-<li><p><a href="http://www.kickstarter.com/projects/1380180715/mail-pilot-email-reimagined">Mail Pilot: Email Reimagined by Josh Milas &amp; Alex Obenauer — Kickstarter</a> -</p></li>
-<li><p><a href="http://--">“Getting Into Modeling With CouchCocoa”</a> -</p></li>
-<li><p><a href="http://corp.galois.com/">Galois - Home</a> - Contract Research organization in Portland who makes use of functional programming.</p></li>
-<li><p><a href="http://book.realworldhaskell.org/read/">Book: Real World Haskell</a> - Full text of book &#8220;real world haskell&#8221;</p></li>
-<li><p><a href="http://www.cs.nott.ac.uk/~gmh/book.html">Programming in Haskell</a> - well-reviewed intro haskell book</p></li>
-<li><p><a href="http://www.bluebytesoftware.com/blog/2010/01/03/ABriefRetrospectiveOnTransactionalMemory.aspx">Joe Duffy&#8217;s Weblog : A (brief) retrospective on transactional memory</a> - Not really brief. Lots of interesting detail about TM in practice.</p></li>
-<li><p><a href="http://blog.ezyang.com/2011/11/how-to-read-haskell/">How to read Haskell like Python : Inside 233</a> -</p></li>
 </ul>
 
 ]]></content>

@@ -9,7 +9,7 @@
   <meta name="author" content="Michael McCracken">
 
   
-  <meta name="description" content="Hey, the O&#8217;Reilly Emerging Technology conference is in San Diego next week. I live in San Diego - but I can&#8217;t even afford the deeply &hellip;">
+  <meta name="description" content="After reading Merlin Mann&#8217;s suggestion to live in iCal, I thought that even though I don&#8217;t use kGTD, it might be a good idea to try to &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,6 +78,64 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2006/03/02/mail-message-to-ical-todo-script/">Mail Message to iCal Todo Script</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-03-02T16:31:18-08:00" pubdate data-updated="true">Mar 2<span>nd</span>, 2006</time>
+        
+         | <a href="/blog/2006/03/02/mail-message-to-ical-todo-script/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>After reading Merlin Mann&#8217;s <a href="http://www.43folders.com/2006/02/27/contexts/">suggestion to live in iCal</a>, I thought that even though I don&#8217;t use <a href="http://www.kinkless.com/">kGTD</a>, it might be a good idea to try to limit the number of places where things I have to do exist. Following on the idea of moving lines of text from <a href="http://michael-mccracken.net/wp/?p=28">VoodooPad to iCal todos</a>, I just wrote a script to take the frontmost email message and add a todo that reminds me to reply to it. I&#8217;m getting a little closer to just having one place I need to check tasks.</p>
+
+<pre><code>tell application "Mail"
+    set l to the selection as list
+    set selMesg to item 1 of l
+    set cont to content of selMesg as string
+    set subj to subject of selMesg as string
+    set person to sender of selMesg as string
+    tell application "iCal"
+        set theCal to (first calendar whose title is "Email")
+        set theString to "reply to " &amp; person &amp; " about " &amp; subj
+        make todo at end of todos of theCal with properties {priority:0, summary:theString}
+    end tell
+end tell
+</code></pre>
+
+<p>This ends up with a todo that says something like <strong>&#8220;reply to michael_mccracken@mac.com about Locations for the party of the century&#8221;</strong></p>
+
+<p>Of course, it&#8217;s best invoked with a twitch and <a href="http://quicksilver.blacktree.com">Quicksilver</a>, so just drop it in <code>~/Library/Scripts</code> so it gets indexed. I called it &#8220;NewTodoFromEmail&#8221; and Quicksilver calls it &#8220;nte&#8221;. Clever.</p>
+
+<p>I based it on my <a href="http://michael-mccracken.net/blog/blosxom.pl/computers/mac/programming/ASiCal.html">NewEventFromEmail script</a>, which I still use regularly. So nice!</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -534,53 +592,6 @@ There were plenty of good grad-school jokes and a general feeling of relief that
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2006/02/04/whats-hot-in-cs/">What&#8217;s Hot in CS</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2006-02-04T17:02:08-08:00" pubdate data-updated="true">Feb 4<span>th</span>, 2006</time>
-        
-         | <a href="/blog/2006/02/04/whats-hot-in-cs/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Today, a group of graduating PhD students in our department met up to brief each other on what&#8217;s new and hot in their respective fields, to remind each other of what&#8217;s going on outside their respective specialties. The idea is that when interviewing for jobs, you have to hold up your end of a conversation with professors outside your specialty, and it helps to know a bit about their field.</p>
-
-<p>To quote one professor in our department, &#8220;&#8230;there is a special circle
-of hell reserved for grad students interviewing for jobs who are unable to
-answer questions of the form, &#8216;Oh, you&#8217;re from UCSD.  What&#8217;s Professor
-so-and-so up to these days?&#8217;.&#8221;</p>
-
-<p>It took about six hours to get through talks from students working on Architecture, Bioinformatics, Systems, Graphics, Vision, Databases, Security, VLSI and more, and I&#8217;m not going to try to repeat any of the details, because frankly I&#8217;m numb. I will say that it was a great idea, and if you&#8217;re a grad student and your department doesn&#8217;t do something like this, you should start a tradition.</p>
-
-<p>I will mention one thing: automatic detection and adaptation to network attacks is <a href="http://www.jacobsschool.ucsd.edu/news_events/releases/release.sfe?id=400">so hot right now</a>.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/24/">&larr; Older</a>
@@ -602,6 +613,10 @@ so-and-so up to these days?&#8217;.&#8221;</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2012/08/16/editor-wars/">&#8216;Editor Wars&#8217;</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/08/15/selected-links-from-this-summer/">Selected Links from this April</a>
       </li>
     
@@ -615,10 +630,6 @@ so-and-so up to these days?&#8217;.&#8221;</p>
     
       <li class="post">
         <a href="/blog/2012/04/06/links-flattr-haskell-haskell-quickcheck-and-stuart-cheshire-of-bolo-fame/">Links: Flattr, Haskell, Haskell QuickCheck, and Stuart Cheshire (of Bolo fame)</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/04/06/links-haskell-music-ocd-tools-terrorism-probability-for-ranking-things/">Links: Haskell, Music OCD Tools, Terrorism, Probability for Ranking things</a>
       </li>
     
   </ul>

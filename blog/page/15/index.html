@@ -9,7 +9,7 @@
   <meta name="author" content="Michael McCracken">
 
   
-  <meta name="description" content="Damon Cortesi just shared a handy script for grabbing your tweets and compiling some stats about when you post to twitter and who you reply to. His &hellip;">
+  <meta name="description" content="I&#8217;ve been looking around for some more detailed information about the &#8220;Site Reliability Engineering&#8221; positions at Google. &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,6 +78,58 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2008/01/13/what-is-site-reliability-engineering-at-google/">What Is Site Reliability Engineering at Google</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-01-13T05:58:55-08:00" pubdate data-updated="true">Jan 13<span>th</span>, 2008</time>
+        
+         | <a href="/blog/2008/01/13/what-is-site-reliability-engineering-at-google/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&#8217;ve been looking around for some more detailed information about the &#8220;Site Reliability Engineering&#8221; positions at Google.
+Apparently the role is a real mix of very large-scale system administration, planning and automation.</p>
+
+<p>I&#8217;ve collected some links to public info about the job.</p>
+
+<p>The Google channel has <a href="http://www.youtube.com/watch?v=y31STIrwtlk">a promotional video</a> from one engineer about the role - he tells a quick story about being on call to monitor and address problems with Google talk.</p>
+
+<p>A set of <a href="http://www.ukuug.org/events/spring2007/programme/ThatCouldntHappenToUs.pdf">slides from a talk by James Youngman</a> at the UK Unix &amp; Open Systems User&#8217;s Group gives a good description of the general task, and dives deeper into two specific examples - powering down failed disks, and protecting data with checksums, exploring how straightforward ideas can explode at scale.
+(These slides also have potentially the best proprietary-information disclaimer I&#8217;ve ever seen: &#8220;This has been written entirely in ASCII. No EBCDIC or animal fat.&#8221;)</p>
+
+<p><a href="http://sysadmin.miniconf.org/2006/pollmann_google_lightning_talk.ppt">Here</a> is another set of slides with a quick overview, from a &#8216;lightning talk&#8217;.</p>
+
+<p>A sampling of what Google SRE engineers put in their public resumes about their job includes quite a span - from troubleshooting mission critical services to writing automation software (in Python).</p>
+
+<p>And finally, an <a href="http://googleresearch.blogspot.com/2006/03/hiring-lake-wobegon-strategy.html">interesting post from 2006</a> about the theory behind Google&#8217;s hiring strategy, summarized as &#8220;only hire candidates who are above the mean of your current employees&#8221;.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -529,54 +581,6 @@ Other people need regex search and replace, code completion, syntax checking, bl
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2007/06/08/the-read-once-email-client-and-reference-emails/">The Read-once Email Client and Reference Emails</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2007-06-08T07:58:29-07:00" pubdate data-updated="true">Jun 8<span>th</span>, 2007</time>
-        
-         | <a href="/blog/2007/06/08/the-read-once-email-client-and-reference-emails/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I&#8217;ve been dreaming of a new kind of email client, one that only lets you look at a new email once. That&#8217;s right - you get to scan it for 30 seconds and then you have to do something with it or it gets archived out of sight. And you can only look at one email at a time. I think it&#8217;d be a great way to focus on getting your inbox empty and doing something useful with each message.</p>
-
-<p>Doing something would be replying to it, archiving or deleting it, creating a todo about it or sending it to a notes program for reference. I really think that last one&#8217;s important: Email clients aren&#8217;t for storing notes - send it somewhere else where you can link it up and annotate it more easily.</p>
-
-<p>I don&#8217;t have any suggestions about how to make your email client do this, but I have come up with something for making reference emails more useful, using VoodooPad.</p>
-
-<p>I&#8217;ve been using <a href="http://www.indev.ca/MailActOn.html">Mail Act-On</a> <a href="http://www.43folders.com/2006/09/15/mail-act-on/">as described by Merlin Mann</a> to quickly move messages to appropriate mailboxes, and I&#8217;ve been able to keep a clean inbox. But - I never bother to look at the emails I send to the reference folder. They&#8217;re basically useless without more context.</p>
-
-<p>I just wrote a quick script to send selected emails to <a href="http://voodoopad.com/">voodoopad</a> as a new page so I can link to them, add notes, and then later, search those reference emails in the same context as my notes. It&#8217;s already made a big difference in how useful emails are - I can add comments to myself, find related notes in my VP doc, and since there&#8217;s now a URL for every page in my VP docs, I can even link to reference emails from outside of VP - like in iGTD.</p>
-
-<p>If you&#8217;re interested in the script, it&#8217;s here: <a href="http://michael-mccracken.net/2007/NewVPPageFromEmail.scpt">NewVPPageFromEmail.scpt</a>  (control-click and save-as).</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/16/">&larr; Older</a>
@@ -598,6 +602,10 @@ Other people need regex search and replace, code completion, syntax checking, bl
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2012/08/16/editor-wars/">&#8216;Editor Wars&#8217;</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2012/08/15/selected-links-from-this-summer/">Selected Links from this April</a>
       </li>
     
@@ -611,10 +619,6 @@ Other people need regex search and replace, code completion, syntax checking, bl
     
       <li class="post">
         <a href="/blog/2012/04/06/links-flattr-haskell-haskell-quickcheck-and-stuart-cheshire-of-bolo-fame/">Links: Flattr, Haskell, Haskell QuickCheck, and Stuart Cheshire (of Bolo fame)</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/04/06/links-haskell-music-ocd-tools-terrorism-probability-for-ranking-things/">Links: Haskell, Music OCD Tools, Terrorism, Probability for Ranking things</a>
       </li>
     
   </ul>

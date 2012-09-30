@@ -9,7 +9,7 @@
   <meta name="author" content="Michael McCracken">
 
   
-  <meta name="description" content="I&#8217;ve been looking around for some more detailed information about the &#8220;Site Reliability Engineering&#8221; positions at Google. &hellip;">
+  <meta name="description" content="I&#8217;ve been hacking around with PyObjC, the Python-ObjC/Cocoa bridge recently, and it&#8217;s quickly becoming my favorite way to write Cocoa &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,6 +78,97 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2008/02/pyobjc-notes/">PyObjC Notes</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-02-01T03:07:28-08:00" pubdate data-updated="true">Feb 1<span>st</span>, 2008</time>
+        
+         | <a href="/2008/02/pyobjc-notes/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&#8217;ve been hacking around with <a href="http://pyobjc.sf.net">PyObjC</a>, the Python-ObjC/Cocoa bridge recently, and it&#8217;s quickly becoming my favorite way to write Cocoa apps. It&#8217;s really natural to mix Python idioms with Cocoa objects.</p>
+
+<p>The latest version of PyObjC is 2.0, it&#8217;s installed by default on OS X 10.5, and XCode now includes templates for starting a PyObjC project. There&#8217;s even code autocomplete in XCode for PyObjC and IB integration, so aside from some smart-indenting issues, writing PyObjC in XCode is almost as natural as writing in ObjC.</p>
+
+<p>I thought I&#8217;d post a few nice shortcuts and tips here.</p>
+
+<p>You can use tuples for NSRect/Range/Point, for instance, this -</p>
+
+<pre><code>r = NSInsetRect(((0, 0) ,
+                 (100, 100)),
+                10, 10)
+</code></pre>
+
+<p>creates this NSRect -</p>
+
+<pre><code>NSRect origin=
+       size=&gt;
+</code></pre>
+
+<p>Passing python arrays as NSArray instances (and dictionaries as NSDictionaries) works great, but sometimes you need to pass a C array. The Python &#8216;array&#8217; module handles that nicely:</p>
+
+<pre><code>import array
+g = NSGradient.alloc().
+   initWithColors_locations_colorSpace_(
+    [NSColor.whiteColor(),
+     NSColor.blackColor()],   
+
+    array.array('f', [0.0, 1.0]),
+    NSColorSpace.deviceRGBColorSpace())
+</code></pre>
+
+<p>ObjC selectors are just python strings in PyObjC.</p>
+
+<pre><code>defNC.addObserver_selector_name_object_(self,
+  'windowDidResize:',
+  NSWindowDidResizeNotification,
+  self)
+# or
+self.performSelectorOnMainThread_withObject_waitUntilDone_('doIt:', None, False)
+# or
+if o.respondsToSelector_("fun:"): return o.fun_(a)
+</code></pre>
+
+<p>Finally, something that comes in handy when working with KVC, the  &#8216;_&#8217; method now defined on NSObjects in PyObjC:</p>
+
+<pre><code>o = 
+print o._.myKey
+o._.myKey = 44
+# is equivalent to:
+print o.valueForKey_('myKey')
+o.setValue_forKey_(44, 'myKey')
+</code></pre>
+
+<p>That last example is straight from the <a href="http://pyobjc.sourceforge.net/NEWS-2.0.html">NEWS page</a>, where lots of other useful info can be found.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -534,53 +625,6 @@ When I downloaded the 1.0 release, I found a conflict with TextExtras and wrote 
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2007/07/it-could-work-a-3rd-party-email-client-for-os-x/">It Could Work: A 3rd Party Email Client for OS X</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2007-07-05T04:25:04-07:00" pubdate data-updated="true">Jul 5<span>th</span>, 2007</time>
-        
-         | <a href="/2007/07/it-could-work-a-3rd-party-email-client-for-os-x/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Brent Simmons <a href="http://inessential.com/?comments=1&amp;postid=3425">started</a> a discussion yesterday about email apps for OS X. To summarize: Apple Mail doesn&#8217;t do enough for everyone, and the alternatives aren&#8217;t so great either. But because it is free, there&#8217;s no incentive for a third party to do better.</p>
-
-<p>Paul Kafasis agrees, saying <a href="http://www.rogueamoeba.com/utm/posts/Article/Rise-of-the-OS-2007-07-05-12-00.html">&#8220;Don&#8217;t compete with Free and Don&#8217;t compete with Apple&#8221;</a>. He draws the comparison between email apps and browsers, where there is very little money to be made as a result of the many excellent free browsers out there. He also compares the situation to music players - it seems like everyone&#8217;s got a pet feature they would add to iTunes, so there ought to be an audience for a couple music players, except competing with iTunes is just <a href="http://www.panic.com/extras/audionstory/">not a good business plan</a>.</p>
-
-<p>I do think there is a market for a pro email client for OS X, and I&#8217;ll use another core app category to explain - Text Editors. I think they are a better analogy than music or browsers. Shipping in every Mac, TextEdit is a solid basic free editor, but everyone needs something more. Some people need styles, grammar checking, layout control, and graphics - so they move to Word, Pages, or OpenOffice.org. Clearly, there&#8217;s money to be made there, if only by Microsoft.
-Other people need regex search and replace, code completion, syntax checking, block editing, etc. - so they move on to a programmer&#8217;s editor. How is the market for programmer&#8217;s editors? XCode is free and very good, emacs, vim, etc. are also free and excellent. But there <em>are</em> people making money selling text editors. People buy BBEdit, TextMate, and SubEthaEdit because these programs have important features that give you more power over something that they do all day. TextMate is my favorite example here, because it benefits from community involvement with bundles and plugins to customize and add power.</p>
-
-<p>Does that sound familiar? It should - many of us spend more time than we&#8217;d like reading and answering email. For some, it&#8217;s their whole job. An email client that had unique and compelling features for professionals, knew its audience, had strong Mac-like design, <em>and supported community extension</em>, would be successful, just like TextMate.</p>
-
-<p>Imagine if there was just a single bundled text editor for Macs, and we had to use it for writing everything from programming to business reports to family letters. Wouldn&#8217;t it be annoying when an update came around and they added stationery and voice notes when you wanted refactoring support and better version-control integration? &#8220;Email client&#8221; isn&#8217;t just a single app category, and it&#8217;s about time someone realized it.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/16/">&larr; Older</a>
@@ -602,6 +646,10 @@ Other people need regex search and replace, code completion, syntax checking, bl
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/09/disposable/">disposable</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/08/editor-wars/">&#8216;Editor Wars&#8217;</a>
       </li>
     
@@ -615,10 +663,6 @@ Other people need regex search and replace, code completion, syntax checking, bl
     
       <li class="post">
         <a href="/2012/04/links-hacking-music-in-python-rust-unitaskimg/">Links: Hacking, Music in Python, Rust & unitasking</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/04/links-flattr-haskell-haskell-quickcheck-and-stuart-cheshire-of-bolo-fame/">Links: Flattr, Haskell, Haskell QuickCheck, and Stuart Cheshire (of Bolo fame)</a>
       </li>
     
   </ul>

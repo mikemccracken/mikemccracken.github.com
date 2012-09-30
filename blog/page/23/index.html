@@ -9,7 +9,7 @@
   <meta name="author" content="Michael McCracken">
 
   
-  <meta name="description" content="After reading Merlin Mann&#8217;s suggestion to live in iCal, I thought that even though I don&#8217;t use kGTD, it might be a good idea to try to &hellip;">
+  <meta name="description" content="A quick thought: why not wrap NSUndoManager to support adding scriptable hooks to almost any user action? Surely someone can think of a good scheme &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,6 +78,48 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2006/03/applescript-hooks-everywhere/">Applescript Hooks Everywhere?</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-03-02T17:02:06-08:00" pubdate data-updated="true">Mar 2<span>nd</span>, 2006</time>
+        
+         | <a href="/2006/03/applescript-hooks-everywhere/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>A quick thought: why not wrap NSUndoManager to support adding scriptable hooks to almost any user action? Surely someone can think of a good scheme to let an application programmer support really thorough scriptability without tons of extra work&#8230;</p>
+
+<p>I thought of this because I&#8217;d like a way to mark a To-do item for an email reply as completed once I&#8217;d sent the email, and a good way would be with an email-send hook in Apple Mail.</p>
+
+<p>Okay that&#8217;s it, thanks!</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -550,48 +592,6 @@ There were plenty of good grad-school jokes and a general feeling of relief that
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2006/02/curious-pasting-in-mailapp/">Curious Pasting in Mail.app</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2006-02-08T11:25:50-08:00" pubdate data-updated="true">Feb 8<span>th</span>, 2006</time>
-        
-         | <a href="/2006/02/curious-pasting-in-mailapp/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I just discovered something curious. I accidentally pasted when I meant to undo in Apple Mail, and it took the text on the clipboard and created a new mail message with the clipboard text as its contents. Not a new message ready to send, like if I had dragged the text to Mail&#8217;s icon, but a new unread message in my mailbox that had the text as its body and no headers.</p>
-
-<p>&#8220;That&#8217;s strange,&#8221; I thought, so I pasted again, into TextEdit, to see if I&#8217;d somehow copied a mail message or something - no, just text. I then added a Subject: and From: header line, copied and pasted again. The same thing, only this time with those headers. It only seems to work with plain text pasteboard contents, and I couldn&#8217;t get it to work reliably in every kind of mail folder, but a local mailbox seems to work most consistently.</p>
-
-<p>I feel like I&#8217;ve found Mail&#8217;s vestigial tail - this is mostly harmless behavior, but a little confusing, and I can&#8217;t really think of any use for it. I&#8217;m curious how it got in there.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/24/">&larr; Older</a>
@@ -613,6 +613,10 @@ There were plenty of good grad-school jokes and a general feeling of relief that
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/09/disposable/">disposable</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/08/editor-wars/">&#8216;Editor Wars&#8217;</a>
       </li>
     
@@ -626,10 +630,6 @@ There were plenty of good grad-school jokes and a general feeling of relief that
     
       <li class="post">
         <a href="/2012/04/links-hacking-music-in-python-rust-unitaskimg/">Links: Hacking, Music in Python, Rust & unitasking</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/04/links-flattr-haskell-haskell-quickcheck-and-stuart-cheshire-of-bolo-fame/">Links: Flattr, Haskell, Haskell QuickCheck, and Stuart Cheshire (of Bolo fame)</a>
       </li>
     
   </ul>

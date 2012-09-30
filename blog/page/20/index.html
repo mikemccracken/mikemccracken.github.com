@@ -9,7 +9,7 @@
   <meta name="author" content="Michael McCracken">
 
   
-  <meta name="description" content="I&#8217;ve been using Red Sweater software&#8217;s FlexTime for a while now, and Daniel just announced version 1.0. FlexTime is a repeating-timer &hellip;">
+  <meta name="description" content="13 months ago, I &#8220;launched&#8221; the leverage project on sourceforge, supposed to be a place to house all the various OS X / Cocoa text &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,6 +78,81 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2006/08/3-more-text-hack-projects-on-leveragesourceforgenet/">3 More Text Hack Projects on leverage.sourceforge.net</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-08-18T08:59:20-07:00" pubdate data-updated="true">Aug 18<span>th</span>, 2006</time>
+        
+         | <a href="/2006/08/3-more-text-hack-projects-on-leveragesourceforgenet/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>13 months ago, I <a href="http://michael-mccracken.net/blog/blosxom.pl/computers/mac/programming/meetLeverage.html">&#8220;launched&#8221;</a> the <a href="http://leverage.sourceforge.net">leverage project</a> on sourceforge, supposed to be a place to house all the various OS X / Cocoa text manipulation hacks I&#8217;ve done, including my I-Search for NSTextView InputManager hack.</p>
+
+<p>I haven&#8217;t touched leverage since, but today I added three more projects to the SVN repository with varying appeal and usability. I also added a mailing list, <a href="https://lists.sourceforge.net/lists/listinfo/leverage-discuss">leverage-discuss</a>.</p>
+
+<p>If you&#8217;re interested in trying these out or working on one of these hacks, and want to ask a question, using that email list would be best, but you can also <a href="mailto:michael_mccracken@mac.com">email me</a> directly about them.</p>
+
+<h4>TextShape</h4>
+
+<p>Here&#8217;s my 2004 blog post about it: <a href="http://michael-mccracken.net/blog/blosxom.pl/computers/mac/programming/meetTSV.html">&#8220;Usability and Editing Code: TextShapeView&#8221;</a> and here&#8217;s the old home page for it, with a screenshot: <a href="http://michael-mccracken.net/?TextShapeView">TextShapeView</a>.</p>
+
+<p>The code is unchanged, but it works fine on 10.4.</p>
+
+<p><a href="http://svn.sourceforge.net/viewvc/leverage/textshape/trunk/">http://svn.sourceforge.net/viewvc/leverage/textshape/trunk/</a></p>
+
+<h4>TextStructure</h4>
+
+<p>A long time ago, so long I can&#8217;t even find it with google, I posted somewhere about a hacked version of <a href="http://darkwing.uoregon.edu/~koch/texshop">TexShop</a> that had an outline view in a drawer that showed the section structure of your TeX document.</p>
+
+<p>I never got that working well enough to try adding it to TexShop, but I did realize that it&#8217;s something that could be useful for other kinds of text as well.</p>
+
+<p>A big project, the TextStructure InputManager adds a key binding to NSTextView that pops up a window with an outline view that tries to represent the current text as an outline, using a scheme of regular expressions that mark some lines of text as &#8220;tags&#8221; with outline levels, depending on the text. It has a few regexps built in for LaTeX, ObjC, TODO &amp; FIXME lines, and email quoting (which doesn&#8217;t quite make sense).</p>
+
+<p>You can also search the text for a regexp, and it will highlight the sections which contain a match.</p>
+
+<p>I don&#8217;t have a screenshot just yet, but I&#8217;ll post about it more later.</p>
+
+<p><a href="http://svn.sourceforge.net/viewvc/leverage/textstructure/trunk/">http://svn.sourceforge.net/viewvc/leverage/textstructure/trunk/</a></p>
+
+<h4>OEM : Open in Emacs</h4>
+
+<p>This is a new one, and a work-in-progress. It adds a key binding to open the text of the current text view in an emacs buffer, using a temporary file and <code>emacsclient</code>. It currently has no way to get the text back into the text view from the file when you&#8217;re done editing it in emacs, and doesn&#8217;t delete the file. But it&#8217;s at least partially nifty&#8230;</p>
+
+<p><a href="http://svn.sourceforge.net/viewvc/leverage/oem/trunk/">http://svn.sourceforge.net/viewvc/leverage/oem/trunk/</a></p>
+
+<h4>ISIM: Incremental Search in NSTextView</h4>
+
+<p>Not new, but it&#8217;s in there too:
+<a href="http://svn.sourceforge.net/viewvc/leverage/isim/trunk/">http://svn.sourceforge.net/viewvc/leverage/isim/trunk/</a></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -542,46 +617,6 @@ end tell
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2006/06/macresearchorg-bibdesk-killer-app/">MacResearch.org: BibDesk &#8220;Killer App&#8221;</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2006-06-28T05:37:18-07:00" pubdate data-updated="true">Jun 28<span>th</span>, 2006</time>
-        
-         | <a href="/2006/06/macresearchorg-bibdesk-killer-app/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Over at <a href="http://macresearch.org/">macresearch.org</a>, they&#8217;ve posted a nice <a href="http://www.macresearch.org/bibdesk_a_free_bibliography_management_application">review of BibDesk</a>. One quote: &#8220;If you use Latex search no more, this is a killer app.&#8221; Kudos to Adam and Christiaan.</p>
-
-<p>I see an increasing number of Macs at research meetings I go to, and I usually can&#8217;t help but peek on their dock to look for that yellow folder. I usually don&#8217;t ask people if they&#8217;ve heard of it, but I have thought of putting a big sticker with the BibDesk icon on my PowerBook, just to see if anyone recognizes it.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/21/">&larr; Older</a>
@@ -603,6 +638,10 @@ end tell
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/09/disposable/">disposable</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/08/editor-wars/">&#8216;Editor Wars&#8217;</a>
       </li>
     
@@ -616,10 +655,6 @@ end tell
     
       <li class="post">
         <a href="/2012/04/links-hacking-music-in-python-rust-unitaskimg/">Links: Hacking, Music in Python, Rust & unitasking</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/04/links-flattr-haskell-haskell-quickcheck-and-stuart-cheshire-of-bolo-fame/">Links: Flattr, Haskell, Haskell QuickCheck, and Stuart Cheshire (of Bolo fame)</a>
       </li>
     
   </ul>

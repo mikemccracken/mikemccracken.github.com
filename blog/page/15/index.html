@@ -9,7 +9,7 @@
   <meta name="author" content="Michael McCracken">
 
   
-  <meta name="description" content="I&#8217;ve been hacking around with PyObjC, the Python-ObjC/Cocoa bridge recently, and it&#8217;s quickly becoming my favorite way to write Cocoa &hellip;">
+  <meta name="description" content="Daniel Jalkut just wrote about a desktop bookmarking app called Pukka, which despite being apparently nice enough to warrant a positive review, was &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,6 +78,107 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2008/03/two-hours/">Two Hours</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-03-27T12:42:54-07:00" pubdate data-updated="true">Mar 27<span>th</span>, 2008</time>
+        
+         | <a href="/2008/03/two-hours/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Daniel Jalkut just <a href="http://www.red-sweater.com/blog/481/it-should-be-free">wrote about</a> a desktop bookmarking app called <a href="http://codesorcery.net/pukka/">Pukka</a>, which despite being apparently nice enough to warrant a positive review, was simple enough that Leo Laporte wasn&#8217;t comfortable just saying it cost $15. I felt like adding to the discussion after a few commenters described the app as trivial - in one case saying that any good programmer could write it in two hours.</p>
+
+<p>This bothered me, so I downloaded Pukka and gave it a try. I was curious to see if it was indeed trivial.</p>
+
+<p>While it definitely doesn&#8217;t seem like the most feature-rich program up front, there&#8217;s a lot of stuff in there - it works with more than one bookmarking site, it integrates with RSS readers, uses the OS X keychain, includes Bonjour discovery of nearby users, and has AppleScript support.</p>
+
+<p>Further, it shows attention to detail. Although I may not agree with some of Justin&#8217;s UI design choices, it&#8217;s clear that he spent time thinking about bookmarking workflow. I know in some of my projects, just pondering design choices takes hours - drawing mockups, and trying things out.</p>
+
+<p>End-user app development isn&#8217;t just programming, and programming isn&#8217;t just typing.</p>
+
+<p>I think it&#8217;s fair to say that that although you might be able to retype the code by hand in a few hours, Pukka represents a good chunk of serious work. I&#8217;m sure the mac developers in the audience will agree - Applescript support alone is almost guaranteed to be more than two hours of work.</p>
+
+<p>I&#8217;m glad that there&#8217;s a market for small apps and small developers, and I hope downwards price pressure from large subsidized or bundled apps doesn&#8217;t kill that off.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2008/02/voodoopad-35/">VoodooPad 3.5</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-02-11T08:00:44-08:00" pubdate data-updated="true">Feb 11<span>th</span>, 2008</time>
+        
+         | <a href="/2008/02/voodoopad-35/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>From Flying Meat, <a href="http://flyingmeat.com/voodoopad">VoodooPad</a> 3.5 is out.
+(<a href="http://www.flyingmeat.com/fs/flystashweb.cgi/2dc35f78-ac3e-01dc-01d4-c0cbe4c4bd91">release notes here</a>).</p>
+
+<p>It&#8217;s a solid update, including welcome image-editor integration and more. I thought I&#8217;d point out my favorite feature in the release notes:</p>
+
+<p>&#8220;You can now edit pages and sort the results in the search window (woo!).&#8221;</p>
+
+<p>I like this because it matches a kind of manual refactoring habit I picked up with Project Builder / XCode&#8217;s excellent &#8220;Find in Project…&#8221; window - I search for a keyword that marks places I need to look at and edit the files right in the search window. (Note: <a href="http://www.gnu.org/software/emacs/manual/html_node/emacs/Other-Repeating-Search.html">&#8216;occur-mode&#8217; and kin</a> are a powerful way to do the same in Emacs…)</p>
+
+<p>It&#8217;s a powerful habit if you plan for it, by using comments in code to keep track of what you&#8217;ve touched when making a lot of cross-cutting changes, like <code># @addsearch</code> Then when you think you&#8217;re done with a change, you can run a quick search to see if you forgot to fix anything.</p>
+
+<p>Sometimes in VoodooPad notes, I&#8217;ll write in placeholders like that comment when I don&#8217;t have a bit of information yet, and now I can follow my trails the same way I do in code.</p>
+
+<p>Thanks, Gus!</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -535,96 +636,6 @@ When I downloaded the 1.0 release, I found a conflict with TextExtras and wrote 
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2007/07/nslocalizedstring-can-set-errno/">NSLocalizedString Can Set Errno</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2007-07-10T03:27:34-07:00" pubdate data-updated="true">Jul 10<span>th</span>, 2007</time>
-        
-         | <a href="/2007/07/nslocalizedstring-can-set-errno/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>This is a short one, but it might help someone with debugging someday.</p>
-
-<p>A while back, we had some code that was checking errno, then using the NSLocalizedString macro to get a localized error message, but it checked errno again later. Only the app isn&#8217;t localized yet. There&#8217;s no Localizable.strings file, so when NSBundle -localizedStringForKey gets called, even though it fails gracefully, it still ends up setting errno to &#8220;ENOENT&#8221;, or &#8220;file not found&#8221;.</p>
-
-<p>So the lesson is - in case you&#8217;re seeing weird behavior where errno is changing after you check it, make sure you&#8217;re not using any system calls that might set it.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2007/07/free-advice-about-a-pro-email-client/">Free Advice About a Pro Email Client</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2007-07-06T02:54:48-07:00" pubdate data-updated="true">Jul 6<span>th</span>, 2007</time>
-        
-         | <a href="/2007/07/free-advice-about-a-pro-email-client/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>If you&#8217;re thinking of writing a commercially successful <em>pro</em> email client for Mac OS X, here&#8217;s some advice along the lines of what I wrote <a href="http://michael-mccracken.net/wp/2007/07/05/it-could-work-a-3rd-party-email-client-for-os-x/">yesterday</a>:</p>
-
-<p><em>Make sure you&#8217;ve tried a lot of email clients.</em> Try everything you can get your hands on. Really use each one - figure out what makes it different, and what makes it powerful. Make sure you&#8217;ve tried text-only clients like mutt and pine. Lots of your target audience refuses to give those up - figure out why. Don&#8217;t just try free alternatives - peek in on big-business. Fire up Parallels and try Outlook and Notes in Windows (there may be others that are even better examples). Read up on the <a href="http://chandlerproject.org/Projects/WebHome">Chandler project</a>.</p>
-
-<p><em>Make sure the email is always available in an open data format.</em> If this isn&#8217;t obvious, you should probably stay home. Keep a backup copy of email in something Apple Mail can read - like Unix mbox files. You can use a database for tags and whatever, but there had better be mbox files around, because your target audience won&#8217;t move into an app they can&#8217;t move out of.</p>
-
-<p><em>Don&#8217;t start out by cloning Apple Mail.</em> If your first screenshot looks almost like Mail but does less or isn&#8217;t as pretty, it&#8217;s bad news. Mail is a big program with lots of time and effort behind it. If you try to match its feature list first before you make your client unique, you&#8217;re toast.</p>
-
-<p><em>Pick a specific customer, and get to know their email problem.</em> Why not clone Apple Mail? Because you&#8217;re not writing for the same customer, are you? Make sure you know who your customer is, and what they actually <em>need</em>. People who want a pro app probably already have a system for to-do lists &amp; notes, so your client doesn&#8217;t need to match those features. Likewise, email pros can still use Mail to send slideshows to Mom…</p>
-
-<p>As an example, since you&#8217;re probably a programmer, think about how a programmer&#8217;s email client would be different from the standard. Maybe it does syntax highlighting. Maybe you can apply patches people send you with one click. Maybe you can create bugzilla issues from an email with one click. Or collaborate on a support email with the <a href="http://www.codingmonkeys.de/subethaengine/">SubEthaEngine</a>. Nobody but programmers will want to use that client, but that&#8217;s fine - there are lots of programmers. Now what about music and video editors? Graphic designers? See where I&#8217;m going?</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/16/">&larr; Older</a>
@@ -646,6 +657,14 @@ When I downloaded the 1.0 release, I found a conflict with TextExtras and wrote 
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/10/links/">Links</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/10/a-testing-story/">A Testing Story</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/09/disposable/">disposable</a>
       </li>
     
@@ -655,14 +674,6 @@ When I downloaded the 1.0 release, I found a conflict with TextExtras and wrote 
     
       <li class="post">
         <a href="/2012/08/selected-links-from-this-summer/">Selected Links from this April</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/08/no-more-wordpress/">My last wordpress upgrade</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/04/links-hacking-music-in-python-rust-unitaskimg/">Links: Hacking, Music in Python, Rust & unitasking</a>
       </li>
     
   </ul>

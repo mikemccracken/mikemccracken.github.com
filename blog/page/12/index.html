@@ -9,7 +9,7 @@
   <meta name="author" content="Michael McCracken">
 
   
-  <meta name="description" content="Last week, Alex Payne and Mark Pilgrim both made some heartfelt arguments explaining why they think the fact that Apple&#8217;s vision of the &hellip;">
+  <meta name="description" content="Suppose you want to write a Launchd agent in Python that communicates using UNIX domain sockets. There&#8217;s no sample code for that, but the &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,6 +78,140 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2010/03/snakes-on-demand-how-to-write-a-python-launchd-agent/">Snakes on Demand: How to Write a Python Launchd Agent</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-03-14T14:23:52-07:00" pubdate data-updated="true">Mar 14<span>th</span>, 2010</time>
+        
+         | <a href="/2010/03/snakes-on-demand-how-to-write-a-python-launchd-agent/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Suppose you want to write a Launchd agent in Python that communicates using UNIX domain sockets. There&#8217;s no sample code for that, but the information is out there to figure out how (especially because the <a href="http://launchd.macosforge.net">launchd source code</a> is available). Most search results will tell you that you need to read the <a href="http://developer.apple.com/mac/library/technotes/tn2005/tn2083.html">Daemons and Agents Tech Report TN2083</a>, but it&#8217;s pretty long and not a great tutorial. A better intro reference is Chris Hanson&#8217;s blog post <a href="http://chanson.livejournal.com/179229.html">&#8220;Launchd: better than sliced bread!&#8221;</a>, but that doesn&#8217;t tell you everything, and doesn&#8217;t mention Python.</p>
+
+<p>I decided I&#8217;d share what I&#8217;ve learned recently to make getting started a little easier. I&#8217;ll give a short description here and post the resulting code to bitbucket at <a href="http://bitbucket.org/mikemccracken/py-launchd/">py-launchd</a>.</p>
+
+<p><em>Note:</em> This was written and tested on OS X 10.5.8 with the default <code>/usr/bin/python</code>, version 2.5.1.
+Since I wanted to use multiprocessing, I used the backport to 2.5 available at <a href="http://code.google.com/p/python-multiprocessing/">google code: python-multiprocessing</a> . For convenience, it&#8217;s included in the repository, and so is its license.</p>
+
+<h3>Goal</h3>
+
+<p>What we&#8217;re trying to do is have some python code that gets called when launchd notices someone connecting to a <a href="http://en.wikipedia.org/wiki/Unix_domain_socket">UNIX domain socket</a>. UNIX domain sockets are local-only, so this is ideal for agents that only serve local apps. We&#8217;re also using launchd &#8220;agents&#8221; not &#8220;daemons&#8221;, so we&#8217;re assuming that it&#8217;s OK to have one agent process for each user. If you&#8217;re managing access to something that needs to be unique system-wide, then this won&#8217;t work (but you can still use Launchd).</p>
+
+<h3>launchd overview</h3>
+
+<p>The launchd process will read a launchd plist you give it (at login, via launchctl or the 10.6 framework), and listen on the socket you tell it to. Once it sees a connection, it&#8217;ll start the agent program you specified in the plist, and that program can make some calls using the launchd C API to get a file descriptor for the socket that was connected. This is important - you don&#8217;t need to call bind() or listen() on the socket, because launchd already did. It&#8217;s just handing the open socket&#8217;s file descriptor straight to you and your code can just call accept() on it.</p>
+
+<h3>Using launchd with Python</h3>
+
+<p>You need to create a C/ObjC tool that can do the launchd check-in to get the open file descriptor, then pass that off to your Python code. This is pretty straightforward using the Python framework included in OS X and the Python C APIs.</p>
+
+<p>What I&#8217;ve done is create an agent loader that I called PyLaunchd that loads and runs server code in Agent.py. It expects Agent.py to be in the same directory.</p>
+
+<p>PyLaunchd is built separately and copied into the test app&#8217;s Resources folder with an XCode script phase.</p>
+
+<p>I have the app delegate copy <code>PyLaunchd</code> and <code>Agent.py</code> to <code>~/Library/Application Support/PyLaunchd/</code> on loading.
+It also customizes the launchd plist to set the path correctly for the current user, then writes that to <code>~/Library/LaunchAgents/</code>, and loads it. (Actually it first unloads it, then reloads it. I&#8217;m not convinced this is the right way to do it). It uses system() to call launchctl, but I believe in OS X 10.6 there&#8217;s an API you can call to do it directly.</p>
+
+<p>Finally, the sample app is really simple - it just opens the socket using the multiprocessing Client class, and sends whatever you type. The example Agent I&#8217;ve included will ROT13 it and send it back.</p>
+
+<p>Please let me know if you have any comments, questions, or improvements.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2010/02/how-bibdesk-generates-apple-help-and-a-web-manual/">How BibDesk Generates Apple Help and a Web Manual</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-02-16T15:51:53-08:00" pubdate data-updated="true">Feb 16<span>th</span>, 2010</time>
+        
+         | <a href="/2010/02/how-bibdesk-generates-apple-help-and-a-web-manual/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>This is something that had been on my old blog in 2006 and went away, so I&#8217;m reposting something I wrote to the macsb list a few years ago:</p>
+
+<p>For the BibDesk open source project, we wanted to have legit in-app
+apple help, as well as a web page (and PDF), without maintaining
+separate sources, since we were all working out of spare time.</p>
+
+<p>We tried a few free options, and eventually worked out something
+decent with Texinfo, a latex-like markup language that can be
+processed into latex (and then PDF) or HTML.</p>
+
+<p>I wrote a custom init file to have the (standard) texi2html script
+print out apple help compatible HTML. One post-processing script and a
+simple xcode script build phase later, and we get apple help.</p>
+
+<p>We also get a version a little more suitable for the web (more content
+per page) from the same source: <a href="http://bibdesk.sf.net/manual/">http://bibdesk.sf.net/manual/</a></p>
+
+<p>It&#8217;s worked well for a couple of years, and it&#8217;s a good choice if you
+don&#8217;t mind learning texinfo (it&#8217;s pretty nice compared to
+writing in Docbook or HTML, IMO), and very good for version-controlled collaboration,
+since it&#8217;s just text.</p>
+
+<p>For an example, here&#8217;s what the help source text looks like:</p>
+
+<p>http://bibdesk.svn.sourceforge.net/viewvc/bibdesk/trunk/bibdesk/English.lproj/BibDesk%20Help/bibdesk.texi?view=markup</p>
+
+<p>The init file and other stuff is here:
+http://bibdesk.svn.sourceforge.net/viewvc/bibdesk/trunk/bibdesk/BibDesk%20Help/</p>
+
+<p>If anyone&#8217;s curious about it, feel free to ask me questions here. I&#8217;ll try
+to remember how it works.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -434,100 +568,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2009/09/textshapeview/">TextShapeView</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2009-09-17T05:49:37-07:00" pubdate data-updated="true">Sep 17<span>th</span>, 2009</time>
-        
-         | <a href="/2009/09/textshapeview/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>TextShapeView was another Cocoa Text system hack project I started a few years ago.</p>
-
-<p>I made a view that displays a zoomed out view of a string from a text view, with indentation, along with a rectangle showing where the text view is in the file.</p>
-
-<p>You can click around in the view to move the  It also highlights the selection, and draws lines in blue if they contain the string in the NSFindPBoard, so you can see <em>all</em> the lines in the file that match when you use the Find panel.</p>
-
-<p>This is available under a Creative Commons license, and I&#8217;d ask that if you make any improvements, you send them back to me or join the &#8216;leverage&#8217; sourceforge project, where the code is hosted. I wanted to eventually make this into a Cocoa text plugin like <a href="http://michael-mccracken.net/2009/09/an-update-on-the-incremental-search-plug/">my I-Search plugin</a>.</p>
-
-<p>Here is the <a href="http://leverage.svn.sourceforge.net/viewvc/leverage/textshape/trunk/">SVN repository for the textshape code</a>.</p>
-
-<p>There was also a <a href="http://michael-mccracken.net/TextShapeView.tgz">Source code Tarball</a> with a demo app, shown in the screenshot below:</p>
-
-<p><a href="http://michael-mccracken.net/img/tsvPic.png"><img src="http://michael-mccracken.net/img/tsvPic.png" alt="" /></a></p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2009/09/stakeout-info/">Stakeout Info</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2009-09-16T14:42:59-07:00" pubdate data-updated="true">Sep 16<span>th</span>, 2009</time>
-        
-         | <a href="/2009/09/stakeout-info/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>This post is here to prevent broken links, since I&#8217;ve noticed people coming here from a link to my old Stakeout page.</p>
-
-<p>Stakeout was a program that runs something when files change, by watching for file changes at the system level using kqueue. It was intended to support running automated tests. The 2nd version even worked with growl to pop up info about the test success or failure.</p>
-
-<p>I still have the <a href="http://michael-mccracken.net/software/stakeout-2.tgz">Stakeout-2 tarball</a> available, but I haven&#8217;t tested it in years.</p>
-
-<p>Why? I&#8217;ve been working on things that take too long to test, so I don&#8217;t want to run a suite every time a file changes anymore. I still think it&#8217;s a useful idea.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/13/">&larr; Older</a>
@@ -549,6 +589,14 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/10/links/">Links</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/10/a-testing-story/">A Testing Story</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/09/disposable/">disposable</a>
       </li>
     
@@ -558,14 +606,6 @@
     
       <li class="post">
         <a href="/2012/08/selected-links-from-this-summer/">Selected Links from this April</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/08/no-more-wordpress/">My last wordpress upgrade</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/04/links-hacking-music-in-python-rust-unitaskimg/">Links: Hacking, Music in Python, Rust & unitasking</a>
       </li>
     
   </ul>

@@ -9,7 +9,7 @@
   <meta name="author" content="Michael McCracken">
 
   
-  <meta name="description" content="BibDesk 1.3 was just released (see here for very complete release notes), and this release adds a few features that were requested four years ago - &hellip;">
+  <meta name="description" content="This is about building an iTunes store-style interface to the web&#8217;s bibliographic information. I&#8217;ve been pushing along the hCite &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,6 +78,96 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2007/01/bibdesk-and-the-hcite-microformat/">BibDesk and the hCite Microformat</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-01-25T23:06:24-08:00" pubdate data-updated="true">Jan 25<span>th</span>, 2007</time>
+        
+         | <a href="/2007/01/bibdesk-and-the-hcite-microformat/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>This is about building an iTunes store-style interface to the web&#8217;s bibliographic information.</p>
+
+<p>I&#8217;ve been pushing along the <a href="http://microformats.org/wiki/citation">hCite </a> Microformat process, which will set a standard for HTML publishers to add simple semantic markup to their pages that programs like BibDesk can read as citation metadata.</p>
+
+<p>In stark contrast to great but complex things like Z39.50, if you can publish a web page, you can serve citation metadata. No need to have servers to support complicated queries, let google do the hard work.</p>
+
+<p>The progress on the standard has been slow, and so far there is only one beta implementation to help focus the talks - Brian Suda&#8217;s <a href="http://suda.co.uk/projects/microformats/X2C/">X2C</a> XSL stylesheet.</p>
+
+<p>In the spirit of building momentum, I&#8217;ve added support for parsing hCite to a private build of BibDesk. For now, we&#8217;re just discussing how to merge it, but soon the feature will show up in nightly builds, and anyone can start testing and getting experience with the emerging standard. I&#8217;ll update when it&#8217;s available, but until then, here&#8217;s a rough screenshot:</p>
+
+<p><img src="http://michael-mccracken.net/img/bdwebgroupscreenshot.png" alt="" /></p>
+
+<p><strong>Update:</strong> this feature is now in the latest <a href="http://bibdesk.demokratia.org/beta/">nightly builds</a>, but it&#8217;s hidden because hCite isn&#8217;t final. To see the web group, type <code>defaults write edu.ucsd.cs.mmccrack.bibdesk BDSKShouldShowWebGroup true</code> (all one line) at the command line before running a recent nightly.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2007/01/bibdesk-openurl-script-workflow/">BibDesk OpenURL Script Workflow</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-01-14T20:23:04-08:00" pubdate data-updated="true">Jan 14<span>th</span>, 2007</time>
+        
+         | <a href="/2007/01/bibdesk-openurl-script-workflow/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I love reading about how people use BibDesk. Over on the <a href="http://sourceforge.net/mailarchive/forum.php?forum_id=11760">bibdesk-users mailing list</a>, James Howison <a href="http://sourceforge.net/mailarchive/forum.php?forum_id=11760">explains in detail</a> how Alex Montgomery&#8217;s OpenURL script is making him happy. The short version: &#8220;Zero typing of the bibliographic details :)&#8221;</p>
+
+<p>As he explains, you can find some great scripts for BibDesk on the wiki at <a href="http://bibdesk.sourceforge.net/wiki/index.php/BibDesk_Applescripts">BibDesk Applescripts</a>.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -431,90 +521,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2006/11/nhl-on-google-video/">NHL on Google Video</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2006-11-07T17:06:33-08:00" pubdate data-updated="true">Nov 7<span>th</span>, 2006</time>
-        
-         | <a href="/2006/11/nhl-on-google-video/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Last spring, when I <a href="http://michael-mccracken.net/wp/?p=48">wrote</a> about highlights from the NHL Playoffs being available on the iTunes store, I said:</p>
-
-<blockquote><p>the sensation I felt when I noticed the announcement of NHL playoff video available on iTunes was that of Steve Jobs signing my name on a check for ten dollars and winking.</p></blockquote>
-
-<p>This weekend, when I saw this: <a href="http://video.google.com/nhl.html">video.google.com/nhl.html</a> - free videos of every NHL game, including historic games, I went plain nuts. Go check it out, even if you don&#8217;t know you like hockey yet. If you don&#8217;t have a team, may I suggest the <a href="http://video.google.com/videosearch?q=owner%3Anhl+penguins&amp;hl=en&amp;page=1&amp;so=1">Pittsburgh Penguins</a>? There&#8217;s probably still time to become a Penguins fan without being a bandwagon fan, but it&#8217;s running out&#8230;</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2006/10/itunes-skip-count/">iTunes Skip Count</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2006-10-30T10:16:13-08:00" pubdate data-updated="true">Oct 30<span>th</span>, 2006</time>
-        
-         | <a href="/2006/10/itunes-skip-count/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>It&#8217;s been mentioned before, for example <a href="http://digg.com/apple/New_iTunes_7_SKIP_COUNT_feature">on Digg</a>, but iTunes 7 has a new feature that counts the number of times you&#8217;ve <em>skipped</em> a track, which is defined as playing the song for at least two seconds but no longer than twenty (after which it is counted as played fully).</p>
-
-<p>I&#8217;m curious how they chose twenty seconds as the cutoff - when I was working on an (unreleased and unfinished) project for generating smart shuffles, I defined skips as not listening past the first fifteen seconds, but didn&#8217;t count a full play until the song ended.</p>
-
-<p>It&#8217;s an interesting feature, and it&#8217;s apparently kept up to date by some iPods, so I can see it helping me keep bad songs off my small iPod by using it in a smart playlist rule. However, often I find myself skipping songs I really like because I&#8217;m just not feeling them at the moment. So - how about the option of a smart playlist rule that lets me define a skip percentage? If I skip a song far more often than I play it, then it&#8217;s a pretty good bet I don&#8217;t need it on my iPod.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/19/">&larr; Older</a>
@@ -536,6 +542,14 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/10/links/">Links</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/10/a-testing-story/">A Testing Story</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/09/disposable/">disposable</a>
       </li>
     
@@ -545,14 +559,6 @@
     
       <li class="post">
         <a href="/2012/08/selected-links-from-this-summer/">Selected Links from this April</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/08/no-more-wordpress/">My last wordpress upgrade</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/04/links-hacking-music-in-python-rust-unitaskimg/">Links: Hacking, Music in Python, Rust & unitasking</a>
       </li>
     
   </ul>

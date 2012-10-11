@@ -9,7 +9,7 @@
   <meta name="author" content="Michael McCracken">
 
   
-  <meta name="description" content="My shared links for July 1st through July 2nd: Crash Course: Design for Startups &#8211; PaulStamatiou.com - Some design tips and a big reading list &hellip;">
+  <meta name="description" content="Here are some features I want but I&#8217;ll never have time to write the scripts for VoodooPad to do. I use VP mostly as a running log of notes, &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,6 +78,122 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2011/07/voodoopad-omnifocus-and-terminal-integration-wish-list/">VoodooPad, OmniFocus and Terminal Integration Wish List</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-06T07:05:48-07:00" pubdate data-updated="true">Jul 6<span>th</span>, 2011</time>
+        
+         | <a href="/2011/07/voodoopad-omnifocus-and-terminal-integration-wish-list/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Here are some features I want but I&#8217;ll never have time to write the scripts for VoodooPad to do.</p>
+
+<p>I use VP mostly as a running log of notes, shell commands and todos. I also use OmniFocus for task tracking, but sometimes it&#8217;s easier to just start typing in VP and work out the tasks later. So I often end up with VP pages that have a bunch of todos mixed in with project headers and miscellaneous notes.</p>
+
+<p>I&#8217;ve been thinking some integration would be nice. I want an <del><a href="http://orgmode.org/">emacs org-mode</a></del> (update: I meant <a href="http://www.isi.edu/~johnh/SOFTWARE/NOTES_MODE/">notes-mode</a>) style &#8220;new day&#8221; script that creates a new page for the day and does the following:</p>
+
+<ul>
+<li>adds a link to the new page to the previous note page</li>
+<li>moves any pending todos (I mark them as lines starting with a &lt;# todo #> placeholder so I can jump to them) off yesterday&#8217;s page and into OmniFocus</li>
+<li>starts a new header (line starting with #, in bold) in the new page for every header that had leftover todos. These headers usually correspond to projects in OmniFocus.</li>
+<li>adds new headers and todo lines for any tasks that are due today</li>
+</ul>
+
+
+<p>I want to have VP autocomplete project names from OmniFocus when I start a header line. Then add a link next to the new header pointing to the last page containing that header.</p>
+
+<p>I&#8217;d also like to have OmniFocus update the VP document when I check off a task in OF - I want to use VP as a log, so I can track down when I did something. Maybe projects should all have their own VP pages, that are kind of an auto-updated index of progress on the tasks.</p>
+
+<p>It&#8217;d also be nice if when I edited a todo line in VP, it could update OF. I guess I want VP to be an supplemental synchronized view onto my OF tasks.</p>
+
+<p>For the Terminal: I do a lot of copying and pasting shell commands into VP so I can remember things like important paths, or the exact configure settings I used to build something two years ago. This is really useful, but it&#8217;d be nice if it was easier to do without leaving the terminal. Ideally I could just prefix a command with something like &#8216;@&#8217; to add it to the current page in VP (or &#8216;@pagename#headername&#8217; to get fancy). You could get this with a script named &#8216;@&#8217; - on your local machine. But it also has to work when you&#8217;re working remotely, so it will get a little more complicated.</p>
+
+<p>Finally - this is something I wanted to try doing with an InputManager before that mechanism went away: I&#8217;d like CamelCase links in every text field on the system (probably with some exceptions) to automatically link to VP pages. But it sounds like the days of modifying system-wide behavior on Macs are history, so I&#8217;ll probably never get this. Who knows, maybe it would&#8217;ve been a disaster.</p>
+
+<p>I always thought the path to improvement in work computing was more and deeper integration between 3rd-party apps, as well as more system functionality that&#8217;s usable by all those apps, but it looks to me* like in OS X we&#8217;re only getting the latter.</p>
+
+<p><em>* - since 10.7 is about to come out, it might be worth pointing out that I have no special advance developer info. I haven&#8217;t even been a dev program member for a few years now.</em></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2011/07/links-for-july-5th-through-july-6th/">Links for July 5th Through July 6th</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-06T03:08:38-07:00" pubdate data-updated="true">Jul 6<span>th</span>, 2011</time>
+        
+         | <a href="/2011/07/links-for-july-5th-through-july-6th/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>My shared links for July 5th through July 6th:</p>
+
+<ul>
+<li><a href="http://design.canonical.com/2011/07/overlay-scrollbars-update/">Overlay Scrollbars - Update « Canonical Design</a> - They have a video of the new scrollbar design for Ubuntu.
+I&#8217;m not sure I like it but it&#8217;s hard to say without using it first.</li>
+</ul>
+
+
+<p>One nit - I don&#8217;t think it&#8217;s obvious what happens to the red position bar (what to call that?) when you just press the arrows on the thumb instead of moving it around.</p>
+
+<ul>
+<li><p><a href="http://code.google.com/p/pulp-or/">pulp-or - puLP: An LP modeler in Python - Google Project Hosting</a> Linear Programming solvers!</p></li>
+<li><p><a href="http://guide.couchdb.org/index.html">CouchDB: The Definitive Guide</a> - The couchdb oreilly book. (free full text and drafts)</p></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -449,88 +565,6 @@ He then went on to discuss what he&#8217;s learned about how to manage email wit
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2011/06/email-charters-lists-as-parties/">Email Charters & Lists as Parties</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-06-21T16:01:55-07:00" pubdate data-updated="true">Jun 21<span>st</span>, 2011</time>
-        
-         | <a href="/2011/06/email-charters-lists-as-parties/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Chuq van Rospach shares some insight on the long battle to make email work better socially: In <a href="http://www.chuqui.com/2011/06/help-create-an-email-charter-part-1/">part one</a>, he argues that any attempt to codify good behavior will fail to create utopia, but may influence future tools and enough people to be worth trying. In  <a href="http://www.chuqui.com/2011/06/help-create-an-email-charter-part-2/">part two</a>, he says the only real way to fix problems in email is with tools, not by trying to influence behavior, if only because there are too many people using email for any lasting consensus on how to use it.</p>
-
-<p>In the comments to Chuq&#8217;s post, there&#8217;s a link to a really interesting proposal to make mailing lists easier to use - <a href="http://tieguy.org/blog/2010/03/17/lists-parties/">Luis Villa: &#8220;Mailing lists are parties. Or the should be.&#8221;</a> The idea here is that the tools should help us give and receive some of the social cues that make parties successful where mailing lists aren&#8217;t, like politely showing someone that they&#8217;re boring or annoying you (by leaving the conversation), or quickly finding the interesting conversations (by seeing who and how many people are paying attention to it).</p>
-
-<p>I really like Luis&#8217; suggestions, because you could do this with mailing list software today.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2011/05/squeezing-a-cs-research-idea/">&#8220;Squeezing a CS Research Idea&#8221;</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2011-05-27T03:03:59-07:00" pubdate data-updated="true">May 27<span>th</span>, 2011</time>
-        
-         | <a href="/2011/05/squeezing-a-cs-research-idea/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>An interesting post about how to evaluate a research idea. Basically, try to think about the bounds: what&#8217;s the maximum impact? Includes some good rules of thumb, like pay attention to physical constraints like the speed of light :)</p>
-
-<p><a href="http://blog.regehr.org/archives/537">Embedded in Academia : Squeezing a CS Research Idea</a>.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/7/">&larr; Older</a>
@@ -552,6 +586,14 @@ He then went on to discuss what he&#8217;s learned about how to manage email wit
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/10/links/">Links</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/10/a-testing-story/">A Testing Story</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/09/disposable/">disposable</a>
       </li>
     
@@ -561,14 +603,6 @@ He then went on to discuss what he&#8217;s learned about how to manage email wit
     
       <li class="post">
         <a href="/2012/08/selected-links-from-this-summer/">Selected Links from this April</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/08/no-more-wordpress/">My last wordpress upgrade</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/04/links-hacking-music-in-python-rust-unitaskimg/">Links: Hacking, Music in Python, Rust & unitasking</a>
       </li>
     
   </ul>

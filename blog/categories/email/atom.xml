@@ -4,7 +4,7 @@
   <title><![CDATA[Category: email | michael-mccracken.net]]></title>
   <link href="http://michael-mccracken.net/blog/categories/email/atom.xml" rel="self"/>
   <link href="http://michael-mccracken.net/"/>
-  <updated>2012-09-29T23:16:46-07:00</updated>
+  <updated>2012-10-11T11:35:54-07:00</updated>
   <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
@@ -12,6 +12,45 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Links]]></title>
+    <link href="http://michael-mccracken.net/2012/10/links/"/>
+    <updated>2012-10-08T00:47:00-07:00</updated>
+    <id>http://michael-mccracken.net/2012/10/links</id>
+    <content type="html"><![CDATA[<ul>
+<li><p><a href="http://stackoverflow.com/questions/10857030/whats-so-bad-about-template-haskell">What's so bad about Template Haskell? - Stack Overflow</a></p>
+
+<p>  A bunch of good answers to why Template Haskell is occasionally maligned.</p></li>
+<li><p><a href="http://stackoverflow.com/questions/10845179/which-haskell-ghc-extensions-should-users-use-avoid/10849782#10849782">Which Haskell (GHC) extensions should users use/avoid? - Stack Overflow</a></p>
+
+<p>  Interesting list of aesthetic judgements of haskell extensions. At press time I don't know what most of these words mean.</p></li>
+<li><p><a href="http://www.yesodweb.com/blog/2011/04/yesod-template-haskell">Yesod and Template Haskell</a></p>
+
+<p>  Short post on why Yesod uses template haskell (which has a bad rep)</p></li>
+<li><p><a href="http://imakewebthings.com/deck.js/">deck.js » Modern HTML Presentations</a></p></li>
+<li><p><a href="http://redbot.org/">REDbot: &lt;></a></p>
+
+<p>  RED is a robot that checks HTTP resources to see how they'll behave, pointing out common problems and suggesting improvements. Although it is not a HTTP conformance tester, it can find a number of HTTP-related issues.</p></li>
+<li><p><a href="https://github.com/visi-lang/visi">.@dpp’s Visi looks to be exactly the thing when Soulver isn’t enough and spreadsheets are rigid github.com/visi-lang/visi #emerginglangs</a></p></li>
+<li><p><a href="http://highscalability.com/blog/2012/7/30/prismatic-architecture-using-machine-learning-on-social-netw.html">High Scalability - Prismatic Architecture - Using Machine Learning on Social Networks to Figure Out What You Should Read on the Web </a></p></li>
+<li><p><a href="http://deslide.clusterfake.net/">Deslidefied HTML</a></p>
+
+<p>  Really useful bookmark to make slideshow news articles readable on one page.</p></li>
+<li><p><a href="http://pragprog.com/magazines/2012-09/thinking-functionally-with-haskell">Thinking Functionally with Haskell</a></p>
+
+<p>  ""In which we explore what modern type systems bring to the table. Imagine an approach to programming where you write down some description of what your code should do, then before running your code you run some automatic tool to see if the code matches the description. That’s Test-driven development, you say!  Actually, this is what you are doing when you use static types in most languages too. Types are a description of the code’s inputs and outputs, and the check ensures that inputs and outputs match up and are used consistently. Modern type systems—such as in Haskell or above—are very flexible, and allow these descriptions to be quite detailed; plus they are not too obtrusive in use and often very helpful.  One point I’ll investigate here is how advances in types are converging with new ideas on testing, to the point where (I claim) the old distinctions are starting to blur and starting to open up exciting new possibilities—hence my suggestion that we need a new word to describe what we’re doing that is free from preconceptions and out-dated thinking.  So put aside your bad experiences from Java, and prepare to be amazed! ""</p></li>
+<li><p><a href="http://feedproxy.google.com/~r/ezyang/~3/3Vb6-OhkZws/">So you want to hack on IMAP…</a></p>
+
+<p>  "Well, first off, you’re horribly misinformed: you do not actually want to hack on IMAP."</p></li>
+<li><p><a href="http://waxy.org/2008/06/the_machine_that_changed_the_world/">The Machine That Changed the World: Great Brains - Waxy.org</a></p>
+
+<p>  Documentary about computing history:
+  "It's a whirlwind tour of computing before the Web, with brilliant archival footage and interviews with key players — several of whom passed away since the filming. Jointly produced by WGBH Boston and the BBC, it originally aired in the UK as The Dream Machine before its U.S. premiere in January 1992. Its broadcast was accompanied by a book co-written by the documentary's producer Jon Palfreman."</p></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Email Workflow]]></title>
@@ -80,56 +119,6 @@ He then went on to discuss what he's learned about how to manage email without f
     <content type="html"><![CDATA[<p>Over at the <a href="http://www.postbox-inc.com/blog">Postbox blog</a>, they're teasing the upcoming version 2.5 with a post about a <a href="http://www.postbox-inc.com/blog/entry/postbox_2-5_new_addressing_widget/">New Addressing Widget</a>. There's only a screenshot, but it looks like a nice usability improvement - it looks more Mac-like. To and CC are in separate fields, so it's easier to add a CC without using the mouse now, and they use the token field widget (the little blue lozenge introduced in Apple Mail in 2005) to make it easier to drag around whole addresses.</p>
 
 <p>They do say they're working on some re-styling and finishing touches - so I'll reserve judgement until I use it. For now, it's still catch-up.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Handling Reference Emails]]></title>
-    <link href="http://michael-mccracken.net/2011/04/handling-reference-emails/"/>
-    <updated>2011-04-26T02:44:38-07:00</updated>
-    <id>http://michael-mccracken.net/2011/04/handling-reference-emails</id>
-    <content type="html"><![CDATA[<p>Sometimes you need to refer to your email. (I've written about this <a href="http://michael-mccracken.net/2007/06/the-read-once-email-client-and-reference-emails/">before</a>).</p>
-
-<p>Maybe it's to integrate comments from a bunch of people while you're editing a report, or it's a set of mails with instructions for something, like how to configure &amp; install a source code package or submit expense reports in the new system. These emails could all be in one thread, but just as often it's a few mails spread throughout several threads and scattered in time.</p>
-
-<p>A good mail client should make it easy to keep arbitrary groups of messages visible for reference. Since they're reference emails, you're just reading them, and the display shouldn't really be more than the text of the mail. You should be able to fit a few of these on screen without overlapping what you're actually working on, and you don't need a big toolbar with a bunch of actions that won't be happening.</p>
-
-<p>When I'm doing something in another app, I want to arrange my reference mails in an empty part of the screen, then not click back over to the mail client until I'm ready to close them. The faster it is to set up this display and get on with things, the better.</p>
-
-<p>Let's look at how a few existing clients support this kind of thing:</p>
-
-<h3>Gmail</h3>
-
-<p>It's easy to open a conversation and refer to it, and you can hide the body of messages that aren't relevant. But you can't move things around, so if it's a really long thread, you might be in for some scrolling. If you want to refer to more than one thread, you will have to open each in its own window.</p>
-
-<h3>Apple Mail</h3>
-
-<p>Because of its lack of a conversation-style thread view, the way to do this is to just open separate windows for each message. You can't look at a single thread in one window - have to open N windows for N messages. Ugh.</p>
-
-<p>Since Mail is what I use most often, when I have this problem I always end up with a flock of windows, and lots of clicking, scrolling and cmd-tabbing around to see what I need, followed by looking at all my open windows and trying not to close any unrelated drafts or accidentally send or delete something important.</p>
-
-<h3>Postbox &amp; Thunderbird</h3>
-
-<p>The experience with Postbox is similar to, but a little worse than GMail.
-In Postbox, there's a thread view where I can hide uninteresting messages like GMail, but if I want to pop the thread out into a separate window, I can't - only single messages can be popped into separate windows. I can make tabs with the thread view by double-clicking on a thread, but I can't figure out how to get a new window. Of course, if I need to see multiple emails at once, tabs are no good.</p>
-
-<p>Thunderbird is basically the same, except at least in 3.0.4, the default view when you select a thread is less useful than Postbox's - it looks more like a debug dump of the message's text than a well-designed display.</p>
-
-<h3>MailMate</h3>
-
-<p>MailMate is similar to Postbox &amp; Thunderbird - except that you get a nice linear conversation-style view with any selection, not just a single thread. (Postbox has a nice view but only for a thread, and TBird shows you any selection but not a nice view.)</p>
-
-<p>Still, as with those others, the linear conversation view can't be popped into its own reading-oriented window, and it's strictly linear.</p>
-
-<h3>Summary</h3>
-
-<p>I don't think any of the clients I looked at have a good solution for this. Is that a problem? Is this actually important?</p>
-
-<p>I think so. I bet if you think about when you actually look at an email, it's usually one of three times - when you first read it, as you write a reply to it, and when you're searching for it later. In both of the second two cases, I've found that I often have more than one mail or thread that I want to look at while I write or do something in another app, and a dedicated view to support that would be great. I could search through just those messages. I could minimize or move them all at once. Just think of the possibilities!</p>
-
-<p>Finally, if it's easy to keep this set of emails around for later reference without cluttering up my screen in the meantime - and without actually moving the messages into some separate folder on my server - that'd be really great. Because you always have another expense report to file, and really, who wants to memorize <em>that</em> procedure?</p>
-
-<p>Thanks for reading this far, and please feel free to leave a comment - am I missing something great in one of these clients?</p>
 ]]></content>
   </entry>
   

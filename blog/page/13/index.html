@@ -9,7 +9,7 @@
   <meta name="author" content="Michael McCracken">
 
   
-  <meta name="description" content="An update on the incremental-search plugin for NSTextViews that continues to be a big draw to this site - I don&#8217;t currently use it on 10.5, &hellip;">
+  <meta name="description" content="TextShapeView was another Cocoa Text system hack project I started a few years ago. I made a view that displays a zoomed out view of a string from a &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,6 +78,100 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2009/09/textshapeview/">TextShapeView</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-09-17T05:49:37-07:00" pubdate data-updated="true">Sep 17<span>th</span>, 2009</time>
+        
+         | <a href="/2009/09/textshapeview/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>TextShapeView was another Cocoa Text system hack project I started a few years ago.</p>
+
+<p>I made a view that displays a zoomed out view of a string from a text view, with indentation, along with a rectangle showing where the text view is in the file.</p>
+
+<p>You can click around in the view to move the  It also highlights the selection, and draws lines in blue if they contain the string in the NSFindPBoard, so you can see <em>all</em> the lines in the file that match when you use the Find panel.</p>
+
+<p>This is available under a Creative Commons license, and I&#8217;d ask that if you make any improvements, you send them back to me or join the &#8216;leverage&#8217; sourceforge project, where the code is hosted. I wanted to eventually make this into a Cocoa text plugin like <a href="http://michael-mccracken.net/2009/09/an-update-on-the-incremental-search-plug/">my I-Search plugin</a>.</p>
+
+<p>Here is the <a href="http://leverage.svn.sourceforge.net/viewvc/leverage/textshape/trunk/">SVN repository for the textshape code</a>.</p>
+
+<p>There was also a <a href="http://michael-mccracken.net/TextShapeView.tgz">Source code Tarball</a> with a demo app, shown in the screenshot below:</p>
+
+<p><a href="http://michael-mccracken.net/img/tsvPic.png"><img src="http://michael-mccracken.net/img/tsvPic.png" alt="" /></a></p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2009/09/stakeout-info/">Stakeout Info</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-09-16T14:42:59-07:00" pubdate data-updated="true">Sep 16<span>th</span>, 2009</time>
+        
+         | <a href="/2009/09/stakeout-info/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>This post is here to prevent broken links, since I&#8217;ve noticed people coming here from a link to my old Stakeout page.</p>
+
+<p>Stakeout was a program that runs something when files change, by watching for file changes at the system level using kqueue. It was intended to support running automated tests. The 2nd version even worked with growl to pop up info about the test success or failure.</p>
+
+<p>I still have the <a href="http://michael-mccracken.net/software/stakeout-2.tgz">Stakeout-2 tarball</a> available, but I haven&#8217;t tested it in years.</p>
+
+<p>Why? I&#8217;ve been working on things that take too long to test, so I don&#8217;t want to run a suite every time a file changes anymore. I still think it&#8217;s a useful idea.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -429,86 +523,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2009/08/visible-bindings/">Visible Bindings</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2009-08-03T04:11:25-07:00" pubdate data-updated="true">Aug 3<span>rd</span>, 2009</time>
-        
-         | <a href="/2009/08/visible-bindings/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Just noticed this: <a href="http://www.artima.com/articles/two_way_binding.html">Two-Way Data Binding in Flex 4</a>.</p>
-
-<p>Flex is an SDK for building Flash apps that I know nothing about, but this article presents what looks like a rough equivalent of Cocoa Bindings, and it has one really nice property that Cocoa has always been missing - say what you want about specifying a UI with XML, but the Flex XML looked like it&#8217;d be relatively easy to scan, search and diff. I&#8217;ve always thought that a human-readable text format for Cocoa NIBs would be a big improvement.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2009/07/new-release-of-eaglefiler/">New Release of EagleFiler</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2009-07-28T04:22:11-07:00" pubdate data-updated="true">Jul 28<span>th</span>, 2009</time>
-        
-         | <a href="/2009/07/new-release-of-eaglefiler/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>From <a href="http://c-command.com/blog/2009/07/28/eaglefiler-147/">C-Command Blog -  EagleFiler 1.4.7</a>: a bunch of nice refinements.</p>
-
-<p>I use EagleFiler to keep track of reference documents that I get in emails. Presentations, reports, etc - the kind of thing that would usually just get stored in the mail archive. Because I want a complete mail archive <em>and</em> a fast way to get to the important stuff, I keep the important stuff in EagleFiler so I can add tags and searches don&#8217;t get a lot of false hits.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/14/">&larr; Older</a>
@@ -530,6 +544,14 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/10/links/">Links</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/10/a-testing-story/">A Testing Story</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/09/disposable/">disposable</a>
       </li>
     
@@ -539,14 +561,6 @@
     
       <li class="post">
         <a href="/2012/08/selected-links-from-this-summer/">Selected Links from this April</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/08/no-more-wordpress/">My last wordpress upgrade</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/04/links-hacking-music-in-python-rust-unitaskimg/">Links: Hacking, Music in Python, Rust & unitasking</a>
       </li>
     
   </ul>

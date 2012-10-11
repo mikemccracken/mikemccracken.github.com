@@ -9,8 +9,8 @@
   <meta name="author" content="Michael McCracken">
 
   
-  <meta name="description" content="Computing gadgets don&#8217;t last long enough. I wanted to write a lot
-about this, but since I don&#8217;t have good answers, I figured I might as &hellip;">
+  <meta name="description" content="What&#8217;s so bad about Template Haskell? - Stack Overflow A bunch of good answers to why Template Haskell is occasionally maligned.
+Which Haskell &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -79,6 +79,144 @@ about this, but since I don&#8217;t have good answers, I figured I might as &hel
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2012/10/links/">Links</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-10-08T00:47:00-07:00" pubdate data-updated="true">Oct 8<span>th</span>, 2012</time>
+        
+         | <a href="/2012/10/links/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><ul>
+<li><p><a href="http://stackoverflow.com/questions/10857030/whats-so-bad-about-template-haskell">What&#8217;s so bad about Template Haskell? - Stack Overflow</a></p>
+
+<p>  A bunch of good answers to why Template Haskell is occasionally maligned.</p></li>
+<li><p><a href="http://stackoverflow.com/questions/10845179/which-haskell-ghc-extensions-should-users-use-avoid/10849782#10849782">Which Haskell (GHC) extensions should users use/avoid? - Stack Overflow</a></p>
+
+<p>  Interesting list of aesthetic judgements of haskell extensions. At press time I don&#8217;t know what most of these words mean.</p></li>
+<li><p><a href="http://www.yesodweb.com/blog/2011/04/yesod-template-haskell">Yesod and Template Haskell</a></p>
+
+<p>  Short post on why Yesod uses template haskell (which has a bad rep)</p></li>
+<li><p><a href="http://imakewebthings.com/deck.js/">deck.js » Modern HTML Presentations</a></p></li>
+<li><p><a href="http://redbot.org/">REDbot: &lt;></a></p>
+
+<p>  RED is a robot that checks HTTP resources to see how they&#8217;ll behave, pointing out common problems and suggesting improvements. Although it is not a HTTP conformance tester, it can find a number of HTTP-related issues.</p></li>
+<li><p><a href="https://github.com/visi-lang/visi">.@dpp’s Visi looks to be exactly the thing when Soulver isn’t enough and spreadsheets are rigid github.com/visi-lang/visi #emerginglangs</a></p></li>
+<li><p><a href="http://highscalability.com/blog/2012/7/30/prismatic-architecture-using-machine-learning-on-social-netw.html">High Scalability - Prismatic Architecture - Using Machine Learning on Social Networks to Figure Out What You Should Read on the Web </a></p></li>
+<li><p><a href="http://deslide.clusterfake.net/">Deslidefied HTML</a></p>
+
+<p>  Really useful bookmark to make slideshow news articles readable on one page.</p></li>
+<li><p><a href="http://pragprog.com/magazines/2012-09/thinking-functionally-with-haskell">Thinking Functionally with Haskell</a></p>
+
+<p>  &#8220;&#8221;In which we explore what modern type systems bring to the table. Imagine an approach to programming where you write down some description of what your code should do, then before running your code you run some automatic tool to see if the code matches the description. That’s Test-driven development, you say!  Actually, this is what you are doing when you use static types in most languages too. Types are a description of the code’s inputs and outputs, and the check ensures that inputs and outputs match up and are used consistently. Modern type systems—such as in Haskell or above—are very flexible, and allow these descriptions to be quite detailed; plus they are not too obtrusive in use and often very helpful.  One point I’ll investigate here is how advances in types are converging with new ideas on testing, to the point where (I claim) the old distinctions are starting to blur and starting to open up exciting new possibilities—hence my suggestion that we need a new word to describe what we’re doing that is free from preconceptions and out-dated thinking.  So put aside your bad experiences from Java, and prepare to be amazed! &#8220;&#8221;</p></li>
+<li><p><a href="http://feedproxy.google.com/~r/ezyang/~3/3Vb6-OhkZws/">So you want to hack on IMAP…</a></p>
+
+<p>  &#8220;Well, first off, you’re horribly misinformed: you do not actually want to hack on IMAP.&#8221;</p></li>
+<li><p><a href="http://waxy.org/2008/06/the_machine_that_changed_the_world/">The Machine That Changed the World: Great Brains - Waxy.org</a></p>
+
+<p>  Documentary about computing history:
+  &#8220;It&#8217;s a whirlwind tour of computing before the Web, with brilliant archival footage and interviews with key players — several of whom passed away since the filming. Jointly produced by WGBH Boston and the BBC, it originally aired in the UK as The Dream Machine before its U.S. premiere in January 1992. Its broadcast was accompanied by a book co-written by the documentary&#8217;s producer Jon Palfreman.&#8221;</p></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2012/10/a-testing-story/">A Testing Story</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-10-03T11:37:00-07:00" pubdate data-updated="true">Oct 3<span>rd</span>, 2012</time>
+        
+         | <a href="/2012/10/a-testing-story/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Tests are great! This year I&#8217;ve started working on a codebase with a
+significant unit test suite for the first time in a while, and good
+coverage has definitely come in handy. Now I&#8217;m going to share a
+story where a single test did double duty.</p>
+
+<p>Our filesystem events listening daemon was crashing occasionally on my
+system, and I didn&#8217;t know how to reproduce it. No one else seemed to
+be getting these crashes, either. The system was saving a backtrace,
+and it was always the same, but I wasn&#8217;t sure I believed its line
+numbers. As a start, I made a guess at the lines that were really
+failing, and added a ton of debug dumps to inspect the state. (Since
+this daemon is run as root using launchd, it&#8217;s still easiest to just
+use the old printf-n&#8217;-stare debug method.)</p>
+
+<p>Then I tried a lot of stuff to poke at it, even leaving Spotify on
+overnight in an attempt to recreate the conditions of the bug. No
+luck. It seemed like it would only crash when I wasn&#8217;t trying to get
+it to crash - pretty frustrating.</p>
+
+<p>I finally found it, but only after giving up for a while. I checked in
+again after working for a while on another project, and hey, lots of
+new crashes! With all my extra debug info, I could see what was going
+on - a string that couldn&#8217;t be encoded in UTF-8 was being handled by
+some code that assumed it could be. It was a filesystem path with
+invalid characters.</p>
+
+<p>What was the path that was killing my daemon? It was a temp file written
+by the test suite for the other project. It was a non-utf8 path,
+written to test the unicode handling of the GUI, and it had the
+wonderful (in retrospect) side effect of poking a bug in the daemon
+too. It&#8217;s so satisfying when you find a bug&#8217;s cause and it completely explains all the symptoms you were seeing.</p>
+
+<p>One test exercising the unicode handling of multiple projects, now that&#8217;s coverage!</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -545,107 +683,6 @@ Browse your music library graphically through a Web browser and play it in any b
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2012/03/links-for-mid-march-see-scalable-python-around-corners-and-future-spies-on-facebook/">Links for mid-March See Scalable Python Around Corners. And Future Spies on Facebook!</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-03-30T05:20:56-07:00" pubdate data-updated="true">Mar 30<span>th</span>, 2012</time>
-        
-         | <a href="/2012/03/links-for-mid-march-see-scalable-python-around-corners-and-future-spies-on-facebook/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>My shared links for March 18th through March 26th:</p>
-
-<ul>
-<li><p><a href="http://highscalability.com/blog/2012/3/26/7-years-of-youtube-scalability-lessons-in-30-minutes.html">7 Years of YouTube Scalability Lessons in 30 Minutes</a> - Notes from a PyCon talk about the very pragmatic design philosophy at YouTube.</p></li>
-<li><p><a href="https://github.com/bkad/discoball">bkad/discoball * GitHub</a> - shell tool to match and colorize lines of text</p></li>
-<li><p><a href="http://pragprog.com/book/kcdc/the-developer-s-code">The Pragmatic Bookshelf | The Developer&#8217;s Code</a> -</p></li>
-<li><p><a href="http://www.nature.com/news/how-to-see-around-corners-1.10258">How to see around corners : Nature News &amp; Comment</a> - And we thought the future was flying cars.</p></li>
-<li><p><a href="http://www.theregister.co.uk/2012/03/19/cia_internet_of_things/page2.html">ARM&#8217;s ultra-low-power fridge-puter chips: Just what the CIA ordered • The Register</a> - Out of context interesting quote: &#8220;The spy boss was chiefly concerned with the huge amounts of data that can be collected from American citizens who intend to become CIA agents - in an age when parents set up Twitter and Tumblr accounts for their newborns, managing the identities of future operatives suddenly becomes non-trivial.&#8221;</p></li>
-<li><p><a href="http://reprog.wordpress.com/2012/02/27/who-needs-access-you-need-access/">Who needs access? You need access!</a> - new site about open access to research aimed at lay people (I think)</p></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2012/03/links-js-latex-live-drawing-and-sound/">Links: JS, LaTeX, Live Drawing and Sound.</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-03-19T07:29:25-07:00" pubdate data-updated="true">Mar 19<span>th</span>, 2012</time>
-        
-         | <a href="/2012/03/links-js-latex-live-drawing-and-sound/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>My shared links for March 5th through March 17th:</p>
-
-<ul>
-<li><p><a href="http://codemirror.net/">CodeMirror</a> - &#8220;CodeMirror is a JavaScript library that can be used to create a relatively pleasant editor interface for code-like content ― computer programs, HTML markup, and similar. If a mode has been written for the language you are editing, the code will be coloured, and the editor will optionally help you with indentation.&#8221;</p></li>
-<li><p><a href="http://tacosw.com/latexian/">Latexian: A LaTeX Editor for Mac OS X</a> - Nice looking latex editor with live preview.</p></li>
-</ul>
-
-
-<p>10.6 or higher so I can&#8217;t try it just now.</p>
-
-<ul>
-<li><p><a href="http://www.youtube.com/watch?v=JupqhcT4ONY">Core Graphics live - YouTube</a> - Demo of live-preview graphics drawing tool</p></li>
-<li><p><a href="http://drc-fir.sourceforge.net/">DRC: Digital Room Correction</a> - &#8220;RC is a program used to generate correction filters for acoustic compensation of HiFi and audio systems in general, including listening room compensation. DRC generates just the FIR correction filters, which can be used with a real time or offline convolver to provide real time or offline correction. DRC doesn&#8217;t provide convolution features, and provides only some simplified, although really accurate, measuring tools.&#8221;</p></li>
-<li><p><a href="https://github.com/shoaibkamil/asp/wiki">ASP: A SEJITS Implementation for Python * shoaibkamil/asp Wiki * GitHub</a> -</p></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -665,6 +702,14 @@ Browse your music library graphically through a Web browser and play it in any b
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/10/links/">Links</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/10/a-testing-story/">A Testing Story</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/09/disposable/">disposable</a>
       </li>
     
@@ -674,14 +719,6 @@ Browse your music library graphically through a Web browser and play it in any b
     
       <li class="post">
         <a href="/2012/08/selected-links-from-this-summer/">Selected Links from this April</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/08/no-more-wordpress/">My last wordpress upgrade</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/04/links-hacking-music-in-python-rust-unitaskimg/">Links: Hacking, Music in Python, Rust & unitasking</a>
       </li>
     
   </ul>

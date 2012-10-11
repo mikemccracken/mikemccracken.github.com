@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: haskell | michael-mccracken.net]]></title>
+  <link href="http://michael-mccracken.net/blog/categories/haskell/atom.xml" rel="self"/>
+  <link href="http://michael-mccracken.net/"/>
+  <updated>2012-10-11T11:35:54-07:00</updated>
+  <id>http://michael-mccracken.net/</id>
+  <author>
+    <name><![CDATA[Michael McCracken]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Links]]></title>
+    <link href="http://michael-mccracken.net/2012/10/links/"/>
+    <updated>2012-10-08T00:47:00-07:00</updated>
+    <id>http://michael-mccracken.net/2012/10/links</id>
+    <content type="html"><![CDATA[<ul>
+<li><p><a href="http://stackoverflow.com/questions/10857030/whats-so-bad-about-template-haskell">What's so bad about Template Haskell? - Stack Overflow</a></p>
+
+<p>  A bunch of good answers to why Template Haskell is occasionally maligned.</p></li>
+<li><p><a href="http://stackoverflow.com/questions/10845179/which-haskell-ghc-extensions-should-users-use-avoid/10849782#10849782">Which Haskell (GHC) extensions should users use/avoid? - Stack Overflow</a></p>
+
+<p>  Interesting list of aesthetic judgements of haskell extensions. At press time I don't know what most of these words mean.</p></li>
+<li><p><a href="http://www.yesodweb.com/blog/2011/04/yesod-template-haskell">Yesod and Template Haskell</a></p>
+
+<p>  Short post on why Yesod uses template haskell (which has a bad rep)</p></li>
+<li><p><a href="http://imakewebthings.com/deck.js/">deck.js » Modern HTML Presentations</a></p></li>
+<li><p><a href="http://redbot.org/">REDbot: &lt;></a></p>
+
+<p>  RED is a robot that checks HTTP resources to see how they'll behave, pointing out common problems and suggesting improvements. Although it is not a HTTP conformance tester, it can find a number of HTTP-related issues.</p></li>
+<li><p><a href="https://github.com/visi-lang/visi">.@dpp’s Visi looks to be exactly the thing when Soulver isn’t enough and spreadsheets are rigid github.com/visi-lang/visi #emerginglangs</a></p></li>
+<li><p><a href="http://highscalability.com/blog/2012/7/30/prismatic-architecture-using-machine-learning-on-social-netw.html">High Scalability - Prismatic Architecture - Using Machine Learning on Social Networks to Figure Out What You Should Read on the Web </a></p></li>
+<li><p><a href="http://deslide.clusterfake.net/">Deslidefied HTML</a></p>
+
+<p>  Really useful bookmark to make slideshow news articles readable on one page.</p></li>
+<li><p><a href="http://pragprog.com/magazines/2012-09/thinking-functionally-with-haskell">Thinking Functionally with Haskell</a></p>
+
+<p>  ""In which we explore what modern type systems bring to the table. Imagine an approach to programming where you write down some description of what your code should do, then before running your code you run some automatic tool to see if the code matches the description. That’s Test-driven development, you say!  Actually, this is what you are doing when you use static types in most languages too. Types are a description of the code’s inputs and outputs, and the check ensures that inputs and outputs match up and are used consistently. Modern type systems—such as in Haskell or above—are very flexible, and allow these descriptions to be quite detailed; plus they are not too obtrusive in use and often very helpful.  One point I’ll investigate here is how advances in types are converging with new ideas on testing, to the point where (I claim) the old distinctions are starting to blur and starting to open up exciting new possibilities—hence my suggestion that we need a new word to describe what we’re doing that is free from preconceptions and out-dated thinking.  So put aside your bad experiences from Java, and prepare to be amazed! ""</p></li>
+<li><p><a href="http://feedproxy.google.com/~r/ezyang/~3/3Vb6-OhkZws/">So you want to hack on IMAP…</a></p>
+
+<p>  "Well, first off, you’re horribly misinformed: you do not actually want to hack on IMAP."</p></li>
+<li><p><a href="http://waxy.org/2008/06/the_machine_that_changed_the_world/">The Machine That Changed the World: Great Brains - Waxy.org</a></p>
+
+<p>  Documentary about computing history:
+  "It's a whirlwind tour of computing before the Web, with brilliant archival footage and interviews with key players — several of whom passed away since the filming. Jointly produced by WGBH Boston and the BBC, it originally aired in the UK as The Dream Machine before its U.S. premiere in January 1992. Its broadcast was accompanied by a book co-written by the documentary's producer Jon Palfreman."</p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

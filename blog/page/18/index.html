@@ -9,7 +9,7 @@
   <meta name="author" content="Michael McCracken">
 
   
-  <meta name="description" content="This is about building an iTunes store-style interface to the web&#8217;s bibliographic information. I&#8217;ve been pushing along the hCite &hellip;">
+  <meta name="description" content="I usually like the link selection I get from the Joel Reddit, which usually has good software-related essays at the top. It seems to avoid links to &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,6 +78,164 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2007/02/mac-programming-collaborative-bookmarks/">Mac Programming Collaborative Bookmarks?</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-02-07T06:54:37-08:00" pubdate data-updated="true">Feb 7<span>th</span>, 2007</time>
+        
+         | <a href="/2007/02/mac-programming-collaborative-bookmarks/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I usually like the link selection I get from the <a href="http://joel.reddit.com/">Joel Reddit</a>, which usually has good software-related essays at the top. It seems to avoid links to uninformed rants about consumer electronics or industry politics, for which I have no use.</p>
+
+<p>I&#8217;d like a social links site for software professionals on the Mac - does one exist?</p>
+
+<p>Or am I missing the point of these sites, and there&#8217;s a feature in each of them to get only the links I want?</p>
+
+<p>I&#8217;m curious - how do you get your mac-related links?</p>
+
+<p><strong>Update:</strong> From the comments and some emails, I heard three main ways. A few people just rely on the feeds they check regularly, trusting that if something&#8217;s interesting enough, eventually someone they read will post about it. This was basically my strategy.</p>
+
+<p>A few other people plugged Scott Stevenson&#8217;s <a href="http://cocoablogs.com">Cocoablogs.com</a>, which I remember seeing a while back but overlooked when I wrote this post. He&#8217;s doing a good job of collecting interesting links and highlighting blogs you might want to check out - keep an eye on that site. To paraphrase Scott, he wants cocoablogs to be the &#8216;anti-digg&#8217;, a site where you can guarantee someone actually read the article before they recommend it to you. I&#8217;d say that&#8217;s a good idea - I don&#8217;t have patience for mob voting.</p>
+
+<p>Finally, another suggestion was to follow the <a href="http://del.icio.us/tag/cocoa">&#8216;cocoa&#8217; tag on del.icio.us</a>, something else I should have thought of - this is nice and social like digg and reddit, but it seems less likely that someone will tag an article they haven&#8217;t read, so I think it&#8217;s a stronger vote.</p>
+
+<p>Thanks, everyone, for the suggestions!</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2007/01/quick-n-dirty-omnioutliner-to-mediawiki-applescript/">Quick N&#8217; Dirty OmniOutliner to MediaWiki Applescript</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-01-30T10:42:37-08:00" pubdate data-updated="true">Jan 30<span>th</span>, 2007</time>
+        
+         | <a href="/2007/01/quick-n-dirty-omnioutliner-to-mediawiki-applescript/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>The other day, I had a big outline on a wiki that I wanted to edit in <a href="http://www.omnigroup.com/applications/omnioutliner/">OmniOutliner</a> so I could hide and move things around with a real outliner, then export it back out to the wiki.</p>
+
+<p>I managed to get it into OO with copy and paste and a lot of RSI-inducing tabbing, but the text export options can&#8217;t be massaged to export MediaWiki-style (eg, &#8216;#&#8217; for level one, &#8216;##&#8217; for level two).</p>
+
+<p>So I wrote a quick Applescript to get the data out and get me back on my way. I thought I&#8217;d post it in case it would be useful to anyone else:</p>
+
+<pre><code>tell front document of application "OmniOutliner Professional"
+
+    set expText to ""
+
+    repeat with aRow in rows
+        set rowText to ""
+        -- start from 2 to treat top levels as headers
+        repeat with i from 2 to level of aRow
+            set rowText to rowText &amp; "#"
+        end repeat
+        set rowText to rowText &amp; " " &amp; topic of aRow
+        set expText to expText &amp; return &amp; rowText
+    end repeat
+
+    set the clipboard to expText
+
+    display dialog "The exported text is in the clipboard."
+end tell
+</code></pre>
+
+<p>Update: see the comments for a version for TWiki. Thanks, Peter!</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2007/01/take-control-of-os-x-backups/">Take Control of OS X Backups</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-01-30T09:03:23-08:00" pubdate data-updated="true">Jan 30<span>th</span>, 2007</time>
+        
+         | <a href="/2007/01/take-control-of-os-x-backups/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>The excellent <a href="http://takecontrolbooks.com">&#8220;Take Control&#8221;</a> series of Mac ebooks has updated  <a href="http://www.takecontrolbooks.com/backup-macosx.html">&#8220;Take Control of OS X Backups&#8221;</a> to version 2.0.</p>
+
+<p>I have gotten a lot of use out of their other books. <a href="http://www.takecontrolbooks.com/AirPort.html">&#8220;Take Control of Your Airport Network&#8221;</a> saved me a lot of frustration setting up a network for my roommates, and <a href="http://www.takecontrolbooks.com/spam-apple-mail.html">&#8220;Take Control of Spam with Apple Mail&#8221;</a> is what led me to buy  <a href="http://c-command.com/spamsieve/">SpamSieve</a>, so the book deserves part of the credit for solving my spam problem.</p>
+
+<p>So, when I saw that they had a book about backups, I jumped at the chance to get some more good practical advice. Since I already have a copy of Retrospect sitting around gathering dust, I was happy to see a great section dedicated to setting up a recommended backup plan using Retrospect. That section was helpful enough to get me back on track with regular full duplicate backups as well as the incremental backups of selected files I was already doing. That alone was well worth the cost of the book.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -383,144 +541,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2006/12/midnight-inbox/">Midnight Inbox</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2006-12-06T11:45:46-08:00" pubdate data-updated="true">Dec 6<span>th</span>, 2006</time>
-        
-         | <a href="/2006/12/midnight-inbox/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>The GTD App <a href="http://www.midnightbeep.com/">Midnight Inbox 1.0</a> was released recently, and it has a number of interesting features, including automatic harvesting of &#8216;inbox&#8217; materials like email and desktop files, and reminders to get back to work.</p>
-
-<p>I also really like the graphics and typefaces in the UI - I really wanted to love this program.</p>
-
-<p>I tried it a few times during its beta period and never quite understood what was going on. Buggy interaction kept me from experimenting enough to get it. The 1.0 release squashes most of the UI bugs that I was running into, and I got the feeling that I could work with this program. There were two big problems that stopped me from diving in (I didn&#8217;t buy it) - no documentation, and speed.</p>
-
-<p>In large part, the usage model explains itself (it helps to have GTD experience). But it doesn&#8217;t completely explain itself, and the lack of basic documentation leaves you without a guide to the program&#8217;s subtleties. The small &#8220;Introduction&#8221; window reads more like advertising than a manual, and that&#8217;s all you get. The best you can do is explore by double-clicking <em>everything</em>, and typing away.</p>
-
-<p>There&#8217;s no clear explanation why two kinds of text notes exist, how to deal intelligently with task times, or why you might want to use a sheet to review instead of just going through things yourself.</p>
-
-<p>Can I drag this there? Can that have sub-items? Can I edit that? What does it mean to make a context active? What&#8217;s that moving grey bar in the top part? Your guess is as good as mine.</p>
-
-<p>I could temporarily forgive the lack of a manual and dig through forums (for example the <a href="http://groups.google.com/group/inboxbeeps?hl=en">&#8216;inboxbeeps&#8217; google group</a>) and emails to figure these things out - if it weren&#8217;t for the speed. Maybe progress has moved past my G4 Powerbook and everyone reading this will notice no problems at all, but Inbox was just too slow for me - it had responsiveness failings like delays in creating new actions and notes, delays in recognizing clicks to edit, losing keystrokes while editing a project name, and the killer - a spinning beachball while dragging a project to reorder it.</p>
-
-<p>So, I think it&#8217;s got potential. It definitely follows the GTD system. I loved the super-easy &#8216;quick note&#8217; feature, accessible from anywhere. If it got a lot faster (or I got a new machine), and then - if it got some real documentation, I&#8217;d give it a serious try. But for now, I&#8217;m going back to Kinkless.</p>
-
-<p><em>Note:</em> (10 minutes later) I just saw a note in the inboxbeeps group that they&#8217;re working on docs now, and I&#8217;ve forwarded my list of questions to the authors. Hopefully this will be helpful, and then my only remaining criticism will be the speed.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2006/11/gtd-habits/">GTD Habits</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2006-11-15T04:07:26-08:00" pubdate data-updated="true">Nov 15<span>th</span>, 2006</time>
-        
-         | <a href="/2006/11/gtd-habits/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>After years of being aware of <a href="http://davidco.com/">David Allen&#8217;s</a> GTD system through <a href="http://www.43folders.com/topics/gtd">43 Folders</a> and other sites, I took the dive about a month ago and dumped all my various to-do lists and project ideas into <a href="http://kinkless.com">Kinkless GTD</a>. I had tried to keep reminders and actions in a variety of other systems, including emacs <a href="http://staff.science.uva.nl/~dominik/Tools/org/">org-mode</a> and <a href="http://voodoopad.com">VoodooPad</a>, which I use extensively for notes.</p>
-
-<p>I never kept up a system for very long, and I believe the contexts were the key problem - having to look at tasks with different contexts in the same list is daunting - I end up not writing things down to avoid a frightening list, and keeping multiple lists around is difficult in every system I tried, until I tried Kinkless. Organizing by context gives a great feeling of confidence when I ignore huge lists that I just can&#8217;t do right now. Knowing what you can&#8217;t do makes getting the rest started much easier.</p>
-
-<p>I&#8217;m not going to write a big series of posts describing my system or anything - I might have something to say about contexts later, but I would like to say that &#8220;vanilla&#8221; GTD can work for programmers, graduate students, etc - <em>without</em> major changes. Avoid the temptation to focus on your methods and just try using the simplest thing you can get away with. It&#8217;ll probably work.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2006/11/universal-addressservice/">Universal AddressService</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2006-11-08T08:06:01-08:00" pubdate data-updated="true">Nov 8<span>th</span>, 2006</time>
-        
-         | <a href="/2006/11/universal-addressservice/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I&#8217;ve updated <a href="http://michael-mccracken.net/?q=AddressService">AddressService</a> to a Universal Binary, and relicensed it under the LGPL.</p>
-
-<p>AddressService is an OS X system service that lets you select a part of a person&#8217;s first or last name and replace it with their addresses or phone numbers. It&#8217;s handy for quick entry into an email or chat session.</p>
-
-<p>I haven&#8217;t been able to thoroughly test it on an Intel mac, so please let me know if you find any issues.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/19/">&larr; Older</a>
@@ -542,23 +562,23 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/12/mac-irc-clients/">Mac IRC clients</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/11/pyobjc-and-twisted/">PyObjC and Twisted</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/10/selected-links/">More out of date links</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/10/links/">Links</a>
       </li>
     
       <li class="post">
         <a href="/2012/10/a-testing-story/">A Testing Story</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/09/disposable/">disposable</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/08/editor-wars/">&#8216;Editor Wars&#8217;</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/08/selected-links-from-this-summer/">Selected Links from this April</a>
       </li>
     
   </ul>

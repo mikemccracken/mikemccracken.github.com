@@ -9,8 +9,8 @@
   <meta name="author" content="Michael McCracken">
 
   
-  <meta name="description" content="What&#8217;s so bad about Template Haskell? - Stack Overflow A bunch of good answers to why Template Haskell is occasionally maligned.
-Which Haskell &hellip;">
+  <meta name="description" content="At Canonical, we are spread all over and keep in touch via IRC. I&#8217;ve
+tried out a bunch of IRC clients, but nothing is quite right. I&#8217;ll &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -79,6 +79,296 @@ Which Haskell &hellip;">
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2012/12/mac-irc-clients/">Mac IRC Clients</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-12-13T09:03:00-08:00" pubdate data-updated="true">Dec 13<span>th</span>, 2012</time>
+        
+         | <a href="/2012/12/mac-irc-clients/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>At Canonical, we are spread all over and keep in touch via IRC. I&#8217;ve
+tried out a bunch of IRC clients, but nothing is quite right. I&#8217;ll
+explain. Here&#8217;s a list of some things I want from a client - it&#8217;s
+probably not complete, but it&#8217;ll do for now:</p>
+
+<ol>
+<li><p>Don&#8217;t crash. A bouncer makes crashes recoverable, but I shouldn&#8217;t
+have to use one just to keep the backlog around.</p></li>
+<li><p>I need to search the backlog. Incremental search is best.</p></li>
+<li><p>Show multiple channels at once, in one window.</p></li>
+<li><p>Highlight mentions of my nick so I can glance at a window and see if anyone&#8217;s asking me something. Use Growl or notification center, too.</p></li>
+<li><p>Make it obvious when I&#8217;ve disconnected, and reconnect robustly.</p></li>
+<li><p>Let me hide/fade out join/leave notifications and other admin messages.</p></li>
+<li><p>Keep my place so I know what messages are new.</p></li>
+<li><p>Make it obvious which channel I&#8217;m looking at, and even more
+obvious which channel I&#8217;m about to type in. (Nothing is great at this)</p></li>
+<li><p>Spell-check is nice, but autocorrect is awful for IRC and
+technical discussions. Needs a global switch.</p></li>
+<li><p>Don&#8217;t show unread counts. Some channels are chatty and I&#8217;m just in them listening for my name.</p></li>
+</ol>
+
+
+<p>Here are the clients I&#8217;ve tried and why they aren&#8217;t quite perfect:</p>
+
+<h2><a href="http://colloquy.info">Colloquy</a></h2>
+
+<p>Colloquy is a nice full-featured open source client. I&#8217;ve used it the
+most. However - it doesn&#8217;t show multiple channels in one window at the
+same time, and doesn&#8217;t keep your place. I&#8217;ve had some problems with
+reconnection, where I thought IRC was quiet when I was actually just
+disconnected and didn&#8217;t know it.</p>
+
+<p>I have to turn autocorrect off for each room I&#8217;m in, which I only
+remember after the first time it really annoys me by mangling some
+jargon.</p>
+
+<p>There&#8217;s also some general buggy behavior, and I have a short list of
+bugs I&#8217;d like to report someday, but I don&#8217;t have time to fix them.</p>
+
+<p>Years ago I hacked my own version of a place marker that I liked, but
+I can&#8217;t remember why it didn&#8217;t make it in, and of course the code is
+lost now.</p>
+
+<p>The backlog search looks like it should be powerful, but in my
+experience it just doesn&#8217;t work - it never displays any results. I&#8217;m
+not sure what the deal is there.</p>
+
+<p>(As a side note, Colloquy&#8217;s iPhone app is the only iPhone IRC client
+I&#8217;ve used. It seems to work fine, and I don&#8217;t use it enough to have
+specific gripes. Just having to have IRC open on my phone is
+guaranteed to annoy me more than the software itself could.)</p>
+
+<h2><a href="http://www.emacswiki.org/ERC">Emacs ERC</a></h2>
+
+<p>My current setup is just to run ERC in an emacs window alongside my
+code editing.  This has super flexible window splitting and size
+management and unbeatable search for your backlog, since it&#8217;s just
+another emacs buffer. There&#8217;s another nice benefit - if you&#8217;re writing
+about code, emacs&#8217; tab-completion for strings across all buffers means
+that you can easily autocomplete SomeReallyLongFunctionName in
+chats. This saves a lot of typing and cut n&#8217; pasting. When you do need
+to cut n&#8217; paste, it&#8217;s nicer to do it between emacs buffers than
+between apps.</p>
+
+<p>The defaults are not ideal, as usual with emacs you need to dig around
+to find a good setup.</p>
+
+<p>There&#8217;s a module to colorize nicknames according to a hash of the
+name, so it&#8217;s easier to tell people apart. Other clients have similar
+features but I think I like emacs&#8217; the best for some reason - maybe
+the palette is nicer.</p>
+
+<p>There&#8217;s a module to mark your place that only works if you left the
+cursor in the backlog, which is a little weird. It will highlight my
+nick when mentioned, but not the whole line.</p>
+
+<p>Since it&#8217;s open source, I have the same problem as Colloquy, it&#8217;s
+hackable, but I don&#8217;t really have time for that. And emacs is fun to
+hack on, so it&#8217;s a potentially dangerous time sink.</p>
+
+<h2><a href="http://conceitedsoftware.com/products/linkinus">Linkinus</a></h2>
+
+<p>This is a nice client with some minor flaws and a little flakiness. I
+liked it but moved on because of minor annoyances.</p>
+
+<p>It has a kind-of nifty &#8220;conversation tracking&#8221; feature that tries to
+highlight messages in a back-and-forth when you hover over it with the
+mouse (but only in the currently selected channel). It&#8217;s not really
+that useful, but I think it could be if pushed further. I&#8217;d like to
+see more clients try this kind of thing, since separating multiple
+concurrent conversations is hard on IRC, and it can be hard to avoid
+them.</p>
+
+<p>Lets you display multiple channels in one window, but that needs some
+improvement. There&#8217;s just one text-entry field so it&#8217;s easy to type
+something to the wrong channel.</p>
+
+<p>The split display has some issues. The split channel views don&#8217;t show
+you the channel name anywhere, and in some cases don&#8217;t even show you
+the channel topic, which may or may not be helpful anyway. So it can
+take some effort to figure out what channel you&#8217;re looking at,
+especially if there are many of the same people talking on two
+channels.</p>
+
+<p>It can save a set of channels as a group, but it doesn&#8217;t save the
+relative sizes of the splits in the group, so if you want to flip
+between groups, you&#8217;d better be OK with even splits.</p>
+
+<p>Finally, it only supports vertical splits, so with more than two
+channels, you just get a couple unreadably long lines per channel.</p>
+
+<p>It has a very barebones backlog search, but it does work.</p>
+
+<p>They&#8217;ve also clearly tried to re-design the account setup / prefs
+experience, but I&#8217;m not a big fan of an inspector palette - I wanted
+to compare settings between two servers and it will only show me one
+at a time. This was also the biggest point of flakiness, where some
+edits wouldn&#8217;t commit and I couldn&#8217;t tell if the settings were being
+changed.</p>
+
+<h2><a href="http://www.codeux.com/textual/">Textual</a></h2>
+
+<p>Textual is an open-source app
+<a href="http://github.com/Codeux/Textual">(github.com/Codeux/Textual)</a> that
+is for sale on the Mac app store. This is an interesting approach that
+I think has some merit - people may still contribute code or bug
+fixes, but it&#8217;s also nice to know that if the app ever gets abandoned,
+it could be resurrected. That said, I tried building from source to
+enable a quick hack once but the master branch didn&#8217;t build for me, so
+they&#8217;re not trying to make it easy.</p>
+
+<p>It lets me hide some admin messages, has automatic &amp;
+manual scrollback markers to keep track of what I&#8217;ve missed.</p>
+
+<p>This has a setting to &#8220;Track conversations using nickname
+highlighting&#8221; but I couldn&#8217;t really tell what it was doing.</p>
+
+<p>This also has a pretty barebones search, but again, it works.</p>
+
+<p>I tried this for a few days and liked it, but ultimately switched
+away, I think mostly because you can&#8217;t display multiple channels -
+there&#8217;s just one window and it doesn&#8217;t split up.</p>
+
+<h2><a href="http://mediaware.sk/ware/?page_id=35">Mango</a></h2>
+
+<p>I haven&#8217;t tried Mango. The screenshots in the App Store and feature
+listings don&#8217;t lead me to believe that it&#8217;s anything significantly
+different from the others. I&#8217;d be glad to hear from fans, though.</p>
+
+<p>So, what do you use? Have I missed anything great?</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2012/11/pyobjc-and-twisted/">PyObjC and Twisted</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-01T15:31:00-07:00" pubdate data-updated="true">Nov 1<span>st</span>, 2012</time>
+        
+         | <a href="/2012/11/pyobjc-and-twisted/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>@inlineCallbacks doesn&#8217;t work in NSObject subclasses
+- use old time deferreds if that&#8217;s palatable
+- if not, set up &#8216;helper functions&#8217;</p>
+
+<p>testing with twisted.trial and python-mock works fine</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2012/10/selected-links/">More Out of Date Links</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-10-25T12:35:00-07:00" pubdate data-updated="true">Oct 25<span>th</span>, 2012</time>
+        
+         | <a href="/2012/10/selected-links/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><ul>
+<li><a href="http://hammerprinciple.com/therighttool">Programming Languages · Hammer Principle</a>
+  Very interesting survey site to answer the question &#8220;what language is right for what task?&#8221;</li>
+<li><a href="http://james-iry.blogspot.co.uk/2010/05/types-la-chart.html">One Div Zero: Types à la Chart</a>
+  A chart of languages according to type power/safety. Seems reasonable. Made me curious about the ones in the top right.</li>
+<li><a href="https://github.com/philsquared/Catch/wiki">Home · philsquared/Catch Wiki</a>
+  C++ unit testing framework, all in headers, looks nice.</li>
+<li><a href="http://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html">ferd.ca -> An Open Letter to the Erlang Beginner (or Onlooker)</a>
+  Interesting, balanced article about what makes erlang nice.</li>
+<li><p><a href="http://worrydream.com/oatmeal/blind.html">&#8220;Research is a blind date with knowledge.&#8221; worrydream.com/oatmeal/blind.…</a></p></li>
+<li><p><a href="http://mail.python.org/pipermail/pypy-dev/2012-October/010602.html">Splitting RPython (the language) and PyPy (a python interpreter) plan: mail.python.org/pipermail/pypy…</a>
+  Sounds interesting. I wonder if RPython will grow in popularity separately.</p></li>
+<li><p><a href="http://saltandfat.com/post/33437971658">Double-corn tortillas</a>
+  I&#8217;d love to try this sometime.</p></li>
+<li><p><a href="https://github.com/clips/pattern">clips/pattern · GitHub</a>
+  Web-mining in python. Lots of functionality here, BSD license.</p></li>
+<li><p><a href="http://www.brainpickings.org/index.php/2012/06/12/the-art-of-coffee-1961/">The Art of Coffee: A Mad Men Era Short Film | Brain Pickings</a>
+  I loved &#8220;This is Coffee!&#8221;. 12 minute promotional short film from 1961 about coffee. It&#8217;s wonderful to imagine the worn old mugs of my grandparents&#8217; generation new again, filled with something better than the electric-percolated canned junk I know they drank. Also great to see the Chemex in there, exactly the same as I use it today.</p></li>
+<li><a href="http://worrydream.com/LearnableProgramming/">Learnable Programming</a>
+  Very clear and well-argued essay about how to make a more-understandable programming environment. I agreed with everything, and was left wondering how to apply this line of thought to more complex software. (Everyone has seen this by the time I post this list.)</li>
+<li><a href="http://robrohan.com/2009/09/14/objc-signaturevo/">@objc.signature(‘v@:@@o<sup>@’)</sup> | Times New Rohan</a>
+  List of objc.signature codes</li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -540,155 +830,6 @@ Done
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2012/04/links-flattr-haskell-haskell-quickcheck-and-stuart-cheshire-of-bolo-fame/">Links: Flattr, Haskell, Haskell QuickCheck, and Stuart Cheshire (of Bolo Fame)</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-04-06T09:20:31-07:00" pubdate data-updated="true">Apr 6<span>th</span>, 2012</time>
-        
-         | <a href="/2012/04/links-flattr-haskell-haskell-quickcheck-and-stuart-cheshire-of-bolo-fame/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>My shared links for April 4th:</p>
-
-<ul>
-<li><p><a href="http://www.stuartcheshire.org/rants/Networkdynamics.html">Stuart&#8217;s &#8220;Law of Networkdynamics&#8221;</a> -</p></li>
-<li><p><a href="https://flattr.com/">Flattr - Social micropayments</a> - An interesting model that I hadn&#8217;t heard of. You set a monthly amount to spend and when you see a flattr button, you click on it. They then divide your monthly amount among the people you clicked on that month.</p></li>
-</ul>
-
-
-<p>Sounds great but I have never seen a button, unless it&#8217;s been hidden among many other warts.</p>
-
-<ul>
-<li><p><a href="http://bos.github.com/strange-loop-2011/slides/slides.html#(1">Haskell: Functional Programming, Solid Code, Big Data (1)</a>) - Bryan O&#8217;Sullivan&#8217;s Haskell tutorial from Strange Loop 2011</p></li>
-<li><p><a href="http://www.yellosoft.us/quickcheck">QuickCheck | YELLOSOFT</a> - Lots of ports of QuickCheck</p></li>
-<li><p><a href="http://dan.bravender.us/2009/6/21/Simple_Quickcheck_implementation_for_Python.html">Simple Quickcheck implementation for Python</a> - Random test generation that is not as nice as Haskell&#8217;s quickcheck but will do the job.</p></li>
-</ul>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2012/04/links-haskell-music-ocd-tools-terrorism-probability-for-ranking-things/">Links: Haskell, Music OCD Tools, Terrorism, Probability for Ranking Things</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-04-06T09:16:32-07:00" pubdate data-updated="true">Apr 6<span>th</span>, 2012</time>
-        
-         | <a href="/2012/04/links-haskell-music-ocd-tools-terrorism-probability-for-ranking-things/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>My shared links for March 30th through April 3rd:</p>
-
-<ul>
-<li><p><a href="http://magicmaps.evanmiller.org/">Magic Maps: Now You See It.</a> - Very cool app for working with maps and time series data</p></li>
-<li><p><a href="http://evanmiller.org/how-not-to-sort-by-average-rating.html">How Not To Sort By Average Rating</a> - Shows the best way to sort by positive/negative rankings that is robust to small sample sizes</p></li>
-<li><p><a href="http://m.foreignaffairs.com/articles/66186/john-mueller-and-mark-g-stewart/hardly-existential">terrorism hardly existential threat. 2010</a> -</p></li>
-<li><p><a href="http://mailplaneapp.com/blog/entry/workhacks.com_top_3_gmail_management_apps_for_mac/#When:12:06:06Z">workhacks.com: Top 3 Gmail Management Apps for Mac</a> includes a list of gmail plugins that look useful</p></li>
-<li><p><a href="http://www.yesodweb.com/">Yesod Web Framework for Haskell</a> -</p></li>
-<li><p><a href="http://beets.radbox.org/">beets: the music geek&#8217;s media organizer</a> - The purpose of beets is to get your music collection right once and for all. It catalogs your collection, automatically improving its metadata as it goes using the MusicBrainz database. (It also downloads cover art for albums it imports.) Then it provides a bouquet of tools for manipulating and accessing your music.</p></li>
-</ul>
-
-
-<p>Because beets is designed as a library, it can do almost anything you can imagine for your music collection. Via plugins, beets becomes a panacea:</p>
-
-<p>Embed and extract album art from files&#8217; tags.
-Listen to your library with a music player that speaks the MPD protocol and works with a staggering variety of interfaces.
-Fetch lyrics for all your songs from databases on the Web.
-Manage your MusicBrainz music collection.
-Analyze music files&#8217; metadata from the command line.
-Clean up crufty tags left behind by other, less-awesome tools.
-Browse your music library graphically through a Web browser and play it in any browser that supports HTML5 Audio.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2012/03/canonical-design-blog-on-where-small-pieces-loosely-joined-needs-some-tweaking/">Canonical Design Blog on Holistic UI</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-03-30T05:29:00-07:00" pubdate data-updated="true">Mar 30<span>th</span>, 2012</time>
-        
-         | <a href="/2012/03/canonical-design-blog-on-where-small-pieces-loosely-joined-needs-some-tweaking/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="http://design.canonical.com/2012/03/holistic-ui-is-smarter-ux/">Holistic UI is smarter UX</a> - They use notifications as an example of why small pieces loosely joined might not be great UI. It&#8217;s really interesting to see how common UI devices such as notifications have evolved across various platforms. Someone should do a gallery of notifications over the years - bonus points if you start with a ␇!</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -708,23 +849,23 @@ Browse your music library graphically through a Web browser and play it in any b
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/12/mac-irc-clients/">Mac IRC clients</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/11/pyobjc-and-twisted/">PyObjC and Twisted</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/10/selected-links/">More out of date links</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/10/links/">Links</a>
       </li>
     
       <li class="post">
         <a href="/2012/10/a-testing-story/">A Testing Story</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/09/disposable/">disposable</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/08/editor-wars/">&#8216;Editor Wars&#8217;</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/08/selected-links-from-this-summer/">Selected Links from this April</a>
       </li>
     
   </ul>

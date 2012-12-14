@@ -9,7 +9,7 @@
   <meta name="author" content="Michael McCracken">
 
   
-  <meta name="description" content="Last night I took my camera with me on a late-night food run. On the way back, I stopped at the end of Felspar street and took some shots of the &hellip;">
+  <meta name="description" content="In relation to my previous post about instant replay in QuickTime Player - The script dictionary almost looks like a program wrote the documentation &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,6 +78,162 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2006/08/script-dictionary-documentation/">Script Dictionary Documentation</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-08-01T06:13:54-07:00" pubdate data-updated="true">Aug 1<span>st</span>, 2006</time>
+        
+         | <a href="/2006/08/script-dictionary-documentation/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>In relation to my previous post about <a href="http://michael-mccracken.net/wp/?p=55">instant replay in QuickTime Player</a> - The script dictionary almost looks like a program wrote the documentation. For example:</p>
+
+<p>&#8220;<strong>time scale</strong> (integer, r/o) : the time scale of the movie&#8221; (uh&#8230;) and</p>
+
+<p>&#8220;<strong>current time</strong> (integer) : the current time (can be set by name as well as number)&#8221; (units? what names?).</p>
+
+<p>I guess it all makes sense if you understand a lot about QuickTime movies, but is that the audience for the script dictionary? I suggest not.</p>
+
+<p>Developers: your script dictionary and its documentation are important user interface concerns - if you put as much consideration into the experience your users have with scripting as you do the GUI and documentation, it will create loyal power users. And they all have blogs these days, so that&#8217;s free advertising too&#8230;</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2006/08/instant-replay-in-quicktime-player/">Instant Replay in QuickTime Player</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-08-01T06:12:07-07:00" pubdate data-updated="true">Aug 1<span>st</span>, 2006</time>
+        
+         | <a href="/2006/08/instant-replay-in-quicktime-player/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>A feature I really miss from having a DVR is the &#8216;8 seconds back&#8217; button, to catch a play or repeat something funny.</p>
+
+<p>Recently I&#8217;ve been listening to recorded interviews we&#8217;ve been doing of HPC developers, and updating my notes (in <a href="http://voodoopad.com/">VoodooPad</a> using them. Since people mumble and use jargon I don&#8217;t always understand, I decided I really needed an instant replay button in QuickTime Player. It&#8217;ll come in handy if I watch sports on my laptop again, too.</p>
+
+<p>In order to get it, I wrote this quick AppleScript and bound it to a <a href="http://docs.blacktree.com/quicksilver/qstriggersprefpane?s=trigger">Quicksilver trigger</a>. If you run it while the movie is playing, it backs up 4 seconds and keeps playing from there.</p>
+
+<pre><code>-- 4secondsback.scpt
+tell application "QuickTime Player"
+    set theMovie to movie 1
+
+    set ctime to current time of theMovie
+    set tscale to time scale of theMovie
+
+    set current time of theMovie to ctime - (4 * tscale)
+end tell
+</code></pre>
+
+<p>Update: I just realized that for transcribing interviews I also needed a &#8216;play/pause&#8217; command that could control QuickTime Player while keeping it in the background, just as the 4secondsback script does. It&#8217;s a really simple script, but since QuickTime Player lacks the convenient &#8216;playpause&#8217; command that iTunes&#8217;s scripting dictionary has, I had to do this:</p>
+
+<pre><code>tell application "QuickTime Player"
+    if movie 1 is playing then
+        pause movie 1
+    else
+        play movie 1
+    end if
+end tell
+</code></pre>
+
+<p>I have this set as a trigger for Control-Option-Space, and the 4secondsback script is control-option-&#8216;b&#8217;. This way I can listen, type, and control the recordings without leaving VoodooPad. Brilliant!</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2006/07/zoomr-yellow-tree/">Zoomr, Yellow Tree</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-07-18T19:55:01-07:00" pubdate data-updated="true">Jul 18<span>th</span>, 2006</time>
+        
+         | <a href="/2006/07/zoomr-yellow-tree/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&#8217;ve taken to carrying my camera around with me, for practice. It&#8217;s lead to an unhealthy obsession with camera bags (of which there is no perfect single choice).</p>
+
+<p>It&#8217;s also lead to maxing out my Flickr account quickly, and I have no cash for a Pro account. So, I thought I&#8217;d try the new  - <a href="http://zoomr.com">Zoomr 2.0</a>, and see what I like about it. Geotagging and Google maps integration is cool, and I like the trackbacks, but to be honest, the interface could be much cleaner. Lots of loud colors and bold text vie for attention with the photos, which should be the real focus of attention on a photo sharing site. At any rate, here&#8217;s the first photo I uploaded to Zoomr, something I took while waiting for the 30 bus at UCSD:</p>
+
+<p><a href="http://beta.zooomr.com/photos/13417@Z01/80165/">
+<img src="http://static.zooomr.com/images/e2885e4db38ea6f0230d613572aba8c230cb9883.jpg" alt="Yellow Tree" />
+</a></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -415,207 +571,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2006/05/xcode-23-hidden-gem-interface-builder-254/">XCode 2.3 Hidden Gem: Interface Builder 2.5.4</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2006-05-23T16:30:14-07:00" pubdate data-updated="true">May 23<span>rd</span>, 2006</time>
-        
-         | <a href="/2006/05/xcode-23-hidden-gem-interface-builder-254/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>XCode 2.3 is out, so why not spend a nice May evening reading some <a href="http://developer.apple.com/tools/xcode/update.html">Dev Tools release notes</a>?</p>
-
-<p>There are some excited posts about Dedicated Network Builds from <a href="http://chanson.livejournal.com/145343.html">people who work at Apple</a>, but not having a cluster of build machines myself, I&#8217;m not so worked up. (Unless sourceforge gets on that for their build farm.)</p>
-
-<p>Then I saw this one line buried a little past halfway through:</p>
-
-<ul>
-<li>Nibtool</li>
-<li>Added functionality for exporting and importing properties as a plist
-Nibtool can extract properties into a plist format that can be edited and then reimported into the nib using the new &#8211;export (-e) and &#8211;import (-i) flags.</li>
-</ul>
-
-
-<p>If I read this right, it means the door is open for easy automated access to bindings and maybe a way to make editing bindings easier. I know visual programming has its benefits, but bindings are just so <em>opaque</em> - you see one object&#8217;s binding at a time, and making mass changes to bindings is just impossible - <em>until now, I hope</em>.</p>
-
-<p>I&#8217;m downloading it now.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2006/05/webmailapp-follow-up/">Webmail.app Follow-up</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2006-05-16T13:23:15-07:00" pubdate data-updated="true">May 16<span>th</span>, 2006</time>
-        
-         | <a href="/2006/05/webmailapp-follow-up/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I came back from a weekend camping trip to find that my post about WebMail.app got a lot of attention: <a href="http://www.tuaw.com/2006/05/13/a-browser-just-for-gmail/">TUAW</a>, <a href="http://www.hawkwings.net/2006/05/13/a-dedicated-distraction-free-browser-for-gmail/">Hawk Wings</a>, and <a href="http://www.macuser.com/software/two_layer_email.php">MacUser</a>, for starters.</p>
-
-<p>Some people got what I was trying to do with it, and some didn&#8217;t. The idea got passed around a bit, so a few commenters probably didn&#8217;t read my original post. That&#8217;s not a big deal, but I did want to clear up a few points that weren&#8217;t obvious from what I did write.</p>
-
-<h4>I don&#8217;t hate Apple Mail.</h4>
-
-<p>I didn&#8217;t say anything about disliking or replacing Apple Mail. Mail is my <em>primary</em> mail client, and there&#8217;s plenty about it that I like. I just use both, since I like GMail better for viewing mailing lists.</p>
-
-<h4>WebMail.app was not a mission statement for the web.</h4>
-
-<p>I like rich local clients. I don&#8217;t think that apps like WebMail are the future of desktop apps.</p>
-
-<p>I don&#8217;t think that cloning WebMail.app for any given website/web app will necessarily be a good idea. Sometimes it will, but if you could benefit from system-specific GUI features or services like Spotlight, CoreImage, AddressBook integration, control over data backup, etc, then just another browser window won&#8217;t help you. For instance - I can&#8217;t think of any reason to move flickr browsing to a mini-browser like WebMail. I don&#8217;t need to avoid distraction when I&#8217;m using flickr - I&#8217;m <em>already</em> distracted.</p>
-
-<p>Also, I&#8217;m not qualified to expound on the future of the web, so let&#8217;s not get ahead of ourselves there.</p>
-
-<h4>I wanted it to be a bad browser.</h4>
-
-<p>This was the part that got people who didn&#8217;t read what I wrote in the original post about distraction. Yes, you could get almost the same effect by using real browsers with their toolbars off, but the whole point was to make it hard to distract yourself on the web.</p>
-
-<p>There&#8217;s a fine line where if you add any more features, you&#8217;re re-implementing a real browser, and that&#8217;s counterproductive. We can disagree on the position of that line, but I feel I hit it pretty close. For instance, if you want tabs, I think you should probably just use a real browser. And for my purposes, <em>not</em> being able to open links in other browsers is an important feature.</p>
-
-<h4>It wasn&#8217;t a product announcement.</h4>
-
-<p>I wrote it to avoid distraction - I&#8217;m not going to be supporting it, adding features, nor will I even work very hard to get an icon. I suggest using the icon mentioned in the <a href="http://www.hawkwings.net/2006/05/13/a-dedicated-distraction-free-browser-for-gmail/">Hawk Wings</a> post about it. That&#8217;s probably what I&#8217;ll do if I ever get around to it.</p>
-
-<p>Some people suggested features that wouldn&#8217;t make it more distracting, including handling other web mail sites, doing the right thing with uploads for attachments, importing contacts, a better login interface (actually, I don&#8217;t get why you&#8217;d care about that), and using newer WebKit builds for better compatibility. I don&#8217;t plan to do any of these, but you&#8217;re welcome to. If anyone wants to use the name and take it in that direction, I&#8217;m OK with that - let me know.</p>
-
-<p>I do use it, though, so if it ever breaks on a new system and there&#8217;s no good replacement, I&#8217;ll get it working again.</p>
-
-<p>I have heard from at least one person who&#8217;s building a similar app and has done some more interesting things with it, so when I find out more about that, I&#8217;ll pass along a link. (But I&#8217;m not sure if it will be free or open source.)</p>
-
-<h4>It was super easy.</h4>
-
-<p>Now that I&#8217;ve addressed most of the criticisms that I wanted to, I want to ask that if you like this app, please reserve your praise for the Web Kit team at Apple - it took me months to realize that I wanted this app, but only minutes to build it because of all their hard work. It really was basically the demo app, and not even the one at the end of the talk. Thanks!</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2006/05/webmail-is-not-web-browsing/">Webmail Is Not Web Browsing.</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2006-05-10T22:00:32-07:00" pubdate data-updated="true">May 10<span>th</span>, 2006</time>
-        
-         | <a href="/2006/05/webmail-is-not-web-browsing/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Webmail is really a separate application. When I&#8217;m visiting GMail, I&#8217;m <em>checking mail</em>, not browsing the web. So what&#8217;s so bad about using a browser for this?</p>
-
-<h3>Minor Gripes</h3>
-
-<p>If I keep a browser window running with GMail, now clicking on the Safari dock icon just brings that sucker up instead of creating a new empty window.</p>
-
-<p>I love the GMail key shortcuts and Safari has an annoying tendency to get the key focus wrong so I have to click in the window somewhere after moving up out of a thread to get my shortcuts back.</p>
-
-<p>Safari crashes, I forget to reload GMail, I miss important messages.</p>
-
-<p>Even all that isn&#8217;t so bad. For a while I ran Firefox with only GMail open. I could get a GMail notifier so I won&#8217;t miss messages&#8230; but:</p>
-
-<h3>The <em>Real</em> Problem</h3>
-
-<p>The final straw is this: Every time I check mail, I&#8217;m diving right into the world&#8217;s biggest time-sink. My email isn&#8217;t usually a waste of my time, but all the windows I&#8217;ve left floating around, my bookmarks bar, or a quick Google search are. These are the things that eat up afternoons, and webmail is a gateway to that distraction.</p>
-
-<p>Browsers have lots of features that I don&#8217;t need to use GMail: bookmarks, back &amp; forward buttons, a search field, page history, a location bar, and on and on.</p>
-
-<h3>My Easy Way Out - the Minimalist Specialized Browser</h3>
-
-<p>A while back, I wrote a separate web browser just for GMail.</p>
-
-<p>All it does is load GMail in a nice big window and duck out of your way. <em>No location bar</em>. And <em>no bookmarks</em>.</p>
-
-<p>It says: Go ahead and follow that link your friend (or bug tracker) sent you, but to check BoingBoing, you&#8217;re going to have to go over to Safari. Maybe you&#8217;ll decide to go back to work instead.</p>
-
-<p>It&#8217;s basically the WebKit demo, except that I tried to improve the key shortcut situation a bit, and it has a progress indicator.</p>
-
-<p>I&#8217;ve been using it for a while now, and the only features of real browsers that I miss are pretty simple to add - text find, a refresh command. I just haven&#8217;t needed them that much. <del>Sadly, one feature I&#8217;d love to add to GMail, a key shortcut to &#8220;go to inbox&#8221;, eludes me, since their Javascript is pretty obfuscated.</del> Update - &#8220;go to inbox&#8221; already exists as the sequence &#8220;gi&#8221;.</p>
-
-<h3>Meet WebMail.app</h3>
-
-<p>If you want to try out this  idea without the hassle of writing those ten lines yourself, get a tarball here: <a href="http://michael-mccracken.net/webmail-1.0.tgz">Webmail-1.0.tgz</a> and let me know what you think.</p>
-
-<p>The source is in there, it&#8217;s BSD licensed, and I&#8217;ll happily accept patches that make it more useful for email, but remember that making it more useful for general browsing is kind of not the point.</p>
-
-<p>Oh, and it lacks a real icon. Sorry.</p>
-
-<p><em>Update</em> much later: a new version that supports printing and attaching files is available here: <a href="http://michael-mccracken.net/2007/WebMail+printing+attaching.zip">Webmail+printing+attaching.zip</a></p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/22/">&larr; Older</a>
@@ -637,23 +592,23 @@ Nibtool can extract properties into a plist format that can be edited and then r
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/12/mac-irc-clients/">Mac IRC clients</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/11/pyobjc-and-twisted/">PyObjC and Twisted</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/10/selected-links/">More out of date links</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/10/links/">Links</a>
       </li>
     
       <li class="post">
         <a href="/2012/10/a-testing-story/">A Testing Story</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/09/disposable/">disposable</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/08/editor-wars/">&#8216;Editor Wars&#8217;</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/08/selected-links-from-this-summer/">Selected Links from this April</a>
       </li>
     
   </ul>

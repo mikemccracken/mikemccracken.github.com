@@ -4,7 +4,7 @@
   <title><![CDATA[Category: mac | michael-mccracken.net]]></title>
   <link href="http://michael-mccracken.net/blog/categories/mac/atom.xml" rel="self"/>
   <link href="http://michael-mccracken.net/"/>
-  <updated>2012-10-11T11:51:10-07:00</updated>
+  <updated>2012-12-14T14:10:24-08:00</updated>
   <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PyObjC and Twisted]]></title>
+    <link href="http://michael-mccracken.net/2012/11/pyobjc-and-twisted/"/>
+    <updated>2012-11-01T15:31:00-07:00</updated>
+    <id>http://michael-mccracken.net/2012/11/pyobjc-and-twisted</id>
+    <content type="html"><![CDATA[<p>@inlineCallbacks doesn't work in NSObject subclasses
+- use old time deferreds if that's palatable
+- if not, set up 'helper functions'</p>
+
+<p>testing with twisted.trial and python-mock works fine</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Getting notes to work with LaTeX Beamer and Skim]]></title>
@@ -78,34 +91,6 @@
 <p>I agree with Alex that I don't want one program to keep everything in a proprietary database. I like apps that keep my files as files. (like <a href="http://c-command.com/eaglefiler/">EagleFiler</a>.) But I do want layers on top of the filesystem - you wouldn't want to use just files for email, for example.</p>
 
 <p>The only solution that's always bad is the solution to someone else's problem.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[iCal's Text Field Jumble]]></title>
-    <link href="http://michael-mccracken.net/2008/11/text-field-jumble/"/>
-    <updated>2008-11-02T06:38:46-08:00</updated>
-    <id>http://michael-mccracken.net/2008/11/text-field-jumble</id>
-    <content type="html"><![CDATA[<p>I've written here before about text fields, particularly the problem of having a good-looking 'display' mode and a separate 'edit' mode for data you don't edit so often, like in AddressBook.</p>
-
-<p>The most recent version of iCal decided that events are write-once-read-many as well. You now have to use cmd-E to get into edit mode, while cmd-I just gives you a small display mode.</p>
-
-<p>I'm mostly OK with that, although I find I edit events about as often as I look at their info windows - after editing I usually just deal with alarms, not the events themselves. The casual glance at the time and title is always enough - I think either you're looking at the time and title or you're editing. I don't see the appeal in the new 'info-only' mode (if it's actually new - it seems new.)</p>
-
-<p>However, the change does highlight the jumble of editable text fields and text-like fields in the edit window:
-<a href="http://michael-mccracken.net/wp2/wp-content/uploads/2008/11/pastedgraphic-1.tiff"><img src="http://michael-mccracken.net/wp2/wp-content/uploads/2008/11/pastedgraphic-1.tiff" alt="" /></a></p>
-
-<p><a href="http://michael-mccracken.net/wp2/wp-content/uploads/2008/11/pastedgraphic.tiff"><img src="http://michael-mccracken.net/wp2/wp-content/uploads/2008/11/pastedgraphic.tiff" alt="" /></a></p>
-
-<p>The "Add Attendees" link and the "None" placeholder for url act the same - you click on them, and enter text.
-One's a link and one's mute gray text. Why?
-For my part, I think the gray text is too understated, and the link is too garish.</p>
-
-<p>There are other differences: you can tab to the "url" field, but you can't tab to "attendees"... until you add one, then you can. Once you click on either of them, the url field pops up a plain white raised NSTextField, but the attendees field is sunken and translucent, apparently an NSTokenField?</p>
-
-<p>Both of the blue links could also be buttons. I'm still not completely sold on replacing buttons with links, but I can understand the trend. I think a small plus-sign button would be fine for "Add File", though, and "Attendees" ought to be a text field. Why force the user to use the mouse when adding data to an event?</p>
-
-<p>All in all, I think the "Add Attendees" link/field is pretty strange. I'm curious if I missing a precedent somewhere.</p>
 ]]></content>
   </entry>
   

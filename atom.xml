@@ -4,7 +4,7 @@
   <title><![CDATA[michael-mccracken.net]]></title>
   <link href="http://michael-mccracken.net/atom.xml" rel="self"/>
   <link href="http://michael-mccracken.net/"/>
-  <updated>2012-10-11T11:51:10-07:00</updated>
+  <updated>2012-12-14T14:10:24-08:00</updated>
   <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
@@ -12,6 +12,209 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Mac IRC clients]]></title>
+    <link href="http://michael-mccracken.net/2012/12/mac-irc-clients/"/>
+    <updated>2012-12-13T09:03:00-08:00</updated>
+    <id>http://michael-mccracken.net/2012/12/mac-irc-clients</id>
+    <content type="html"><![CDATA[<p>At Canonical, we are spread all over and keep in touch via IRC. I&#8217;ve
+tried out a bunch of IRC clients, but nothing is quite right. I&#8217;ll
+explain. Here&#8217;s a list of some things I want from a client - it&#8217;s
+probably not complete, but it&#8217;ll do for now:</p>
+
+<ol>
+<li><p>Don&#8217;t crash. A bouncer makes crashes recoverable, but I shouldn&#8217;t
+have to use one just to keep the backlog around.</p></li>
+<li><p>I need to search the backlog. Incremental search is best.</p></li>
+<li><p>Show multiple channels at once, in one window.</p></li>
+<li><p>Highlight mentions of my nick so I can glance at a window and see if anyone&#8217;s asking me something. Use Growl or notification center, too.</p></li>
+<li><p>Make it obvious when I&#8217;ve disconnected, and reconnect robustly.</p></li>
+<li><p>Let me hide/fade out join/leave notifications and other admin messages.</p></li>
+<li><p>Keep my place so I know what messages are new.</p></li>
+<li><p>Make it obvious which channel I&#8217;m looking at, and even more
+obvious which channel I&#8217;m about to type in. (Nothing is great at this)</p></li>
+<li><p>Spell-check is nice, but autocorrect is awful for IRC and
+technical discussions. Needs a global switch.</p></li>
+<li><p>Don&#8217;t show unread counts. Some channels are chatty and I&#8217;m just in them listening for my name.</p></li>
+</ol>
+
+
+<p>Here are the clients I&#8217;ve tried and why they aren&#8217;t quite perfect:</p>
+
+<h2><a href="http://colloquy.info">Colloquy</a></h2>
+
+<p>Colloquy is a nice full-featured open source client. I&#8217;ve used it the
+most. However - it doesn&#8217;t show multiple channels in one window at the
+same time, and doesn&#8217;t keep your place. I&#8217;ve had some problems with
+reconnection, where I thought IRC was quiet when I was actually just
+disconnected and didn&#8217;t know it.</p>
+
+<p>I have to turn autocorrect off for each room I&#8217;m in, which I only
+remember after the first time it really annoys me by mangling some
+jargon.</p>
+
+<p>There&#8217;s also some general buggy behavior, and I have a short list of
+bugs I&#8217;d like to report someday, but I don&#8217;t have time to fix them.</p>
+
+<p>Years ago I hacked my own version of a place marker that I liked, but
+I can&#8217;t remember why it didn&#8217;t make it in, and of course the code is
+lost now.</p>
+
+<p>The backlog search looks like it should be powerful, but in my
+experience it just doesn&#8217;t work - it never displays any results. I&#8217;m
+not sure what the deal is there.</p>
+
+<p>(As a side note, Colloquy&#8217;s iPhone app is the only iPhone IRC client
+I&#8217;ve used. It seems to work fine, and I don&#8217;t use it enough to have
+specific gripes. Just having to have IRC open on my phone is
+guaranteed to annoy me more than the software itself could.)</p>
+
+<h2><a href="http://www.emacswiki.org/ERC">Emacs ERC</a></h2>
+
+<p>My current setup is just to run ERC in an emacs window alongside my
+code editing.  This has super flexible window splitting and size
+management and unbeatable search for your backlog, since it&#8217;s just
+another emacs buffer. There&#8217;s another nice benefit - if you&#8217;re writing
+about code, emacs&#8217; tab-completion for strings across all buffers means
+that you can easily autocomplete SomeReallyLongFunctionName in
+chats. This saves a lot of typing and cut n&#8217; pasting. When you do need
+to cut n&#8217; paste, it&#8217;s nicer to do it between emacs buffers than
+between apps.</p>
+
+<p>The defaults are not ideal, as usual with emacs you need to dig around
+to find a good setup.</p>
+
+<p>There&#8217;s a module to colorize nicknames according to a hash of the
+name, so it&#8217;s easier to tell people apart. Other clients have similar
+features but I think I like emacs&#8217; the best for some reason - maybe
+the palette is nicer.</p>
+
+<p>There&#8217;s a module to mark your place that only works if you left the
+cursor in the backlog, which is a little weird. It will highlight my
+nick when mentioned, but not the whole line.</p>
+
+<p>Since it&#8217;s open source, I have the same problem as Colloquy, it&#8217;s
+hackable, but I don&#8217;t really have time for that. And emacs is fun to
+hack on, so it&#8217;s a potentially dangerous time sink.</p>
+
+<h2><a href="http://conceitedsoftware.com/products/linkinus">Linkinus</a></h2>
+
+<p>This is a nice client with some minor flaws and a little flakiness. I
+liked it but moved on because of minor annoyances.</p>
+
+<p>It has a kind-of nifty &#8220;conversation tracking&#8221; feature that tries to
+highlight messages in a back-and-forth when you hover over it with the
+mouse (but only in the currently selected channel). It&#8217;s not really
+that useful, but I think it could be if pushed further. I&#8217;d like to
+see more clients try this kind of thing, since separating multiple
+concurrent conversations is hard on IRC, and it can be hard to avoid
+them.</p>
+
+<p>Lets you display multiple channels in one window, but that needs some
+improvement. There&#8217;s just one text-entry field so it&#8217;s easy to type
+something to the wrong channel.</p>
+
+<p>The split display has some issues. The split channel views don&#8217;t show
+you the channel name anywhere, and in some cases don&#8217;t even show you
+the channel topic, which may or may not be helpful anyway. So it can
+take some effort to figure out what channel you&#8217;re looking at,
+especially if there are many of the same people talking on two
+channels.</p>
+
+<p>It can save a set of channels as a group, but it doesn&#8217;t save the
+relative sizes of the splits in the group, so if you want to flip
+between groups, you&#8217;d better be OK with even splits.</p>
+
+<p>Finally, it only supports vertical splits, so with more than two
+channels, you just get a couple unreadably long lines per channel.</p>
+
+<p>It has a very barebones backlog search, but it does work.</p>
+
+<p>They&#8217;ve also clearly tried to re-design the account setup / prefs
+experience, but I&#8217;m not a big fan of an inspector palette - I wanted
+to compare settings between two servers and it will only show me one
+at a time. This was also the biggest point of flakiness, where some
+edits wouldn&#8217;t commit and I couldn&#8217;t tell if the settings were being
+changed.</p>
+
+<h2><a href="http://www.codeux.com/textual/">Textual</a></h2>
+
+<p>Textual is an open-source app
+<a href="http://github.com/Codeux/Textual">(github.com/Codeux/Textual)</a> that
+is for sale on the Mac app store. This is an interesting approach that
+I think has some merit - people may still contribute code or bug
+fixes, but it&#8217;s also nice to know that if the app ever gets abandoned,
+it could be resurrected. That said, I tried building from source to
+enable a quick hack once but the master branch didn&#8217;t build for me, so
+they&#8217;re not trying to make it easy.</p>
+
+<p>It lets me hide some admin messages, has automatic &amp;
+manual scrollback markers to keep track of what I&#8217;ve missed.</p>
+
+<p>This has a setting to &#8220;Track conversations using nickname
+highlighting&#8221; but I couldn&#8217;t really tell what it was doing.</p>
+
+<p>This also has a pretty barebones search, but again, it works.</p>
+
+<p>I tried this for a few days and liked it, but ultimately switched
+away, I think mostly because you can&#8217;t display multiple channels -
+there&#8217;s just one window and it doesn&#8217;t split up.</p>
+
+<h2><a href="http://mediaware.sk/ware/?page_id=35">Mango</a></h2>
+
+<p>I haven&#8217;t tried Mango. The screenshots in the App Store and feature
+listings don&#8217;t lead me to believe that it&#8217;s anything significantly
+different from the others. I&#8217;d be glad to hear from fans, though.</p>
+
+<p>So, what do you use? Have I missed anything great?</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[PyObjC and Twisted]]></title>
+    <link href="http://michael-mccracken.net/2012/11/pyobjc-and-twisted/"/>
+    <updated>2012-11-01T15:31:00-07:00</updated>
+    <id>http://michael-mccracken.net/2012/11/pyobjc-and-twisted</id>
+    <content type="html"><![CDATA[<p>@inlineCallbacks doesn&#8217;t work in NSObject subclasses
+- use old time deferreds if that&#8217;s palatable
+- if not, set up &#8216;helper functions&#8217;</p>
+
+<p>testing with twisted.trial and python-mock works fine</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[More out of date links]]></title>
+    <link href="http://michael-mccracken.net/2012/10/selected-links/"/>
+    <updated>2012-10-25T12:35:00-07:00</updated>
+    <id>http://michael-mccracken.net/2012/10/selected-links</id>
+    <content type="html"><![CDATA[<ul>
+<li><a href="http://hammerprinciple.com/therighttool">Programming Languages · Hammer Principle</a>
+  Very interesting survey site to answer the question &#8220;what language is right for what task?&#8221;</li>
+<li><a href="http://james-iry.blogspot.co.uk/2010/05/types-la-chart.html">One Div Zero: Types à la Chart</a>
+  A chart of languages according to type power/safety. Seems reasonable. Made me curious about the ones in the top right.</li>
+<li><a href="https://github.com/philsquared/Catch/wiki">Home · philsquared/Catch Wiki</a>
+  C++ unit testing framework, all in headers, looks nice.</li>
+<li><a href="http://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html">ferd.ca -> An Open Letter to the Erlang Beginner (or Onlooker)</a>
+  Interesting, balanced article about what makes erlang nice.</li>
+<li><p><a href="http://worrydream.com/oatmeal/blind.html">&#8220;Research is a blind date with knowledge.&#8221; worrydream.com/oatmeal/blind.…</a></p></li>
+<li><p><a href="http://mail.python.org/pipermail/pypy-dev/2012-October/010602.html">Splitting RPython (the language) and PyPy (a python interpreter) plan: mail.python.org/pipermail/pypy…</a>
+  Sounds interesting. I wonder if RPython will grow in popularity separately.</p></li>
+<li><p><a href="http://saltandfat.com/post/33437971658">Double-corn tortillas</a>
+  I&#8217;d love to try this sometime.</p></li>
+<li><p><a href="https://github.com/clips/pattern">clips/pattern · GitHub</a>
+  Web-mining in python. Lots of functionality here, BSD license.</p></li>
+<li><p><a href="http://www.brainpickings.org/index.php/2012/06/12/the-art-of-coffee-1961/">The Art of Coffee: A Mad Men Era Short Film | Brain Pickings</a>
+  I loved &#8220;This is Coffee!&#8221;. 12 minute promotional short film from 1961 about coffee. It&#8217;s wonderful to imagine the worn old mugs of my grandparents&#8217; generation new again, filled with something better than the electric-percolated canned junk I know they drank. Also great to see the Chemex in there, exactly the same as I use it today.</p></li>
+<li><a href="http://worrydream.com/LearnableProgramming/">Learnable Programming</a>
+  Very clear and well-argued essay about how to make a more-understandable programming environment. I agreed with everything, and was left wondering how to apply this line of thought to more complex software. (Everyone has seen this by the time I post this list.)</li>
+<li><a href="http://robrohan.com/2009/09/14/objc-signaturevo/">@objc.signature(‘v@:@@o<sup>@’)</sup> | Times New Rohan</a>
+  List of objc.signature codes</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Links]]></title>
@@ -492,82 +695,6 @@ They could get a better product for free.</p>
 <li><p><a href="http://news.ycombinator.com/item?id=3594236">This article is not well-informed. I worked on or sat next to people who worked &#8230; | Hacker News</a> - Linux history. didn&#8217;t bother to read orig. article</p></li>
 <li><p><a href="http://design.canonical.com/2012/02/the-unity-design-process-and-how-you-can-play-a-part-in-it/">The Unity design process (and how you can play a part in it)</a> - to read</p></li>
 <li><p><a href="http://www.kungfugrippe.com/post/17727827043">(via Photo | Mike Industries)</a> - basketball face</p></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Links: Chicken Pasta, Parsing, DEVONsphere and superpages!]]></title>
-    <link href="http://michael-mccracken.net/2012/02/links-for-february-15th-through-february-20th/"/>
-    <updated>2012-02-20T11:04:43-08:00</updated>
-    <id>http://michael-mccracken.net/2012/02/links-for-february-15th-through-february-20th</id>
-    <content type="html"><![CDATA[<p>My shared links for February 15th through February 20th:</p>
-
-<ul>
-<li><p><a href="http://www.firebirdsrestaurants.com/blog/?p=553">Firebirds Restaurants » Blog Archive » Firebirds Chicken Pasta</a> I made the sauce. Delicious! I can only assume the whole thing will come together.</p></li>
-<li><p><a href="http://dickgrune.com/Books/PTAPG_2nd_Edition/">Parsing Techniques - Second Edition</a> -</p></li>
-<li><p><a href="http://www.devontechnologies.com/products/devonsphere/devonsphere-express.html">DEVONsphere Express &#8211; Make your Mac smarter - DEVONtechnologies</a> - Context aware search. Menu extra for 10.6.6+
-(See also my XRA, nat.org/dashboard, and others. nice looking realization of the dream by DEVONtech&#8230;</p></li>
-<li><p><a href="http://www.stanford.edu/~stinson/cs240/cs240_1/revs/superpages.txt"></a> - Superpages allow each entry in the TLB to map a large physical memory
-region into a virtual address space. INCREASES TLB coverage; REDUCES TLB
-misses;</p></li>
-</ul>
-
-
-<p>Challenges of superpages:
-(1) superpage allocation &amp; promotion
-(2) fragmentation control</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Links for February 7th through February 9th]]></title>
-    <link href="http://michael-mccracken.net/2012/02/links-for-february-7th-through-february-9th/"/>
-    <updated>2012-02-09T06:46:24-08:00</updated>
-    <id>http://michael-mccracken.net/2012/02/links-for-february-7th-through-february-9th</id>
-    <content type="html"><![CDATA[<p>My shared links for February 7th through February 9th:</p>
-
-<ul>
-<li><p><a href="http://twitter.github.com/effectivescala/">Effective Scala</a> -</p></li>
-<li><p><a href="http://courses.csail.mit.edu/6.851/spring12/lectures">Video lectures for 6.851, advanced data structures</a> - Prof. Erik Demaine&#8217;s 6.851 lectures recorded with synchronized lecture notes.</p></li>
-<li><p><a href="https://github.com/tobami/codespeed/">tobami/codespeed - GitHub</a> - Python and django performance monitoring tool. Used for speed.pypy.org</p></li>
-<li><p><a href="http://tratt.net/laurie/research/publications/html/tratt__experiences_with_an_icon_like_expression_evaluation_system/">Experiences with an Icon-like Expression Evaluation System</a> - Interesting and accessible trip through Icon&#8217;s expression semantics and Converge.</p></li>
-<li><p><a href="https://github.com/amoffat/pbs">amoffat/pbs - GitHub</a> - Clever library to let you start subprograms from python as if they were python functions. Much more usable than the stuff I&#8217;m used to in the pystdlib&#8230;
-Almost as concise as backticks and looks more flexible too (ie, handles piping)</p></li>
-<li><p><a href="http://tratt.net/laurie/tech_articles/articles/fast_enough_vms_in_fast_enough_time">Laurence Tratt: Fast Enough VMs in Fast Enough Time</a> - &#8220;If you can stomach the smell, put yourself briefly in the shoes of a programming language designer. What you want to do is create new programming languages, combining new and old ideas into a fresh whole. It sounds like a fun, intellectually demanding job, and occasionally it is. However, we know from experience that languages that exist solely in the mind or on paper are mostly worthless: it is only when they are implemented and we can try them out that we can evaluate them. As well as a language design, therefore, we need a corresponding language implementation.&#8221;</p></li>
-<li><p><a href="http://www.mobiata.com/blog/2012/02/08/twine-string-management-ios-mac-os-x">Introducing Twine: String Management for iOS, Mac OS X, and Android Development - Mobiata Blog</a> - In this post I hope to show you just how bad the standard localization process is for iOS and Mac OS X apps, and how we have found a way to make it much easier for developers to localize their apps and then maintain these localizations and translations over time. In addition, I&#8217;ll show you how you can easily share your translations across multiple apps and platforms. This will save your company money that would otherwise be spent duplicating your translation efforts, especially if you are developing for both iOS and Android.</p></li>
-<li><p><a href="http://live.gnome.org/Conduit">Conduit - GNOME Live!</a> - Conduit is a synchronization application for GNOME. It allows you to synchronize your files, photos, emails, contacts, notes, calendar data and any other type of personal information and synchronize that data with another computer, an online service, or even another electronic device.</p></li>
-</ul>
-
-
-<p>Conduit manages the synchronization and conversion of data into other formats. For example, Conduit allows you to :</p>
-
-<p>Synchronize your Tomboy notes with another computer
-Synchronize your your PIM data to your mobile phone, iPod, Nokia Internet tablet, or between computers
-Upload photos to Flickr, Picasa, SmugMug, ShutterFly and your iPod
-Any combination you can imagine, Conduit will take care of the conversion and synchronization.</p>
-
-<ul>
-<li><p><a href="http://text-processing.com/demo/sentiment/">Python NLTK Sentiment Analysis with Text Classification Demo</a> - neat demo but the results aren&#8217;t intuitive. maybe the training set isn&#8217;t great.</p></li>
-<li><p><a href="http://stephenholiday.com/articles/2011/gender-prediction-with-python/">Gender Prediction with Python : Stephen Holiday</a> -</p></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Links for February 3rd through February 6th]]></title>
-    <link href="http://michael-mccracken.net/2012/02/links-for-february-3rd-through-february-6th/"/>
-    <updated>2012-02-06T09:00:29-08:00</updated>
-    <id>http://michael-mccracken.net/2012/02/links-for-february-3rd-through-february-6th</id>
-    <content type="html"><![CDATA[<p>My shared links for February 3rd through February 6th:</p>
-
-<ul>
-<li><p><a href="http://www.dabeaz.com/generators/">Generator Tricks for Systems Programmers</a> - cookbook of handy python generators</p></li>
-<li><p><a href="http://www.cccblog.org/2012/02/05/microsoft-research-unveils-career-reflections-collection/">Microsoft Research Unveils &#8220;Career Reflections Collection&#8221; » CCC Blog</a> -</p></li>
-<li><p><a href="http://blog.lab49.com/archives/3011">The Algebra of Data, and the Calculus of Mutation » Lab49 Blog</a> -</p></li>
-<li><p><a href="http://labix.org/python-dateutil">python-dateutil - Labix</a> - The dateutil module provides powerful extensions to the standard datetime module, available in Python 2.3+.</p></li>
 </ul>
 
 ]]></content>

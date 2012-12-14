@@ -4,7 +4,7 @@
   <title><![CDATA[Category: programming | michael-mccracken.net]]></title>
   <link href="http://michael-mccracken.net/blog/categories/programming/atom.xml" rel="self"/>
   <link href="http://michael-mccracken.net/"/>
-  <updated>2012-10-11T11:51:10-07:00</updated>
+  <updated>2012-12-14T14:10:24-08:00</updated>
   <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
@@ -14,45 +14,77 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Links]]></title>
-    <link href="http://michael-mccracken.net/2012/10/links/"/>
-    <updated>2012-10-08T00:47:00-07:00</updated>
-    <id>http://michael-mccracken.net/2012/10/links</id>
+    <title type="html"><![CDATA[PyObjC and Twisted]]></title>
+    <link href="http://michael-mccracken.net/2012/11/pyobjc-and-twisted/"/>
+    <updated>2012-11-01T15:31:00-07:00</updated>
+    <id>http://michael-mccracken.net/2012/11/pyobjc-and-twisted</id>
+    <content type="html"><![CDATA[<p>@inlineCallbacks doesn't work in NSObject subclasses
+- use old time deferreds if that's palatable
+- if not, set up 'helper functions'</p>
+
+<p>testing with twisted.trial and python-mock works fine</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[More out of date links]]></title>
+    <link href="http://michael-mccracken.net/2012/10/selected-links/"/>
+    <updated>2012-10-25T12:35:00-07:00</updated>
+    <id>http://michael-mccracken.net/2012/10/selected-links</id>
     <content type="html"><![CDATA[<ul>
-<li><p><a href="http://stackoverflow.com/questions/10857030/whats-so-bad-about-template-haskell">What's so bad about Template Haskell? - Stack Overflow</a></p>
+<li><a href="http://hammerprinciple.com/therighttool">Programming Languages · Hammer Principle</a>
+  Very interesting survey site to answer the question "what language is right for what task?"</li>
+<li><a href="http://james-iry.blogspot.co.uk/2010/05/types-la-chart.html">One Div Zero: Types à la Chart</a>
+  A chart of languages according to type power/safety. Seems reasonable. Made me curious about the ones in the top right.</li>
+<li><a href="https://github.com/philsquared/Catch/wiki">Home · philsquared/Catch Wiki</a>
+  C++ unit testing framework, all in headers, looks nice.</li>
+<li><a href="http://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html">ferd.ca -> An Open Letter to the Erlang Beginner (or Onlooker)</a>
+  Interesting, balanced article about what makes erlang nice.</li>
+<li><p><a href="http://worrydream.com/oatmeal/blind.html">"Research is a blind date with knowledge." worrydream.com/oatmeal/blind.…</a></p></li>
+<li><p><a href="http://mail.python.org/pipermail/pypy-dev/2012-October/010602.html">Splitting RPython (the language) and PyPy (a python interpreter) plan: mail.python.org/pipermail/pypy…</a>
+  Sounds interesting. I wonder if RPython will grow in popularity separately.</p></li>
+<li><p><a href="http://saltandfat.com/post/33437971658">Double-corn tortillas</a>
+  I'd love to try this sometime.</p></li>
+<li><p><a href="https://github.com/clips/pattern">clips/pattern · GitHub</a>
+  Web-mining in python. Lots of functionality here, BSD license.</p></li>
+<li><p><a href="http://www.brainpickings.org/index.php/2012/06/12/the-art-of-coffee-1961/">The Art of Coffee: A Mad Men Era Short Film | Brain Pickings</a>
+  I loved "This is Coffee!". 12 minute promotional short film from 1961 about coffee. It's wonderful to imagine the worn old mugs of my grandparents' generation new again, filled with something better than the electric-percolated canned junk I know they drank. Also great to see the Chemex in there, exactly the same as I use it today.</p></li>
+<li><a href="http://worrydream.com/LearnableProgramming/">Learnable Programming</a>
+  Very clear and well-argued essay about how to make a more-understandable programming environment. I agreed with everything, and was left wondering how to apply this line of thought to more complex software. (Everyone has seen this by the time I post this list.)</li>
+<li><a href="http://robrohan.com/2009/09/14/objc-signaturevo/">@objc.signature(‘v@:@@o<sup>@’)</sup> | Times New Rohan</a>
+  List of objc.signature codes</li>
+</ul>
 
-<p>  A bunch of good answers to why Template Haskell is occasionally maligned.</p></li>
-<li><p><a href="http://stackoverflow.com/questions/10845179/which-haskell-ghc-extensions-should-users-use-avoid/10849782#10849782">Which Haskell (GHC) extensions should users use/avoid? - Stack Overflow</a></p>
-
-<p>  Interesting list of aesthetic judgements of haskell extensions. At press time I don't know what most of these words mean.</p></li>
-<li><p><a href="http://www.yesodweb.com/blog/2011/04/yesod-template-haskell">Yesod and Template Haskell</a></p>
-
-<p>  Short post on why Yesod uses template haskell (which has a bad rep)</p></li>
-<li><p><a href="http://imakewebthings.com/deck.js/">deck.js » Modern HTML Presentations</a></p>
-
-<p>  Best "Write your presentations in HTML" thing I've seen yet, although I'm not sure how great it'd be at complex visuals or builds. Yes sometimes builds are good! <em>SOMETIMES</em>.</p></li>
-<li><p><a href="http://redbot.org/">REDbot</a></p>
-
-<p>  RED is a robot that checks HTTP resources to see how they'll behave, pointing out common problems and suggesting improvements. Although it is not a HTTP conformance tester, it can find a number of HTTP-related issues.</p></li>
-<li><p><a href="https://github.com/visi-lang/visi">.@dpp’s Visi looks to be exactly the thing when Soulver isn’t enough and spreadsheets are rigid github.com/visi-lang/visi #emerginglangs</a></p>
-
-<p>  Should I look at this before posting a link? Nah... But I will look at it, eventually! It looks interesting, I love this kind of stuff - although as usual I wonder if this is something you can already get in Mathematica but no one knows because it's so expensive.</p></li>
-<li><p><a href="http://highscalability.com/blog/2012/7/30/prismatic-architecture-using-machine-learning-on-social-netw.html">High Scalability - Prismatic Architecture - Using Machine Learning on Social Networks to Figure Out What You Should Read on the Web </a></p>
-
-<p>  Probably interesting? I skimmed this, I'm not gonna lie, I don't remember much.</p></li>
-<li><p><a href="http://deslide.clusterfake.net/">Deslidefied HTML</a></p>
-
-<p>  Really useful bookmark to make slideshow news articles readable on one page. I am using it all the time!</p></li>
-<li><p><a href="http://pragprog.com/magazines/2012-09/thinking-functionally-with-haskell">Thinking Functionally with Haskell</a></p>
-
-<p>  ""In which we explore what modern type systems bring to the table. Imagine an approach to programming where you write down some description of what your code should do, then before running your code you run some automatic tool to see if the code matches the description. That’s Test-driven development, you say!  Actually, this is what you are doing when you use static types in most languages too. Types are a description of the code’s inputs and outputs, and the check ensures that inputs and outputs match up and are used consistently. Modern type systems—such as in Haskell or above—are very flexible, and allow these descriptions to be quite detailed; plus they are not too obtrusive in use and often very helpful.  One point I’ll investigate here is how advances in types are converging with new ideas on testing, to the point where (I claim) the old distinctions are starting to blur and starting to open up exciting new possibilities—hence my suggestion that we need a new word to describe what we’re doing that is free from preconceptions and out-dated thinking.  So put aside your bad experiences from Java, and prepare to be amazed! ""</p></li>
-<li><p><a href="http://feedproxy.google.com/~r/ezyang/~3/3Vb6-OhkZws/">So you want to hack on IMAP…</a></p>
-
-<p>  "Well, first off, you’re horribly misinformed: you do not actually want to hack on IMAP." (I agree, IMAP bad.)</p></li>
-<li><p><a href="http://waxy.org/2008/06/the_machine_that_changed_the_world/">The Machine That Changed the World: Great Brains - Waxy.org</a></p>
-
-<p>  Documentary about computing history:
-  "It's a whirlwind tour of computing before the Web, with brilliant archival footage and interviews with key players — several of whom passed away since the filming. Jointly produced by WGBH Boston and the BBC, it originally aired in the UK as The Dream Machine before its U.S. premiere in January 1992. Its broadcast was accompanied by a book co-written by the documentary's producer Jon Palfreman."</p></li>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[More out of date links]]></title>
+    <link href="http://michael-mccracken.net/2012/10/selected-links/"/>
+    <updated>2012-10-25T12:35:00-07:00</updated>
+    <id>http://michael-mccracken.net/2012/10/selected-links</id>
+    <content type="html"><![CDATA[<ul>
+<li><a href="http://hammerprinciple.com/therighttool">Programming Languages · Hammer Principle</a>
+  Very interesting survey site to answer the question "what language is right for what task?"</li>
+<li><a href="http://james-iry.blogspot.co.uk/2010/05/types-la-chart.html">One Div Zero: Types à la Chart</a>
+  A chart of languages according to type power/safety. Seems reasonable. Made me curious about the ones in the top right.</li>
+<li><a href="https://github.com/philsquared/Catch/wiki">Home · philsquared/Catch Wiki</a>
+  C++ unit testing framework, all in headers, looks nice.</li>
+<li><a href="http://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html">ferd.ca -> An Open Letter to the Erlang Beginner (or Onlooker)</a>
+  Interesting, balanced article about what makes erlang nice.</li>
+<li><p><a href="http://worrydream.com/oatmeal/blind.html">"Research is a blind date with knowledge." worrydream.com/oatmeal/blind.…</a></p></li>
+<li><p><a href="http://mail.python.org/pipermail/pypy-dev/2012-October/010602.html">Splitting RPython (the language) and PyPy (a python interpreter) plan: mail.python.org/pipermail/pypy…</a>
+  Sounds interesting. I wonder if RPython will grow in popularity separately.</p></li>
+<li><p><a href="http://saltandfat.com/post/33437971658">Double-corn tortillas</a>
+  I'd love to try this sometime.</p></li>
+<li><p><a href="https://github.com/clips/pattern">clips/pattern · GitHub</a>
+  Web-mining in python. Lots of functionality here, BSD license.</p></li>
+<li><p><a href="http://www.brainpickings.org/index.php/2012/06/12/the-art-of-coffee-1961/">The Art of Coffee: A Mad Men Era Short Film | Brain Pickings</a>
+  I loved "This is Coffee!". 12 minute promotional short film from 1961 about coffee. It's wonderful to imagine the worn old mugs of my grandparents' generation new again, filled with something better than the electric-percolated canned junk I know they drank. Also great to see the Chemex in there, exactly the same as I use it today.</p></li>
+<li><a href="http://worrydream.com/LearnableProgramming/">Learnable Programming</a>
+  Very clear and well-argued essay about how to make a more-understandable programming environment. I agreed with everything, and was left wondering how to apply this line of thought to more complex software. (Everyone has seen this by the time I post this list.)</li>
+<li><a href="http://robrohan.com/2009/09/14/objc-signaturevo/">@objc.signature(‘v@:@@o<sup>@’)</sup> | Times New Rohan</a>
+  List of objc.signature codes</li>
 </ul>
 
 ]]></content>
@@ -104,77 +136,47 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA['Editor Wars']]></title>
-    <link href="http://michael-mccracken.net/2012/08/editor-wars/"/>
-    <updated>2012-08-16T23:44:00-07:00</updated>
-    <id>http://michael-mccracken.net/2012/08/editor-wars</id>
-    <content type="html"><![CDATA[<p>An idea I'd like to see: Editor Wars, the game of hacking at code.</p>
+    <title type="html"><![CDATA[Links]]></title>
+    <link href="http://michael-mccracken.net/2012/10/links/"/>
+    <updated>2012-10-08T00:47:00-07:00</updated>
+    <id>http://michael-mccracken.net/2012/10/links</id>
+    <content type="html"><![CDATA[<ul>
+<li><p><a href="http://stackoverflow.com/questions/10857030/whats-so-bad-about-template-haskell">What's so bad about Template Haskell? - Stack Overflow</a></p>
 
-<p>Hackers compete on how fast they can complete code editing tasks from
-a variety of languages, with results plotted and dissected on a
-web leaderboard. The idea is not to evaluate language understanding or
-design, but simply editing skill and speed in the kind of thing that
-editor flame wars start over.</p>
+<p>  A bunch of good answers to why Template Haskell is occasionally maligned.</p></li>
+<li><p><a href="http://stackoverflow.com/questions/10845179/which-haskell-ghc-extensions-should-users-use-avoid/10849782#10849782">Which Haskell (GHC) extensions should users use/avoid? - Stack Overflow</a></p>
 
-<p>The tasks could be simple refactorings, like renaming a function
-throughout a source tree, or extracting code into a method. I'd expect
-this would show advantages of specialized refactoring tools in some
-IDEs. Other tasks might be more complex, like writing a new set of
-functions, a whole class, or adding functions to a class to conform to
-a protocol or interface. Good template support and autocomplete might
-be an advantage here. Or maybe you want to add conditional debug
-logging around a set of functions, with each call having a separate
-hardcoded counter value? Surely powerful macros win this task?
-Naturally, new tasks could be submitted by the public, and voted on.
-Each task would have a "correct" answer, but if you're really clever
-you could always suggest a better correct answer.</p>
+<p>  Interesting list of aesthetic judgements of haskell extensions. At press time I don't know what most of these words mean.</p></li>
+<li><p><a href="http://www.yesodweb.com/blog/2011/04/yesod-template-haskell">Yesod and Template Haskell</a></p>
 
-<p>Use of extensions and custom macros would be happily encouraged, as
-long as you can share what you've used.</p>
+<p>  Short post on why Yesod uses template haskell (which has a bad rep)</p></li>
+<li><p><a href="http://imakewebthings.com/deck.js/">deck.js » Modern HTML Presentations</a></p>
 
-<p>You'd need either an editor plugin or at least something that watches
-files efficiently to get the split-second timing your contestants will
-demand. Ideally you'd be able to record keystrokes and grab the source
-for any macros you call, then the site would be able to show a replay
-for the viewing public.</p>
+<p>  Best "Write your presentations in HTML" thing I've seen yet, although I'm not sure how great it'd be at complex visuals or builds. Yes sometimes builds are good! <em>SOMETIMES</em>.</p></li>
+<li><p><a href="http://redbot.org/">REDbot</a></p>
 
-<p>It'd be fascinating to learn how other people use your favorite editor
-by watching the best of the best compete. Not to mention, just imagine
-the forum threads arguing over the graphs from the vast database of
-editor timings.</p>
+<p>  RED is a robot that checks HTTP resources to see how they'll behave, pointing out common problems and suggesting improvements. Although it is not a HTTP conformance tester, it can find a number of HTTP-related issues.</p></li>
+<li><p><a href="https://github.com/visi-lang/visi">.@dpp’s Visi looks to be exactly the thing when Soulver isn’t enough and spreadsheets are rigid github.com/visi-lang/visi #emerginglangs</a></p>
 
-<p>Anyone want to build this?</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Link: The Axis of Eval: What's a condition system and why do you want one?]]></title>
-    <link href="http://michael-mccracken.net/2011/06/link-the-axis-of-eval-whats-a-condition-system-and-why-do-you-want-one/"/>
-    <updated>2011-06-28T10:08:01-07:00</updated>
-    <id>http://michael-mccracken.net/2011/06/link-the-axis-of-eval-whats-a-condition-system-and-why-do-you-want-one</id>
-    <content type="html"><![CDATA[<p>A nice explanation of conditions in Common Lisp from Manuel Simoni, with example code. This looks like a major improvement on the exception handling in any language I've used for anything big.</p>
+<p>  Should I look at this before posting a link? Nah... But I will look at it, eventually! It looks interesting, I love this kind of stuff - although as usual I wonder if this is something you can already get in Mathematica but no one knows because it's so expensive.</p></li>
+<li><p><a href="http://highscalability.com/blog/2012/7/30/prismatic-architecture-using-machine-learning-on-social-netw.html">High Scalability - Prismatic Architecture - Using Machine Learning on Social Networks to Figure Out What You Should Read on the Web </a></p>
 
-<p><a href="http://axisofeval.blogspot.com/2011/04/whats-condition-system-and-why-do-you.html">The Axis of Eval: What's a condition system and why do you want one?</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Cram & Simple testing for shell programs]]></title>
-    <link href="http://michael-mccracken.net/2011/04/cram-simple-testing-for-shell-programs/"/>
-    <updated>2011-04-05T07:36:25-07:00</updated>
-    <id>http://michael-mccracken.net/2011/04/cram-simple-testing-for-shell-programs</id>
-    <content type="html"><![CDATA[<p><a href="http://bitheap.org/cram/">Cram</a> is a test framework for command line programs, originally written for mercurial's test suite.</p>
+<p>  Probably interesting? I skimmed this, I'm not gonna lie, I don't remember much.</p></li>
+<li><p><a href="http://deslide.clusterfake.net/">Deslidefied HTML</a></p>
 
-<p>I like the approach - it just reads a shell transcript and runs the commands it finds. If the output doesn't match, it shows you a diff. It's kind of like doctest.</p>
+<p>  Really useful bookmark to make slideshow news articles readable on one page. I am using it all the time!</p></li>
+<li><p><a href="http://pragprog.com/magazines/2012-09/thinking-functionally-with-haskell">Thinking Functionally with Haskell</a></p>
 
-<p>It looks refreshingly simple to get started with, something that so many other test frameworks fail horribly at.</p>
+<p>  ""In which we explore what modern type systems bring to the table. Imagine an approach to programming where you write down some description of what your code should do, then before running your code you run some automatic tool to see if the code matches the description. That’s Test-driven development, you say!  Actually, this is what you are doing when you use static types in most languages too. Types are a description of the code’s inputs and outputs, and the check ensures that inputs and outputs match up and are used consistently. Modern type systems—such as in Haskell or above—are very flexible, and allow these descriptions to be quite detailed; plus they are not too obtrusive in use and often very helpful.  One point I’ll investigate here is how advances in types are converging with new ideas on testing, to the point where (I claim) the old distinctions are starting to blur and starting to open up exciting new possibilities—hence my suggestion that we need a new word to describe what we’re doing that is free from preconceptions and out-dated thinking.  So put aside your bad experiences from Java, and prepare to be amazed! ""</p></li>
+<li><p><a href="http://feedproxy.google.com/~r/ezyang/~3/3Vb6-OhkZws/">So you want to hack on IMAP…</a></p>
 
-<p>A while ago, I wrote something similar for work. After trying and failing to find a testing framework that wasn't over-engineered, I wrote a script that looks in <code>./test/</code>, and runs every file named <code>whatever.test</code>, and compares output to files  <code>whatever.test.stdout</code> and  <code>whatever.test.stderr</code>, if they exist.
-If not, it just uses the return value to determine success.</p>
+<p>  "Well, first off, you’re horribly misinformed: you do not actually want to hack on IMAP." (I agree, IMAP bad.)</p></li>
+<li><p><a href="http://waxy.org/2008/06/the_machine_that_changed_the_world/">The Machine That Changed the World: Great Brains - Waxy.org</a></p>
 
-<p>I loved how easy it was to add a test. Just write a script! There is no step two.</p>
+<p>  Documentary about computing history:
+  "It's a whirlwind tour of computing before the Web, with brilliant archival footage and interviews with key players — several of whom passed away since the filming. Jointly produced by WGBH Boston and the BBC, it originally aired in the UK as The Dream Machine before its U.S. premiere in January 1992. Its broadcast was accompanied by a book co-written by the documentary's producer Jon Palfreman."</p></li>
+</ul>
 
-<p>(<code>cram</code> found via <a href="http://ivory.idyll.org/blog/mar-11/trying-out-cram">Titus Brown</a> )</p>
 ]]></content>
   </entry>
   

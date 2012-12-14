@@ -9,7 +9,7 @@
   <meta name="author" content="Michael McCracken">
 
   
-  <meta name="description" content="I visit 43Folders only about once a week now - I couldn&#8217;t deal with the cognitive dissonance implied by procrastinating by visiting a site &hellip;">
+  <meta name="description" content="XCode 2.3 is out, so why not spend a nice May evening reading some Dev Tools release notes? There are some excited posts about Dedicated Network &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,6 +78,207 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2006/05/xcode-23-hidden-gem-interface-builder-254/">XCode 2.3 Hidden Gem: Interface Builder 2.5.4</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-05-23T16:30:14-07:00" pubdate data-updated="true">May 23<span>rd</span>, 2006</time>
+        
+         | <a href="/2006/05/xcode-23-hidden-gem-interface-builder-254/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>XCode 2.3 is out, so why not spend a nice May evening reading some <a href="http://developer.apple.com/tools/xcode/update.html">Dev Tools release notes</a>?</p>
+
+<p>There are some excited posts about Dedicated Network Builds from <a href="http://chanson.livejournal.com/145343.html">people who work at Apple</a>, but not having a cluster of build machines myself, I&#8217;m not so worked up. (Unless sourceforge gets on that for their build farm.)</p>
+
+<p>Then I saw this one line buried a little past halfway through:</p>
+
+<ul>
+<li>Nibtool</li>
+<li>Added functionality for exporting and importing properties as a plist
+Nibtool can extract properties into a plist format that can be edited and then reimported into the nib using the new &#8211;export (-e) and &#8211;import (-i) flags.</li>
+</ul>
+
+
+<p>If I read this right, it means the door is open for easy automated access to bindings and maybe a way to make editing bindings easier. I know visual programming has its benefits, but bindings are just so <em>opaque</em> - you see one object&#8217;s binding at a time, and making mass changes to bindings is just impossible - <em>until now, I hope</em>.</p>
+
+<p>I&#8217;m downloading it now.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2006/05/webmailapp-follow-up/">Webmail.app Follow-up</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-05-16T13:23:15-07:00" pubdate data-updated="true">May 16<span>th</span>, 2006</time>
+        
+         | <a href="/2006/05/webmailapp-follow-up/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I came back from a weekend camping trip to find that my post about WebMail.app got a lot of attention: <a href="http://www.tuaw.com/2006/05/13/a-browser-just-for-gmail/">TUAW</a>, <a href="http://www.hawkwings.net/2006/05/13/a-dedicated-distraction-free-browser-for-gmail/">Hawk Wings</a>, and <a href="http://www.macuser.com/software/two_layer_email.php">MacUser</a>, for starters.</p>
+
+<p>Some people got what I was trying to do with it, and some didn&#8217;t. The idea got passed around a bit, so a few commenters probably didn&#8217;t read my original post. That&#8217;s not a big deal, but I did want to clear up a few points that weren&#8217;t obvious from what I did write.</p>
+
+<h4>I don&#8217;t hate Apple Mail.</h4>
+
+<p>I didn&#8217;t say anything about disliking or replacing Apple Mail. Mail is my <em>primary</em> mail client, and there&#8217;s plenty about it that I like. I just use both, since I like GMail better for viewing mailing lists.</p>
+
+<h4>WebMail.app was not a mission statement for the web.</h4>
+
+<p>I like rich local clients. I don&#8217;t think that apps like WebMail are the future of desktop apps.</p>
+
+<p>I don&#8217;t think that cloning WebMail.app for any given website/web app will necessarily be a good idea. Sometimes it will, but if you could benefit from system-specific GUI features or services like Spotlight, CoreImage, AddressBook integration, control over data backup, etc, then just another browser window won&#8217;t help you. For instance - I can&#8217;t think of any reason to move flickr browsing to a mini-browser like WebMail. I don&#8217;t need to avoid distraction when I&#8217;m using flickr - I&#8217;m <em>already</em> distracted.</p>
+
+<p>Also, I&#8217;m not qualified to expound on the future of the web, so let&#8217;s not get ahead of ourselves there.</p>
+
+<h4>I wanted it to be a bad browser.</h4>
+
+<p>This was the part that got people who didn&#8217;t read what I wrote in the original post about distraction. Yes, you could get almost the same effect by using real browsers with their toolbars off, but the whole point was to make it hard to distract yourself on the web.</p>
+
+<p>There&#8217;s a fine line where if you add any more features, you&#8217;re re-implementing a real browser, and that&#8217;s counterproductive. We can disagree on the position of that line, but I feel I hit it pretty close. For instance, if you want tabs, I think you should probably just use a real browser. And for my purposes, <em>not</em> being able to open links in other browsers is an important feature.</p>
+
+<h4>It wasn&#8217;t a product announcement.</h4>
+
+<p>I wrote it to avoid distraction - I&#8217;m not going to be supporting it, adding features, nor will I even work very hard to get an icon. I suggest using the icon mentioned in the <a href="http://www.hawkwings.net/2006/05/13/a-dedicated-distraction-free-browser-for-gmail/">Hawk Wings</a> post about it. That&#8217;s probably what I&#8217;ll do if I ever get around to it.</p>
+
+<p>Some people suggested features that wouldn&#8217;t make it more distracting, including handling other web mail sites, doing the right thing with uploads for attachments, importing contacts, a better login interface (actually, I don&#8217;t get why you&#8217;d care about that), and using newer WebKit builds for better compatibility. I don&#8217;t plan to do any of these, but you&#8217;re welcome to. If anyone wants to use the name and take it in that direction, I&#8217;m OK with that - let me know.</p>
+
+<p>I do use it, though, so if it ever breaks on a new system and there&#8217;s no good replacement, I&#8217;ll get it working again.</p>
+
+<p>I have heard from at least one person who&#8217;s building a similar app and has done some more interesting things with it, so when I find out more about that, I&#8217;ll pass along a link. (But I&#8217;m not sure if it will be free or open source.)</p>
+
+<h4>It was super easy.</h4>
+
+<p>Now that I&#8217;ve addressed most of the criticisms that I wanted to, I want to ask that if you like this app, please reserve your praise for the Web Kit team at Apple - it took me months to realize that I wanted this app, but only minutes to build it because of all their hard work. It really was basically the demo app, and not even the one at the end of the talk. Thanks!</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2006/05/webmail-is-not-web-browsing/">Webmail Is Not Web Browsing.</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-05-10T22:00:32-07:00" pubdate data-updated="true">May 10<span>th</span>, 2006</time>
+        
+         | <a href="/2006/05/webmail-is-not-web-browsing/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Webmail is really a separate application. When I&#8217;m visiting GMail, I&#8217;m <em>checking mail</em>, not browsing the web. So what&#8217;s so bad about using a browser for this?</p>
+
+<h3>Minor Gripes</h3>
+
+<p>If I keep a browser window running with GMail, now clicking on the Safari dock icon just brings that sucker up instead of creating a new empty window.</p>
+
+<p>I love the GMail key shortcuts and Safari has an annoying tendency to get the key focus wrong so I have to click in the window somewhere after moving up out of a thread to get my shortcuts back.</p>
+
+<p>Safari crashes, I forget to reload GMail, I miss important messages.</p>
+
+<p>Even all that isn&#8217;t so bad. For a while I ran Firefox with only GMail open. I could get a GMail notifier so I won&#8217;t miss messages&#8230; but:</p>
+
+<h3>The <em>Real</em> Problem</h3>
+
+<p>The final straw is this: Every time I check mail, I&#8217;m diving right into the world&#8217;s biggest time-sink. My email isn&#8217;t usually a waste of my time, but all the windows I&#8217;ve left floating around, my bookmarks bar, or a quick Google search are. These are the things that eat up afternoons, and webmail is a gateway to that distraction.</p>
+
+<p>Browsers have lots of features that I don&#8217;t need to use GMail: bookmarks, back &amp; forward buttons, a search field, page history, a location bar, and on and on.</p>
+
+<h3>My Easy Way Out - the Minimalist Specialized Browser</h3>
+
+<p>A while back, I wrote a separate web browser just for GMail.</p>
+
+<p>All it does is load GMail in a nice big window and duck out of your way. <em>No location bar</em>. And <em>no bookmarks</em>.</p>
+
+<p>It says: Go ahead and follow that link your friend (or bug tracker) sent you, but to check BoingBoing, you&#8217;re going to have to go over to Safari. Maybe you&#8217;ll decide to go back to work instead.</p>
+
+<p>It&#8217;s basically the WebKit demo, except that I tried to improve the key shortcut situation a bit, and it has a progress indicator.</p>
+
+<p>I&#8217;ve been using it for a while now, and the only features of real browsers that I miss are pretty simple to add - text find, a refresh command. I just haven&#8217;t needed them that much. <del>Sadly, one feature I&#8217;d love to add to GMail, a key shortcut to &#8220;go to inbox&#8221;, eludes me, since their Javascript is pretty obfuscated.</del> Update - &#8220;go to inbox&#8221; already exists as the sequence &#8220;gi&#8221;.</p>
+
+<h3>Meet WebMail.app</h3>
+
+<p>If you want to try out this  idea without the hassle of writing those ten lines yourself, get a tarball here: <a href="http://michael-mccracken.net/webmail-1.0.tgz">Webmail-1.0.tgz</a> and let me know what you think.</p>
+
+<p>The source is in there, it&#8217;s BSD licensed, and I&#8217;ll happily accept patches that make it more useful for email, but remember that making it more useful for general browsing is kind of not the point.</p>
+
+<p>Oh, and it lacks a real icon. Sorry.</p>
+
+<p><em>Update</em> much later: a new version that supports printing and attaching files is available here: <a href="http://michael-mccracken.net/2007/WebMail+printing+attaching.zip">Webmail+printing+attaching.zip</a></p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -426,165 +627,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2006/03/marsedit-112/">MarsEdit 1.1.2</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2006-03-17T05:25:56-08:00" pubdate data-updated="true">Mar 17<span>th</span>, 2006</time>
-        
-         | <a href="/2006/03/marsedit-112/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>0.2</p>
-
-<h4></h4>
-
-<pre><code>Review: My weblog editor of choice.
-
-
-
-
-
-Mar 16, 2006
-</code></pre>
-
-<p> <a href="http://michael-mccracken.net/">Michael McCracken</a></p>
-
-<p>  San Diego,
-  CA
-  92109</p>
-
-<p>product
-  <img src="http://ranchero.com/images/marsedit/marseditIconLarge.png" alt="" />
-  [
-  MarsEdit 1.1.2</p>
-
-<pre><code>](http://ranchero.com/marsedit/)
-</code></pre>
-
-<blockquote><p>MarsEdit was recently <a href="http://ranchero.com/?comments=1&amp;postid=1306">updated to version 1.1.2</a>, with a few bug fixes. I really like MarsEdit -  It does what I need and stays out of my way. I&#8217;m not the most demanding user - I have one WordPress weblog and don&#8217;t keep up with the latest in blogging tools. I did have my own customized weblog editor, Blapp, that I used for years, so I was expecting to find plenty of things that annoyed me about a program that wasn&#8217;t written just for me. To my surprise, it felt comfortable right away - I got started posting with MarsEdit quickly, and haven&#8217;t had to learn about all kinds of features that I don&#8217;t use. Thumbs up.</p></blockquote>
-
-<p>  *[</p>
-
-<pre><code>Mar 16, 2006
-</code></pre>
-
-<p>  ]: 20060316T1155-0800</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2006/03/static-bug-checking-in-open-source-software/">Static Bug Checking in Open Source Software</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2006-03-13T12:00:52-08:00" pubdate data-updated="true">Mar 13<span>th</span>, 2006</time>
-        
-         | <a href="/2006/03/static-bug-checking-in-open-source-software/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="http://www.coverity.com">Coverity</a>, the company formed by the people behind the Stanford MC Checker, has started posting regular reports from their analysis tools on prominent open-source projects at <a href="http://www.scan.coverity.com">scan.coverity.com</a>.</p>
-
-<p>I found out about this through <a href="http://gcc.gnu.org/ml/gcc/2006-03/msg00187.html">an email from the Coverity CTO</a> on the GCC mailing list, and it seems to have been received with some moderate enthusiasm. I think it&#8217;s a good idea, but as usual the specter of false positives makes the developers itchy, especially when they&#8217;re publishing bug counts&#8230;</p>
-
-<p><a href="http://www.stanford.edu/~engler">Dawson Engler</a>, the professor at Stanford who was behind all this bug-finding work (and co-founded Coverity) gave a talk recently here at CSE, about newer approaches to finding bugs that uses execution on symbolic inputs - meaning that you mark some inputs to a program as symbolic, and somewhere there&#8217;s a theorem prover that goes to work finding out if any value of those inputs can cause an error or a crash - then you can run the original code on the input to verify the problem. A nice consequence here is that the generated &#8216;bad&#8217; input is then guaranteed to actually be bad, since you can test it and force the error.</p>
-
-<p>There&#8217;s a paper about that from Engler&#8217;s group <a href="http://www.stanford.edu/~engler/cstr-3.25.5.pdf">here</a>, and apparently this <a href="http://cm.bell-labs.com/who/god/public_psfiles/pldi2005.pdf">PLDI 2005 paper from Bell Labs</a> is very similar.</p>
-
-<p>Here&#8217;s Prof. Engler&#8217;s slides from <a href="http://www.stanford.edu/~engler/usenix-security05.pdf">talks about the new work on bug finding</a> and an entertaining
-<a href="http://www.stanford.edu/~engler/spin05-coverity.pdf">talk about commercializing the MC Checker</a>.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2006/03/tomorrows-professor-blog/">Tomorrow&#8217;s Professor Blog</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2006-03-07T10:13:31-08:00" pubdate data-updated="true">Mar 7<span>th</span>, 2006</time>
-        
-         | <a href="/2006/03/tomorrows-professor-blog/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>The <a href="http://ctl.stanford.edu/Tomprof/index.shtml">Tomorrow&#8217;s Professor Mailing List</a>, a great resource for tips and info about what professors actually do (as opposed to what you learn in grad school), is now out in a weblog form, in case you&#8217;d rather read in an aggregator than a mail client: <a href="http://amps-tools.mit.edu/tomprofblog/">Tomorrow&#8217;s Professor Blog</a></p>
-
-<p>I&#8217;d recommend poking through the back issues - there&#8217;s a lot of wisdom in there.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/23/">&larr; Older</a>
@@ -606,23 +648,23 @@ Mar 16, 2006
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2012/12/mac-irc-clients/">Mac IRC clients</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/11/pyobjc-and-twisted/">PyObjC and Twisted</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2012/10/selected-links/">More out of date links</a>
+      </li>
+    
+      <li class="post">
         <a href="/2012/10/links/">Links</a>
       </li>
     
       <li class="post">
         <a href="/2012/10/a-testing-story/">A Testing Story</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/09/disposable/">disposable</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/08/editor-wars/">&#8216;Editor Wars&#8217;</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/08/selected-links-from-this-summer/">Selected Links from this April</a>
       </li>
     
   </ul>

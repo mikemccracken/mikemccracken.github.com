@@ -4,7 +4,7 @@
   <title><![CDATA[michael-mccracken.net]]></title>
   <link href="http://michael-mccracken.net/atom.xml" rel="self"/>
   <link href="http://michael-mccracken.net/"/>
-  <updated>2012-12-14T14:10:24-08:00</updated>
+  <updated>2013-02-26T00:40:46-08:00</updated>
   <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
@@ -12,6 +12,68 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Mock nested properties with python-mock]]></title>
+    <link href="http://michael-mccracken.net/2013/02/mock-nested-properties-with-python-mock/"/>
+    <updated>2013-02-21T15:05:00-08:00</updated>
+    <id>http://michael-mccracken.net/2013/02/mock-nested-properties-with-python-mock</id>
+    <content type="html"><![CDATA[<p>Python&#8217;s <a href="http://www.voidspace.org.uk/python/mock/">mock</a> library (part of stdlib in 3.3+) is a great tool for writing concise tests.
+I often find something verbose that works, and later realize that there&#8217;s a better and much shorter way.</p>
+
+<p>Its documentation is very good, and rewards multiple reads - but I found one thing that wasn&#8217;t totally clear, even after looking through a few times.
+I wanted to use PropertyMock to mock nested Properties. Specifically, I had patched the python Gnome-introspection wrapper for libsoup at the top level <code>Soup</code> objcet, and I also wanted to replace one of its nested constant properties, Soup.MemoryUse.COPY with a sentinel that I controlled, for later comparison.</p>
+
+<p>The idiom for PropertyMock is to assign a PropertyMock to the type object of the Mock object whose property you want control of.
+What I found is that because Mocks auto-create properties, it&#8217;s possible to do nested mocking in one line, like this:</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="kn">import</span> <span class="nn">mock</span>
+</span><span class='line'><span class="n">m</span> <span class="o">=</span> <span class="n">mock</span><span class="o">.</span><span class="n">Mock</span><span class="p">()</span>
+</span><span class='line'><span class="nb">type</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">a</span><span class="o">.</span><span class="n">b</span><span class="o">.</span><span class="n">c</span><span class="p">)</span><span class="o">.</span><span class="n">d</span> <span class="o">=</span> <span class="n">mock</span><span class="o">.</span><span class="n">PropertyMock</span><span class="p">(</span><span class="n">return_value</span> <span class="o">=</span> <span class="n">mock</span><span class="o">.</span><span class="n">sentinel</span><span class="o">.</span><span class="n">my_value</span><span class="p">)</span>
+</span><span class='line'><span class="k">assert</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">a</span><span class="o">.</span><span class="n">b</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">d</span> <span class="o">==</span> <span class="n">mock</span><span class="o">.</span><span class="n">sentinel</span><span class="o">.</span><span class="n">my_value</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>So my soup example looks roughly like this (mixing testing and tested code, and repeating literals for brevity):</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="n">json_body</span> <span class="o">=</span> <span class="s">&quot;{}&quot;</span>
+</span><span class='line'><span class="k">with</span> <span class="n">patch</span><span class="p">(</span><span class="n">gi</span><span class="o">.</span><span class="n">repository</span><span class="o">.</span><span class="n">Soup</span><span class="p">)</span> <span class="k">as</span> <span class="n">mock_soup</span><span class="p">:</span>
+</span><span class='line'>    <span class="kn">from</span> <span class="nn">gi.repository</span> <span class="kn">import</span> <span class="n">Soup</span>
+</span><span class='line'>    <span class="nb">type</span><span class="p">(</span><span class="n">mock_soup</span><span class="o">.</span><span class="n">MemoryUse</span><span class="p">)</span><span class="o">.</span><span class="n">COPY</span> <span class="o">=</span> <span class="n">mock</span><span class="o">.</span><span class="n">PropertyMock</span><span class="p">(</span><span class="n">return_value</span><span class="o">=</span><span class="n">mock</span><span class="o">.</span><span class="n">sentinel</span><span class="o">.</span><span class="n">COPY</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="c"># tested code:</span>
+</span><span class='line'>    <span class="n">message</span> <span class="o">=</span> <span class="n">Soup</span><span class="o">.</span><span class="n">Message</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="s">&quot;POST&quot;</span><span class="p">,</span> <span class="s">&quot;http://fake.com/api&quot;</span><span class="p">)</span>
+</span><span class='line'>    <span class="n">message</span><span class="o">.</span><span class="n">set_request</span><span class="p">(</span><span class="s">&#39;application/json&#39;</span><span class="p">,</span> <span class="n">Soup</span><span class="o">.</span><span class="n">MemoryUse</span><span class="o">.</span><span class="n">COPY</span><span class="p">,</span> <span class="n">json_body</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">json_body</span><span class="p">))</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="c"># checking:</span>
+</span><span class='line'>    <span class="k">assert</span><span class="p">(</span><span class="n">mock_soup</span><span class="o">.</span><span class="n">mock_calls</span> <span class="o">==</span> <span class="p">[</span><span class="n">mock</span><span class="o">.</span><span class="n">call</span><span class="o">.</span><span class="n">Message</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="s">&quot;POST&quot;</span><span class="p">,</span> <span class="s">&quot;http://fake.com/api&quot;</span><span class="p">),</span>
+</span><span class='line'>                                    <span class="n">mock</span><span class="o">.</span><span class="n">call</span><span class="o">.</span><span class="n">Message</span><span class="o">.</span><span class="n">new</span><span class="p">()</span><span class="o">.</span><span class="n">set_request</span><span class="p">(</span><span class="s">&#39;application/json&#39;</span><span class="p">,</span>
+</span><span class='line'>                                                                        <span class="n">sentinel</span><span class="o">.</span><span class="n">COPY</span> <span class="c"># &lt;--- this was the point</span>
+</span><span class='line'>                                                                        <span class="s">&quot;{}&quot;</span><span class="p">,</span> <span class="mi">2</span><span class="p">)])</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Mac IRC clients]]></title>
@@ -168,19 +230,6 @@ listings don&#8217;t lead me to believe that it&#8217;s anything significantly
 different from the others. I&#8217;d be glad to hear from fans, though.</p>
 
 <p>So, what do you use? Have I missed anything great?</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[PyObjC and Twisted]]></title>
-    <link href="http://michael-mccracken.net/2012/11/pyobjc-and-twisted/"/>
-    <updated>2012-11-01T15:31:00-07:00</updated>
-    <id>http://michael-mccracken.net/2012/11/pyobjc-and-twisted</id>
-    <content type="html"><![CDATA[<p>@inlineCallbacks doesn&#8217;t work in NSObject subclasses
-- use old time deferreds if that&#8217;s palatable
-- if not, set up &#8216;helper functions&#8217;</p>
-
-<p>testing with twisted.trial and python-mock works fine</p>
 ]]></content>
   </entry>
   

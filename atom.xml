@@ -4,7 +4,7 @@
   <title><![CDATA[michael-mccracken.net]]></title>
   <link href="http://michael-mccracken.net/atom.xml" rel="self"/>
   <link href="http://michael-mccracken.net/"/>
-  <updated>2013-02-26T00:40:46-08:00</updated>
+  <updated>2013-02-26T00:46:11-08:00</updated>
   <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
@@ -19,9 +19,7 @@
     <updated>2013-02-21T15:05:00-08:00</updated>
     <id>http://michael-mccracken.net/2013/02/mock-nested-properties-with-python-mock</id>
     <content type="html"><![CDATA[<p>Python&#8217;s <a href="http://www.voidspace.org.uk/python/mock/">mock</a> library (part of stdlib in 3.3+) is a great tool for writing concise tests.
-I often find something verbose that works, and later realize that there&#8217;s a better and much shorter way.</p>
-
-<p>Its documentation is very good, and rewards multiple reads - but I found one thing that wasn&#8217;t totally clear, even after looking through a few times.
+Its documentation is very good, and rewards multiple reads - but I found one thing that wasn&#8217;t totally clear, even after looking through a few times.
 I wanted to use PropertyMock to mock nested Properties. Specifically, I had patched the python Gnome-introspection wrapper for libsoup at the top level <code>Soup</code> objcet, and I also wanted to replace one of its nested constant properties, Soup.MemoryUse.COPY with a sentinel that I controlled, for later comparison.</p>
 
 <p>The idiom for PropertyMock is to assign a PropertyMock to the type object of the Mock object whose property you want control of.
@@ -71,7 +69,7 @@ What I found is that because Mocks auto-create properties, it&#8217;s possible t
 </span></code></pre></td></tr></table></div></figure>
 
 
-
+<p>It&#8217;s often possible to think of a shorter, clearer use of the mock library after revisiting a problem, but so far this still seems good. Let me know in the comments if you have a suggestion for improvements.</p>
 ]]></content>
   </entry>
   

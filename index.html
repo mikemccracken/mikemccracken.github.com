@@ -10,7 +10,7 @@
 
   
   <meta name="description" content="Python&#8217;s mock library (part of stdlib in 3.3+) is a great tool for writing concise tests.
-I often find something verbose that works, and later &hellip;">
+Its documentation is very good, and rewards multiple &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -111,9 +111,7 @@ I often find something verbose that works, and later &hellip;">
 
 
   <div class="entry-content"><p>Python&#8217;s <a href="http://www.voidspace.org.uk/python/mock/">mock</a> library (part of stdlib in 3.3+) is a great tool for writing concise tests.
-I often find something verbose that works, and later realize that there&#8217;s a better and much shorter way.</p>
-
-<p>Its documentation is very good, and rewards multiple reads - but I found one thing that wasn&#8217;t totally clear, even after looking through a few times.
+Its documentation is very good, and rewards multiple reads - but I found one thing that wasn&#8217;t totally clear, even after looking through a few times.
 I wanted to use PropertyMock to mock nested Properties. Specifically, I had patched the python Gnome-introspection wrapper for libsoup at the top level <code>Soup</code> objcet, and I also wanted to replace one of its nested constant properties, Soup.MemoryUse.COPY with a sentinel that I controlled, for later comparison.</p>
 
 <p>The idiom for PropertyMock is to assign a PropertyMock to the type object of the Mock object whose property you want control of.
@@ -163,7 +161,7 @@ What I found is that because Mocks auto-create properties, it&#8217;s possible t
 </span></code></pre></td></tr></table></div></figure>
 
 
-
+<p>It&#8217;s often possible to think of a shorter, clearer use of the mock library after revisiting a problem, but so far this still seems good. Let me know in the comments if you have a suggestion for improvements.</p>
 </div>
   
   

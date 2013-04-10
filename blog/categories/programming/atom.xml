@@ -4,7 +4,7 @@
   <title><![CDATA[Category: programming | michael-mccracken.net]]></title>
   <link href="http://michael-mccracken.net/blog/categories/programming/atom.xml" rel="self"/>
   <link href="http://michael-mccracken.net/"/>
-  <updated>2013-02-26T00:46:11-08:00</updated>
+  <updated>2013-04-10T08:54:28-07:00</updated>
   <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
@@ -14,6 +14,46 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Links]]></title>
+    <link href="http://michael-mccracken.net/2013/04/links/"/>
+    <updated>2013-04-10T08:41:00-07:00</updated>
+    <id>http://michael-mccracken.net/2013/04/links</id>
+    <content type="html"><![CDATA[<ul>
+<li><a href="http://lambda-the-ultimate.org/node/4710">DYNAMO</a>
+  Someone has rewritten one of the earliest simulation systems in JavaScript (the fate of all interesting software). Also includes a link to an article about the history of simulation software that sounds very interesting.</li>
+<li><a href="http://feeds.seriouseats.com/~r/seriouseatsfeaturesvideos/~3/yfScRT6TNzw/the-food-lab-crab-cakes.html">The Food Lab: The Crabbiest Crab Cakes</a>
+  I love crab cakes, but I'm not sure I really want to try to make them at home. If I do, I'll use these tips. The Food Lab is fun stuff.</li>
+<li><a href="http://mjtsai.com/blog/2013/03/30/debug-it/">Debug It!</a>
+  A review of a book on debugging, which is a topic that I think should be taught right alongside programming. See also <a href="http://whyprogramsfail.com">"Why Programs Fail"</a></li>
+<li><a href="http://www.givedirectly.org/">GiveDirectly: introducing a radical new way to give! | GiveDirectly</a>
+  Send cash straight to poor people. If their assertions are true, it's a really interesting idea, and I can't believe it hasn't been done before. It also seems transparently better than microloans.</li>
+<li><a href="https://github.com/ContinuumIO/Bokeh">ContinuumIO/Bokeh · GitHub</a>
+  Something to look out for -- a Python ggplot that works with HTML5 is a great idea. "Bokeh (pronounced boh-Kay) is an implementation of Grammar of Graphics for Python, that also supports the customized rendering flexibility of Protovis and d3. Although it is a Python library, its primary output backend is HTML5 Canvas.  There are many excellent plotting packages for Python, but they generally do not optimize for the particular needs of statistical plotting (easy faceting, bulk application of aesthetic and visual parameters across categorical variables, pleasing default color palettes for categorical data, etc.). The goal of Bokeh is to provide a compelling Python equivalent of ggplot in R."</li>
+<li><a href="http://kk.org/cooltools/archives/10441">FitDesk X1</a>
+  Level up from a standing desk? I'd love to try this for a day.</li>
+<li><a href="http://lambda-the-ultimate.org/node/4699">Concurrent Revisions</a>
+  DVCS-like concurrent programming. Interesting sounding research - I haven't read it yet...</li>
+<li><a href="http://www.hockeyabstract.com/playerusagecharts">Many thanks to @robvollmannhl and the good folks at Hockey Abstract for these great interactive Player Usage Charts: hockeyabstract.com/playerusagecha…</a>
+  Player Usage Charts are fascinating, but I can never figure out why people always change the axes so that the dots fill the space. It makes it impossible to compare two charts, and it's not obvious, so you end up comparing charts without realizing that it's meaningless.</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[PyObjC and Twisted]]></title>
+    <link href="http://michael-mccracken.net/2012/11/pyobjc-and-twisted/"/>
+    <updated>2012-11-01T15:31:00-07:00</updated>
+    <id>http://michael-mccracken.net/2012/11/pyobjc-and-twisted</id>
+    <content type="html"><![CDATA[<p>@inlineCallbacks doesn't work in NSObject subclasses
+- use old time deferreds if that's palatable
+- if not, set up 'helper functions'</p>
+
+<p>testing with twisted.trial and python-mock works fine</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[More out of date links]]></title>
     <link href="http://michael-mccracken.net/2012/10/selected-links/"/>
     <updated>2012-10-25T12:35:00-07:00</updated>
@@ -119,95 +159,6 @@
   "It's a whirlwind tour of computing before the Web, with brilliant archival footage and interviews with key players — several of whom passed away since the filming. Jointly produced by WGBH Boston and the BBC, it originally aired in the UK as The Dream Machine before its U.S. premiere in January 1992. Its broadcast was accompanied by a book co-written by the documentary's producer Jon Palfreman."</p></li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Links]]></title>
-    <link href="http://michael-mccracken.net/2012/10/links/"/>
-    <updated>2012-10-08T00:47:00-07:00</updated>
-    <id>http://michael-mccracken.net/2012/10/links</id>
-    <content type="html"><![CDATA[<ul>
-<li><p><a href="http://stackoverflow.com/questions/10857030/whats-so-bad-about-template-haskell">What's so bad about Template Haskell? - Stack Overflow</a></p>
-
-<p>  A bunch of good answers to why Template Haskell is occasionally maligned.</p></li>
-<li><p><a href="http://stackoverflow.com/questions/10845179/which-haskell-ghc-extensions-should-users-use-avoid/10849782#10849782">Which Haskell (GHC) extensions should users use/avoid? - Stack Overflow</a></p>
-
-<p>  Interesting list of aesthetic judgements of haskell extensions. At press time I don't know what most of these words mean.</p></li>
-<li><p><a href="http://www.yesodweb.com/blog/2011/04/yesod-template-haskell">Yesod and Template Haskell</a></p>
-
-<p>  Short post on why Yesod uses template haskell (which has a bad rep)</p></li>
-<li><p><a href="http://imakewebthings.com/deck.js/">deck.js » Modern HTML Presentations</a></p>
-
-<p>  Best "Write your presentations in HTML" thing I've seen yet, although I'm not sure how great it'd be at complex visuals or builds. Yes sometimes builds are good! <em>SOMETIMES</em>.</p></li>
-<li><p><a href="http://redbot.org/">REDbot</a></p>
-
-<p>  RED is a robot that checks HTTP resources to see how they'll behave, pointing out common problems and suggesting improvements. Although it is not a HTTP conformance tester, it can find a number of HTTP-related issues.</p></li>
-<li><p><a href="https://github.com/visi-lang/visi">.@dpp’s Visi looks to be exactly the thing when Soulver isn’t enough and spreadsheets are rigid github.com/visi-lang/visi #emerginglangs</a></p>
-
-<p>  Should I look at this before posting a link? Nah... But I will look at it, eventually! It looks interesting, I love this kind of stuff - although as usual I wonder if this is something you can already get in Mathematica but no one knows because it's so expensive.</p></li>
-<li><p><a href="http://highscalability.com/blog/2012/7/30/prismatic-architecture-using-machine-learning-on-social-netw.html">High Scalability - Prismatic Architecture - Using Machine Learning on Social Networks to Figure Out What You Should Read on the Web </a></p>
-
-<p>  Probably interesting? I skimmed this, I'm not gonna lie, I don't remember much.</p></li>
-<li><p><a href="http://deslide.clusterfake.net/">Deslidefied HTML</a></p>
-
-<p>  Really useful bookmark to make slideshow news articles readable on one page. I am using it all the time!</p></li>
-<li><p><a href="http://pragprog.com/magazines/2012-09/thinking-functionally-with-haskell">Thinking Functionally with Haskell</a></p>
-
-<p>  ""In which we explore what modern type systems bring to the table. Imagine an approach to programming where you write down some description of what your code should do, then before running your code you run some automatic tool to see if the code matches the description. That’s Test-driven development, you say!  Actually, this is what you are doing when you use static types in most languages too. Types are a description of the code’s inputs and outputs, and the check ensures that inputs and outputs match up and are used consistently. Modern type systems—such as in Haskell or above—are very flexible, and allow these descriptions to be quite detailed; plus they are not too obtrusive in use and often very helpful.  One point I’ll investigate here is how advances in types are converging with new ideas on testing, to the point where (I claim) the old distinctions are starting to blur and starting to open up exciting new possibilities—hence my suggestion that we need a new word to describe what we’re doing that is free from preconceptions and out-dated thinking.  So put aside your bad experiences from Java, and prepare to be amazed! ""</p></li>
-<li><p><a href="http://feedproxy.google.com/~r/ezyang/~3/3Vb6-OhkZws/">So you want to hack on IMAP…</a></p>
-
-<p>  "Well, first off, you’re horribly misinformed: you do not actually want to hack on IMAP." (I agree, IMAP bad.)</p></li>
-<li><p><a href="http://waxy.org/2008/06/the_machine_that_changed_the_world/">The Machine That Changed the World: Great Brains - Waxy.org</a></p>
-
-<p>  Documentary about computing history:
-  "It's a whirlwind tour of computing before the Web, with brilliant archival footage and interviews with key players — several of whom passed away since the filming. Jointly produced by WGBH Boston and the BBC, it originally aired in the UK as The Dream Machine before its U.S. premiere in January 1992. Its broadcast was accompanied by a book co-written by the documentary's producer Jon Palfreman."</p></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA['Editor Wars']]></title>
-    <link href="http://michael-mccracken.net/2012/08/editor-wars/"/>
-    <updated>2012-08-16T23:44:00-07:00</updated>
-    <id>http://michael-mccracken.net/2012/08/editor-wars</id>
-    <content type="html"><![CDATA[<p>An idea I'd like to see: Editor Wars, the game of hacking at code.</p>
-
-<p>Hackers compete on how fast they can complete code editing tasks from
-a variety of languages, with results plotted and dissected on a
-web leaderboard. The idea is not to evaluate language understanding or
-design, but simply editing skill and speed in the kind of thing that
-editor flame wars start over.</p>
-
-<p>The tasks could be simple refactorings, like renaming a function
-throughout a source tree, or extracting code into a method. I'd expect
-this would show advantages of specialized refactoring tools in some
-IDEs. Other tasks might be more complex, like writing a new set of
-functions, a whole class, or adding functions to a class to conform to
-a protocol or interface. Good template support and autocomplete might
-be an advantage here. Or maybe you want to add conditional debug
-logging around a set of functions, with each call having a separate
-hardcoded counter value? Surely powerful macros win this task?
-Naturally, new tasks could be submitted by the public, and voted on.
-Each task would have a "correct" answer, but if you're really clever
-you could always suggest a better correct answer.</p>
-
-<p>Use of extensions and custom macros would be happily encouraged, as
-long as you can share what you've used.</p>
-
-<p>You'd need either an editor plugin or at least something that watches
-files efficiently to get the split-second timing your contestants will
-demand. Ideally you'd be able to record keystrokes and grab the source
-for any macros you call, then the site would be able to show a replay
-for the viewing public.</p>
-
-<p>It'd be fascinating to learn how other people use your favorite editor
-by watching the best of the best compete. Not to mention, just imagine
-the forum threads arguing over the graphs from the vast database of
-editor timings.</p>
-
-<p>Anyone want to build this?</p>
 ]]></content>
   </entry>
   

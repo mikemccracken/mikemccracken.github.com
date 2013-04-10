@@ -9,7 +9,7 @@
   <meta name="author" content="Michael McCracken">
 
   
-  <meta name="description" content="I usually like the link selection I get from the Joel Reddit, which usually has good software-related essays at the top. It seems to avoid links to &hellip;">
+  <meta name="description" content="Daniel Jalkut&#8217;s Red Sweater acquires MarsEdit. Congratulations, Daniel, and good luck! I think this is great news for MarsEdit users. I&#8217;m &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,6 +78,150 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2007/02/red-sweaters-marsedit/">Red Sweater&#8217;s MarsEdit</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-02-22T02:21:33-08:00" pubdate data-updated="true">Feb 22<span>nd</span>, 2007</time>
+        
+         | <a href="/2007/02/red-sweaters-marsedit/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Daniel Jalkut&#8217;s Red Sweater <a href="http://www.red-sweater.com/blog/282/red-sweater-acquires-marsedit">acquires MarsEdit</a>. Congratulations, Daniel, and good luck!</p>
+
+<p>I think this is great news for MarsEdit users. I&#8217;m looking forward to seeing what he does with it.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2007/02/linking-the-os-x-clipboard-and-xterms-selection/">Linking the OS X Clipboard and XTerm&#8217;s Selection</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-02-19T10:23:22-08:00" pubdate data-updated="true">Feb 19<span>th</span>, 2007</time>
+        
+         | <a href="/2007/02/linking-the-os-x-clipboard-and-xterms-selection/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>If you only use X11 for XTerm, it might seem like the handling of the clipboard in Apple&#8217;s X11.app is broken. You can select text and paste it with a click of the middle mouse button (opt-click on my Powerbook), and that works when pasting into other X apps, but it doesn&#8217;t change the Mac clipboard at all.</p>
+
+<p>Why not? Is X11.app just ignoring the X clipboard?</p>
+
+<p>No - X11.app <em>does</em> synchronize the two clipboards. The problem is that the selection pasting in XTerm is using a completely different buffer. There&#8217;s a full and clear explanation, with some interesting details about (X)Emacs&#8217; behavior, at <a href="http://www.jwz.org/doc/x-cut-and-paste.html">jwz.org</a>.</p>
+
+<p>If, like me, you only use X11 for Emacs and XTerm, you might want to link the selection in XTerm to the X clipboard, so X11.app will then sync that with the system clipboard and you can select in XTerm and paste with Cmd-V in say, Mail.app.</p>
+
+<p>I&#8217;ll tell you how in a sec, but first the caveat - I said if you only use X11 for Emacs and XTerm because what we&#8217;re going to do is make setting the XTerm selection always overwrite the clipboard contents. If you use X apps that use the X clipboard, sometimes you don&#8217;t want that. So beware. If you use Emacs, it just pushes onto the kill ring, so you&#8217;re good.</p>
+
+<p>OK, now that that&#8217;s over, add these lines to your ~/.Xdefaults:</p>
+
+<pre><code>XTerm*VT100.Translations: #override\
+&lt;BtnUp&gt;: select-end(CLIPBOARD,PRIMARY)\n\
+&lt;Btn2Down&gt;: insert-selection(PRIMARY)\n\
+</code></pre>
+
+<p>Note that the backslashes at the end of the lines are important.</p>
+
+<p>Update: The first version of this post didn&#8217;t include the Btn2Down action. Without that, the original paste behavior goes away - the man page doesn&#8217;t really explain the &#8220;#override&#8221; keyword, so I&#8217;m not sure why.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2007/02/new-assembly-native-apps-in-python-and-ruby/">&#8220;New Assembly?&#8221; - Native Apps in Python and Ruby?</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-02-16T05:26:49-08:00" pubdate data-updated="true">Feb 16<span>th</span>, 2007</time>
+        
+         | <a href="/2007/02/new-assembly-native-apps-in-python-and-ruby/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>A couple days ago, Daniel Jalkut wrote a <a href="http://www.red-sweater.com/blog/278/c-is-the-new-assembly">quick note</a> wondering if the future is writing native desktop apps in languages like Python or Ruby, dropping down into C/Obj-C only for performance reasons. It&#8217;s been an interesting thread since then, in comments and other posts.
+Notably, today Bill Bumgarner responded with a <a href="http://www.friday.com/bbum/2007/02/16/c-portable-macro-assembler/">long and informative ramble</a> about how the dynamic language future is already here.</p>
+
+<p>Specifically, he notes that the Python-ObjC bridge has been working for quite some time, and is even in use by a few commercial apps.</p>
+
+<p>As official support for this kind of development grows, I bet we&#8217;ll  find more apps written with mostly Python (or Ruby) and a few ObjC/C/C++ bundles or frameworks. I really don&#8217;t think this will be a performance problem - from what I can tell, performance problems in desktop apps are more often algorithm problems or I/O problems - overheads of small constant factors due to using an interpreted language are in the wash.</p>
+
+<p>I&#8217;ve probably written as much Python (not using the bridge) as Objective-C, and my experience is that I feel like I&#8217;m solving the problem faster with Python. I particularly like the more compact syntax for common data structures like lists, dictionaries and tuples - I&#8217;ve written and modified a couple of very small Cocoa apps using PyObjC (including Python plugins for VoodooPad), and it feels like I&#8217;m getting away with something when I pass inline lists + dictionaries to AppKit&#8230;</p>
+
+<p>In case you&#8217;re wondering about what Py-Cocoa code looks like, there are a lot of great <a href="http://pyobjc.sourceforge.net/examples/index.php">examples</a> on the PyObjC project site. Looking at it now, it&#8217;s like I&#8217;m reading Cocoa email-pseudocode, and I like that.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -415,132 +559,6 @@ end tell
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2007/01/iphone-multitouch-screen/">iPhone Multitouch-screen</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2007-01-09T07:01:01-08:00" pubdate data-updated="true">Jan 9<span>th</span>, 2007</time>
-        
-         | <a href="/2007/01/iphone-multitouch-screen/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>If you&#8217;re wondering how well the multitouch-screen will work on the iPhone UI, especially for typing, assuming that Apple really did <a href="http://fingerfans.dreamhosters.com/forum/viewtopic.php?t=223">buy Fingerworks</a>, I can <a href="http://michael-mccracken.net/blog/blosxom.pl/computers/meetFingerworksLP.html">testify</a> that the technology they developed to auto-correct typing on a keyless sensor surface works much better than you would expect. It really is the kind of thing you need to try to believe, and if the iPhone uses that technology, I don&#8217;t think we&#8217;ll be seeing any <a href="http://images.ucomics.com/comics/db/1993/db930827.gif">&#8220;egg freckles&#8221;</a> this time.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2006/12/leopard-developer-technologies/">Leopard Developer Technologies</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2006-12-12T10:36:13-08:00" pubdate data-updated="true">Dec 12<span>th</span>, 2006</time>
-        
-         | <a href="/2006/12/leopard-developer-technologies/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>If you&#8217;re like me and don&#8217;t have a Leopard Preview, and if you haven&#8217;t seen the <a href="http://developer.apple.com/leopard/overview/apptech.html">Leopard Developer Application Technologies Overview</a>, you should take a look. There&#8217;s some pretty interesting stuff coming down the pipe. I like the Calendar store, which lets any application work with the iCal calendar info in much the same way as AddressBook.framework opens up the Address Book. Maybe we&#8217;ll see some enterprising developer add support for <a href="http://michael-mccracken.net/wp/?p=27">travel time in calendar display</a>?</p>
-
-<p>I also like the Applescript Bridge - an idea whose time came YEARS ago. It&#8217;s buried under the section titled &#8220;Picking Up the Pace of Cocoa Application Development&#8221;. What a major simplification!</p>
-
-<p>I like that a lot of the new advances in Leopard seem to involve making it easier for apps to work together and <em>share data</em>. My data should belong to me, not to the application I first entered it in. This is as much a usability issue as it is a data safety, vendor lock-in and openness issue.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2006/12/burnout/">Burnout</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2006-12-08T10:33:26-08:00" pubdate data-updated="true">Dec 8<span>th</span>, 2006</time>
-        
-         | <a href="/2006/12/burnout/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>A great article about Burnout and &#8220;Hurry-sickness&#8221; from New York magazine - &#8221;<a href="http://nymag.com/news/features/24757/index.html?imw=Y">Where Work is a Religion, Work Burnout is Its Crisis of Faith</a>&#8221; Interesting, but thankfully not as relevant now as it would&#8217;ve been a year ago.</p>
-
-<p>One quote I loved (and would love to see proof of:)</p>
-
-<blockquote><p>Elevator engineers even have a term for how long it takes—door dwell—before people start jamming their fingers on the door close button, which is usually a placebo, a function already disabled by litigation-conscious building managers</p></blockquote>
-
-<p>This reminds me of an idea I had in high school to add a &#8220;Go Faster&#8221; button to Netscape&#8217;s toolbar. It wouldn&#8217;t do anything, but it&#8217;d give you something to do while waiting for the Cool Site of the Day to load.</p>
-
-<p>Found via <a href="http://del.icio.us/ldandersen">Buzz&#8217;s delicious feed</a>.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/19/">&larr; Older</a>
@@ -562,7 +580,15 @@ end tell
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2013/04/links/">Links</a>
+      </li>
+    
+      <li class="post">
         <a href="/2013/02/mock-nested-properties-with-python-mock/">Mock nested properties with python-mock</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/02/dont-snooze/">Don&#8217;t Snooze</a>
       </li>
     
       <li class="post">
@@ -570,15 +596,7 @@ end tell
       </li>
     
       <li class="post">
-        <a href="/2012/10/selected-links/">More out of date links</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/10/links/">Links</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/10/a-testing-story/">A Testing Story</a>
+        <a href="/2012/11/pyobjc-and-twisted/">PyObjC and Twisted</a>
       </li>
     
   </ul>

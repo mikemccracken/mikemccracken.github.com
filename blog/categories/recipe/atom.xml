@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: recipe | michael-mccracken.net]]></title>
+  <title><![CDATA[Category: Recipe | michael-mccracken.net]]></title>
   <link href="http://michael-mccracken.net/blog/categories/recipe/atom.xml" rel="self"/>
   <link href="http://michael-mccracken.net/"/>
-  <updated>2013-02-26T00:46:11-08:00</updated>
+  <updated>2013-04-10T08:54:28-07:00</updated>
   <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
@@ -14,32 +14,27 @@
 
   
   <entry>
-    <title type="html"><![CDATA[More out of date links]]></title>
-    <link href="http://michael-mccracken.net/2012/10/selected-links/"/>
-    <updated>2012-10-25T12:35:00-07:00</updated>
-    <id>http://michael-mccracken.net/2012/10/selected-links</id>
+    <title type="html"><![CDATA[Links]]></title>
+    <link href="http://michael-mccracken.net/2013/04/links/"/>
+    <updated>2013-04-10T08:41:00-07:00</updated>
+    <id>http://michael-mccracken.net/2013/04/links</id>
     <content type="html"><![CDATA[<ul>
-<li><a href="http://hammerprinciple.com/therighttool">Programming Languages · Hammer Principle</a>
-  Very interesting survey site to answer the question "what language is right for what task?"</li>
-<li><a href="http://james-iry.blogspot.co.uk/2010/05/types-la-chart.html">One Div Zero: Types à la Chart</a>
-  A chart of languages according to type power/safety. Seems reasonable. Made me curious about the ones in the top right.</li>
-<li><a href="https://github.com/philsquared/Catch/wiki">Home · philsquared/Catch Wiki</a>
-  C++ unit testing framework, all in headers, looks nice.</li>
-<li><a href="http://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html">ferd.ca -> An Open Letter to the Erlang Beginner (or Onlooker)</a>
-  Interesting, balanced article about what makes erlang nice.</li>
-<li><p><a href="http://worrydream.com/oatmeal/blind.html">"Research is a blind date with knowledge." worrydream.com/oatmeal/blind.…</a></p></li>
-<li><p><a href="http://mail.python.org/pipermail/pypy-dev/2012-October/010602.html">Splitting RPython (the language) and PyPy (a python interpreter) plan: mail.python.org/pipermail/pypy…</a>
-  Sounds interesting. I wonder if RPython will grow in popularity separately.</p></li>
-<li><p><a href="http://saltandfat.com/post/33437971658">Double-corn tortillas</a>
-  I'd love to try this sometime.</p></li>
-<li><p><a href="https://github.com/clips/pattern">clips/pattern · GitHub</a>
-  Web-mining in python. Lots of functionality here, BSD license.</p></li>
-<li><p><a href="http://www.brainpickings.org/index.php/2012/06/12/the-art-of-coffee-1961/">The Art of Coffee: A Mad Men Era Short Film | Brain Pickings</a>
-  I loved "This is Coffee!". 12 minute promotional short film from 1961 about coffee. It's wonderful to imagine the worn old mugs of my grandparents' generation new again, filled with something better than the electric-percolated canned junk I know they drank. Also great to see the Chemex in there, exactly the same as I use it today.</p></li>
-<li><a href="http://worrydream.com/LearnableProgramming/">Learnable Programming</a>
-  Very clear and well-argued essay about how to make a more-understandable programming environment. I agreed with everything, and was left wondering how to apply this line of thought to more complex software. (Everyone has seen this by the time I post this list.)</li>
-<li><a href="http://robrohan.com/2009/09/14/objc-signaturevo/">@objc.signature(‘v@:@@o<sup>@’)</sup> | Times New Rohan</a>
-  List of objc.signature codes</li>
+<li><a href="http://lambda-the-ultimate.org/node/4710">DYNAMO</a>
+  Someone has rewritten one of the earliest simulation systems in JavaScript (the fate of all interesting software). Also includes a link to an article about the history of simulation software that sounds very interesting.</li>
+<li><a href="http://feeds.seriouseats.com/~r/seriouseatsfeaturesvideos/~3/yfScRT6TNzw/the-food-lab-crab-cakes.html">The Food Lab: The Crabbiest Crab Cakes</a>
+  I love crab cakes, but I'm not sure I really want to try to make them at home. If I do, I'll use these tips. The Food Lab is fun stuff.</li>
+<li><a href="http://mjtsai.com/blog/2013/03/30/debug-it/">Debug It!</a>
+  A review of a book on debugging, which is a topic that I think should be taught right alongside programming. See also <a href="http://whyprogramsfail.com">"Why Programs Fail"</a></li>
+<li><a href="http://www.givedirectly.org/">GiveDirectly: introducing a radical new way to give! | GiveDirectly</a>
+  Send cash straight to poor people. If their assertions are true, it's a really interesting idea, and I can't believe it hasn't been done before. It also seems transparently better than microloans.</li>
+<li><a href="https://github.com/ContinuumIO/Bokeh">ContinuumIO/Bokeh · GitHub</a>
+  Something to look out for -- a Python ggplot that works with HTML5 is a great idea. "Bokeh (pronounced boh-Kay) is an implementation of Grammar of Graphics for Python, that also supports the customized rendering flexibility of Protovis and d3. Although it is a Python library, its primary output backend is HTML5 Canvas.  There are many excellent plotting packages for Python, but they generally do not optimize for the particular needs of statistical plotting (easy faceting, bulk application of aesthetic and visual parameters across categorical variables, pleasing default color palettes for categorical data, etc.). The goal of Bokeh is to provide a compelling Python equivalent of ggplot in R."</li>
+<li><a href="http://kk.org/cooltools/archives/10441">FitDesk X1</a>
+  Level up from a standing desk? I'd love to try this for a day.</li>
+<li><a href="http://lambda-the-ultimate.org/node/4699">Concurrent Revisions</a>
+  DVCS-like concurrent programming. Interesting sounding research - I haven't read it yet...</li>
+<li><a href="http://www.hockeyabstract.com/playerusagecharts">Many thanks to @robvollmannhl and the good folks at Hockey Abstract for these great interactive Player Usage Charts: hockeyabstract.com/playerusagecha…</a>
+  Player Usage Charts are fascinating, but I can never figure out why people always change the axes so that the dots fill the space. It makes it impossible to compare two charts, and it's not obvious, so you end up comparing charts without realizing that it's meaningless.</li>
 </ul>
 
 ]]></content>

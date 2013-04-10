@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: python | michael-mccracken.net]]></title>
+  <link href="http://michael-mccracken.net/blog/categories/python/atom.xml" rel="self"/>
+  <link href="http://michael-mccracken.net/"/>
+  <updated>2013-04-10T08:54:28-07:00</updated>
+  <id>http://michael-mccracken.net/</id>
+  <author>
+    <name><![CDATA[Michael McCracken]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Links]]></title>
+    <link href="http://michael-mccracken.net/2013/04/links/"/>
+    <updated>2013-04-10T08:41:00-07:00</updated>
+    <id>http://michael-mccracken.net/2013/04/links</id>
+    <content type="html"><![CDATA[<ul>
+<li><a href="http://lambda-the-ultimate.org/node/4710">DYNAMO</a>
+  Someone has rewritten one of the earliest simulation systems in JavaScript (the fate of all interesting software). Also includes a link to an article about the history of simulation software that sounds very interesting.</li>
+<li><a href="http://feeds.seriouseats.com/~r/seriouseatsfeaturesvideos/~3/yfScRT6TNzw/the-food-lab-crab-cakes.html">The Food Lab: The Crabbiest Crab Cakes</a>
+  I love crab cakes, but I'm not sure I really want to try to make them at home. If I do, I'll use these tips. The Food Lab is fun stuff.</li>
+<li><a href="http://mjtsai.com/blog/2013/03/30/debug-it/">Debug It!</a>
+  A review of a book on debugging, which is a topic that I think should be taught right alongside programming. See also <a href="http://whyprogramsfail.com">"Why Programs Fail"</a></li>
+<li><a href="http://www.givedirectly.org/">GiveDirectly: introducing a radical new way to give! | GiveDirectly</a>
+  Send cash straight to poor people. If their assertions are true, it's a really interesting idea, and I can't believe it hasn't been done before. It also seems transparently better than microloans.</li>
+<li><a href="https://github.com/ContinuumIO/Bokeh">ContinuumIO/Bokeh · GitHub</a>
+  Something to look out for -- a Python ggplot that works with HTML5 is a great idea. "Bokeh (pronounced boh-Kay) is an implementation of Grammar of Graphics for Python, that also supports the customized rendering flexibility of Protovis and d3. Although it is a Python library, its primary output backend is HTML5 Canvas.  There are many excellent plotting packages for Python, but they generally do not optimize for the particular needs of statistical plotting (easy faceting, bulk application of aesthetic and visual parameters across categorical variables, pleasing default color palettes for categorical data, etc.). The goal of Bokeh is to provide a compelling Python equivalent of ggplot in R."</li>
+<li><a href="http://kk.org/cooltools/archives/10441">FitDesk X1</a>
+  Level up from a standing desk? I'd love to try this for a day.</li>
+<li><a href="http://lambda-the-ultimate.org/node/4699">Concurrent Revisions</a>
+  DVCS-like concurrent programming. Interesting sounding research - I haven't read it yet...</li>
+<li><a href="http://www.hockeyabstract.com/playerusagecharts">Many thanks to @robvollmannhl and the good folks at Hockey Abstract for these great interactive Player Usage Charts: hockeyabstract.com/playerusagecha…</a>
+  Player Usage Charts are fascinating, but I can never figure out why people always change the axes so that the dots fill the space. It makes it impossible to compare two charts, and it's not obvious, so you end up comparing charts without realizing that it's meaningless.</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[PyObjC and Twisted]]></title>
+    <link href="http://michael-mccracken.net/2012/11/pyobjc-and-twisted/"/>
+    <updated>2012-11-01T15:31:00-07:00</updated>
+    <id>http://michael-mccracken.net/2012/11/pyobjc-and-twisted</id>
+    <content type="html"><![CDATA[<p>@inlineCallbacks doesn't work in NSObject subclasses
+- use old time deferreds if that's palatable
+- if not, set up 'helper functions'</p>
+
+<p>testing with twisted.trial and python-mock works fine</p>
+]]></content>
+  </entry>
+  
+</feed>

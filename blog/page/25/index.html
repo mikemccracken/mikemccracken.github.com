@@ -9,7 +9,7 @@
   <meta name="author" content="Michael McCracken">
 
   
-  <meta name="description" content="I mentioned that I&#8217;d post about some of the papers I found interesting from this year&#8217;s PLDI conference. Disclaimer: for the most part &hellip;">
+  <meta name="description" content="In a recent largescale systems seminar*, we had Bart Miller from Wisconsin talk about some of the upcoming work on DynInst. DynInst is an API for &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,6 +78,146 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2006/02/talk-bart-miller-and-dyninst/">Talk: Bart Miller and Dyninst</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-02-03T07:33:09-08:00" pubdate data-updated="true">Feb 3<span>rd</span>, 2006</time>
+        
+         | <a href="/2006/02/talk-bart-miller-and-dyninst/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>In a recent largescale systems seminar*, we had <a href="http://www.cs.wisc.edu/~bart/">Bart Miller</a> from <a href="http://www.cs.wisc.edu/">Wisconsin</a> talk about some of the upcoming work on <a href="http://www.dyninst.org">DynInst</a>. DynInst is an API for runtime code patching, which lets you do things like attach to a running program and insert your own code around every network call, or replace procedures with your own versions. You can even do something as insane as calling a function every time the instrumented program accesses memory. (We do roughly that here at <a href="http://www.sdsc.edu/PMaC/">PMaC</a> with <a href="http://www.sdsc.edu/PMaC/MetaSim/metasim.html">MetaSim</a>.)</p>
+
+<p>Bart talked about some of the challenges they&#8217;ve had to face with DynInst and the directions they&#8217;re planning to take it in the future. The major news is that they&#8217;re planning to improve support for binary rewriting, in which you use the same interface to instrument an object file and produce a new executable instead of just doing it in memory. Also, they are planning on breaking it up into a few smaller libraries so you don&#8217;t have to link everything in if you&#8217;re building a tool that doesn&#8217;t need all of DynInst. These are both good news for users.</p>
+
+<p>He discussed some interesting applications of DynInst (such as trapping and removing calls to license checking code), and some odd situations that have driven development, like users who needed to instrument binaries that were hundreds of megabytes large (not with linked libraries, just the one file). He also highlighted some cases where DynInst really shines, such as needing to instrument a program that you can&#8217;t even relink, due to lack of source code access or simple overwhelming makefile confusion. The facility for removing instrumentation led to a clever code coverage tool that removed instrumentation on a block after the block was touched once, leading to a really impressive speedup.</p>
+
+<p>They&#8217;ve also used it to observe viruses without allowing them to write to disk, including nifty tricks like waiting until the virus uncompresses itself, then saving the uncompressed virus for later analysis. The extensive work they&#8217;ve done on binary analysis is important here, because viruses don&#8217;t really come with symbol tables for handy debugging.</p>
+
+<p>I thought that the most interesting part of the talk was about the challenges they&#8217;ve addressed through the course of the project. For instance, it is surprising how often with production compilers, that the symbol tables contain entries which are totally bogus. An example he used was that the function size information in most symbol tables is never right. Few tools pay attention to this, so it goes unfixed. One reason for this inaccuracy is another reason to consider using DynInst or something like it to build program analysis tools - object code layout is getting pretty confusing, and they&#8217;ve done the hard work of analysis already. For instance, noncontiguous functions are common. Apparently that&#8217;s rampant in Microsoft&#8217;s products, due to optimizations that reorder hot basic-blocks. Other weird code arrangements are common, including functions sharing object code. Compilers sometimes appear to be active adversaries to program analysis tools, and many tools in common use are making assumptions about code layout that are increasingly less likely to be correct.</p>
+
+<p>I asked how symbol table information needs to be improved to let tools keep up, and what more information one needs to get from the compiler, and his response was that expecting many-to-many relationships for mapping code to source is very important if your tools need to deal with real code.</p>
+
+<p>Thanks to Bart Miller for the talk - any errors above are mine, the ideas and hard work described are all theirs!</p>
+
+<p>*I had wanted to post about it right away, but I didn&#8217;t get to it until two weeks later.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2006/01/state-of-the-union/">State of the Union</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-01-31T20:53:38-08:00" pubdate data-updated="true">Jan 31<span>st</span>, 2006</time>
+        
+         | <a href="/2006/01/state-of-the-union/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I completely missed this year&#8217;s State of the Union address, but was pleased to see this quote from the speech:</p>
+
+<blockquote><p>First, I propose to double the federal commitment to the most critical basic research programs in the physical sciences over the next 10 years. This funding will support the work of America&#8217;s most creative minds as they explore promising areas such as nanotechnology, supercomputing, and alternative energy sources.</p></blockquote>
+
+<p>Having supercomputing named specifically by the President ought to be a nice thing to be able to point to when selling our field. It happens less and less these days, but I&#8217;ve definitely had people ask me if supercomputing was a dead field - the answer is a resounding no, and this just adds to the list of indicators, including the DARPA <a href="http://www.darpa.mil/ipto/programs/hpcs/">HPCS</a> program.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2006/01/yojimbo-hit-and-miss/">Yojimbo, Hit and Miss</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-01-26T11:08:09-08:00" pubdate data-updated="true">Jan 26<span>th</span>, 2006</time>
+        
+         | <a href="/2006/01/yojimbo-hit-and-miss/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>A few people have commented about Yojimbo, including Brent, who gives it a place in his dock. <a href="http://inessential.com/?comments=1&amp;postid;=3250">His post</a> has some good points in the comments thread. I&#8217;ve already paid for VoodooPad, and put a lot of my brain in there, so I&#8217;m not moving my notes anywhere soon. This is a good point to note if you&#8217;re thinking of wading into the note-taking app market - if I can&#8217;t move my data into your app, it&#8217;s unlikely that I&#8221;m going to bother using it.</p>
+
+<p>It&#8217;s nice to see a real app shipped using Core Data - although the data model appears to be pretty simple. I wonder if they hit any snags developing it? I&#8217;d be interested to hear what kind of effort they put into it.</p>
+
+<p>I have a couple of quick nits to pick, in case anyone cares: If you have a three-pane interface, the detail pane has to scroll when I hit the space bar. Especially if it displays web content. Let me say that more clearly: <em>If you display web content, use different key shortcuts than Safari at your own risk.</em></p>
+
+<p>There&#8217;s a useful info inspector for the items, but Cmd-i doesn&#8217;t bring it up - it is still trying to italicize something, even if I&#8217;m not selecting text. An issue of fit-and-finish I was surprised to see in a BareBones app.</p>
+
+<p>Finally, it&#8217;s simple and elegant - it gets the important things right, but I don&#8217;t know if it&#8217;s really solving a problem that many people have - casual users can store passwords and bookmarks already, and serious researchers have more powerful tools. Maybe the biggest missed opportunity is that a having a single place for all of this data would be a great start towards making it available to other programs, which I think is where the next big leap in computing experience is - think a combination of the iLife media browsers and bookmark/note taking apps, along with a bit of <a href="http://getonlife.com/">Onlife</a>. That&#8217;s what I think the future tastes like&#8230;</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -427,127 +567,6 @@ Jeremy Lau, Matthew Arnold, Michael Hind, Brad Calder</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2006/01/universal/">Universal</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2006-01-10T09:26:56-08:00" pubdate data-updated="true">Jan 10<span>th</span>, 2006</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Quick note - I tried to build a universal binary version of Blapp because I thought it&#8217;d be simple, but I forgot it uses a library that is built with autoconf, and apple&#8217;s <a href="http://developer.apple.com/technotes/tn2005/tn2137.html">basic transition instructions for autoconf projects</a> didn&#8217;t fly in 2 minutes, so I gave up for now.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2006/01/takk-etc/">Takk… Etc.</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2006-01-04T12:17:24-08:00" pubdate data-updated="true">Jan 4<span>th</span>, 2006</time>
-        
-         | <a href="/2006/01/takk-etc/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I bought three new albums with my iTunes gift card this Christmas, and I thought I&#8217;d share how they&#8217;ve turned out so far:</p>
-
-<ol>
-<li><p>Takk… by Sigur Ros. I bought this because I liked their last album, the parentheses one, and because John Allison&#8217;s <a href="http://www.scarygoround.com/?date=20051226">hilarious year end album review</a> seemed to imply it was more of the same: &#8220;Everyone is fooled!&#8221; I find that I do like it just as much, but unlike all those Untitled songs in the last one, I don&#8217;t mind listening to these songs when the sun is out. A fun game for casual fans is to play songs from the two albums together at random, and try to guess which album they&#8217;re from. I call this the &#8220;Coldplay game&#8221;.</p></li>
-<li><p>Late Registration by Kanye West. Everyone says it&#8217;s great, and I don&#8217;t listen to radio or watch MTV anyway, so I can&#8217;t be annoyed by overplayed singles. I really like this album. Great for playing really loud while driving someone else&#8217;s car across the desert at perfectly legal speeds. Luckily I live in Southern California, so nobody looks at me funny when my pale white fingers crank the volume on the way to my hockey game. I think my favorite track here is &#8220;Addiction&#8221;.</p></li>
-<li><p>Final Straw by Snow Patrol. I&#8217;ve listened to it a few times already, it seems like there&#8217;s a few great songs in there, a few I won&#8217;t ever remember, and I have a nagging feeling that this will become another Josh Joplin Group, who I loved for three weeks and almost always skip past now. Which would be sad. If there was one song to get from this album, I think it&#8217;d be &#8220;Chocolate&#8221;, not &#8220;Run&#8221;, which was the big single. So there it is.</p></li>
-</ol>
-
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2005/12/bounty-county/">Bounty County</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2005-12-28T08:33:38-08:00" pubdate data-updated="true">Dec 28<span>th</span>, 2005</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I&#8217;ve written about open-source programming bounties before, and found a new one yesterday: <a href="http://bountycounty.org/">Bounty County</a>, which looks reasonable enough despite the name.</p>
-
-<p>I didn&#8217;t see any OS X projects on there yet - it&#8217;s mostly Gnome stuff - but I&#8217;m sure they would list a Mac bounty if you sent it in.</p>
-
-<p>Unlike some proposals I have seen for bounty sites, this doesn&#8217;t appear to do anything other than list bounties - they don&#8217;t hold money or evaluate completion. Maybe that&#8217;s all that it takes, but I&#8217;m not sure - I think it&#8217;d be more tempting to try for bounties if there were guarantees that my time would be well-spent. Think of the difference between selling things on eBay vs. craigslist - they both work, but craigslist always seems a little sketch.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/26/">&larr; Older</a>
@@ -569,7 +588,15 @@ Jeremy Lau, Matthew Arnold, Michael Hind, Brad Calder</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2013/04/links/">Links</a>
+      </li>
+    
+      <li class="post">
         <a href="/2013/02/mock-nested-properties-with-python-mock/">Mock nested properties with python-mock</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/02/dont-snooze/">Don&#8217;t Snooze</a>
       </li>
     
       <li class="post">
@@ -577,15 +604,7 @@ Jeremy Lau, Matthew Arnold, Michael Hind, Brad Calder</p>
       </li>
     
       <li class="post">
-        <a href="/2012/10/selected-links/">More out of date links</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/10/links/">Links</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/10/a-testing-story/">A Testing Story</a>
+        <a href="/2012/11/pyobjc-and-twisted/">PyObjC and Twisted</a>
       </li>
     
   </ul>

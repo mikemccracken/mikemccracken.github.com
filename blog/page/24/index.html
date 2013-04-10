@@ -9,7 +9,7 @@
   <meta name="author" content="Michael McCracken">
 
   
-  <meta name="description" content="As a Mac user, I don&#8217;t have Google Desktop, but this email from UCSD&#8217;s Vice Chancellor was still interesting: SUBJECT: Google Desktop &hellip;">
+  <meta name="description" content="Hey, the O&#8217;Reilly Emerging Technology conference is in San Diego next week. I live in San Diego - but I can&#8217;t even afford the deeply &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -78,6 +78,177 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2006/02/oreilly-etech-conference/">O&#8217;Reilly ETech Conference</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-02-27T16:02:41-08:00" pubdate data-updated="true">Feb 27<span>th</span>, 2006</time>
+        
+         | <a href="/2006/02/oreilly-etech-conference/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Hey, the O&#8217;Reilly <a href="http://conferences.oreillynet.com/et2006/">Emerging Technology conference</a> is in San Diego next week. I live in San Diego - but I can&#8217;t even afford the deeply discounted student admissions. I&#8217;d go to see the <a href="http://conferences.oreillynet.com/cs/et2006/view/e_sess/8292">microformats session</a>, since I&#8217;m interested in seeing a good <a href="http://microformats.org/wiki/citation">citation microformat</a> develop.</p>
+
+<p>If anyone I know or should know is in town for the conference and wants to hang out, I know a few good places to go - <a href="mailto:michael_mccracken@mac.com">email me</a> or something.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2006/02/voodoopad-lines-to-ical-todos/">Voodoopad Lines to iCal Todos</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-02-27T15:51:13-08:00" pubdate data-updated="true">Feb 27<span>th</span>, 2006</time>
+        
+         | <a href="/2006/02/voodoopad-lines-to-ical-todos/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I take notes at meetings in VoodooPad, and as such I write a lot of to-do items in MeetingNotes pages. They tend to get buried in those pages unless I do something about it fast. Sometimes I put them somewhere more useful, like on my &#8220;TodoToday&#8221; page, but that page is getting more like a &#8220;TodoSomeday&#8221; page, and isn&#8217;t fit for serious action items. Today I realized that I wanted a script to take line-items from VoodooPad pages and make them into Todo items in iCal, so I can track them easier.</p>
+
+<p>I already have a <a href="http://michael-mccracken.net/blog/blosxom.pl/computers/mac/todoQuickSilver.html">Quicksilver plugin for creating new todos</a>, so I repurposed it as a python plugin for VoodooPad to add a big list all at once. Check out <a href="http://www.gusmueller.com/blog/archives/2006/1/21.html">Gus&#8217; post on python plugins</a> for the enabler, and then check this sucker out:</p>
+
+<pre><code>VPScriptSuperMenuTitle = "Notes"
+VPScriptMenuTitle = 'Create Todos in iCal'
+
+import os
+
+def main(windowController, *args, **kwargs):
+    tv = windowController.textView()
+    s = tv.string()
+    ranges = tv.selectedRanges()
+
+    scriptString = ""
+    for r in ranges:
+        rs = s.substringWithRange_(r.rangeValue())
+
+        lines = rs.split("\n")
+        for line in lines:
+            if len(line) &lt; 1: continue
+            scriptString += "tell application \"iCal\"\n\
+            set theCal to (first calendar whose title is \"Work\")\n\
+            make todo at end of todos of theCal with properties\
+            {priority:0, summary:\"%s\"}\n\
+            end tell\n" % line
+
+    f = os.popen("/usr/bin/osascript", 'w')
+    f.write(scriptString)
+    f.close()
+</code></pre>
+
+<p>Want to add to it? These and many things are easily imaginable:</p>
+
+<ul>
+<li>Change priority based on the first character of each line</li>
+<li>handle continuation lines better</li>
+<li>change calendar to select based on some simple syntax, like &#8221;<em> foo&#8221; is a line with text &#8220;foo&#8221; but &#8221;</em>foo bar&#8221; is a line with text &#8220;bar&#8221; destined for calendar &#8220;foo&#8221;&#8230;</li>
+<li>Another idea: a line starting with the words &#8220;email&#8221; or &#8220;mail&#8221; be made into a todo with the glyph ✉, and/or an actual email in Mail.app.</li>
+<li>Any other ideas?</li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2006/02/locations-and-travel-time-in-calendar-apps/">Locations and Travel Time in Calendar Apps</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-02-24T09:05:45-08:00" pubdate data-updated="true">Feb 24<span>th</span>, 2006</time>
+        
+         | <a href="/2006/02/locations-and-travel-time-in-calendar-apps/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Now that we&#8217;ve got Google Maps, I&#8217;d like to see my calendar program (iCal) extended to pay more attention to the location of events. Show me how long it&#8217;ll take to get to events I&#8217;ve scheduled, based on where they are. Traffic estimates would make this really killer (at least here in So-Cal)</p>
+
+<p>It might sound like you would need to tell the app where you will be at every point of the day for this to work, but you could avoid that by storing a &#8216;coming from&#8217; location for each event - it <em>could</em> be the previous event, but you could also just pick it from a list of default places, like &#8216;Home&#8217;, &#8216;Work&#8217;, and &#8216;Hockey Rink&#8217;.</p>
+
+<p>In my dream world, they&#8217;d look like error bars on a plot, they&#8217;d even have data about variability of the traffic estimates, and they&#8217;d be in the next version of iCal.</p>
+
+<p>Here&#8217;s a quick visual, in case I didn&#8217;t describe it well enough:</p>
+
+<p><img src="http://michael-mccracken.net/img/traveltime-mockup.png" alt="" /></p>
+
+<p>Assume home is south of the office and the basketball court is north. Traffic is bad going north around 6. What it&#8217;s telling you now is you can go home fast, and have 30 minutes there before you have to leave again, go straight to the court, taking 45 minutes in traffic and getting there 45 minutes early, or have about an hour at the office, wait out traffic, and get to the court on time in about 25 minutes.</p>
+
+<p>Update: I changed the example to be a little clearer - I added an option to show traffic choices, showed the times by the routes, and made one event appear selected, since you probably only want this extra info for the selected event.</p>
+
+<p>I also made it a basketball game because everyone knows you&#8217;d need to go home to get your gear if you were going to the rink anyway. Seriously.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -410,146 +581,6 @@ so-and-so up to these days?&#8217;.&#8221;</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2006/02/talk-bart-miller-and-dyninst/">Talk: Bart Miller and Dyninst</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2006-02-03T07:33:09-08:00" pubdate data-updated="true">Feb 3<span>rd</span>, 2006</time>
-        
-         | <a href="/2006/02/talk-bart-miller-and-dyninst/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>In a recent largescale systems seminar*, we had <a href="http://www.cs.wisc.edu/~bart/">Bart Miller</a> from <a href="http://www.cs.wisc.edu/">Wisconsin</a> talk about some of the upcoming work on <a href="http://www.dyninst.org">DynInst</a>. DynInst is an API for runtime code patching, which lets you do things like attach to a running program and insert your own code around every network call, or replace procedures with your own versions. You can even do something as insane as calling a function every time the instrumented program accesses memory. (We do roughly that here at <a href="http://www.sdsc.edu/PMaC/">PMaC</a> with <a href="http://www.sdsc.edu/PMaC/MetaSim/metasim.html">MetaSim</a>.)</p>
-
-<p>Bart talked about some of the challenges they&#8217;ve had to face with DynInst and the directions they&#8217;re planning to take it in the future. The major news is that they&#8217;re planning to improve support for binary rewriting, in which you use the same interface to instrument an object file and produce a new executable instead of just doing it in memory. Also, they are planning on breaking it up into a few smaller libraries so you don&#8217;t have to link everything in if you&#8217;re building a tool that doesn&#8217;t need all of DynInst. These are both good news for users.</p>
-
-<p>He discussed some interesting applications of DynInst (such as trapping and removing calls to license checking code), and some odd situations that have driven development, like users who needed to instrument binaries that were hundreds of megabytes large (not with linked libraries, just the one file). He also highlighted some cases where DynInst really shines, such as needing to instrument a program that you can&#8217;t even relink, due to lack of source code access or simple overwhelming makefile confusion. The facility for removing instrumentation led to a clever code coverage tool that removed instrumentation on a block after the block was touched once, leading to a really impressive speedup.</p>
-
-<p>They&#8217;ve also used it to observe viruses without allowing them to write to disk, including nifty tricks like waiting until the virus uncompresses itself, then saving the uncompressed virus for later analysis. The extensive work they&#8217;ve done on binary analysis is important here, because viruses don&#8217;t really come with symbol tables for handy debugging.</p>
-
-<p>I thought that the most interesting part of the talk was about the challenges they&#8217;ve addressed through the course of the project. For instance, it is surprising how often with production compilers, that the symbol tables contain entries which are totally bogus. An example he used was that the function size information in most symbol tables is never right. Few tools pay attention to this, so it goes unfixed. One reason for this inaccuracy is another reason to consider using DynInst or something like it to build program analysis tools - object code layout is getting pretty confusing, and they&#8217;ve done the hard work of analysis already. For instance, noncontiguous functions are common. Apparently that&#8217;s rampant in Microsoft&#8217;s products, due to optimizations that reorder hot basic-blocks. Other weird code arrangements are common, including functions sharing object code. Compilers sometimes appear to be active adversaries to program analysis tools, and many tools in common use are making assumptions about code layout that are increasingly less likely to be correct.</p>
-
-<p>I asked how symbol table information needs to be improved to let tools keep up, and what more information one needs to get from the compiler, and his response was that expecting many-to-many relationships for mapping code to source is very important if your tools need to deal with real code.</p>
-
-<p>Thanks to Bart Miller for the talk - any errors above are mine, the ideas and hard work described are all theirs!</p>
-
-<p>*I had wanted to post about it right away, but I didn&#8217;t get to it until two weeks later.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2006/01/state-of-the-union/">State of the Union</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2006-01-31T20:53:38-08:00" pubdate data-updated="true">Jan 31<span>st</span>, 2006</time>
-        
-         | <a href="/2006/01/state-of-the-union/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I completely missed this year&#8217;s State of the Union address, but was pleased to see this quote from the speech:</p>
-
-<blockquote><p>First, I propose to double the federal commitment to the most critical basic research programs in the physical sciences over the next 10 years. This funding will support the work of America&#8217;s most creative minds as they explore promising areas such as nanotechnology, supercomputing, and alternative energy sources.</p></blockquote>
-
-<p>Having supercomputing named specifically by the President ought to be a nice thing to be able to point to when selling our field. It happens less and less these days, but I&#8217;ve definitely had people ask me if supercomputing was a dead field - the answer is a resounding no, and this just adds to the list of indicators, including the DARPA <a href="http://www.darpa.mil/ipto/programs/hpcs/">HPCS</a> program.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/2006/01/yojimbo-hit-and-miss/">Yojimbo, Hit and Miss</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2006-01-26T11:08:09-08:00" pubdate data-updated="true">Jan 26<span>th</span>, 2006</time>
-        
-         | <a href="/2006/01/yojimbo-hit-and-miss/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>A few people have commented about Yojimbo, including Brent, who gives it a place in his dock. <a href="http://inessential.com/?comments=1&amp;postid;=3250">His post</a> has some good points in the comments thread. I&#8217;ve already paid for VoodooPad, and put a lot of my brain in there, so I&#8217;m not moving my notes anywhere soon. This is a good point to note if you&#8217;re thinking of wading into the note-taking app market - if I can&#8217;t move my data into your app, it&#8217;s unlikely that I&#8221;m going to bother using it.</p>
-
-<p>It&#8217;s nice to see a real app shipped using Core Data - although the data model appears to be pretty simple. I wonder if they hit any snags developing it? I&#8217;d be interested to hear what kind of effort they put into it.</p>
-
-<p>I have a couple of quick nits to pick, in case anyone cares: If you have a three-pane interface, the detail pane has to scroll when I hit the space bar. Especially if it displays web content. Let me say that more clearly: <em>If you display web content, use different key shortcuts than Safari at your own risk.</em></p>
-
-<p>There&#8217;s a useful info inspector for the items, but Cmd-i doesn&#8217;t bring it up - it is still trying to italicize something, even if I&#8217;m not selecting text. An issue of fit-and-finish I was surprised to see in a BareBones app.</p>
-
-<p>Finally, it&#8217;s simple and elegant - it gets the important things right, but I don&#8217;t know if it&#8217;s really solving a problem that many people have - casual users can store passwords and bookmarks already, and serious researchers have more powerful tools. Maybe the biggest missed opportunity is that a having a single place for all of this data would be a great start towards making it available to other programs, which I think is where the next big leap in computing experience is - think a combination of the iLife media browsers and bookmark/note taking apps, along with a bit of <a href="http://getonlife.com/">Onlife</a>. That&#8217;s what I think the future tastes like&#8230;</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/25/">&larr; Older</a>
@@ -571,7 +602,15 @@ so-and-so up to these days?&#8217;.&#8221;</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/2013/04/links/">Links</a>
+      </li>
+    
+      <li class="post">
         <a href="/2013/02/mock-nested-properties-with-python-mock/">Mock nested properties with python-mock</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/02/dont-snooze/">Don&#8217;t Snooze</a>
       </li>
     
       <li class="post">
@@ -579,15 +618,7 @@ so-and-so up to these days?&#8217;.&#8221;</p>
       </li>
     
       <li class="post">
-        <a href="/2012/10/selected-links/">More out of date links</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/10/links/">Links</a>
-      </li>
-    
-      <li class="post">
-        <a href="/2012/10/a-testing-story/">A Testing Story</a>
+        <a href="/2012/11/pyobjc-and-twisted/">PyObjC and Twisted</a>
       </li>
     
   </ul>

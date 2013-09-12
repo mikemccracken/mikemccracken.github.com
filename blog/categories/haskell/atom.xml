@@ -4,7 +4,7 @@
   <title><![CDATA[Category: haskell | michael-mccracken.net]]></title>
   <link href="http://michael-mccracken.net/blog/categories/haskell/atom.xml" rel="self"/>
   <link href="http://michael-mccracken.net/"/>
-  <updated>2013-04-10T08:54:28-07:00</updated>
+  <updated>2013-09-12T12:34:42-07:00</updated>
   <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
@@ -19,40 +19,40 @@
     <updated>2012-10-08T00:47:00-07:00</updated>
     <id>http://michael-mccracken.net/2012/10/links</id>
     <content type="html"><![CDATA[<ul>
-<li><p><a href="http://stackoverflow.com/questions/10857030/whats-so-bad-about-template-haskell">What's so bad about Template Haskell? - Stack Overflow</a></p>
+<li><p><a href="http://stackoverflow.com/questions/10857030/whats-so-bad-about-template-haskell">What&rsquo;s so bad about Template Haskell? &ndash; Stack Overflow</a></p>
 
 <p>  A bunch of good answers to why Template Haskell is occasionally maligned.</p></li>
-<li><p><a href="http://stackoverflow.com/questions/10845179/which-haskell-ghc-extensions-should-users-use-avoid/10849782#10849782">Which Haskell (GHC) extensions should users use/avoid? - Stack Overflow</a></p>
+<li><p><a href="http://stackoverflow.com/questions/10845179/which-haskell-ghc-extensions-should-users-use-avoid/10849782#10849782">Which Haskell (GHC) extensions should users use/avoid? &ndash; Stack Overflow</a></p>
 
-<p>  Interesting list of aesthetic judgements of haskell extensions. At press time I don't know what most of these words mean.</p></li>
+<p>  Interesting list of aesthetic judgements of haskell extensions. At press time I don&rsquo;t know what most of these words mean.</p></li>
 <li><p><a href="http://www.yesodweb.com/blog/2011/04/yesod-template-haskell">Yesod and Template Haskell</a></p>
 
 <p>  Short post on why Yesod uses template haskell (which has a bad rep)</p></li>
 <li><p><a href="http://imakewebthings.com/deck.js/">deck.js » Modern HTML Presentations</a></p>
 
-<p>  Best "Write your presentations in HTML" thing I've seen yet, although I'm not sure how great it'd be at complex visuals or builds. Yes sometimes builds are good! <em>SOMETIMES</em>.</p></li>
+<p>  Best &ldquo;Write your presentations in HTML&rdquo; thing I&rsquo;ve seen yet, although I&rsquo;m not sure how great it&rsquo;d be at complex visuals or builds. Yes sometimes builds are good! <em>SOMETIMES</em>.</p></li>
 <li><p><a href="http://redbot.org/">REDbot</a></p>
 
-<p>  RED is a robot that checks HTTP resources to see how they'll behave, pointing out common problems and suggesting improvements. Although it is not a HTTP conformance tester, it can find a number of HTTP-related issues.</p></li>
+<p>  RED is a robot that checks HTTP resources to see how they&rsquo;ll behave, pointing out common problems and suggesting improvements. Although it is not a HTTP conformance tester, it can find a number of HTTP-related issues.</p></li>
 <li><p><a href="https://github.com/visi-lang/visi">.@dpp’s Visi looks to be exactly the thing when Soulver isn’t enough and spreadsheets are rigid github.com/visi-lang/visi #emerginglangs</a></p>
 
-<p>  Should I look at this before posting a link? Nah... But I will look at it, eventually! It looks interesting, I love this kind of stuff - although as usual I wonder if this is something you can already get in Mathematica but no one knows because it's so expensive.</p></li>
-<li><p><a href="http://highscalability.com/blog/2012/7/30/prismatic-architecture-using-machine-learning-on-social-netw.html">High Scalability - Prismatic Architecture - Using Machine Learning on Social Networks to Figure Out What You Should Read on the Web </a></p>
+<p>  Should I look at this before posting a link? Nah&hellip; But I will look at it, eventually! It looks interesting, I love this kind of stuff &ndash; although as usual I wonder if this is something you can already get in Mathematica but no one knows because it&rsquo;s so expensive.</p></li>
+<li><p><a href="http://highscalability.com/blog/2012/7/30/prismatic-architecture-using-machine-learning-on-social-netw.html">High Scalability &ndash; Prismatic Architecture &ndash; Using Machine Learning on Social Networks to Figure Out What You Should Read on the Web </a></p>
 
-<p>  Probably interesting? I skimmed this, I'm not gonna lie, I don't remember much.</p></li>
+<p>  Probably interesting? I skimmed this, I&rsquo;m not gonna lie, I don&rsquo;t remember much.</p></li>
 <li><p><a href="http://deslide.clusterfake.net/">Deslidefied HTML</a></p>
 
 <p>  Really useful bookmark to make slideshow news articles readable on one page. I am using it all the time!</p></li>
 <li><p><a href="http://pragprog.com/magazines/2012-09/thinking-functionally-with-haskell">Thinking Functionally with Haskell</a></p>
 
-<p>  ""In which we explore what modern type systems bring to the table. Imagine an approach to programming where you write down some description of what your code should do, then before running your code you run some automatic tool to see if the code matches the description. That’s Test-driven development, you say!  Actually, this is what you are doing when you use static types in most languages too. Types are a description of the code’s inputs and outputs, and the check ensures that inputs and outputs match up and are used consistently. Modern type systems—such as in Haskell or above—are very flexible, and allow these descriptions to be quite detailed; plus they are not too obtrusive in use and often very helpful.  One point I’ll investigate here is how advances in types are converging with new ideas on testing, to the point where (I claim) the old distinctions are starting to blur and starting to open up exciting new possibilities—hence my suggestion that we need a new word to describe what we’re doing that is free from preconceptions and out-dated thinking.  So put aside your bad experiences from Java, and prepare to be amazed! ""</p></li>
+<p>  &ldquo;"In which we explore what modern type systems bring to the table. Imagine an approach to programming where you write down some description of what your code should do, then before running your code you run some automatic tool to see if the code matches the description. That’s Test-driven development, you say!  Actually, this is what you are doing when you use static types in most languages too. Types are a description of the code’s inputs and outputs, and the check ensures that inputs and outputs match up and are used consistently. Modern type systems—such as in Haskell or above—are very flexible, and allow these descriptions to be quite detailed; plus they are not too obtrusive in use and often very helpful.  One point I’ll investigate here is how advances in types are converging with new ideas on testing, to the point where (I claim) the old distinctions are starting to blur and starting to open up exciting new possibilities—hence my suggestion that we need a new word to describe what we’re doing that is free from preconceptions and out-dated thinking.  So put aside your bad experiences from Java, and prepare to be amazed! &rdquo;"</p></li>
 <li><p><a href="http://feedproxy.google.com/~r/ezyang/~3/3Vb6-OhkZws/">So you want to hack on IMAP…</a></p>
 
-<p>  "Well, first off, you’re horribly misinformed: you do not actually want to hack on IMAP." (I agree, IMAP bad.)</p></li>
-<li><p><a href="http://waxy.org/2008/06/the_machine_that_changed_the_world/">The Machine That Changed the World: Great Brains - Waxy.org</a></p>
+<p>  &ldquo;Well, first off, you’re horribly misinformed: you do not actually want to hack on IMAP.&rdquo; (I agree, IMAP bad.)</p></li>
+<li><p><a href="http://waxy.org/2008/06/the_machine_that_changed_the_world/">The Machine That Changed the World: Great Brains &ndash; Waxy.org</a></p>
 
 <p>  Documentary about computing history:
-  "It's a whirlwind tour of computing before the Web, with brilliant archival footage and interviews with key players — several of whom passed away since the filming. Jointly produced by WGBH Boston and the BBC, it originally aired in the UK as The Dream Machine before its U.S. premiere in January 1992. Its broadcast was accompanied by a book co-written by the documentary's producer Jon Palfreman."</p></li>
+  &ldquo;It&rsquo;s a whirlwind tour of computing before the Web, with brilliant archival footage and interviews with key players — several of whom passed away since the filming. Jointly produced by WGBH Boston and the BBC, it originally aired in the UK as The Dream Machine before its U.S. premiere in January 1992. Its broadcast was accompanied by a book co-written by the documentary&rsquo;s producer Jon Palfreman.&rdquo;</p></li>
 </ul>
 
 ]]></content>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: ubuntutouch | michael-mccracken.net]]></title>
+  <link href="http://michael-mccracken.net/blog/categories/ubuntutouch/atom.xml" rel="self"/>
+  <link href="http://michael-mccracken.net/"/>
+  <updated>2013-09-12T12:34:42-07:00</updated>
+  <id>http://michael-mccracken.net/</id>
+  <author>
+    <name><![CDATA[Michael McCracken]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Flashing a Nexus device with Ubuntu Touch from Mac OS X]]></title>
+    <link href="http://michael-mccracken.net/2013/09/flashing-ubuntu-touch-from-osx/"/>
+    <updated>2013-09-12T10:40:00-07:00</updated>
+    <id>http://michael-mccracken.net/2013/09/flashing-ubuntu-touch-from-osx</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve been working with Ubuntu Touch recently, using VirtualBox to run
+Ubuntu Saucy as a guest on my Mac, and while it does work to connect
+to the device once it&rsquo;s installed, the process of reflashing is
+difficult. The manual steps on the Ubuntu Wiki
+<a href="https://wiki.ubuntu.com/Touch/Install">Touch/Install</a> page work for
+the old way, via <code>phablet-flash cdimage-touch</code>, with the caveat that
+you may have to manually reboot the device and/or re-connect the USB
+in between steps.</p>
+
+<p>However, as of <a href="https://lists.launchpad.net/ubuntu-phone/msg04004.html">this email last week</a>, the official way
+to flash phones is using the system images via <code>phablet-flash
+ubuntu-system</code>, which has a different set of files.</p>
+
+<p>Instead of just muddling through and updating the manual instructions,
+I decided to see if phablet-flash would run natively on the Mac. After
+a bit of python dependency resolution, it does. Here&rsquo;s what I did:</p>
+
+<ol>
+<li>Download the <a href="http://developer.android.com/sdk/index.html">Android SDK tools</a>. You only really need the &ldquo;SDK Tools&rdquo;, not the whole ADT Bundle, so I clicked on &ldquo;Use an existing IDE&rdquo; at the bottom of that page, to get the smaller installer.</li>
+<li>Unpack the archive and run ./android. Install the platform-tools (and nothing else).</li>
+<li><p>Add the platform-tools/ directory to your $PATH for convenience.</p></li>
+<li><p>(Optional) create a virtualenv for the python dependencies, and activate it.</p></li>
+<li><code>pip install</code> each of <code>configobj</code> <code>pyxdg</code>, and <code>pyliblzma</code></li>
+<li>get <a href="http://bazaar.canonical.com/">bazaar</a> if you don&rsquo;t already have it.</li>
+<li>branch phablet-tools: <code>bzr branch lp:phablet-tools</code></li>
+<li><code>cd phablet-tools &amp;&amp; python setup.py build</code></li>
+<li>At this point, <code>phablet-flash ubuntu-system</code> should work smoothly, with all transfers and reboots and timeouts going as expected.</li>
+</ol>
+
+
+<p>The only minor hiccup is that it apparently doesn&rsquo;t get ~/Downloads/
+from pyxdg, but it just means that you&rsquo;ll get the images saved to
+~/phablet-flash instead of ~/Downloads/phablet-flash. No big deal.</p>
+]]></content>
+  </entry>
+  
+</feed>

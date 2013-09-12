@@ -4,7 +4,7 @@
   <title><![CDATA[Category: web | michael-mccracken.net]]></title>
   <link href="http://michael-mccracken.net/blog/categories/web/atom.xml" rel="self"/>
   <link href="http://michael-mccracken.net/"/>
-  <updated>2013-04-10T08:54:28-07:00</updated>
+  <updated>2013-09-12T12:34:42-07:00</updated>
   <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
@@ -20,16 +20,16 @@
     <id>http://michael-mccracken.net/2008/01/twitter-stats-in-svg-using-gnuplot</id>
     <content type="html"><![CDATA[<p><a href="http://twitter.com/dacort">Damon Cortesi</a> just shared a handy script for grabbing your tweets and compiling some stats about when you post to twitter and who you reply to.</p>
 
-<p>His script generates a list of numbers and included a Numbers template to paste them into. Since I don't have Numbers, I've modified <a href="http://dcortesi.com/2007/12/27/twitter-stats/">his script</a> to write a file that can be read by <a href="http://gnuplot.info">gnuplot</a>, and wrote a basic gnuplot script to output an SVG file version of the stats.</p>
+<p>His script generates a list of numbers and included a Numbers template to paste them into. Since I don&rsquo;t have Numbers, I&rsquo;ve modified <a href="http://dcortesi.com/2007/12/27/twitter-stats/">his script</a> to write a file that can be read by <a href="http://gnuplot.info">gnuplot</a>, and wrote a basic gnuplot script to output an SVG file version of the stats.</p>
 
-<p>While I was at it, I changed it so it no longer counts "@someone" separately from "@someone:".</p>
+<p>While I was at it, I changed it so it no longer counts &ldquo;@someone&rdquo; separately from &ldquo;@someone:&rdquo;.</p>
 
-<p>Both scripts are right here - <a href="http://michael-mccracken.net/twitter/gnuplot_twitterstats.tgz">gnuplot_twitterstats.tgz</a></p>
+<p>Both scripts are right here &ndash; <a href="http://michael-mccracken.net/twitter/gnuplot_twitterstats.tgz">gnuplot_twitterstats.tgz</a></p>
 
-<p>It uses gnuplot 4.2, which you can get on OS X with <a href="http://www.macports.org/">macports</a> using <code>port install gnuplot +no_x11'</code>. (Or it's a pretty easy build on its own, see the <a href="http://gnuplot.sourceforge.net/download.html">gnuplot download page</a> )</p>
+<p>It uses gnuplot 4.2, which you can get on OS X with <a href="http://www.macports.org/">macports</a> using <code>port install gnuplot +no_x11'</code>. (Or it&rsquo;s a pretty easy build on its own, see the <a href="http://gnuplot.sourceforge.net/download.html">gnuplot download page</a> )</p>
 
 <p>Here are my stats:
-Sorry, it looks like your browser doesn't support SVG. You're really not missing much.
+Sorry, it looks like your browser doesn&rsquo;t support SVG. You&rsquo;re really not missing much.
 <a href="http://michael-mccracken.net/twitter/2007stats.svg">Click here for a full-screen version.</a></p>
 ]]></content>
   </entry>
@@ -39,20 +39,20 @@ Sorry, it looks like your browser doesn't support SVG. You're really not missing
     <link href="http://michael-mccracken.net/2007/05/hpc-blogs-and-news-sites/"/>
     <updated>2007-05-04T07:17:42-07:00</updated>
     <id>http://michael-mccracken.net/2007/05/hpc-blogs-and-news-sites</id>
-    <content type="html"><![CDATA[<p>I've always liked the programming-languages community website <a href="http://lambda-the-ultimate.org/">Lambda the Ultimate</a>, and recently I went looking for something similar for the High-Performance Computing community. I didn't find exactly that*, but I did find a few great resources for news about HPC and computing research policy:</p>
+    <content type="html"><![CDATA[<p>I&rsquo;ve always liked the programming-languages community website <a href="http://lambda-the-ultimate.org/">Lambda the Ultimate</a>, and recently I went looking for something similar for the High-Performance Computing community. I didn&rsquo;t find exactly that*, but I did find a few great resources for news about HPC and computing research policy:</p>
 
-<p><a href="http://hpcwire.com">HPCWire</a> is a well-known news source for HPC. It has daily news updates, and occasional columns by guests from around the industry. Most of the news is press releases from companies and government labs, but it's nice to have a single place to check for them. However, there is apparently no RSS feed, and to get email updates, you have to buy a subscription. I haven't, but I do check back occasionally to read the columns.</p>
+<p><a href="http://hpcwire.com">HPCWire</a> is a well-known news source for HPC. It has daily news updates, and occasional columns by guests from around the industry. Most of the news is press releases from companies and government labs, but it&rsquo;s nice to have a single place to check for them. However, there is apparently no RSS feed, and to get email updates, you have to buy a subscription. I haven&rsquo;t, but I do check back occasionally to read the columns.</p>
 
 <p><a href="http://supercomputingonline.com">Supercomputing Online</a> is another professional news outlet, which reads a little less like a press release,
  seems to have more coverage of academic news, and does have an RSS feed.</p>
 
-<p><a href="http://insideHPC.com/">insideHPC.com</a> is more of a weblog than either of the first two - John E. West covers news stories in brief with some added perspective and analysis. I like his approach, and <a href="http://insidehpc.com/2007/05/02/introducing-mike/">I've joined him</a> to help cover academic HPC issues, both computing research and issues affecting computational scientists.</p>
+<p><a href="http://insideHPC.com/">insideHPC.com</a> is more of a weblog than either of the first two &ndash; John E. West covers news stories in brief with some added perspective and analysis. I like his approach, and <a href="http://insidehpc.com/2007/05/02/introducing-mike/">I&rsquo;ve joined him</a> to help cover academic HPC issues, both computing research and issues affecting computational scientists.</p>
 
-<p>One of many blogs at Sun is the <a href="http://blogs.sun.com/HPC/">HPC Watercooler</a>, covering Sun's HPC products and services, as well as some non-Sun related news. I've found it pretty interesting already, and I'd be interested to see weblogs from other HPC vendors.</p>
+<p>One of many blogs at Sun is the <a href="http://blogs.sun.com/HPC/">HPC Watercooler</a>, covering Sun&rsquo;s HPC products and services, as well as some non-Sun related news. I&rsquo;ve found it pretty interesting already, and I&rsquo;d be interested to see weblogs from other HPC vendors.</p>
 
-<p>Finally, a couple of blogs that are less directly related to HPC but still very relevant for computing researchers, are <a href="http://www.renci.org/blog/index.php">Dan Reed's weblog</a> at the Renaissance Computing Institute, and the <a href="http://www.cra.org/govaffairs/blog/">CRA Computing Research Policy Blog</a>, both of which cover computing research policy and funding issues that don't often show up in news coverage of either government or computing.</p>
+<p>Finally, a couple of blogs that are less directly related to HPC but still very relevant for computing researchers, are <a href="http://www.renci.org/blog/index.php">Dan Reed&rsquo;s weblog</a> at the Renaissance Computing Institute, and the <a href="http://www.cra.org/govaffairs/blog/">CRA Computing Research Policy Blog</a>, both of which cover computing research policy and funding issues that don&rsquo;t often show up in news coverage of either government or computing.</p>
 
-<p><em>* - if anyone wants to start an LTU-alike site for HPC research, or point me to one, I'll sign up and contribute in an instant.</em></p>
+<p><em>* &ndash; if anyone wants to start an LTU-alike site for HPC research, or point me to one, I&rsquo;ll sign up and contribute in an instant.</em></p>
 ]]></content>
   </entry>
   
@@ -63,9 +63,9 @@ Sorry, it looks like your browser doesn't support SVG. You're really not missing
     <id>http://michael-mccracken.net/2007/01/quick-n-dirty-omnioutliner-to-mediawiki-applescript</id>
     <content type="html"><![CDATA[<p>The other day, I had a big outline on a wiki that I wanted to edit in <a href="http://www.omnigroup.com/applications/omnioutliner/">OmniOutliner</a> so I could hide and move things around with a real outliner, then export it back out to the wiki.</p>
 
-<p>I managed to get it into OO with copy and paste and a lot of RSI-inducing tabbing, but the text export options can't be massaged to export MediaWiki-style (eg, '#' for level one, '##' for level two).</p>
+<p>I managed to get it into OO with copy and paste and a lot of RSI-inducing tabbing, but the text export options can&rsquo;t be massaged to export MediaWiki-style (eg, &lsquo;#&rsquo; for level one, &lsquo;##&rsquo; for level two).</p>
 
-<p>So I wrote a quick Applescript to get the data out and get me back on my way. I thought I'd post it in case it would be useful to anyone else:</p>
+<p>So I wrote a quick Applescript to get the data out and get me back on my way. I thought I&rsquo;d post it in case it would be useful to anyone else:</p>
 
 <pre><code>tell front document of application "OmniOutliner Professional"
 
@@ -100,7 +100,7 @@ end tell
 
 <blockquote><p>the sensation I felt when I noticed the announcement of NHL playoff video available on iTunes was that of Steve Jobs signing my name on a check for ten dollars and winking.</p></blockquote>
 
-<p>This weekend, when I saw this: <a href="http://video.google.com/nhl.html">video.google.com/nhl.html</a> - free videos of every NHL game, including historic games, I went plain nuts. Go check it out, even if you don't know you like hockey yet. If you don't have a team, may I suggest the <a href="http://video.google.com/videosearch?q=owner%3Anhl+penguins&amp;hl=en&amp;page=1&amp;so=1">Pittsburgh Penguins</a>? There's probably still time to become a Penguins fan without being a bandwagon fan, but it's running out...</p>
+<p>This weekend, when I saw this: <a href="http://video.google.com/nhl.html">video.google.com/nhl.html</a> &ndash; free videos of every NHL game, including historic games, I went plain nuts. Go check it out, even if you don&rsquo;t know you like hockey yet. If you don&rsquo;t have a team, may I suggest the <a href="http://video.google.com/videosearch?q=owner%3Anhl+penguins&amp;hl=en&amp;page=1&amp;so=1">Pittsburgh Penguins</a>? There&rsquo;s probably still time to become a Penguins fan without being a bandwagon fan, but it&rsquo;s running out&hellip;</p>
 ]]></content>
   </entry>
   
@@ -113,7 +113,7 @@ end tell
 
 <p>I cannot read Russian. If a message is in Russian, it is spam, just like all the other Russian messages I have marked as spam.</p>
 
-<p>Thank you for listening - your pal,
+<p>Thank you for listening &ndash; your pal,
 mike</p>
 ]]></content>
   </entry>

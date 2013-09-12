@@ -4,7 +4,7 @@
   <title><![CDATA[Category: computers | michael-mccracken.net]]></title>
   <link href="http://michael-mccracken.net/blog/categories/computers/atom.xml" rel="self"/>
   <link href="http://michael-mccracken.net/"/>
-  <updated>2013-04-10T08:54:28-07:00</updated>
+  <updated>2013-09-12T12:34:42-07:00</updated>
   <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
@@ -22,9 +22,9 @@
 
 <p><a href="http://nap.edu/catalog.php?record_id=12980">The Future of Computing Performance: Game Over or Next Level?</a>.</p>
 
-<p>A nice, thorough explanation of the current challenges in computing performance, ranging from transistor-level power vs. speed problems, up to how to program the circuits we're likely to end up with.</p>
+<p>A nice, thorough explanation of the current challenges in computing performance, ranging from transistor-level power vs. speed problems, up to how to program the circuits we&rsquo;re likely to end up with.</p>
 
-<p>Also includes a bonus reprint of two classic papers, Gordon Moore's "Cramming More Components onto Integrated Circuits" from 1965 - that's the paper you might expect it is, and Robert Dennard's "Design of Ion-Implanted MOSFET’s with Very Small Physical Dimensions", which I was less familiar with.</p>
+<p>Also includes a bonus reprint of two classic papers, Gordon Moore&rsquo;s &ldquo;Cramming More Components onto Integrated Circuits&rdquo; from 1965 &ndash; that&rsquo;s the paper you might expect it is, and Robert Dennard&rsquo;s &ldquo;Design of Ion-Implanted MOSFET’s with Very Small Physical Dimensions&rdquo;, which I was less familiar with.</p>
 ]]></content>
   </entry>
   
@@ -33,7 +33,7 @@
     <link href="http://michael-mccracken.net/2011/05/squeezing-a-cs-research-idea/"/>
     <updated>2011-05-27T03:03:59-07:00</updated>
     <id>http://michael-mccracken.net/2011/05/squeezing-a-cs-research-idea</id>
-    <content type="html"><![CDATA[<p>An interesting post about how to evaluate a research idea. Basically, try to think about the bounds: what's the maximum impact? Includes some good rules of thumb, like pay attention to physical constraints like the speed of light :)</p>
+    <content type="html"><![CDATA[<p>An interesting post about how to evaluate a research idea. Basically, try to think about the bounds: what&rsquo;s the maximum impact? Includes some good rules of thumb, like pay attention to physical constraints like the speed of light :)</p>
 
 <p><a href="http://blog.regehr.org/archives/537">Embedded in Academia : Squeezing a CS Research Idea</a>.</p>
 ]]></content>
@@ -44,7 +44,7 @@
     <link href="http://michael-mccracken.net/2011/05/kickingbearc2bb-regarding-objective-c-copland-2010/"/>
     <updated>2011-05-24T02:31:38-07:00</updated>
     <id>http://michael-mccracken.net/2011/05/kickingbearc2bb-regarding-objective-c-copland-2010</id>
-    <content type="html"><![CDATA[<p>I read John Siracusa's "Copland 2010" article back in '05, and listened to his recent update of it on his podcast. I wasn't very convinced, but I couldn't figure out quite how to say why. Today I think Guy nailed it:</p>
+    <content type="html"><![CDATA[<p>I read John Siracusa&rsquo;s &ldquo;Copland 2010&rdquo; article back in &lsquo;05, and listened to his recent update of it on his podcast. I wasn&rsquo;t very convinced, but I couldn&rsquo;t figure out quite how to say why. Today I think Guy nailed it:</p>
 
 <blockquote><p>Siracusa argues that abstraction is the all consuming beast of computer science, I think he’s mostly correct but I can’t help but feel he’s more worried about abstracting yesterday’s issues than tomorrow’s.</p></blockquote>
 
@@ -57,11 +57,11 @@
     <link href="http://michael-mccracken.net/2011/03/early-days-of-java-in-sun-labs-chuck-mcmanis-on-hn-via-manuel-simoni/"/>
     <updated>2011-03-30T03:26:40-07:00</updated>
     <id>http://michael-mccracken.net/2011/03/early-days-of-java-in-sun-labs-chuck-mcmanis-on-hn-via-manuel-simoni</id>
-    <content type="html"><![CDATA[<p>From <a href="http://axisofeval.blogspot.com/2011/03/truth-is-stranger-than-fiction.html">The Axis of Eval: "Truth IS stranger than fiction"</a>: Chuck McManis explains the cancellation and subsequent fame of Java.</p>
+    <content type="html"><![CDATA[<p>From <a href="http://axisofeval.blogspot.com/2011/03/truth-is-stranger-than-fiction.html">The Axis of Eval: &ldquo;Truth IS stranger than fiction&rdquo;</a>: Chuck McManis explains the cancellation and subsequent fame of Java.</p>
 
-<p>It's fascinating to me how often you hear about these overnight successes that took years to develop and were canceled, given up for dead, etc. many times.</p>
+<p>It&rsquo;s fascinating to me how often you hear about these overnight successes that took years to develop and were canceled, given up for dead, etc. many times.</p>
 
-<p>I remember hearing similar stories about Self and Erlang at HOPL-3, the History of Programming Languages conference. Maybe you shouldn't bet on the success of a new language unless it's been cancelled or abandoned at least once?</p>
+<p>I remember hearing similar stories about Self and Erlang at HOPL-3, the History of Programming Languages conference. Maybe you shouldn&rsquo;t bet on the success of a new language unless it&rsquo;s been cancelled or abandoned at least once?</p>
 ]]></content>
   </entry>
   
@@ -71,11 +71,11 @@
     <updated>2011-03-04T04:16:07-08:00</updated>
     <id>http://michael-mccracken.net/2011/03/overlay-scrollbars-canonical-design</id>
     <content type="html"><![CDATA[<p>From the always-interesting Canonical Design blog:
-<a href="http://design.canonical.com/2011/03/introducing-overlay-scrollbars-in-unity/">Introducing Overlay Scrollbars in Unity</a>. (Who wouldn't love to see an Apple Design blog? It's fun to follow along as some serious, talented people rethink stuff we use everyday…)</p>
+<a href="http://design.canonical.com/2011/03/introducing-overlay-scrollbars-in-unity/">Introducing Overlay Scrollbars in Unity</a>. (Who wouldn&rsquo;t love to see an Apple Design blog? It&rsquo;s fun to follow along as some serious, talented people rethink stuff we use everyday…)</p>
 
-<p>Take a look at the video - and stick with it all the way through. At first I didn't like it but now I'm a fan. I like that they've expanded usable screen real estate by getting rid of the everpresent thumb, but kept a subtle visual indicator that there's more content - there's a small ~2px bar that scales like current thumbs do.</p>
+<p>Take a look at the video &ndash; and stick with it all the way through. At first I didn&rsquo;t like it but now I&rsquo;m a fan. I like that they&rsquo;ve expanded usable screen real estate by getting rid of the everpresent thumb, but kept a subtle visual indicator that there&rsquo;s more content &ndash; there&rsquo;s a small ~2px bar that scales like current thumbs do.</p>
 
-<p>My only concern would be that the little mini-thumb is too small and it will sometimes not be obvious that you can scroll. I think this happens on iOS, too - maybe it's not such a big deal.</p>
+<p>My only concern would be that the little mini-thumb is too small and it will sometimes not be obvious that you can scroll. I think this happens on iOS, too &ndash; maybe it&rsquo;s not such a big deal.</p>
 ]]></content>
   </entry>
   

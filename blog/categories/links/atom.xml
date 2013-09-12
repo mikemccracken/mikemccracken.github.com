@@ -4,7 +4,7 @@
   <title><![CDATA[Category: links | michael-mccracken.net]]></title>
   <link href="http://michael-mccracken.net/blog/categories/links/atom.xml" rel="self"/>
   <link href="http://michael-mccracken.net/"/>
-  <updated>2013-04-10T08:54:28-07:00</updated>
+  <updated>2013-09-12T12:34:42-07:00</updated>
   <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
@@ -18,26 +18,26 @@
     <link href="http://michael-mccracken.net/2012/08/selected-links-from-this-summer/"/>
     <updated>2012-08-15T15:06:00-07:00</updated>
     <id>http://michael-mccracken.net/2012/08/selected-links-from-this-summer</id>
-    <content type="html"><![CDATA[<p>Since my new blogging setup doesn't automatically pull pinboard links
-into summary posts like before, I'm going to run through my bookmarks
-manually. Sound like fun? Let's go:</p>
+    <content type="html"><![CDATA[<p>Since my new blogging setup doesn&rsquo;t automatically pull pinboard links
+into summary posts like before, I&rsquo;m going to run through my bookmarks
+manually. Sound like fun? Let&rsquo;s go:</p>
 
 <ul>
-<li><a href="http://ivory.idyll.org/blog/apr-12/replication-i">Our approach to replication in computational science</a> - "bioinformatician makes code and all analyses available. very admirable, and yet a little worrying that this is so rare. It is also rare in computer science, where it is arguably easier to share."</li>
-<li><a href="http://www.modsquadhockey.com/forums/">ModSquadHockey Forums</a> - good reviews of equipment with painful forum UI. BTW, yes, a Bauer Concept II full shield will definitely fit a Stealth S19 (2010 model) helmet. You're welcome.</li>
-<li><a href="http://www.hockeymonkey.com/helmet-compatibility-charts.html">Hockey Helmet Cage/Visor Compatibility Charts</a> - really useful, but sadly not fully complete. An impossible task.</li>
-<li><a href="http://www.inference.phy.cam.ac.uk/opengazer/">Opengazer: open source gaze tracker for ordinary webcams</a> - Presented without comment. Have you used this?</li>
-<li><a href="https://storm.canonical.com/">Storm Python ORM</a> - Python ORM from Canonical, used in launchpad.</li>
-<li><a href="http://radar.oreilly.com/2012/04/great-machine-learning-products.html">What it takes to build great machine learning products</a> - I think the answer was careful definition of the problem domain?</li>
-<li><a href="http://news.ycombinator.com/item?id=3851691">A calculator that only shows the answer after you give a suitable estimate</a> - Really cool idea. The magic is in how to adjust the tolerance so it seems fair. Linked to the HN post because the comments are so polarized - it's interesting to swatch people violently miss the point.</li>
-<li><a href="http://www.gnu.org/software/parallel/">GNU Parallel</a> - Well if you don't know, now you know: "GNU parallel is a shell tool for executing jobs in parallel using one or more computers." Super useful. You don't have to use GNU parallel if you like something else that's similar, but you should probably know at least one tool for this stuff.</li>
-<li><a href="http://do.cooperteam.net/">GNOME + Do</a> - quicksilver for gnome. I left out the part in the page title that says "Crazy Delicious" because come on, people. These are computers.</li>
-<li><a href="http://openendedgroup.com/field/">Field visualization software</a> - "An environment for writing code to rapidly and experimentally assemble and explore algorithmic systems" - A really fascinating project. It looks like big ball of squeak, python, and processing that Bret Victor rolled up. I wanted to try it out in April but haven't had a chance.</li>
-<li><a href="http://circa-lang.org/about/introduction.html">circa</a> - A programming language that lets you manipulate the AST and do round trips. I forget what I meant by that exactly. I also wrote that 'state is first class'. You'd better go look at the page if that sounds interesting. Don't ask me!</li>
+<li><a href="http://ivory.idyll.org/blog/apr-12/replication-i">Our approach to replication in computational science</a> &ndash; &ldquo;bioinformatician makes code and all analyses available. very admirable, and yet a little worrying that this is so rare. It is also rare in computer science, where it is arguably easier to share.&rdquo;</li>
+<li><a href="http://www.modsquadhockey.com/forums/">ModSquadHockey Forums</a> &ndash; good reviews of equipment with painful forum UI. BTW, yes, a Bauer Concept II full shield will definitely fit a Stealth S19 (2010 model) helmet. You&rsquo;re welcome.</li>
+<li><a href="http://www.hockeymonkey.com/helmet-compatibility-charts.html">Hockey Helmet Cage/Visor Compatibility Charts</a> &ndash; really useful, but sadly not fully complete. An impossible task.</li>
+<li><a href="http://www.inference.phy.cam.ac.uk/opengazer/">Opengazer: open source gaze tracker for ordinary webcams</a> &ndash; Presented without comment. Have you used this?</li>
+<li><a href="https://storm.canonical.com/">Storm Python ORM</a> &ndash; Python ORM from Canonical, used in launchpad.</li>
+<li><a href="http://radar.oreilly.com/2012/04/great-machine-learning-products.html">What it takes to build great machine learning products</a> &ndash; I think the answer was careful definition of the problem domain?</li>
+<li><a href="http://news.ycombinator.com/item?id=3851691">A calculator that only shows the answer after you give a suitable estimate</a> &ndash; Really cool idea. The magic is in how to adjust the tolerance so it seems fair. Linked to the HN post because the comments are so polarized &ndash; it&rsquo;s interesting to swatch people violently miss the point.</li>
+<li><a href="http://www.gnu.org/software/parallel/">GNU Parallel</a> &ndash; Well if you don&rsquo;t know, now you know: &ldquo;GNU parallel is a shell tool for executing jobs in parallel using one or more computers.&rdquo; Super useful. You don&rsquo;t have to use GNU parallel if you like something else that&rsquo;s similar, but you should probably know at least one tool for this stuff.</li>
+<li><a href="http://do.cooperteam.net/">GNOME + Do</a> &ndash; quicksilver for gnome. I left out the part in the page title that says &ldquo;Crazy Delicious&rdquo; because come on, people. These are computers.</li>
+<li><a href="http://openendedgroup.com/field/">Field visualization software</a> &ndash; &ldquo;An environment for writing code to rapidly and experimentally assemble and explore algorithmic systems&rdquo; &ndash; A really fascinating project. It looks like big ball of squeak, python, and processing that Bret Victor rolled up. I wanted to try it out in April but haven&rsquo;t had a chance.</li>
+<li><a href="http://circa-lang.org/about/introduction.html">circa</a> &ndash; A programming language that lets you manipulate the AST and do round trips. I forget what I meant by that exactly. I also wrote that &lsquo;state is first class&rsquo;. You&rsquo;d better go look at the page if that sounds interesting. Don&rsquo;t ask me!</li>
 </ul>
 
 
-<p>That's it for April. Look for May's bookmarks sometime in 2014.</p>
+<p>That&rsquo;s it for April. Look for May&rsquo;s bookmarks sometime in 2014.</p>
 ]]></content>
   </entry>
   
@@ -49,26 +49,26 @@ manually. Sound like fun? Let's go:</p>
     <content type="html"><![CDATA[<p>My shared links for April 5th through April 6th:</p>
 
 <ul>
-<li><p><a href="http://lemire.me/blog/archives/2011/06/06/why-i-still-program/">Why I still program</a> - "I believe that the rejection of programming as a lower activity can be explained by the Theory of the leisure class. In effect, we do not seek utility but prestige. There is no prestige in tool-making, cooking or farming. To maximize your prestige, you must rise up to the leisure class: you work must not be immediately useful."</p></li>
-<li><p><a href="http://lemire.me/blog/archives/2012/03/20/from-counting-citations-to-measuring-usage-help-needed/">From counting citations to measuring usage (help needed!)</a> - Building a Better Citation Index</p></li>
-<li><p><a href="http://mailplaneapp.com/blog/entry/workhacks.com_top_3_gmail_management_apps_for_mac">workhacks.com: Top 3 Gmail Management Apps for Mac - Mailplane Blog</a> - includes a list of gmail plugins that look useful</p></li>
-<li><p><a href="http://prezjordan.github.com/Melopy/">Melopy</a> -
+<li><p><a href="http://lemire.me/blog/archives/2011/06/06/why-i-still-program/">Why I still program</a> &ndash; &ldquo;I believe that the rejection of programming as a lower activity can be explained by the Theory of the leisure class. In effect, we do not seek utility but prestige. There is no prestige in tool-making, cooking or farming. To maximize your prestige, you must rise up to the leisure class: you work must not be immediately useful.&rdquo;</p></li>
+<li><p><a href="http://lemire.me/blog/archives/2012/03/20/from-counting-citations-to-measuring-usage-help-needed/">From counting citations to measuring usage (help needed!)</a> &ndash; Building a Better Citation Index</p></li>
+<li><p><a href="http://mailplaneapp.com/blog/entry/workhacks.com_top_3_gmail_management_apps_for_mac">workhacks.com: Top 3 Gmail Management Apps for Mac &ndash; Mailplane Blog</a> &ndash; includes a list of gmail plugins that look useful</p></li>
+<li><p><a href="http://prezjordan.github.com/Melopy/">Melopy</a> &ndash;
 <code>  <br/>
-"""</p>
+&ldquo;&rdquo;"</p>
 
 <blockquote><blockquote><blockquote><p>from melopy import Melopy
-m = Melopy('mysong')
-m.add_quarter_note('A4')
-m.add_quarter_note('C#5')
-m.add_quarter_note('E5')
+m = Melopy(&lsquo;mysong&rsquo;)
+m.add_quarter_note(&lsquo;A4&rsquo;)
+m.add_quarter_note(&lsquo;C#5&rsquo;)
+m.add_quarter_note(&lsquo;E5&rsquo;)
 m.render()
 [==================================================] 100%
 Done
-"""
+&ldquo;&rdquo;&ldquo;
 </code></p></blockquote></blockquote></blockquote></li>
-<li><p><a href="http://doc.rust-lang.org/doc/tutorial.html#expression-syntax">Rust Language Tutorial: Expression Syntax</a> - Starts out good, but the "leave out a semicolon to return a value" leaves a bad taste. Why overload semicolons like that? Why not just use 'ret'?</p></li>
-<li><p><a href="http://www.deliberatism.com/blog/forget-self-improvement/">Forget Self-Improvement</a> -</p></li>
-<li><p><a href="http://blogs.hbr.org/schwartz/2012/03/the-magic-of-doing-one-thing-a.html">The Magic of Doing One Thing at a Time - Tony Schwartz - Harvard Business Review</a> - A few good points on avoiding multitasking burnout. Nothing too new, but maybe if people keep repeating it in places like HBR, then it'll start to become conventional business wisdom?</p></li>
+<li><p><a href="http://doc.rust-lang.org/doc/tutorial.html#expression-syntax">Rust Language Tutorial: Expression Syntax</a> &ndash; Starts out good, but the &ldquo;leave out a semicolon to return a value&rdquo; leaves a bad taste. Why overload semicolons like that? Why not just use &lsquo;ret&rsquo;?</p></li>
+<li><p><a href="http://www.deliberatism.com/blog/forget-self-improvement/">Forget Self-Improvement</a> &ndash;</p></li>
+<li><p><a href="http://blogs.hbr.org/schwartz/2012/03/the-magic-of-doing-one-thing-a.html">The Magic of Doing One Thing at a Time &ndash; Tony Schwartz &ndash; Harvard Business Review</a> &ndash; A few good points on avoiding multitasking burnout. Nothing too new, but maybe if people keep repeating it in places like HBR, then it&rsquo;ll start to become conventional business wisdom?</p></li>
 </ul>
 
 ]]></content>
@@ -82,17 +82,17 @@ Done
     <content type="html"><![CDATA[<p>My shared links for April 4th:</p>
 
 <ul>
-<li><p><a href="http://www.stuartcheshire.org/rants/Networkdynamics.html">Stuart's "Law of Networkdynamics"</a> -</p></li>
-<li><p><a href="https://flattr.com/">Flattr - Social micropayments</a> - An interesting model that I hadn't heard of. You set a monthly amount to spend and when you see a flattr button, you click on it. They then divide your monthly amount among the people you clicked on that month.</p></li>
+<li><p><a href="http://www.stuartcheshire.org/rants/Networkdynamics.html">Stuart&rsquo;s &ldquo;Law of Networkdynamics&rdquo;</a> &ndash;</p></li>
+<li><p><a href="https://flattr.com/">Flattr &ndash; Social micropayments</a> &ndash; An interesting model that I hadn&rsquo;t heard of. You set a monthly amount to spend and when you see a flattr button, you click on it. They then divide your monthly amount among the people you clicked on that month.</p></li>
 </ul>
 
 
-<p>Sounds great but I have never seen a button, unless it's been hidden among many other warts.</p>
+<p>Sounds great but I have never seen a button, unless it&rsquo;s been hidden among many other warts.</p>
 
 <ul>
-<li><p><a href="http://bos.github.com/strange-loop-2011/slides/slides.html#(1">Haskell: Functional Programming, Solid Code, Big Data (1)</a>) - Bryan O'Sullivan's Haskell tutorial from Strange Loop 2011</p></li>
-<li><p><a href="http://www.yellosoft.us/quickcheck">QuickCheck | YELLOSOFT</a> - Lots of ports of QuickCheck</p></li>
-<li><p><a href="http://dan.bravender.us/2009/6/21/Simple_Quickcheck_implementation_for_Python.html">Simple Quickcheck implementation for Python</a> - Random test generation that is not as nice as Haskell's quickcheck but will do the job.</p></li>
+<li><p><a href="http://bos.github.com/strange-loop-2011/slides/slides.html#(1">Haskell: Functional Programming, Solid Code, Big Data (1)</a>) &ndash; Bryan O'Sullivan&rsquo;s Haskell tutorial from Strange Loop 2011</p></li>
+<li><p><a href="http://www.yellosoft.us/quickcheck">QuickCheck | YELLOSOFT</a> &ndash; Lots of ports of QuickCheck</p></li>
+<li><p><a href="http://dan.bravender.us/2009/6/21/Simple_Quickcheck_implementation_for_Python.html">Simple Quickcheck implementation for Python</a> &ndash; Random test generation that is not as nice as Haskell&rsquo;s quickcheck but will do the job.</p></li>
 </ul>
 
 ]]></content>
@@ -106,12 +106,12 @@ Done
     <content type="html"><![CDATA[<p>My shared links for March 30th through April 3rd:</p>
 
 <ul>
-<li><p><a href="http://magicmaps.evanmiller.org/">Magic Maps: Now You See It.</a> - Very cool app for working with maps and time series data</p></li>
-<li><p><a href="http://evanmiller.org/how-not-to-sort-by-average-rating.html">How Not To Sort By Average Rating</a> - Shows the best way to sort by positive/negative rankings that is robust to small sample sizes</p></li>
-<li><p><a href="http://m.foreignaffairs.com/articles/66186/john-mueller-and-mark-g-stewart/hardly-existential">terrorism hardly existential threat. 2010</a> -</p></li>
+<li><p><a href="http://magicmaps.evanmiller.org/">Magic Maps: Now You See It.</a> &ndash; Very cool app for working with maps and time series data</p></li>
+<li><p><a href="http://evanmiller.org/how-not-to-sort-by-average-rating.html">How Not To Sort By Average Rating</a> &ndash; Shows the best way to sort by positive/negative rankings that is robust to small sample sizes</p></li>
+<li><p><a href="http://m.foreignaffairs.com/articles/66186/john-mueller-and-mark-g-stewart/hardly-existential">terrorism hardly existential threat. 2010</a> &ndash;</p></li>
 <li><p><a href="http://mailplaneapp.com/blog/entry/workhacks.com_top_3_gmail_management_apps_for_mac/#When:12:06:06Z">workhacks.com: Top 3 Gmail Management Apps for Mac</a> includes a list of gmail plugins that look useful</p></li>
-<li><p><a href="http://www.yesodweb.com/">Yesod Web Framework for Haskell</a> -</p></li>
-<li><p><a href="http://beets.radbox.org/">beets: the music geek's media organizer</a> - The purpose of beets is to get your music collection right once and for all. It catalogs your collection, automatically improving its metadata as it goes using the MusicBrainz database. (It also downloads cover art for albums it imports.) Then it provides a bouquet of tools for manipulating and accessing your music.</p></li>
+<li><p><a href="http://www.yesodweb.com/">Yesod Web Framework for Haskell</a> &ndash;</p></li>
+<li><p><a href="http://beets.radbox.org/">beets: the music geek&rsquo;s media organizer</a> &ndash; The purpose of beets is to get your music collection right once and for all. It catalogs your collection, automatically improving its metadata as it goes using the MusicBrainz database. (It also downloads cover art for albums it imports.) Then it provides a bouquet of tools for manipulating and accessing your music.</p></li>
 </ul>
 
 
@@ -132,7 +132,7 @@ Browse your music library graphically through a Web browser and play it in any b
     <link href="http://michael-mccracken.net/2012/03/canonical-design-blog-on-where-small-pieces-loosely-joined-needs-some-tweaking/"/>
     <updated>2012-03-30T05:29:00-07:00</updated>
     <id>http://michael-mccracken.net/2012/03/canonical-design-blog-on-where-small-pieces-loosely-joined-needs-some-tweaking</id>
-    <content type="html"><![CDATA[<p><a href="http://design.canonical.com/2012/03/holistic-ui-is-smarter-ux/">Holistic UI is smarter UX</a> - They use notifications as an example of why small pieces loosely joined might not be great UI. It's really interesting to see how common UI devices such as notifications have evolved across various platforms. Someone should do a gallery of notifications over the years - bonus points if you start with a ␇!</p>
+    <content type="html"><![CDATA[<p><a href="http://design.canonical.com/2012/03/holistic-ui-is-smarter-ux/">Holistic UI is smarter UX</a> &ndash; They use notifications as an example of why small pieces loosely joined might not be great UI. It&rsquo;s really interesting to see how common UI devices such as notifications have evolved across various platforms. Someone should do a gallery of notifications over the years &ndash; bonus points if you start with a ␇!</p>
 ]]></content>
   </entry>
   

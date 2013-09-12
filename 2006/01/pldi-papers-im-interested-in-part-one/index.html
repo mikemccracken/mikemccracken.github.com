@@ -9,7 +9,7 @@
   <meta name="author" content="Michael McCracken">
 
   
-  <meta name="description" content="I mentioned that I&#8217;d post about some of the papers I found interesting from this year&#8217;s PLDI conference. Disclaimer: for the most part &hellip;">
+  <meta name="description" content="I mentioned that I&rsquo;d post about some of the papers I found interesting from this year&rsquo;s PLDI conference. Disclaimer: for the most part &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,13 +18,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://michael-mccracken.net/2006/01/pldi-papers-im-interested-in-part-one/">
+  <link rel="canonical" href="http://michael-mccracken.net/2006/01/pldi-papers-im-interested-in-part-one">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <link href="/atom.xml" rel="alternate" title="michael-mccracken.net" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <!-- <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css"> -->
 <!-- <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css"> -->
@@ -106,41 +107,41 @@
   </header>
 
 
-<div class="entry-content"><p>I mentioned that I&#8217;d post about some of the papers I found interesting from this year&#8217;s PLDI conference. Disclaimer: for the most part this is based on reading the abstracts only, so this shouldn&#8217;t be considered a thorough review.</p>
+<div class="entry-content"><p>I mentioned that I&rsquo;d post about some of the papers I found interesting from this year&rsquo;s PLDI conference. Disclaimer: for the most part this is based on reading the abstracts only, so this shouldn&rsquo;t be considered a thorough review.</p>
 
-<p>Session one is Transactions. I will probably look through these, especially the first paper, <em>&#8220;The Atomos Transactional Programming Language&#8221;</em> [1] from Stanford, because transactional memory and processing seems to be a consensus pick for the next big thing, and <a href="http://www.computerhistory.org/events/lectures/smith_01232001/">Burton Smith</a> once told me that languages using transactional memory and invariants with respect to state are his bet for what can solve the parallel programming problem. (What problem? It&#8217;s too hard to write good parallel code.) So, I want to see what a transactional language looks like.</p>
+<p>Session one is Transactions. I will probably look through these, especially the first paper, <em>&ldquo;The Atomos Transactional Programming Language&rdquo;</em> [1] from Stanford, because transactional memory and processing seems to be a consensus pick for the next big thing, and <a href="http://www.computerhistory.org/events/lectures/smith_01232001/">Burton Smith</a> once told me that languages using transactional memory and invariants with respect to state are his bet for what can solve the parallel programming problem. (What problem? It&rsquo;s too hard to write good parallel code.) So, I want to see what a transactional language looks like.</p>
 
-<p>There&#8217;s a paper in the Compilers session that looks like a cool idea for improving analysis - <em>&#8220;A Framework for Unrestricted Whole-Program Optimization&#8221;</em> [2]. The <a href="http://liberty.princeton.edu/Publications/index.php?abs=1&amp;setselect;=pldi06_pbe">abstract</a> says they have a way for intra-procedural passes to work on arbitrary subgraphs of the program, so they&#8217;re not just limited by procedural boundaries, and don&#8217;t have to rely on inlining to optimize across calls. I&#8217;m curious what languages it supports, and how the scheme would work with dynamic languages.</p>
+<p>There&rsquo;s a paper in the Compilers session that looks like a cool idea for improving analysis &ndash; <em>&ldquo;A Framework for Unrestricted Whole-Program Optimization&rdquo;</em> [2]. The <a href="http://liberty.princeton.edu/Publications/index.php?abs=1&amp;setselect;=pldi06_pbe">abstract</a> says they have a way for intra-procedural passes to work on arbitrary subgraphs of the program, so they&rsquo;re not just limited by procedural boundaries, and don&rsquo;t have to rely on inlining to optimize across calls. I&rsquo;m curious what languages it supports, and how the scheme would work with dynamic languages.</p>
 
-<p>A paper about dynamic software updating, <em>&#8220;Practical Dynamic Software updating for C&#8221;</em> [3] (<a href="http://www.cs.umd.edu/projects/dsu/">project link</a>) is also interesting, because it seems like a step towards the way things should work. Essentially, they compile a program so that it can be easily updated without stopping it. They do it in a way that doesn&#8217;t violate type-safety and sounds reasonably efficient. It reminds me of Apple&#8217;s ZeroLink and Fix &amp; Continue (note that those aren&#8217;t the first examples of such technology), and I&#8217;m curious how similar it is. Certainly I don&#8217;t think Fix &amp; Continue tries to guarantee type-safety.</p>
+<p>A paper about dynamic software updating, <em>&ldquo;Practical Dynamic Software updating for C&rdquo;</em> [3] (<a href="http://www.cs.umd.edu/projects/dsu/">project link</a>) is also interesting, because it seems like a step towards the way things should work. Essentially, they compile a program so that it can be easily updated without stopping it. They do it in a way that doesn&rsquo;t violate type-safety and sounds reasonably efficient. It reminds me of Apple&rsquo;s ZeroLink and Fix &amp; Continue (note that those aren&rsquo;t the first examples of such technology), and I&rsquo;m curious how similar it is. Certainly I don&rsquo;t think Fix &amp; Continue tries to guarantee type-safety.</p>
 
-<p>The parallelism session should be interesting, and I&#8217;m most curious to see an abstract for <em>&#8220;Shared Memory Programming for Large Scale Machines&#8221;</em> [4], I can&#8217;t tell from the title if they are introducing a new language or measuring an existing technique. I have a note to myself somewhere to look for a full copy of that paper.</p>
+<p>The parallelism session should be interesting, and I&rsquo;m most curious to see an abstract for <em>&ldquo;Shared Memory Programming for Large Scale Machines&rdquo;</em> [4], I can&rsquo;t tell from the title if they are introducing a new language or measuring an existing technique. I have a note to myself somewhere to look for a full copy of that paper.</p>
 
-<p>Power has been a big deal in HPC and mobile devices for a while, and now it&#8217;s everyone&#8217;s problem, so <em>&#8220;Reducing NoC Energy Consumption Through Compiler-Directed Channel Voltage Scaling&#8221;</em> [5] caught my eye. I&#8217;m always interested to learn about power usage effects of different kinds of code, since I have found it to be satisfyingly unintuitive at times. (Maybe I should&#8217;ve taken more EE classes!) Also, this is a paper from Penn State, and I&#8217;m curious what research they&#8217;ve got going on back at my alma mater.</p>
+<p>Power has been a big deal in HPC and mobile devices for a while, and now it&rsquo;s everyone&rsquo;s problem, so <em>&ldquo;Reducing NoC Energy Consumption Through Compiler-Directed Channel Voltage Scaling&rdquo;</em> [5] caught my eye. I&rsquo;m always interested to learn about power usage effects of different kinds of code, since I have found it to be satisfyingly unintuitive at times. (Maybe I should&rsquo;ve taken more EE classes!) Also, this is a paper from Penn State, and I&rsquo;m curious what research they&rsquo;ve got going on back at my alma mater.</p>
 
-<p>I&#8217;ll probably read everything in the Runtime Optimization and Profiling session, but <em>&#8220;Online Performance Auditing: Using Hot Optimizations Without Getting Burned&#8221;</em> [6] is particularly interesting, since I know Brad Calder and his students do really good work, and I honestly didn&#8217;t know what Jeremy was up to. I should probably be more social around the department. (These guys are at UCSD)</p>
+<p>I&rsquo;ll probably read everything in the Runtime Optimization and Profiling session, but <em>&ldquo;Online Performance Auditing: Using Hot Optimizations Without Getting Burned&rdquo;</em> [6] is particularly interesting, since I know Brad Calder and his students do really good work, and I honestly didn&rsquo;t know what Jeremy was up to. I should probably be more social around the department. (These guys are at UCSD)</p>
 
-<p>OK, I&#8217;m not out of interesting papers, but I&#8217;m going to stop here for now. Check out the program, let me know what you think is cool - am I missing something really great?</p>
+<p>OK, I&rsquo;m not out of interesting papers, but I&rsquo;m going to stop here for now. Check out the program, let me know what you think is cool &ndash; am I missing something really great?</p>
 
 <h4>References</h4>
 
-<p>[1] &#8220;The Atomos Transactional Programming Language&#8221;
+<p>[1] &ldquo;The Atomos Transactional Programming Language&rdquo;
 Brian D. Carlstrom, JaeWoong Chung, Austen McDonald, Hassan Chafi,
 Christos Kozyrakis and Kunle Olukotun.</p>
 
-<p>[2] &#8220;A Framework for Unrestricted Whole-Program Optimization&#8221;
+<p>[2] &ldquo;A Framework for Unrestricted Whole-Program Optimization&rdquo;
 Spyridon Triantafyllis, Matthew J. Bridges, Easwaran Raman, Guilherme Ottoni, and David I. August</p>
 
-<p>[3] &#8220;Practical Dynamic Software Updating for C&#8221;
+<p>[3] &ldquo;Practical Dynamic Software Updating for C&rdquo;
 Iulian Neamtiu, Michael Hicks, Gareth Stoyle and Manuel Oriol</p>
 
-<p>[4] &#8220;Shared Memory Programming for Large Scale Machines&#8221;
+<p>[4] &ldquo;Shared Memory Programming for Large Scale Machines&rdquo;
 Christopher Barton, Calin Cascaval, Siddhartha Chatterjee, George Almasi, Yili Zheng, Montse Farreras, Jose Amaral</p>
 
-<p>[5] &#8220;Reducing NoC Energy Consumption Through Compiler-Directed Channel Voltage Scaling&#8221;
+<p>[5] &ldquo;Reducing NoC Energy Consumption Through Compiler-Directed Channel Voltage Scaling&rdquo;
 Guangyu Chen, Feihui Li, Mahmut Kandemir, Mary Irwin</p>
 
-<p>[6] &#8220;Online Performance Auditing: Using Hot Optimizations Without Getting Burned&#8221;
+<p>[6] &ldquo;Online Performance Auditing: Using Hot Optimizations Without Getting Burned&rdquo;
 Jeremy Lau, Matthew Arnold, Michael Hind, Brad Calder</p>
 </div>
 
@@ -178,8 +179,6 @@ Jeremy Lau, Matthew Arnold, Michael Hind, Brad Calder</p>
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://michael-mccracken.net/2006/01/pldi-papers-im-interested-in-part-one/" data-via="mikemccracken" data-counturl="http://michael-mccracken.net/2006/01/pldi-papers-im-interested-in-part-one/" >Tweet</a>
-  
   
   
 </div>
@@ -215,44 +214,27 @@ Jeremy Lau, Matthew Arnold, Michael Hind, Brad Calder</p>
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/2013/04/links/">Links</a>
+        <a href="/2013/09/flashing-ubuntu-touch-from-osx/">Flashing a Nexus Device With Ubuntu Touch From Mac OS X</a>
       </li>
     
       <li class="post">
-        <a href="/2013/02/mock-nested-properties-with-python-mock/">Mock nested properties with python-mock</a>
+        <a href="/2013/04/links/">Links - Simulation, Programming, Crab Cakes and Hockey Player Usage Charts</a>
       </li>
     
       <li class="post">
-        <a href="/2013/02/dont-snooze/">Don't Snooze</a>
+        <a href="/2013/02/mock-nested-properties-with-python-mock/">Mock Nested Properties With Python-mock</a>
       </li>
     
       <li class="post">
-        <a href="/2012/12/mac-irc-clients/">Mac IRC clients</a>
+        <a href="/2012/12/mac-irc-clients/">Mac IRC Clients</a>
       </li>
     
       <li class="post">
-        <a href="/2012/11/pyobjc-and-twisted/">PyObjC and Twisted</a>
+        <a href="/2012/10/selected-links/">More Out of Date Links</a>
       </li>
     
   </ul>
 </section>
-
-<section>
-  <h1>Latest Tweets</h1>
-  <ul id="tweets">
-    <li class="loading">Status updating...</li>
-  </ul>
-  <script type="text/javascript">
-    $.domReady(function(){
-      getTwitterFeed("mikemccracken", 0, true);
-    });
-  </script>
-  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
-  
-    <a href="http://twitter.com/mikemccracken" class="twitter-follow-button" data-show-count="false">Follow @mikemccracken</a>
-  
-</section>
-
 
 
   
@@ -296,7 +278,7 @@ Jeremy Lau, Matthew Arnold, Michael Hind, Brad Calder</p>
       var twitterWidgets = document.createElement('script');
       twitterWidgets.type = 'text/javascript';
       twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
       document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
     })();
   </script>

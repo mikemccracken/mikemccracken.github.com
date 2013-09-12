@@ -4,7 +4,7 @@
   <title><![CDATA[Category: microformats | michael-mccracken.net]]></title>
   <link href="http://michael-mccracken.net/blog/categories/microformats/atom.xml" rel="self"/>
   <link href="http://michael-mccracken.net/"/>
-  <updated>2013-04-10T08:54:28-07:00</updated>
+  <updated>2013-09-12T12:34:42-07:00</updated>
   <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
@@ -18,19 +18,19 @@
     <link href="http://michael-mccracken.net/2007/01/bibdesk-and-the-hcite-microformat/"/>
     <updated>2007-01-25T23:06:24-08:00</updated>
     <id>http://michael-mccracken.net/2007/01/bibdesk-and-the-hcite-microformat</id>
-    <content type="html"><![CDATA[<p>This is about building an iTunes store-style interface to the web's bibliographic information.</p>
+    <content type="html"><![CDATA[<p>This is about building an iTunes store-style interface to the web&rsquo;s bibliographic information.</p>
 
-<p>I've been pushing along the <a href="http://microformats.org/wiki/citation">hCite </a> Microformat process, which will set a standard for HTML publishers to add simple semantic markup to their pages that programs like BibDesk can read as citation metadata.</p>
+<p>I&rsquo;ve been pushing along the <a href="http://microformats.org/wiki/citation">hCite </a> Microformat process, which will set a standard for HTML publishers to add simple semantic markup to their pages that programs like BibDesk can read as citation metadata.</p>
 
 <p>In stark contrast to great but complex things like Z39.50, if you can publish a web page, you can serve citation metadata. No need to have servers to support complicated queries, let google do the hard work.</p>
 
-<p>The progress on the standard has been slow, and so far there is only one beta implementation to help focus the talks - Brian Suda's <a href="http://suda.co.uk/projects/microformats/X2C/">X2C</a> XSL stylesheet.</p>
+<p>The progress on the standard has been slow, and so far there is only one beta implementation to help focus the talks &ndash; Brian Suda&rsquo;s <a href="http://suda.co.uk/projects/microformats/X2C/">X2C</a> XSL stylesheet.</p>
 
-<p>In the spirit of building momentum, I've added support for parsing hCite to a private build of BibDesk. For now, we're just discussing how to merge it, but soon the feature will show up in nightly builds, and anyone can start testing and getting experience with the emerging standard. I'll update when it's available, but until then, here's a rough screenshot:</p>
+<p>In the spirit of building momentum, I&rsquo;ve added support for parsing hCite to a private build of BibDesk. For now, we&rsquo;re just discussing how to merge it, but soon the feature will show up in nightly builds, and anyone can start testing and getting experience with the emerging standard. I&rsquo;ll update when it&rsquo;s available, but until then, here&rsquo;s a rough screenshot:</p>
 
 <p><img src="http://michael-mccracken.net/img/bdwebgroupscreenshot.png" alt="" /></p>
 
-<p><strong>Update:</strong> this feature is now in the latest <a href="http://bibdesk.demokratia.org/beta/">nightly builds</a>, but it's hidden because hCite isn't final. To see the web group, type <code>defaults write edu.ucsd.cs.mmccrack.bibdesk BDSKShouldShowWebGroup true</code> (all one line) at the command line before running a recent nightly.</p>
+<p><strong>Update:</strong> this feature is now in the latest <a href="http://bibdesk.demokratia.org/beta/">nightly builds</a>, but it&rsquo;s hidden because hCite isn&rsquo;t final. To see the web group, type <code>defaults write edu.ucsd.cs.mmccrack.bibdesk BDSKShouldShowWebGroup true</code> (all one line) at the command line before running a recent nightly.</p>
 ]]></content>
   </entry>
   

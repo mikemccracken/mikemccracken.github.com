@@ -18,13 +18,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://michael-mccracken.net/2007/10/the-editing-pass/">
+  <link rel="canonical" href="http://michael-mccracken.net/2007/10/the-editing-pass">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <link href="/atom.xml" rel="alternate" title="michael-mccracken.net" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <!-- <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css"> -->
 <!-- <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css"> -->
@@ -110,13 +111,13 @@
 
 <p>I give paper sections and important emails a while to sit after I write them, and they always benefit from another look with fresh eyes. I think that doing this with code is worth thinking about.</p>
 
-<p>Once you get a piece of code to the point where you believe it works - it&#8217;s passing its tests - go back over it and <em>edit it</em>. That is, go back and edit it for clarity, flow, and style. Just as if it were an essay.</p>
+<p>Once you get a piece of code to the point where you believe it works &ndash; it&rsquo;s passing its tests &ndash; go back over it and <em>edit it</em>. That is, go back and edit it for clarity, flow, and style. Just as if it were an essay.</p>
 
 <p>This is particularly important for tests. If a test fails, it should tell a clear story that explains exactly what failed, and what it was expecting.</p>
 
-<p>Things to consider editing out are vague variable or function names, and non-idiomatic shortcuts. Control flow can get tangled when working out a solution. Make it obvious. One-liners often don&#8217;t tell the full story. When you come back to a piece of code, you know the chase. It&#8217;s the first loose thread of a bug, a failed test, or an occurrence of a symbol you need to refactor. What you need is the story around it, and solid code will fill that in.</p>
+<p>Things to consider editing out are vague variable or function names, and non-idiomatic shortcuts. Control flow can get tangled when working out a solution. Make it obvious. One-liners often don&rsquo;t tell the full story. When you come back to a piece of code, you know the chase. It&rsquo;s the first loose thread of a bug, a failed test, or an occurrence of a symbol you need to refactor. What you need is the story around it, and solid code will fill that in.</p>
 
-<p>You can learn this by sharing your code or by waiting a while and reading it over again. It&#8217;s easier said than done - I don&#8217;t always do it, but I do know: an editing pass can do you good.</p>
+<p>You can learn this by sharing your code or by waiting a while and reading it over again. It&rsquo;s easier said than done &ndash; I don&rsquo;t always do it, but I do know: an editing pass can do you good.</p>
 
 <p>Something to think about: would a professional code editor help or hurt in the long run?</p>
 </div>
@@ -155,8 +156,6 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://michael-mccracken.net/2007/10/the-editing-pass/" data-via="mikemccracken" data-counturl="http://michael-mccracken.net/2007/10/the-editing-pass/" >Tweet</a>
-  
   
   
 </div>
@@ -192,44 +191,27 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/2013/04/links/">Links</a>
+        <a href="/2013/09/flashing-ubuntu-touch-from-osx/">Flashing a Nexus Device With Ubuntu Touch From Mac OS X</a>
       </li>
     
       <li class="post">
-        <a href="/2013/02/mock-nested-properties-with-python-mock/">Mock nested properties with python-mock</a>
+        <a href="/2013/04/links/">Links - Simulation, Programming, Crab Cakes and Hockey Player Usage Charts</a>
       </li>
     
       <li class="post">
-        <a href="/2013/02/dont-snooze/">Don't Snooze</a>
+        <a href="/2013/02/mock-nested-properties-with-python-mock/">Mock Nested Properties With Python-mock</a>
       </li>
     
       <li class="post">
-        <a href="/2012/12/mac-irc-clients/">Mac IRC clients</a>
+        <a href="/2012/12/mac-irc-clients/">Mac IRC Clients</a>
       </li>
     
       <li class="post">
-        <a href="/2012/11/pyobjc-and-twisted/">PyObjC and Twisted</a>
+        <a href="/2012/10/selected-links/">More Out of Date Links</a>
       </li>
     
   </ul>
 </section>
-
-<section>
-  <h1>Latest Tweets</h1>
-  <ul id="tweets">
-    <li class="loading">Status updating...</li>
-  </ul>
-  <script type="text/javascript">
-    $.domReady(function(){
-      getTwitterFeed("mikemccracken", 0, true);
-    });
-  </script>
-  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
-  
-    <a href="http://twitter.com/mikemccracken" class="twitter-follow-button" data-show-count="false">Follow @mikemccracken</a>
-  
-</section>
-
 
 
   
@@ -273,7 +255,7 @@
       var twitterWidgets = document.createElement('script');
       twitterWidgets.type = 'text/javascript';
       twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
       document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
     })();
   </script>

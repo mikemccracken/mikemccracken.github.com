@@ -9,7 +9,7 @@
   <meta name="author" content="Michael McCracken">
 
   
-  <meta name="description" content="Here&#8217;s a set of screenshots that show how conversation view can help keeping up with a public list. I&#8217;ve been subscribed to the LLVM-dev &hellip;">
+  <meta name="description" content="Here&rsquo;s a set of screenshots that show how conversation view can help keeping up with a public list. I&rsquo;ve been subscribed to the LLVM-dev &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,13 +18,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://michael-mccracken.net/2010/04/conversation-view-keeping-up-with-lists/">
+  <link rel="canonical" href="http://michael-mccracken.net/2010/04/conversation-view-keeping-up-with-lists">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <link href="/atom.xml" rel="alternate" title="michael-mccracken.net" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <!-- <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css"> -->
 <!-- <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css"> -->
@@ -104,21 +105,21 @@
   </header>
 
 
-<div class="entry-content"><p>Here&#8217;s a set of screenshots that show how conversation view can help keeping up with a public list.</p>
+<div class="entry-content"><p>Here&rsquo;s a set of screenshots that show how conversation view can help keeping up with a public list.</p>
 
-<p>I&#8217;ve been subscribed to the LLVM-dev mailing list for years in GMail, and for about a week in my mikechecksmail test account. I&#8217;m not active in the LLVM project - it&#8217;s just something I want to check in on occasionally. (For a while I had a filter that popped up any mention of Fortran). So when I check in, I want to skim the threads and read anything that&#8217;s interesting. Usually that means I&#8217;m finding a thread that&#8217;s already pretty long and I&#8217;m reading the whole thread from the beginning the first time I see it.</p>
+<p>I&rsquo;ve been subscribed to the LLVM-dev mailing list for years in GMail, and for about a week in my mikechecksmail test account. I&rsquo;m not active in the LLVM project &ndash; it&rsquo;s just something I want to check in on occasionally. (For a while I had a filter that popped up any mention of Fortran). So when I check in, I want to skim the threads and read anything that&rsquo;s interesting. Usually that means I&rsquo;m finding a thread that&rsquo;s already pretty long and I&rsquo;m reading the whole thread from the beginning the first time I see it.</p>
 
-<p>I&#8217;m interested to hear if that&#8217;s not how you read public high-traffic lists - do you try to keep up with all the threads as they come in? I did that for a while, but it&#8217;s hard to keep up with and probably isn&#8217;t actually your job.</p>
+<p>I&rsquo;m interested to hear if that&rsquo;s not how you read public high-traffic lists &ndash; do you try to keep up with all the threads as they come in? I did that for a while, but it&rsquo;s hard to keep up with and probably isn&rsquo;t actually your job.</p>
 
 <p>So, with that workflow in mind, how do our clients fare?</p>
 
 <p><strong>GMail</strong></p>
 
-<p>In GMail, when you click on a new thread (aka &#8220;conversation&#8221;) you get the messages all on one page, starting with the earliest - perfect for reading from the beginning. This shot shows the first couple of messages in a medium size thread:</p>
+<p>In GMail, when you click on a new thread (aka &ldquo;conversation&rdquo;) you get the messages all on one page, starting with the earliest &ndash; perfect for reading from the beginning. This shot shows the first couple of messages in a medium size thread:</p>
 
 <p><img src="http://media.tumblr.com/tumblr_l1ai4mO4Al1qz505e.png" alt="" /></p>
 
-<p>It&#8217;s pretty good about handling quotes, too. If you&#8217;re reading through an entire thread at a time, it&#8217;s nice to have quoted text collapsed so you don&#8217;t end up scrolling past the same paragraphs over and over. Of course, quoted text can be critical for understanding the new text:</p>
+<p>It&rsquo;s pretty good about handling quotes, too. If you&rsquo;re reading through an entire thread at a time, it&rsquo;s nice to have quoted text collapsed so you don&rsquo;t end up scrolling past the same paragraphs over and over. Of course, quoted text can be critical for understanding the new text:</p>
 
 <pre><code>- show quoted text -
 Yes.
@@ -129,46 +130,46 @@ No!!
 
 <p>But in my judgement, barring some natural language analysis, the best default is to collapse and let the user click to expand quotes when necessary.</p>
 
-<p>Finally, if you return to a thread and it has new messages, it&#8217;ll collapse the ones you&#8217;ve seen before, handy to get a quick update:</p>
+<p>Finally, if you return to a thread and it has new messages, it&rsquo;ll collapse the ones you&rsquo;ve seen before, handy to get a quick update:</p>
 
 <p><img src="http://media.tumblr.com/tumblr_l1ajpwBp531qz505e.png" alt="" /></p>
 
 <p><strong>Postbox</strong></p>
 
-<p>If you select &#8220;Show Conversations&#8221; in the &#8220;View&#8221; menu, Postbox shows something like a conversation-view when you select an entire thread. If you don&#8217;t have that option on, or you select more than one message in any other way - like shift-or-command-clicking multiple messages, you get a blank content view. Not very useful, but a minor point - after all, GMail doesn&#8217;t really show the list in the same page as the content anyway, so they&#8217;ve avoided that design problem.</p>
+<p>If you select &ldquo;Show Conversations&rdquo; in the &ldquo;View&rdquo; menu, Postbox shows something like a conversation-view when you select an entire thread. If you don&rsquo;t have that option on, or you select more than one message in any other way &ndash; like shift-or-command-clicking multiple messages, you get a blank content view. Not very useful, but a minor point &ndash; after all, GMail doesn&rsquo;t really show the list in the same page as the content anyway, so they&rsquo;ve avoided that design problem.</p>
 
-<p>The major problem with Postbox&#8217;s conversation view - for this list-catchup task - is that it sorts the messages with the newest ones at the top. This is exactly the wrong thing for reading a whole thread, and I couldn&#8217;t find a way to change this sort order.</p>
+<p>The major problem with Postbox&rsquo;s conversation view &ndash; for this list-catchup task &ndash; is that it sorts the messages with the newest ones at the top. This is exactly the wrong thing for reading a whole thread, and I couldn&rsquo;t find a way to change this sort order.</p>
 
-<p>Here&#8217;s what it looks like on that same thread:</p>
+<p>Here&rsquo;s what it looks like on that same thread:</p>
 
 <p><img src="http://media.tumblr.com/tumblr_l1ajxnHkKi1qz505e.png" alt="" /></p>
 
-<p>There are a couple other minor nitpicks - the info pane with the sender and links on the right-hand side only shows its info for the most recent message - if you want that info for another message, you have to select just that message in the list view.</p>
+<p>There are a couple other minor nitpicks &ndash; the info pane with the sender and links on the right-hand side only shows its info for the most recent message &ndash; if you want that info for another message, you have to select just that message in the list view.</p>
 
-<p>If you revisit the thread, it marks every message as read, and there&#8217;s no way to see what&#8217;s new:</p>
+<p>If you revisit the thread, it marks every message as read, and there&rsquo;s no way to see what&rsquo;s new:</p>
 
 <p><img src="http://media.tumblr.com/tumblr_l1ajzroxSb1qz505e.png" alt="" /></p>
 
-<p>If you&#8217;re still looking at the thread when new messages in that thread come in, it&#8217;ll give you a nice alert and lets you refresh the view, but then the problem is still there - it&#8217;s up to you to see what&#8217;s new.</p>
+<p>If you&rsquo;re still looking at the thread when new messages in that thread come in, it&rsquo;ll give you a nice alert and lets you refresh the view, but then the problem is still there &ndash; it&rsquo;s up to you to see what&rsquo;s new.</p>
 
 <p><strong>Thunderbird</strong></p>
 
-<p>Thunderbird 3 has a summary view, but it&#8217;s not thread-centric.
-It just shows the sender, date and first few lines (smashed together without newlines) of each message you&#8217;ve selected. If you select a thread, it&#8217;s kind of like a conversation view, but if you select multiple unrelated messages, it&#8217;ll just show the messages in order.</p>
+<p>Thunderbird 3 has a summary view, but it&rsquo;s not thread-centric.
+It just shows the sender, date and first few lines (smashed together without newlines) of each message you&rsquo;ve selected. If you select a thread, it&rsquo;s kind of like a conversation view, but if you select multiple unrelated messages, it&rsquo;ll just show the messages in order.</p>
 
-<p>Here&#8217;s what that looks like:</p>
+<p>Here&rsquo;s what that looks like:</p>
 
 <p><img src="http://media.tumblr.com/tumblr_l1ak9yEo0u1qz505e.png" alt="" /></p>
 
-<p>Clearly there&#8217;s some room for improvement there. I won&#8217;t pick on it too much, except to say that smashing the text together for a summary makes this view basically useless.</p>
+<p>Clearly there&rsquo;s some room for improvement there. I won&rsquo;t pick on it too much, except to say that smashing the text together for a summary makes this view basically useless.</p>
 
 <p><strong>Apple Mail</strong></p>
 
-<p>Apple Mail doesn&#8217;t really try to give you a summary of a thread or a conversation view - it&#8217;ll show which mails are new, but then you have to click through to an individual view of each message. Here&#8217;s what it looks like:</p>
+<p>Apple Mail doesn&rsquo;t really try to give you a summary of a thread or a conversation view &ndash; it&rsquo;ll show which mails are new, but then you have to click through to an individual view of each message. Here&rsquo;s what it looks like:</p>
 
 <p><img src="http://media.tumblr.com/tumblr_l1akg4XWv41qz505e.png" alt="" /></p>
 
-<p>This isn&#8217;t sloppy like Thunderbird&#8217;s view, but it&#8217;s not very useful either. For this and other reasons, keeping up with public mailing lists in Apple Mail is pretty painful. That&#8217;s why I moved most of my list subscriptions over to GMail a few years ago.</p>
+<p>This isn&rsquo;t sloppy like Thunderbird&rsquo;s view, but it&rsquo;s not very useful either. For this and other reasons, keeping up with public mailing lists in Apple Mail is pretty painful. That&rsquo;s why I moved most of my list subscriptions over to GMail a few years ago.</p>
 </div>
 
 
@@ -199,8 +200,6 @@ It just shows the sender, date and first few lines (smashed together without new
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://michael-mccracken.net/2010/04/conversation-view-keeping-up-with-lists/" data-via="mikemccracken" data-counturl="http://michael-mccracken.net/2010/04/conversation-view-keeping-up-with-lists/" >Tweet</a>
-  
   
   
 </div>
@@ -230,44 +229,27 @@ It just shows the sender, date and first few lines (smashed together without new
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/2013/04/links/">Links</a>
+        <a href="/2013/09/flashing-ubuntu-touch-from-osx/">Flashing a Nexus Device With Ubuntu Touch From Mac OS X</a>
       </li>
     
       <li class="post">
-        <a href="/2013/02/mock-nested-properties-with-python-mock/">Mock nested properties with python-mock</a>
+        <a href="/2013/04/links/">Links - Simulation, Programming, Crab Cakes and Hockey Player Usage Charts</a>
       </li>
     
       <li class="post">
-        <a href="/2013/02/dont-snooze/">Don't Snooze</a>
+        <a href="/2013/02/mock-nested-properties-with-python-mock/">Mock Nested Properties With Python-mock</a>
       </li>
     
       <li class="post">
-        <a href="/2012/12/mac-irc-clients/">Mac IRC clients</a>
+        <a href="/2012/12/mac-irc-clients/">Mac IRC Clients</a>
       </li>
     
       <li class="post">
-        <a href="/2012/11/pyobjc-and-twisted/">PyObjC and Twisted</a>
+        <a href="/2012/10/selected-links/">More Out of Date Links</a>
       </li>
     
   </ul>
 </section>
-
-<section>
-  <h1>Latest Tweets</h1>
-  <ul id="tweets">
-    <li class="loading">Status updating...</li>
-  </ul>
-  <script type="text/javascript">
-    $.domReady(function(){
-      getTwitterFeed("mikemccracken", 0, true);
-    });
-  </script>
-  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
-  
-    <a href="http://twitter.com/mikemccracken" class="twitter-follow-button" data-show-count="false">Follow @mikemccracken</a>
-  
-</section>
-
 
 
   
@@ -295,7 +277,7 @@ It just shows the sender, date and first few lines (smashed together without new
       var twitterWidgets = document.createElement('script');
       twitterWidgets.type = 'text/javascript';
       twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
       document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
     })();
   </script>

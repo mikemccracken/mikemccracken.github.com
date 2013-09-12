@@ -4,7 +4,7 @@
   <title><![CDATA[Category: email | michael-mccracken.net]]></title>
   <link href="http://michael-mccracken.net/blog/categories/email/atom.xml" rel="self"/>
   <link href="http://michael-mccracken.net/"/>
-  <updated>2013-04-10T08:54:28-07:00</updated>
+  <updated>2013-09-12T12:34:42-07:00</updated>
   <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
@@ -19,40 +19,40 @@
     <updated>2012-10-08T00:47:00-07:00</updated>
     <id>http://michael-mccracken.net/2012/10/links</id>
     <content type="html"><![CDATA[<ul>
-<li><p><a href="http://stackoverflow.com/questions/10857030/whats-so-bad-about-template-haskell">What's so bad about Template Haskell? - Stack Overflow</a></p>
+<li><p><a href="http://stackoverflow.com/questions/10857030/whats-so-bad-about-template-haskell">What&rsquo;s so bad about Template Haskell? &ndash; Stack Overflow</a></p>
 
 <p>  A bunch of good answers to why Template Haskell is occasionally maligned.</p></li>
-<li><p><a href="http://stackoverflow.com/questions/10845179/which-haskell-ghc-extensions-should-users-use-avoid/10849782#10849782">Which Haskell (GHC) extensions should users use/avoid? - Stack Overflow</a></p>
+<li><p><a href="http://stackoverflow.com/questions/10845179/which-haskell-ghc-extensions-should-users-use-avoid/10849782#10849782">Which Haskell (GHC) extensions should users use/avoid? &ndash; Stack Overflow</a></p>
 
-<p>  Interesting list of aesthetic judgements of haskell extensions. At press time I don't know what most of these words mean.</p></li>
+<p>  Interesting list of aesthetic judgements of haskell extensions. At press time I don&rsquo;t know what most of these words mean.</p></li>
 <li><p><a href="http://www.yesodweb.com/blog/2011/04/yesod-template-haskell">Yesod and Template Haskell</a></p>
 
 <p>  Short post on why Yesod uses template haskell (which has a bad rep)</p></li>
 <li><p><a href="http://imakewebthings.com/deck.js/">deck.js » Modern HTML Presentations</a></p>
 
-<p>  Best "Write your presentations in HTML" thing I've seen yet, although I'm not sure how great it'd be at complex visuals or builds. Yes sometimes builds are good! <em>SOMETIMES</em>.</p></li>
+<p>  Best &ldquo;Write your presentations in HTML&rdquo; thing I&rsquo;ve seen yet, although I&rsquo;m not sure how great it&rsquo;d be at complex visuals or builds. Yes sometimes builds are good! <em>SOMETIMES</em>.</p></li>
 <li><p><a href="http://redbot.org/">REDbot</a></p>
 
-<p>  RED is a robot that checks HTTP resources to see how they'll behave, pointing out common problems and suggesting improvements. Although it is not a HTTP conformance tester, it can find a number of HTTP-related issues.</p></li>
+<p>  RED is a robot that checks HTTP resources to see how they&rsquo;ll behave, pointing out common problems and suggesting improvements. Although it is not a HTTP conformance tester, it can find a number of HTTP-related issues.</p></li>
 <li><p><a href="https://github.com/visi-lang/visi">.@dpp’s Visi looks to be exactly the thing when Soulver isn’t enough and spreadsheets are rigid github.com/visi-lang/visi #emerginglangs</a></p>
 
-<p>  Should I look at this before posting a link? Nah... But I will look at it, eventually! It looks interesting, I love this kind of stuff - although as usual I wonder if this is something you can already get in Mathematica but no one knows because it's so expensive.</p></li>
-<li><p><a href="http://highscalability.com/blog/2012/7/30/prismatic-architecture-using-machine-learning-on-social-netw.html">High Scalability - Prismatic Architecture - Using Machine Learning on Social Networks to Figure Out What You Should Read on the Web </a></p>
+<p>  Should I look at this before posting a link? Nah&hellip; But I will look at it, eventually! It looks interesting, I love this kind of stuff &ndash; although as usual I wonder if this is something you can already get in Mathematica but no one knows because it&rsquo;s so expensive.</p></li>
+<li><p><a href="http://highscalability.com/blog/2012/7/30/prismatic-architecture-using-machine-learning-on-social-netw.html">High Scalability &ndash; Prismatic Architecture &ndash; Using Machine Learning on Social Networks to Figure Out What You Should Read on the Web </a></p>
 
-<p>  Probably interesting? I skimmed this, I'm not gonna lie, I don't remember much.</p></li>
+<p>  Probably interesting? I skimmed this, I&rsquo;m not gonna lie, I don&rsquo;t remember much.</p></li>
 <li><p><a href="http://deslide.clusterfake.net/">Deslidefied HTML</a></p>
 
 <p>  Really useful bookmark to make slideshow news articles readable on one page. I am using it all the time!</p></li>
 <li><p><a href="http://pragprog.com/magazines/2012-09/thinking-functionally-with-haskell">Thinking Functionally with Haskell</a></p>
 
-<p>  ""In which we explore what modern type systems bring to the table. Imagine an approach to programming where you write down some description of what your code should do, then before running your code you run some automatic tool to see if the code matches the description. That’s Test-driven development, you say!  Actually, this is what you are doing when you use static types in most languages too. Types are a description of the code’s inputs and outputs, and the check ensures that inputs and outputs match up and are used consistently. Modern type systems—such as in Haskell or above—are very flexible, and allow these descriptions to be quite detailed; plus they are not too obtrusive in use and often very helpful.  One point I’ll investigate here is how advances in types are converging with new ideas on testing, to the point where (I claim) the old distinctions are starting to blur and starting to open up exciting new possibilities—hence my suggestion that we need a new word to describe what we’re doing that is free from preconceptions and out-dated thinking.  So put aside your bad experiences from Java, and prepare to be amazed! ""</p></li>
+<p>  &ldquo;"In which we explore what modern type systems bring to the table. Imagine an approach to programming where you write down some description of what your code should do, then before running your code you run some automatic tool to see if the code matches the description. That’s Test-driven development, you say!  Actually, this is what you are doing when you use static types in most languages too. Types are a description of the code’s inputs and outputs, and the check ensures that inputs and outputs match up and are used consistently. Modern type systems—such as in Haskell or above—are very flexible, and allow these descriptions to be quite detailed; plus they are not too obtrusive in use and often very helpful.  One point I’ll investigate here is how advances in types are converging with new ideas on testing, to the point where (I claim) the old distinctions are starting to blur and starting to open up exciting new possibilities—hence my suggestion that we need a new word to describe what we’re doing that is free from preconceptions and out-dated thinking.  So put aside your bad experiences from Java, and prepare to be amazed! &rdquo;"</p></li>
 <li><p><a href="http://feedproxy.google.com/~r/ezyang/~3/3Vb6-OhkZws/">So you want to hack on IMAP…</a></p>
 
-<p>  "Well, first off, you’re horribly misinformed: you do not actually want to hack on IMAP." (I agree, IMAP bad.)</p></li>
-<li><p><a href="http://waxy.org/2008/06/the_machine_that_changed_the_world/">The Machine That Changed the World: Great Brains - Waxy.org</a></p>
+<p>  &ldquo;Well, first off, you’re horribly misinformed: you do not actually want to hack on IMAP.&rdquo; (I agree, IMAP bad.)</p></li>
+<li><p><a href="http://waxy.org/2008/06/the_machine_that_changed_the_world/">The Machine That Changed the World: Great Brains &ndash; Waxy.org</a></p>
 
 <p>  Documentary about computing history:
-  "It's a whirlwind tour of computing before the Web, with brilliant archival footage and interviews with key players — several of whom passed away since the filming. Jointly produced by WGBH Boston and the BBC, it originally aired in the UK as The Dream Machine before its U.S. premiere in January 1992. Its broadcast was accompanied by a book co-written by the documentary's producer Jon Palfreman."</p></li>
+  &ldquo;It&rsquo;s a whirlwind tour of computing before the Web, with brilliant archival footage and interviews with key players — several of whom passed away since the filming. Jointly produced by WGBH Boston and the BBC, it originally aired in the UK as The Dream Machine before its U.S. premiere in January 1992. Its broadcast was accompanied by a book co-written by the documentary&rsquo;s producer Jon Palfreman.&rdquo;</p></li>
 </ul>
 
 ]]></content>
@@ -64,28 +64,28 @@
     <updated>2011-06-29T10:06:07-07:00</updated>
     <id>http://michael-mccracken.net/2011/06/email-workflow</id>
     <content type="html"><![CDATA[<p>Last week, Chuq van Rospach had a tear of great posts about email and online communication in general. I already linked to his first two, about the value (and certain doom) of an email charter <a href="http://michael-mccracken.net/2011/06/email-charters-lists-as-parties/">here</a>.
-He then went on to discuss what he's learned about how to manage email without first trying to change other people's behavior, in two parts titled "Avoiding email bankruptcy" <a href="http://www.chuqui.com/2011/06/avoiding-email-bankruptcy-part-1/">Part 1</a> and <a href="http://www.chuqui.com/2011/06/avoiding-email-bankruptcy-part-2/">Part 2</a>. Both are well worth a full read, but I'll also summarize a bit here.</p>
+He then went on to discuss what he&rsquo;s learned about how to manage email without first trying to change other people&rsquo;s behavior, in two parts titled &ldquo;Avoiding email bankruptcy&rdquo; <a href="http://www.chuqui.com/2011/06/avoiding-email-bankruptcy-part-1/">Part 1</a> and <a href="http://www.chuqui.com/2011/06/avoiding-email-bankruptcy-part-2/">Part 2</a>. Both are well worth a full read, but I&rsquo;ll also summarize a bit here.</p>
 
-<p>His <a href="http://www.chuqui.com/2011/06/avoiding-email-bankruptcy-part-1/">Part 1</a> says in effect "email takes real time, so budget that time." His points about never catching up if you try to just fit it in during an otherwise busy day ring especially true. I'd add that any reputation benefit you get from fast turnaround is lost by being that guy who is checking email during meetings.</p>
+<p>His <a href="http://www.chuqui.com/2011/06/avoiding-email-bankruptcy-part-1/">Part 1</a> says in effect &ldquo;email takes real time, so budget that time.&rdquo; His points about never catching up if you try to just fit it in during an otherwise busy day ring especially true. I&rsquo;d add that any reputation benefit you get from fast turnaround is lost by being that guy who is checking email during meetings.</p>
 
-<p>His <a href="http://www.chuqui.com/2011/06/avoiding-email-bankruptcy-part-2/">Part 2</a> goes into detail on his email workflow. I was pleased to see that my own workflow is similar - I don't get nearly as much mail as he does (sending 225 and reading 400 messages a day? Ouch), so it's nice to see that my approach could scale.</p>
+<p>His <a href="http://www.chuqui.com/2011/06/avoiding-email-bankruptcy-part-2/">Part 2</a> goes into detail on his email workflow. I was pleased to see that my own workflow is similar &ndash; I don&rsquo;t get nearly as much mail as he does (sending 225 and reading 400 messages a day? Ouch), so it&rsquo;s nice to see that my approach could scale.</p>
 
 <p>The high points we have in common are</p>
 
 <ul>
-<li>Separate work and home email accounts. <em>Very important</em>. I couldn't agree more, and people who want unified inboxes in a mail client baffle me.</li>
+<li>Separate work and home email accounts. <em>Very important</em>. I couldn&rsquo;t agree more, and people who want unified inboxes in a mail client baffle me.</li>
 <li>try to decide what to do with an email the first time you read it, then archive it right away</li>
 <li>no filing, just one big Archive.</li>
-<li>filter lists out of the inbox ( I only do this for high-traffic lists, but my idea of "high" is not that high. )</li>
-<li>simple filtering - I don't try to use filters to pick out "important" emails - my goal is to read every mail. If I can't, I need to reduce the incoming flow, not tweak my mail client setup.</li>
+<li>filter lists out of the inbox ( I only do this for high-traffic lists, but my idea of &ldquo;high&rdquo; is not that high. )</li>
+<li>simple filtering &ndash; I don&rsquo;t try to use filters to pick out &ldquo;important&rdquo; emails &ndash; my goal is to read every mail. If I can&rsquo;t, I need to reduce the incoming flow, not tweak my mail client setup.</li>
 </ul>
 
 
-<p>One difference is that he says he uses his inbox as a to-do list, where I prefer to move things to OmniFocus as soon as I understand what the task is. But it's possible we're just calling the same thing by different names.</p>
+<p>One difference is that he says he uses his inbox as a to-do list, where I prefer to move things to OmniFocus as soon as I understand what the task is. But it&rsquo;s possible we&rsquo;re just calling the same thing by different names.</p>
 
-<p>He also does more manual management of his archive folder than I do - but maybe this is because there are less than 10,000 emails in there right now. I imagine his archives are bigger. Mail.app doesn't have much trouble with mine.</p>
+<p>He also does more manual management of his archive folder than I do &ndash; but maybe this is because there are less than 10,000 emails in there right now. I imagine his archives are bigger. Mail.app doesn&rsquo;t have much trouble with mine.</p>
 
-<p>Also my archive is a local folder - so it never has to sync with IMAP. This is due to a server mailbox size limit, and it's not ideal. It'd be nice if I could see my archive on my phone, but hey, it's only 2011.</p>
+<p>Also my archive is a local folder &ndash; so it never has to sync with IMAP. This is due to a server mailbox size limit, and it&rsquo;s not ideal. It&rsquo;d be nice if I could see my archive on my phone, but hey, it&rsquo;s only 2011.</p>
 ]]></content>
   </entry>
   
@@ -96,7 +96,7 @@ He then went on to discuss what he's learned about how to manage email without f
     <id>http://michael-mccracken.net/2011/06/email-charters-lists-as-parties</id>
     <content type="html"><![CDATA[<p>Chuq van Rospach shares some insight on the long battle to make email work better socially: In <a href="http://www.chuqui.com/2011/06/help-create-an-email-charter-part-1/">part one</a>, he argues that any attempt to codify good behavior will fail to create utopia, but may influence future tools and enough people to be worth trying. In  <a href="http://www.chuqui.com/2011/06/help-create-an-email-charter-part-2/">part two</a>, he says the only real way to fix problems in email is with tools, not by trying to influence behavior, if only because there are too many people using email for any lasting consensus on how to use it.</p>
 
-<p>In the comments to Chuq's post, there's a link to a really interesting proposal to make mailing lists easier to use - <a href="http://tieguy.org/blog/2010/03/17/lists-parties/">Luis Villa: "Mailing lists are parties. Or the should be."</a> The idea here is that the tools should help us give and receive some of the social cues that make parties successful where mailing lists aren't, like politely showing someone that they're boring or annoying you (by leaving the conversation), or quickly finding the interesting conversations (by seeing who and how many people are paying attention to it).</p>
+<p>In the comments to Chuq&rsquo;s post, there&rsquo;s a link to a really interesting proposal to make mailing lists easier to use &ndash; <a href="http://tieguy.org/blog/2010/03/17/lists-parties/">Luis Villa: &ldquo;Mailing lists are parties. Or the should be.&rdquo;</a> The idea here is that the tools should help us give and receive some of the social cues that make parties successful where mailing lists aren&rsquo;t, like politely showing someone that they&rsquo;re boring or annoying you (by leaving the conversation), or quickly finding the interesting conversations (by seeing who and how many people are paying attention to it).</p>
 
 <p>I really like Luis' suggestions, because you could do this with mailing list software today.</p>
 ]]></content>
@@ -109,9 +109,9 @@ He then went on to discuss what he's learned about how to manage email without f
     <id>http://michael-mccracken.net/2011/05/more-postbox-2-5-teases</id>
     <content type="html"><![CDATA[<p>The Postbox team posted another tease for their upcoming redesign in version 2.5, this time the <a href="http://www3.postbox-inc.com/?/blog/entry/postbox_2_5_-_message_view_redesign/">new message view</a>.</p>
 
-<p>I'm not going to re-post all of these, but I thought this one was worth pointing out because it shows some of the thinking behind the changes - and hints at an interesting design principle:</p>
+<p>I&rsquo;m not going to re-post all of these, but I thought this one was worth pointing out because it shows some of the thinking behind the changes &ndash; and hints at an interesting design principle:</p>
 
-<p><em>Detail views that don't change visual structure when the item they're displaying changes feel faster and more solid</em>.</p>
+<p><em>Detail views that don&rsquo;t change visual structure when the item they&rsquo;re displaying changes feel faster and more solid</em>.</p>
 
 <p>Do you agree?</p>
 ]]></content>
@@ -122,9 +122,9 @@ He then went on to discuss what he's learned about how to manage email without f
     <link href="http://michael-mccracken.net/2011/04/postbox-2-5s-new-addressing-widget/"/>
     <updated>2011-04-26T04:34:46-07:00</updated>
     <id>http://michael-mccracken.net/2011/04/postbox-2-5s-new-addressing-widget</id>
-    <content type="html"><![CDATA[<p>Over at the <a href="http://www.postbox-inc.com/blog">Postbox blog</a>, they're teasing the upcoming version 2.5 with a post about a <a href="http://www.postbox-inc.com/blog/entry/postbox_2-5_new_addressing_widget/">New Addressing Widget</a>. There's only a screenshot, but it looks like a nice usability improvement - it looks more Mac-like. To and CC are in separate fields, so it's easier to add a CC without using the mouse now, and they use the token field widget (the little blue lozenge introduced in Apple Mail in 2005) to make it easier to drag around whole addresses.</p>
+    <content type="html"><![CDATA[<p>Over at the <a href="http://www.postbox-inc.com/blog">Postbox blog</a>, they&rsquo;re teasing the upcoming version 2.5 with a post about a <a href="http://www.postbox-inc.com/blog/entry/postbox_2-5_new_addressing_widget/">New Addressing Widget</a>. There&rsquo;s only a screenshot, but it looks like a nice usability improvement &ndash; it looks more Mac-like. To and CC are in separate fields, so it&rsquo;s easier to add a CC without using the mouse now, and they use the token field widget (the little blue lozenge introduced in Apple Mail in 2005) to make it easier to drag around whole addresses.</p>
 
-<p>They do say they're working on some re-styling and finishing touches - so I'll reserve judgement until I use it. For now, it's still catch-up.</p>
+<p>They do say they&rsquo;re working on some re-styling and finishing touches &ndash; so I&rsquo;ll reserve judgement until I use it. For now, it&rsquo;s still catch-up.</p>
 ]]></content>
   </entry>
   

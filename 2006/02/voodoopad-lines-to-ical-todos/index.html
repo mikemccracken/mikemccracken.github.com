@@ -18,13 +18,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://michael-mccracken.net/2006/02/voodoopad-lines-to-ical-todos/">
+  <link rel="canonical" href="http://michael-mccracken.net/2006/02/voodoopad-lines-to-ical-todos">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <link href="/atom.xml" rel="alternate" title="michael-mccracken.net" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <!-- <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css"> -->
 <!-- <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css"> -->
@@ -106,7 +107,7 @@
   </header>
 
 
-<div class="entry-content"><p>I take notes at meetings in VoodooPad, and as such I write a lot of to-do items in MeetingNotes pages. They tend to get buried in those pages unless I do something about it fast. Sometimes I put them somewhere more useful, like on my &#8220;TodoToday&#8221; page, but that page is getting more like a &#8220;TodoSomeday&#8221; page, and isn&#8217;t fit for serious action items. Today I realized that I wanted a script to take line-items from VoodooPad pages and make them into Todo items in iCal, so I can track them easier.</p>
+<div class="entry-content"><p>I take notes at meetings in VoodooPad, and as such I write a lot of to-do items in MeetingNotes pages. They tend to get buried in those pages unless I do something about it fast. Sometimes I put them somewhere more useful, like on my &ldquo;TodoToday&rdquo; page, but that page is getting more like a &ldquo;TodoSomeday&rdquo; page, and isn&rsquo;t fit for serious action items. Today I realized that I wanted a script to take line-items from VoodooPad pages and make them into Todo items in iCal, so I can track them easier.</p>
 
 <p>I already have a <a href="http://michael-mccracken.net/blog/blosxom.pl/computers/mac/todoQuickSilver.html">Quicksilver plugin for creating new todos</a>, so I repurposed it as a python plugin for VoodooPad to add a big list all at once. Check out <a href="http://www.gusmueller.com/blog/archives/2006/1/21.html">Gus&#8217; post on python plugins</a> for the enabler, and then check this sucker out:</p>
 
@@ -143,8 +144,8 @@ def main(windowController, *args, **kwargs):
 <ul>
 <li>Change priority based on the first character of each line</li>
 <li>handle continuation lines better</li>
-<li>change calendar to select based on some simple syntax, like &#8221;<em> foo&#8221; is a line with text &#8220;foo&#8221; but &#8221;</em>foo bar&#8221; is a line with text &#8220;bar&#8221; destined for calendar &#8220;foo&#8221;&#8230;</li>
-<li>Another idea: a line starting with the words &#8220;email&#8221; or &#8220;mail&#8221; be made into a todo with the glyph ✉, and/or an actual email in Mail.app.</li>
+<li>change calendar to select based on some simple syntax, like &ldquo;<em> foo&rdquo; is a line with text &ldquo;foo&rdquo; but &ldquo;</em>foo bar&rdquo; is a line with text &ldquo;bar&rdquo; destined for calendar &ldquo;foo&rdquo;&hellip;</li>
+<li>Another idea: a line starting with the words &ldquo;email&rdquo; or &ldquo;mail&rdquo; be made into a todo with the glyph ✉, and/or an actual email in Mail.app.</li>
 <li>Any other ideas?</li>
 </ul>
 
@@ -184,8 +185,6 @@ def main(windowController, *args, **kwargs):
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://michael-mccracken.net/2006/02/voodoopad-lines-to-ical-todos/" data-via="mikemccracken" data-counturl="http://michael-mccracken.net/2006/02/voodoopad-lines-to-ical-todos/" >Tweet</a>
-  
   
   
 </div>
@@ -221,44 +220,27 @@ def main(windowController, *args, **kwargs):
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/2013/04/links/">Links</a>
+        <a href="/2013/09/flashing-ubuntu-touch-from-osx/">Flashing a Nexus Device With Ubuntu Touch From Mac OS X</a>
       </li>
     
       <li class="post">
-        <a href="/2013/02/mock-nested-properties-with-python-mock/">Mock nested properties with python-mock</a>
+        <a href="/2013/04/links/">Links - Simulation, Programming, Crab Cakes and Hockey Player Usage Charts</a>
       </li>
     
       <li class="post">
-        <a href="/2013/02/dont-snooze/">Don't Snooze</a>
+        <a href="/2013/02/mock-nested-properties-with-python-mock/">Mock Nested Properties With Python-mock</a>
       </li>
     
       <li class="post">
-        <a href="/2012/12/mac-irc-clients/">Mac IRC clients</a>
+        <a href="/2012/12/mac-irc-clients/">Mac IRC Clients</a>
       </li>
     
       <li class="post">
-        <a href="/2012/11/pyobjc-and-twisted/">PyObjC and Twisted</a>
+        <a href="/2012/10/selected-links/">More Out of Date Links</a>
       </li>
     
   </ul>
 </section>
-
-<section>
-  <h1>Latest Tweets</h1>
-  <ul id="tweets">
-    <li class="loading">Status updating...</li>
-  </ul>
-  <script type="text/javascript">
-    $.domReady(function(){
-      getTwitterFeed("mikemccracken", 0, true);
-    });
-  </script>
-  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
-  
-    <a href="http://twitter.com/mikemccracken" class="twitter-follow-button" data-show-count="false">Follow @mikemccracken</a>
-  
-</section>
-
 
 
   
@@ -302,7 +284,7 @@ def main(windowController, *args, **kwargs):
       var twitterWidgets = document.createElement('script');
       twitterWidgets.type = 'text/javascript';
       twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
       document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
     })();
   </script>

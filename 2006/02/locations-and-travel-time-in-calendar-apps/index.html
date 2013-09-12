@@ -9,7 +9,7 @@
   <meta name="author" content="Michael McCracken">
 
   
-  <meta name="description" content="Now that we&#8217;ve got Google Maps, I&#8217;d like to see my calendar program (iCal) extended to pay more attention to the location of events. Show &hellip;">
+  <meta name="description" content="Now that we&rsquo;ve got Google Maps, I&rsquo;d like to see my calendar program (iCal) extended to pay more attention to the location of events. Show &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,13 +18,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://michael-mccracken.net/2006/02/locations-and-travel-time-in-calendar-apps/">
+  <link rel="canonical" href="http://michael-mccracken.net/2006/02/locations-and-travel-time-in-calendar-apps">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <link href="/atom.xml" rel="alternate" title="michael-mccracken.net" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <!-- <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css"> -->
 <!-- <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css"> -->
@@ -106,21 +107,21 @@
   </header>
 
 
-<div class="entry-content"><p>Now that we&#8217;ve got Google Maps, I&#8217;d like to see my calendar program (iCal) extended to pay more attention to the location of events. Show me how long it&#8217;ll take to get to events I&#8217;ve scheduled, based on where they are. Traffic estimates would make this really killer (at least here in So-Cal)</p>
+<div class="entry-content"><p>Now that we&rsquo;ve got Google Maps, I&rsquo;d like to see my calendar program (iCal) extended to pay more attention to the location of events. Show me how long it&rsquo;ll take to get to events I&rsquo;ve scheduled, based on where they are. Traffic estimates would make this really killer (at least here in So-Cal)</p>
 
-<p>It might sound like you would need to tell the app where you will be at every point of the day for this to work, but you could avoid that by storing a &#8216;coming from&#8217; location for each event - it <em>could</em> be the previous event, but you could also just pick it from a list of default places, like &#8216;Home&#8217;, &#8216;Work&#8217;, and &#8216;Hockey Rink&#8217;.</p>
+<p>It might sound like you would need to tell the app where you will be at every point of the day for this to work, but you could avoid that by storing a &lsquo;coming from&rsquo; location for each event &ndash; it <em>could</em> be the previous event, but you could also just pick it from a list of default places, like &lsquo;Home&rsquo;, &lsquo;Work&rsquo;, and &lsquo;Hockey Rink&rsquo;.</p>
 
-<p>In my dream world, they&#8217;d look like error bars on a plot, they&#8217;d even have data about variability of the traffic estimates, and they&#8217;d be in the next version of iCal.</p>
+<p>In my dream world, they&rsquo;d look like error bars on a plot, they&rsquo;d even have data about variability of the traffic estimates, and they&rsquo;d be in the next version of iCal.</p>
 
-<p>Here&#8217;s a quick visual, in case I didn&#8217;t describe it well enough:</p>
+<p>Here&rsquo;s a quick visual, in case I didn&rsquo;t describe it well enough:</p>
 
 <p><img src="http://michael-mccracken.net/img/traveltime-mockup.png" alt="" /></p>
 
-<p>Assume home is south of the office and the basketball court is north. Traffic is bad going north around 6. What it&#8217;s telling you now is you can go home fast, and have 30 minutes there before you have to leave again, go straight to the court, taking 45 minutes in traffic and getting there 45 minutes early, or have about an hour at the office, wait out traffic, and get to the court on time in about 25 minutes.</p>
+<p>Assume home is south of the office and the basketball court is north. Traffic is bad going north around 6. What it&rsquo;s telling you now is you can go home fast, and have 30 minutes there before you have to leave again, go straight to the court, taking 45 minutes in traffic and getting there 45 minutes early, or have about an hour at the office, wait out traffic, and get to the court on time in about 25 minutes.</p>
 
-<p>Update: I changed the example to be a little clearer - I added an option to show traffic choices, showed the times by the routes, and made one event appear selected, since you probably only want this extra info for the selected event.</p>
+<p>Update: I changed the example to be a little clearer &ndash; I added an option to show traffic choices, showed the times by the routes, and made one event appear selected, since you probably only want this extra info for the selected event.</p>
 
-<p>I also made it a basketball game because everyone knows you&#8217;d need to go home to get your gear if you were going to the rink anyway. Seriously.</p>
+<p>I also made it a basketball game because everyone knows you&rsquo;d need to go home to get your gear if you were going to the rink anyway. Seriously.</p>
 </div>
 
 
@@ -157,8 +158,6 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://michael-mccracken.net/2006/02/locations-and-travel-time-in-calendar-apps/" data-via="mikemccracken" data-counturl="http://michael-mccracken.net/2006/02/locations-and-travel-time-in-calendar-apps/" >Tweet</a>
-  
   
   
 </div>
@@ -194,44 +193,27 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/2013/04/links/">Links</a>
+        <a href="/2013/09/flashing-ubuntu-touch-from-osx/">Flashing a Nexus Device With Ubuntu Touch From Mac OS X</a>
       </li>
     
       <li class="post">
-        <a href="/2013/02/mock-nested-properties-with-python-mock/">Mock nested properties with python-mock</a>
+        <a href="/2013/04/links/">Links - Simulation, Programming, Crab Cakes and Hockey Player Usage Charts</a>
       </li>
     
       <li class="post">
-        <a href="/2013/02/dont-snooze/">Don't Snooze</a>
+        <a href="/2013/02/mock-nested-properties-with-python-mock/">Mock Nested Properties With Python-mock</a>
       </li>
     
       <li class="post">
-        <a href="/2012/12/mac-irc-clients/">Mac IRC clients</a>
+        <a href="/2012/12/mac-irc-clients/">Mac IRC Clients</a>
       </li>
     
       <li class="post">
-        <a href="/2012/11/pyobjc-and-twisted/">PyObjC and Twisted</a>
+        <a href="/2012/10/selected-links/">More Out of Date Links</a>
       </li>
     
   </ul>
 </section>
-
-<section>
-  <h1>Latest Tweets</h1>
-  <ul id="tweets">
-    <li class="loading">Status updating...</li>
-  </ul>
-  <script type="text/javascript">
-    $.domReady(function(){
-      getTwitterFeed("mikemccracken", 0, true);
-    });
-  </script>
-  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
-  
-    <a href="http://twitter.com/mikemccracken" class="twitter-follow-button" data-show-count="false">Follow @mikemccracken</a>
-  
-</section>
-
 
 
   
@@ -275,7 +257,7 @@
       var twitterWidgets = document.createElement('script');
       twitterWidgets.type = 'text/javascript';
       twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
       document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
     })();
   </script>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: scripts | michael-mccracken.net]]></title>
   <link href="http://michael-mccracken.net/blog/categories/scripts/atom.xml" rel="self"/>
   <link href="http://michael-mccracken.net/"/>
-  <updated>2013-04-10T08:54:28-07:00</updated>
+  <updated>2013-09-12T12:34:42-07:00</updated>
   <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
@@ -20,17 +20,17 @@
     <id>http://michael-mccracken.net/2008/08/go-juggle-an-attention-callback</id>
     <content type="html"><![CDATA[<p>Sometimes progress on a project for me consists of a few short bursts of activity in between stretches of waiting for some long-running thing to complete so I can figure out what I need to do with it next.</p>
 
-<p>Because I always have more than one project going, I don't actually wait much. I just switch workspaces and try to make progress on the next thing. If I can't make progress on anything immediate, I'll end up checking email or looking up something for a side project.</p>
+<p>Because I always have more than one project going, I don&rsquo;t actually wait much. I just switch workspaces and try to make progress on the next thing. If I can&rsquo;t make progress on anything immediate, I&rsquo;ll end up checking email or looking up something for a side project.</p>
 
 <p>This kind of multitasking is inefficient, but inevitable when I might have to wait for 20 minutes or more for a compute job or a compile to finish.</p>
 
-<p>The problem with this approach is that the things I'm waiting for often finish while I'm off doing something else, and if I get too involved, the low-priority research or emails will eat up my day while the high-priority work sits waiting for me.</p>
+<p>The problem with this approach is that the things I&rsquo;m waiting for often finish while I&rsquo;m off doing something else, and if I get too involved, the low-priority research or emails will eat up my day while the high-priority work sits waiting for me.</p>
 
-<p>I've attacked this problem in the past when using OS X with <a href="gr">growl</a>, but I can't call growlnotify from remote systems. However, I just found <a href="dzen">dzen</a> for X Windows, a lightweight notification display utility that compiles easily on every system I've tried, and works remotely with ssh X forwarding.</p>
+<p>I&rsquo;ve attacked this problem in the past when using OS X with <a href="gr">growl</a>, but I can&rsquo;t call growlnotify from remote systems. However, I just found <a href="dzen">dzen</a> for X Windows, a lightweight notification display utility that compiles easily on every system I&rsquo;ve tried, and works remotely with ssh X forwarding.</p>
 
-<p>I wrote a simple script called <code>go</code>, which just executes its arguments and runs <code>dzen</code> when it's done. Now I type (for example) <code>go make</code> and I can switch over to something else, confident that I'll see a big popup window letting me know when I can get back to working on my highest priority project.</p>
+<p>I wrote a simple script called <code>go</code>, which just executes its arguments and runs <code>dzen</code> when it&rsquo;s done. Now I type (for example) <code>go make</code> and I can switch over to something else, confident that I&rsquo;ll see a big popup window letting me know when I can get back to working on my highest priority project.</p>
 
-<p>Here's basically the entire <code>go</code> script:</p>
+<p>Here&rsquo;s basically the entire <code>go</code> script:</p>
 
 <pre><code>#!/bin/ksh
 echo $@
@@ -39,10 +39,10 @@ echo $@ completed on `hostname` \
  | dzen2 -p -h 64 -bg darkblue
 </code></pre>
 
-<p>It's simple but it's working great for me. I've tried some improvements like randomizing window placement to avoid overlapping notifications, but the simple version above really does all I need.</p>
+<p>It&rsquo;s simple but it&rsquo;s working great for me. I&rsquo;ve tried some improvements like randomizing window placement to avoid overlapping notifications, but the simple version above really does all I need.</p>
 
-<p>Finally, a couple of details. zsh always seems to want to spell-check 'go', so I really named it '~/bin/executeAndNotify.sh' and just aliased 'go' to that.
-Also, I've found it can mess with shell quoting as is, so sometimes I have to do <code>'somecommand ; go echo done'</code>. If someone has a tip on getting the quoting right in the script, I'd love to hear it. The problem crops up when you try something like 'go make CC="cc -g"' - the quotes don't make it through.</p>
+<p>Finally, a couple of details. zsh always seems to want to spell-check &lsquo;go&rsquo;, so I really named it &lsquo;~/bin/executeAndNotify.sh&rsquo; and just aliased &lsquo;go&rsquo; to that.
+Also, I&rsquo;ve found it can mess with shell quoting as is, so sometimes I have to do <code>'somecommand ; go echo done'</code>. If someone has a tip on getting the quoting right in the script, I&rsquo;d love to hear it. The problem crops up when you try something like &lsquo;go make CC=&ldquo;cc -g&rdquo;&rsquo; &ndash; the quotes don&rsquo;t make it through.</p>
 ]]></content>
   </entry>
   
@@ -53,16 +53,16 @@ Also, I've found it can mess with shell quoting as is, so sometimes I have to do
     <id>http://michael-mccracken.net/2008/01/twitter-stats-in-svg-using-gnuplot</id>
     <content type="html"><![CDATA[<p><a href="http://twitter.com/dacort">Damon Cortesi</a> just shared a handy script for grabbing your tweets and compiling some stats about when you post to twitter and who you reply to.</p>
 
-<p>His script generates a list of numbers and included a Numbers template to paste them into. Since I don't have Numbers, I've modified <a href="http://dcortesi.com/2007/12/27/twitter-stats/">his script</a> to write a file that can be read by <a href="http://gnuplot.info">gnuplot</a>, and wrote a basic gnuplot script to output an SVG file version of the stats.</p>
+<p>His script generates a list of numbers and included a Numbers template to paste them into. Since I don&rsquo;t have Numbers, I&rsquo;ve modified <a href="http://dcortesi.com/2007/12/27/twitter-stats/">his script</a> to write a file that can be read by <a href="http://gnuplot.info">gnuplot</a>, and wrote a basic gnuplot script to output an SVG file version of the stats.</p>
 
-<p>While I was at it, I changed it so it no longer counts "@someone" separately from "@someone:".</p>
+<p>While I was at it, I changed it so it no longer counts &ldquo;@someone&rdquo; separately from &ldquo;@someone:&rdquo;.</p>
 
-<p>Both scripts are right here - <a href="http://michael-mccracken.net/twitter/gnuplot_twitterstats.tgz">gnuplot_twitterstats.tgz</a></p>
+<p>Both scripts are right here &ndash; <a href="http://michael-mccracken.net/twitter/gnuplot_twitterstats.tgz">gnuplot_twitterstats.tgz</a></p>
 
-<p>It uses gnuplot 4.2, which you can get on OS X with <a href="http://www.macports.org/">macports</a> using <code>port install gnuplot +no_x11'</code>. (Or it's a pretty easy build on its own, see the <a href="http://gnuplot.sourceforge.net/download.html">gnuplot download page</a> )</p>
+<p>It uses gnuplot 4.2, which you can get on OS X with <a href="http://www.macports.org/">macports</a> using <code>port install gnuplot +no_x11'</code>. (Or it&rsquo;s a pretty easy build on its own, see the <a href="http://gnuplot.sourceforge.net/download.html">gnuplot download page</a> )</p>
 
 <p>Here are my stats:
-Sorry, it looks like your browser doesn't support SVG. You're really not missing much.
+Sorry, it looks like your browser doesn&rsquo;t support SVG. You&rsquo;re really not missing much.
 <a href="http://michael-mccracken.net/twitter/2007stats.svg">Click here for a full-screen version.</a></p>
 ]]></content>
   </entry>
@@ -72,12 +72,12 @@ Sorry, it looks like your browser doesn't support SVG. You're really not missing
     <link href="http://michael-mccracken.net/2007/03/a-script-for-text-placeholders-in-voodoopad/"/>
     <updated>2007-03-28T03:59:47-07:00</updated>
     <id>http://michael-mccracken.net/2007/03/a-script-for-text-placeholders-in-voodoopad</id>
-    <content type="html"><![CDATA[<p>Last year I wrote about my <a href="http://michael-mccracken.net/wp/?p=39">new page template for VoodooPad</a>. I still use something like it - I like the uniform look and the built-in navigation starters I get in every page.</p>
+    <content type="html"><![CDATA[<p>Last year I wrote about my <a href="http://michael-mccracken.net/wp/?p=39">new page template for VoodooPad</a>. I still use something like it &ndash; I like the uniform look and the built-in navigation starters I get in every page.</p>
 
-<p>I got tired of all the clicking around it took to fill in the navigation every time I put in a new page, so I decided to write a script to mimic XCode's "Select Next Placeholder" command. In XCode, if you use code completion, you might get something like this:
+<p>I got tired of all the clicking around it took to fill in the navigation every time I put in a new page, so I decided to write a script to mimic XCode&rsquo;s &ldquo;Select Next Placeholder&rdquo; command. In XCode, if you use code completion, you might get something like this:
 <code>[dict setObject:&lt;# (id) anObject #&gt; forKey:&lt;# (id)key #&gt;]</code> Then pressing Control-/ cycles the selection through those placeholders so you can replace them with whatever you want quickly.</p>
 
-<p>That's really handy for code, and it's great for VoodooPad templates too. I wrote the script as a Python script plugin for VoodooPad, and it maps Command-/ to select the next placeholder, wrapping the search at the end just like XCode does. Now my new page template in VoodooPad has a few placeholders in it, and I have a lot fewer pages with default template text sitting in there making me look lazy.</p>
+<p>That&rsquo;s really handy for code, and it&rsquo;s great for VoodooPad templates too. I wrote the script as a Python script plugin for VoodooPad, and it maps Command-/ to select the next placeholder, wrapping the search at the end just like XCode does. Now my new page template in VoodooPad has a few placeholders in it, and I have a lot fewer pages with default template text sitting in there making me look lazy.</p>
 
 <p>Download it <a href="http://michael-mccracken.net/2007/Select-Next-Placeholder.py">here</a>. (Note, it needs the <a href="http://flyingmeat.com/fs/flystashweb.cgi/40de692c-e33c-01d9-12a1-c0cbe4c4d9e7">VoodooPad Python Plugin Enabler</a> )</p>
 ]]></content>

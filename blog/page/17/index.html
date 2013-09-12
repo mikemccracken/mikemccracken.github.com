@@ -9,7 +9,7 @@
   <meta name="author" content="Michael McCracken">
 
   
-  <meta name="description" content="I&#8217;ve always liked the programming-languages community website Lambda the Ultimate, and recently I went looking for something similar for the &hellip;">
+  <meta name="description" content="The UT-Austin TRIPS project will be unveiling their new processor next Monday. (event details) This is a pretty interesting attempt to get around the &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,13 +18,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://michael-mccracken.net/blog/page/17/">
+  <link rel="canonical" href="http://michael-mccracken.net/blog/page/17">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <link href="/atom.xml" rel="alternate" title="michael-mccracken.net" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <!-- <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css"> -->
 <!-- <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css"> -->
@@ -84,57 +85,6 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/2007/05/hpc-blogs-and-news-sites/">HPC Blogs and News Sites</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2007-05-04T07:17:42-07:00" pubdate data-updated="true">May 4<span>th</span>, 2007</time>
-        
-         | <a href="/2007/05/hpc-blogs-and-news-sites/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I&#8217;ve always liked the programming-languages community website <a href="http://lambda-the-ultimate.org/">Lambda the Ultimate</a>, and recently I went looking for something similar for the High-Performance Computing community. I didn&#8217;t find exactly that*, but I did find a few great resources for news about HPC and computing research policy:</p>
-
-<p><a href="http://hpcwire.com">HPCWire</a> is a well-known news source for HPC. It has daily news updates, and occasional columns by guests from around the industry. Most of the news is press releases from companies and government labs, but it&#8217;s nice to have a single place to check for them. However, there is apparently no RSS feed, and to get email updates, you have to buy a subscription. I haven&#8217;t, but I do check back occasionally to read the columns.</p>
-
-<p><a href="http://supercomputingonline.com">Supercomputing Online</a> is another professional news outlet, which reads a little less like a press release,
- seems to have more coverage of academic news, and does have an RSS feed.</p>
-
-<p><a href="http://insideHPC.com/">insideHPC.com</a> is more of a weblog than either of the first two - John E. West covers news stories in brief with some added perspective and analysis. I like his approach, and <a href="http://insidehpc.com/2007/05/02/introducing-mike/">I&#8217;ve joined him</a> to help cover academic HPC issues, both computing research and issues affecting computational scientists.</p>
-
-<p>One of many blogs at Sun is the <a href="http://blogs.sun.com/HPC/">HPC Watercooler</a>, covering Sun&#8217;s HPC products and services, as well as some non-Sun related news. I&#8217;ve found it pretty interesting already, and I&#8217;d be interested to see weblogs from other HPC vendors.</p>
-
-<p>Finally, a couple of blogs that are less directly related to HPC but still very relevant for computing researchers, are <a href="http://www.renci.org/blog/index.php">Dan Reed&#8217;s weblog</a> at the Renaissance Computing Institute, and the <a href="http://www.cra.org/govaffairs/blog/">CRA Computing Research Policy Blog</a>, both of which cover computing research policy and funding issues that don&#8217;t often show up in news coverage of either government or computing.</p>
-
-<p><em>* - if anyone wants to start an LTU-alike site for HPC research, or point me to one, I&#8217;ll sign up and contribute in an instant.</em></p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
       <h1 class="entry-title"><a href="/2007/04/the-trips-processor/">The TRIPS Processor</a></h1>
     
     
@@ -162,21 +112,21 @@
 
   <div class="entry-content"><p>The UT-Austin <a href="http://www.cs.utexas.edu/~trips/">TRIPS project</a> will be unveiling their new processor next Monday. (<a href="http://oea.cs.utexas.edu/articles/index2007/trips_unveiling07.html">event details</a>)</p>
 
-<p>This is a pretty interesting attempt to get around the problems facing processor design today. Clock speeds have stalled, but the actual Moore&#8217;s Law - the one about transistor count, not &#8220;speed&#8221; - is still going, so we have the problem of what to do with just a lot of copies of basically the same old chip?</p>
+<p>This is a pretty interesting attempt to get around the problems facing processor design today. Clock speeds have stalled, but the actual Moore&rsquo;s Law &ndash; the one about transistor count, not &ldquo;speed&rdquo; &ndash; is still going, so we have the problem of what to do with just a lot of copies of basically the same old chip?</p>
 
-<p>A lot of answers you hear involve pushing that complexity up to the programmer, forcing more people to become parallel programmers. This is almost certain to happen at least a little, but let&#8217;s hope we don&#8217;t have to give up on the sequential programming model completely. If you think software is bad now…</p>
+<p>A lot of answers you hear involve pushing that complexity up to the programmer, forcing more people to become parallel programmers. This is almost certain to happen at least a little, but let&rsquo;s hope we don&rsquo;t have to give up on the sequential programming model completely. If you think software is bad now…</p>
 
-<p>The TRIPS processor is an example of another approach - placing more of the burden of finding and using parallelism onto the compiler and architecture, keeping programmers&#8217; heads above water. It&#8217;s pretty exciting to see something this different make its way into actual silicon.</p>
+<p>The TRIPS processor is an example of another approach &ndash; placing more of the burden of finding and using parallelism onto the compiler and architecture, keeping programmers&#8217; heads above water. It&rsquo;s pretty exciting to see something this different make its way into actual silicon.</p>
 
-<p>The basic idea is that instead of a single piece of control logic organizing the actions of multiple functional units, finding concurrency within a window of instructions using reordering, the TRIPS processor is distributed at the lowest level - each functional unit is a mini-processor (called a tile), and instructions executing on separate processor tiles communicate operands directly, not through a register file. Usually this is described as executing a graph of instructions instead of a single instruction at a time.</p>
+<p>The basic idea is that instead of a single piece of control logic organizing the actions of multiple functional units, finding concurrency within a window of instructions using reordering, the TRIPS processor is distributed at the lowest level &ndash; each functional unit is a mini-processor (called a tile), and instructions executing on separate processor tiles communicate operands directly, not through a register file. Usually this is described as executing a graph of instructions instead of a single instruction at a time.</p>
 
-<p>Current processors certainly don&#8217;t just execute one instruction at a time, and they do plenty of moving instructions around, so I tend to see this explicit-data-graph description as just the far end of a spectrum that starts with old superscalar designs, continues through out-of-order processors and multithreaded architectures, and currently seems to end here.</p>
+<p>Current processors certainly don&rsquo;t just execute one instruction at a time, and they do plenty of moving instructions around, so I tend to see this explicit-data-graph description as just the far end of a spectrum that starts with old superscalar designs, continues through out-of-order processors and multithreaded architectures, and currently seems to end here.</p>
 
-<p>A TRIPS processor can run four thread contexts at once, with an instruction window of 1024 instructions to reorder and 256 memory operations in flight at once. For comparison, the late &#8217;90s Tera MTA ran 128 threads at once (128 different program counters), and the 2003-vintage Cray X1 processors kept track of 512 memory operations at once. Just like TRIPS, each of those architectures required extensive compiler support for good performance.</p>
+<p>A TRIPS processor can run four thread contexts at once, with an instruction window of 1024 instructions to reorder and 256 memory operations in flight at once. For comparison, the late &lsquo;90s Tera MTA ran 128 threads at once (128 different program counters), and the 2003-vintage Cray X1 processors kept track of 512 memory operations at once. Just like TRIPS, each of those architectures required extensive compiler support for good performance.</p>
 
-<p>A particularly interesting point is the fully partitioned L1 cache - meaning that there are multiple distributed L1 caches on the chip, so where your instructions are physically executing will be important for performance - if they&#8217;re near the cache bank holding their operands, they will execute sooner.</p>
+<p>A particularly interesting point is the fully partitioned L1 cache &ndash; meaning that there are multiple distributed L1 caches on the chip, so where your instructions are physically executing will be important for performance &ndash; if they&rsquo;re near the cache bank holding their operands, they will execute sooner.</p>
 
-<p>The natural question when looking at a new and interesting architecture like this, especially one that promises a tera-op on a chip, is whether it will make its way to a laptop you can buy anytime soon. I have no idea if the UT team has any industry deals in the works, but I would bet against something like this becoming mainstream quickly - the fact that these architectures rely so much on a custom compiler with aggressive optimization means that a lot of dirty work is required to move existing software to it.</p>
+<p>The natural question when looking at a new and interesting architecture like this, especially one that promises a tera-op on a chip, is whether it will make its way to a laptop you can buy anytime soon. I have no idea if the UT team has any industry deals in the works, but I would bet against something like this becoming mainstream quickly &ndash; the fact that these architectures rely so much on a custom compiler with aggressive optimization means that a lot of dirty work is required to move existing software to it.</p>
 
 <p>It will be interesting to follow this project and see how their actual hardware performs.</p>
 </div>
@@ -266,7 +216,7 @@
 
   <div class="entry-content"><p>After I heard the news today, I found this in my <a href="http://web.pitas.com/mmc/">oldest weblog</a>, from October 1999:</p>
 
-<blockquote><p>To quote a bathroom stall in west Patee library, &#8220;READ VONNEGUT!&#8221;</p></blockquote>
+<blockquote><p>To quote a bathroom stall in west Patee library, &ldquo;READ VONNEGUT!&rdquo;</p></blockquote>
 
 <p>He will be missed, but at least you can still go read Vonnegut.</p>
 </div>
@@ -308,32 +258,32 @@
 
   <div class="entry-content"><p>If you spend a lot of time reading articles and research papers that you get in PDF form, then you might be interested in the latest app from the folks who brought you <a href="http://bibdesk.sf.net">BibDesk</a>. If you already use BibDesk, then you certainly want to take a look.</p>
 
-<p>Even though we keep our research papers stored on disk as PDF, all too often we print them out to read and write notes on. There&#8217;s something missing in the experience of reading papers on a computer, but it doesn&#8217;t have to be that way.</p>
+<p>Even though we keep our research papers stored on disk as PDF, all too often we print them out to read and write notes on. There&rsquo;s something missing in the experience of reading papers on a computer, but it doesn&rsquo;t have to be that way.</p>
 
 <p><img src="http://skim-app.sourceforge.net/images/skimIcon.png" alt="" /></p>
 
 <p>Announcing <a href="http://skim-app.sf.net">Skim</a>. Skim is a PDF reading and note-taking app for Mac OS X that is designed to make reading research papers and manuals better. Just like in Preview, you can search, scan, and zoom through PDFs, but you also get some custom features for your workflow:</p>
 
 <ul>
-<li>Snapshots: if there&#8217;s a graph on page two and the description continues to page three, just draw a box around the graph with the command key down and a snapshot window pops up with the graph, and you can keep on reading with the graph in view. For more fun, minimize that snapshot window - they stick around in their own dock in the document window.</li>
+<li>Snapshots: if there&rsquo;s a graph on page two and the description continues to page three, just draw a box around the graph with the command key down and a snapshot window pops up with the graph, and you can keep on reading with the graph in view. For more fun, minimize that snapshot window &ndash; they stick around in their own dock in the document window.</li>
 </ul>
 
 
 <p><img src="http://michael-mccracken.net/2007/skimSnapshot.png" alt="" /></p>
 
 <ul>
-<li>Tooltips: If a PDF has links, such as for citation references or indexes and section headings, you can click on them as usual to go to the destination, but there&#8217;s more - hover the mouse over those links and Skim will show you a tooltip with the target of the link. No more losing your place to peek at a citation! For more fun, command-click on a link to pop up a snapshot window showing the link&#8217;s destination.</li>
+<li>Tooltips: If a PDF has links, such as for citation references or indexes and section headings, you can click on them as usual to go to the destination, but there&rsquo;s more &ndash; hover the mouse over those links and Skim will show you a tooltip with the target of the link. No more losing your place to peek at a citation! For more fun, command-click on a link to pop up a snapshot window showing the link&rsquo;s destination.</li>
 </ul>
 
 
 <p><img src="http://michael-mccracken.net/2007/skimTooltip.png" alt="" /></p>
 
 <ul>
-<li>Presentation and Full-screen Modes: Full-screen reading is handy. So is showing a PDF as a presentation. But they&#8217;re a little different. For instance, you might not want to show the table of contents in a presentation, but it&#8217;s nice to see it when you&#8217;re just reading by yourself. So Full-screen and Presentation are separate modes in Skim.</li>
+<li>Presentation and Full-screen Modes: Full-screen reading is handy. So is showing a PDF as a presentation. But they&rsquo;re a little different. For instance, you might not want to show the table of contents in a presentation, but it&rsquo;s nice to see it when you&rsquo;re just reading by yourself. So Full-screen and Presentation are separate modes in Skim.</li>
 </ul>
 
 
-<p>There&#8217;s plenty more - <a href="http://skim-app.sf.net">download it</a> and take a look, and join the <a href="http://skim-app.sf.net/mailingLists.html">mailing list</a> to discuss it. There&#8217;s even a full help book in the first public beta release!</p>
+<p>There&rsquo;s plenty more &ndash; <a href="http://skim-app.sf.net">download it</a> and take a look, and join the <a href="http://skim-app.sf.net/mailingLists.html">mailing list</a> to discuss it. There&rsquo;s even a full help book in the first public beta release!</p>
 
 <p>Many thanks to everyone who has worked on this app, and especially to Christiaan Hofman, who moved the app from a prototype to something really useful faster than I would have thought possible.</p>
 </div>
@@ -373,12 +323,12 @@
   </header>
 
 
-  <div class="entry-content"><p>Last year I wrote about my <a href="http://michael-mccracken.net/wp/?p=39">new page template for VoodooPad</a>. I still use something like it - I like the uniform look and the built-in navigation starters I get in every page.</p>
+  <div class="entry-content"><p>Last year I wrote about my <a href="http://michael-mccracken.net/wp/?p=39">new page template for VoodooPad</a>. I still use something like it &ndash; I like the uniform look and the built-in navigation starters I get in every page.</p>
 
-<p>I got tired of all the clicking around it took to fill in the navigation every time I put in a new page, so I decided to write a script to mimic XCode&#8217;s &#8220;Select Next Placeholder&#8221; command. In XCode, if you use code completion, you might get something like this:
+<p>I got tired of all the clicking around it took to fill in the navigation every time I put in a new page, so I decided to write a script to mimic XCode&rsquo;s &ldquo;Select Next Placeholder&rdquo; command. In XCode, if you use code completion, you might get something like this:
 <code>[dict setObject:&lt;# (id) anObject #&gt; forKey:&lt;# (id)key #&gt;]</code> Then pressing Control-/ cycles the selection through those placeholders so you can replace them with whatever you want quickly.</p>
 
-<p>That&#8217;s really handy for code, and it&#8217;s great for VoodooPad templates too. I wrote the script as a Python script plugin for VoodooPad, and it maps Command-/ to select the next placeholder, wrapping the search at the end just like XCode does. Now my new page template in VoodooPad has a few placeholders in it, and I have a lot fewer pages with default template text sitting in there making me look lazy.</p>
+<p>That&rsquo;s really handy for code, and it&rsquo;s great for VoodooPad templates too. I wrote the script as a Python script plugin for VoodooPad, and it maps Command-/ to select the next placeholder, wrapping the search at the end just like XCode does. Now my new page template in VoodooPad has a few placeholders in it, and I have a lot fewer pages with default template text sitting in there making me look lazy.</p>
 
 <p>Download it <a href="http://michael-mccracken.net/2007/Select-Next-Placeholder.py">here</a>. (Note, it needs the <a href="http://flyingmeat.com/fs/flystashweb.cgi/40de692c-e33c-01d9-12a1-c0cbe4c4d9e7">VoodooPad Python Plugin Enabler</a> )</p>
 </div>
@@ -420,17 +370,17 @@
 
   <div class="entry-content"><p><a href="http://www.flickr.com/photos/michaelmccracken/406122624/"><img src="http://farm1.static.flickr.com/141/406122624_83b39c417e_t.jpg" alt="Saint IGNUcius at UCSD" /></a></p>
 
-<p><a href="http://www.stallman.org">Richard Stallman</a> gave a talk at the UCSD CS department yesterday, and packed the auditorium despite just one email announcement the afternoon before. There were some people I recognized from SDSC, plenty of students and faculty, and even a bunch of people from the nearby tech companies. His talk was about his philosophy of Free Software, which you can read more about <a href="http://www.gnu.org/philosophy/">here</a> - I went to the talk to see him in person, even though I was pretty sure I&#8217;d heard most of what he had to say on the topic already, from his writing on the web and his biography, <a href="http://www.oreilly.com/openbook/freedom/">&#8220;Free as in Freedom&#8221;</a>, by Sam Williams.</p>
+<p><a href="http://www.stallman.org">Richard Stallman</a> gave a talk at the UCSD CS department yesterday, and packed the auditorium despite just one email announcement the afternoon before. There were some people I recognized from SDSC, plenty of students and faculty, and even a bunch of people from the nearby tech companies. His talk was about his philosophy of Free Software, which you can read more about <a href="http://www.gnu.org/philosophy/">here</a> &ndash; I went to the talk to see him in person, even though I was pretty sure I&rsquo;d heard most of what he had to say on the topic already, from his writing on the web and his biography, <a href="http://www.oreilly.com/openbook/freedom/">&ldquo;Free as in Freedom&rdquo;</a>, by Sam Williams.</p>
 
-<p>As I expected, there wasn&#8217;t much new (for me) about his main points, but it was interesting to watch him make his argument very carefully,  proceeding logically, as if constructing a proof. He spoke for more than an hour, completely without notes and without pause. It was a great example that if you have a strong point to make and believe in your topic, bullet points are completely unnecessary.</p>
+<p>As I expected, there wasn&rsquo;t much new (for me) about his main points, but it was interesting to watch him make his argument very carefully,  proceeding logically, as if constructing a proof. He spoke for more than an hour, completely without notes and without pause. It was a great example that if you have a strong point to make and believe in your topic, bullet points are completely unnecessary.</p>
 
-<p>I was a little surprised that he was completely accepting of proprietary software if you never release it - in the Q&A; someone asked him about a situation where their company had internal software that was a competitive advantage, and about his opinion of the ethics of keeping that secret. He said that as long as there were no users of the software who don&#8217;t have the <a href="http://www.gnu.org/philosophy/free-sw.html">four freedoms</a>, there&#8217;s nothing wrong with it. If it only has one user, it&#8217;s free enough if that user never shares it.</p>
+<p>I was a little surprised that he was completely accepting of proprietary software if you never release it &ndash; in the Q&A; someone asked him about a situation where their company had internal software that was a competitive advantage, and about his opinion of the ethics of keeping that secret. He said that as long as there were no users of the software who don&rsquo;t have the <a href="http://www.gnu.org/philosophy/free-sw.html">four freedoms</a>, there&rsquo;s nothing wrong with it. If it only has one user, it&rsquo;s free enough if that user never shares it.</p>
 
-<p>He did allow that if there were some custom software that would be very useful and important to society, he might argue it&#8217;d be unethical to not release it, but said that was a separate issue.</p>
+<p>He did allow that if there were some custom software that would be very useful and important to society, he might argue it&rsquo;d be unethical to not release it, but said that was a separate issue.</p>
 
-<p>His entire crusade is about the freedom of &#8220;your computing&#8221;. I noted that he made a pretty fine distinction about what <em>your</em> computing was. Someone asked him about &#8220;apps running on the web&#8221;. He pounced on that phrasing, describing it as &#8220;a confusion&#8221;, pointing out that the software&#8217;s running on someone&#8217;s server. He then defined the computing that&#8217;s being done when you visit a web site as &#8220;their computing&#8221;, and said it&#8217;s as free as it needs to be, at least as long as it&#8217;s not your data - so, for example, all Google software is free enough by his definition - but he recommends against using GMail because you don&#8217;t have control over your data, and it&#8217;s more your computing at that point (but it&#8217;s a separate issue from the software&#8217;s freedom).</p>
+<p>His entire crusade is about the freedom of &ldquo;your computing&rdquo;. I noted that he made a pretty fine distinction about what <em>your</em> computing was. Someone asked him about &ldquo;apps running on the web&rdquo;. He pounced on that phrasing, describing it as &ldquo;a confusion&rdquo;, pointing out that the software&rsquo;s running on someone&rsquo;s server. He then defined the computing that&rsquo;s being done when you visit a web site as &ldquo;their computing&rdquo;, and said it&rsquo;s as free as it needs to be, at least as long as it&rsquo;s not your data &ndash; so, for example, all Google software is free enough by his definition &ndash; but he recommends against using GMail because you don&rsquo;t have control over your data, and it&rsquo;s more your computing at that point (but it&rsquo;s a separate issue from the software&rsquo;s freedom).</p>
 
-<p>An interesting talk. If you&#8217;re interested in the history of computing, and especially in the ethical issues of software, I&#8217;d suggest reading some of his essays. Even if you don&#8217;t entirely agree with its philosophy, it&#8217;s important to know about the social movement behind the software that runs the web, and most likely runs parts of your personal computing.</p>
+<p>An interesting talk. If you&rsquo;re interested in the history of computing, and especially in the ethical issues of software, I&rsquo;d suggest reading some of his essays. Even if you don&rsquo;t entirely agree with its philosophy, it&rsquo;s important to know about the social movement behind the software that runs the web, and most likely runs parts of your personal computing.</p>
 </div>
   
   
@@ -470,9 +420,9 @@
 
   <div class="entry-content"><p>A nice writeup of using BibDesk with Subversion:</p>
 
-<p><a href="http://weblog.terrellrussell.com/2007/02/bibdesk-bibtex-and-subversion-an-academics-necessity/">BibDesk, BibTeX and Subversion - An academic&#8217;s necessity</a>:</p>
+<p><a href="http://weblog.terrellrussell.com/2007/02/bibdesk-bibtex-and-subversion-an-academics-necessity/">BibDesk, BibTeX and Subversion &ndash; An academic&rsquo;s necessity</a>:</p>
 
-<blockquote><p>I decided I&#8217;d choose based on 1) open formats, 2) documentation, and an 3) open development model (open source). After looking through RefWorks, vanilla BibTeX files, ProCite, EndNote, Reference Manager (the application) and BibDesk, I chose BibDesk.</p></blockquote>
+<blockquote><p>I decided I&rsquo;d choose based on 1) open formats, 2) documentation, and an 3) open development model (open source). After looking through RefWorks, vanilla BibTeX files, ProCite, EndNote, Reference Manager (the application) and BibDesk, I chose BibDesk.</p></blockquote>
 </div>
   
   
@@ -548,11 +498,51 @@
   </header>
 
 
-  <div class="entry-content"><p>If you use <a href="http://bibdesk.sourceforge.net/">BibDesk</a>, I want to hear how you use it - what features you use most, and how you have it set up.</p>
+  <div class="entry-content"><p>If you use <a href="http://bibdesk.sourceforge.net/">BibDesk</a>, I want to hear how you use it &ndash; what features you use most, and how you have it set up.</p>
 
-<p>I&#8217;ve added a page to the BibDesk wiki to share <a href="http://bibdesk.sourceforge.net/wiki/index.php/User_Screenshots">User Screenshots</a> - add a section there about what you do with BibDesk, and share your experiences. I added my own thoughts already, to get things started.</p>
+<p>I&rsquo;ve added a page to the BibDesk wiki to share <a href="http://bibdesk.sourceforge.net/wiki/index.php/User_Screenshots">User Screenshots</a> &ndash; add a section there about what you do with BibDesk, and share your experiences. I added my own thoughts already, to get things started.</p>
 
-<p>(Note, image uploading on the wiki is broken right now, I&#8217;ll fix it as soon as I can and update this post. Please add text anyway!)</p>
+<p>(Note, image uploading on the wiki is broken right now, I&rsquo;ll fix it as soon as I can and update this post. Please add text anyway!)</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/2007/02/red-sweaters-marsedit/">Red Sweater&#8217;s MarsEdit</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-02-22T02:21:33-08:00" pubdate data-updated="true">Feb 22<span>nd</span>, 2007</time>
+        
+         | <a href="/2007/02/red-sweaters-marsedit/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Daniel Jalkut&rsquo;s Red Sweater <a href="http://www.red-sweater.com/blog/282/red-sweater-acquires-marsedit">acquires MarsEdit</a>. Congratulations, Daniel, and good luck!</p>
+
+<p>I think this is great news for MarsEdit users. I&rsquo;m looking forward to seeing what he does with it.</p>
 </div>
   
   
@@ -581,44 +571,27 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/2013/04/links/">Links</a>
+        <a href="/2013/09/flashing-ubuntu-touch-from-osx/">Flashing a Nexus Device With Ubuntu Touch From Mac OS X</a>
       </li>
     
       <li class="post">
-        <a href="/2013/02/mock-nested-properties-with-python-mock/">Mock nested properties with python-mock</a>
+        <a href="/2013/04/links/">Links - Simulation, Programming, Crab Cakes and Hockey Player Usage Charts</a>
       </li>
     
       <li class="post">
-        <a href="/2013/02/dont-snooze/">Don&#8217;t Snooze</a>
+        <a href="/2013/02/mock-nested-properties-with-python-mock/">Mock Nested Properties With Python-mock</a>
       </li>
     
       <li class="post">
-        <a href="/2012/12/mac-irc-clients/">Mac IRC clients</a>
+        <a href="/2012/12/mac-irc-clients/">Mac IRC Clients</a>
       </li>
     
       <li class="post">
-        <a href="/2012/11/pyobjc-and-twisted/">PyObjC and Twisted</a>
+        <a href="/2012/10/selected-links/">More Out of Date Links</a>
       </li>
     
   </ul>
 </section>
-
-<section>
-  <h1>Latest Tweets</h1>
-  <ul id="tweets">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  <script type="text/javascript">
-    $.domReady(function(){
-      getTwitterFeed("mikemccracken", 0, true);
-    });
-  </script>
-  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
-  
-    <a href="http://twitter.com/mikemccracken" class="twitter-follow-button" data-show-count="false">Follow @mikemccracken</a>
-  
-</section>
-
 
 
   
@@ -658,7 +631,7 @@
       var twitterWidgets = document.createElement('script');
       twitterWidgets.type = 'text/javascript';
       twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
       document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
     })();
   </script>

@@ -18,13 +18,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://michael-mccracken.net/2008/08/go-juggle-an-attention-callback/">
+  <link rel="canonical" href="http://michael-mccracken.net/2008/08/go-juggle-an-attention-callback">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="/javascripts/ender.js"></script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <link href="/atom.xml" rel="alternate" title="michael-mccracken.net" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <!-- <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css"> -->
 <!-- <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css"> -->
@@ -108,17 +109,17 @@
 
 <div class="entry-content"><p>Sometimes progress on a project for me consists of a few short bursts of activity in between stretches of waiting for some long-running thing to complete so I can figure out what I need to do with it next.</p>
 
-<p>Because I always have more than one project going, I don&#8217;t actually wait much. I just switch workspaces and try to make progress on the next thing. If I can&#8217;t make progress on anything immediate, I&#8217;ll end up checking email or looking up something for a side project.</p>
+<p>Because I always have more than one project going, I don&rsquo;t actually wait much. I just switch workspaces and try to make progress on the next thing. If I can&rsquo;t make progress on anything immediate, I&rsquo;ll end up checking email or looking up something for a side project.</p>
 
 <p>This kind of multitasking is inefficient, but inevitable when I might have to wait for 20 minutes or more for a compute job or a compile to finish.</p>
 
-<p>The problem with this approach is that the things I&#8217;m waiting for often finish while I&#8217;m off doing something else, and if I get too involved, the low-priority research or emails will eat up my day while the high-priority work sits waiting for me.</p>
+<p>The problem with this approach is that the things I&rsquo;m waiting for often finish while I&rsquo;m off doing something else, and if I get too involved, the low-priority research or emails will eat up my day while the high-priority work sits waiting for me.</p>
 
-<p>I&#8217;ve attacked this problem in the past when using OS X with <a href="gr">growl</a>, but I can&#8217;t call growlnotify from remote systems. However, I just found <a href="dzen">dzen</a> for X Windows, a lightweight notification display utility that compiles easily on every system I&#8217;ve tried, and works remotely with ssh X forwarding.</p>
+<p>I&rsquo;ve attacked this problem in the past when using OS X with <a href="gr">growl</a>, but I can&rsquo;t call growlnotify from remote systems. However, I just found <a href="dzen">dzen</a> for X Windows, a lightweight notification display utility that compiles easily on every system I&rsquo;ve tried, and works remotely with ssh X forwarding.</p>
 
-<p>I wrote a simple script called <code>go</code>, which just executes its arguments and runs <code>dzen</code> when it&#8217;s done. Now I type (for example) <code>go make</code> and I can switch over to something else, confident that I&#8217;ll see a big popup window letting me know when I can get back to working on my highest priority project.</p>
+<p>I wrote a simple script called <code>go</code>, which just executes its arguments and runs <code>dzen</code> when it&rsquo;s done. Now I type (for example) <code>go make</code> and I can switch over to something else, confident that I&rsquo;ll see a big popup window letting me know when I can get back to working on my highest priority project.</p>
 
-<p>Here&#8217;s basically the entire <code>go</code> script:</p>
+<p>Here&rsquo;s basically the entire <code>go</code> script:</p>
 
 <pre><code>#!/bin/ksh
 echo $@
@@ -127,10 +128,10 @@ echo $@ completed on `hostname` \
  | dzen2 -p -h 64 -bg darkblue
 </code></pre>
 
-<p>It&#8217;s simple but it&#8217;s working great for me. I&#8217;ve tried some improvements like randomizing window placement to avoid overlapping notifications, but the simple version above really does all I need.</p>
+<p>It&rsquo;s simple but it&rsquo;s working great for me. I&rsquo;ve tried some improvements like randomizing window placement to avoid overlapping notifications, but the simple version above really does all I need.</p>
 
-<p>Finally, a couple of details. zsh always seems to want to spell-check &#8216;go&#8217;, so I really named it &#8216;~/bin/executeAndNotify.sh&#8217; and just aliased &#8216;go&#8217; to that.
-Also, I&#8217;ve found it can mess with shell quoting as is, so sometimes I have to do <code>'somecommand ; go echo done'</code>. If someone has a tip on getting the quoting right in the script, I&#8217;d love to hear it. The problem crops up when you try something like &#8216;go make CC=&#8221;cc -g&#8221;&#8217; - the quotes don&#8217;t make it through.</p>
+<p>Finally, a couple of details. zsh always seems to want to spell-check &lsquo;go&rsquo;, so I really named it &lsquo;~/bin/executeAndNotify.sh&rsquo; and just aliased &lsquo;go&rsquo; to that.
+Also, I&rsquo;ve found it can mess with shell quoting as is, so sometimes I have to do <code>'somecommand ; go echo done'</code>. If someone has a tip on getting the quoting right in the script, I&rsquo;d love to hear it. The problem crops up when you try something like &lsquo;go make CC=&ldquo;cc -g&rdquo;&rsquo; &ndash; the quotes don&rsquo;t make it through.</p>
 </div>
 
 
@@ -167,8 +168,6 @@ Also, I&#8217;ve found it can mess with shell quoting as is, so sometimes I have
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://michael-mccracken.net/2008/08/go-juggle-an-attention-callback/" data-via="mikemccracken" data-counturl="http://michael-mccracken.net/2008/08/go-juggle-an-attention-callback/" >Tweet</a>
-  
   
   
 </div>
@@ -204,44 +203,27 @@ Also, I&#8217;ve found it can mess with shell quoting as is, so sometimes I have
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/2013/04/links/">Links</a>
+        <a href="/2013/09/flashing-ubuntu-touch-from-osx/">Flashing a Nexus Device With Ubuntu Touch From Mac OS X</a>
       </li>
     
       <li class="post">
-        <a href="/2013/02/mock-nested-properties-with-python-mock/">Mock nested properties with python-mock</a>
+        <a href="/2013/04/links/">Links - Simulation, Programming, Crab Cakes and Hockey Player Usage Charts</a>
       </li>
     
       <li class="post">
-        <a href="/2013/02/dont-snooze/">Don't Snooze</a>
+        <a href="/2013/02/mock-nested-properties-with-python-mock/">Mock Nested Properties With Python-mock</a>
       </li>
     
       <li class="post">
-        <a href="/2012/12/mac-irc-clients/">Mac IRC clients</a>
+        <a href="/2012/12/mac-irc-clients/">Mac IRC Clients</a>
       </li>
     
       <li class="post">
-        <a href="/2012/11/pyobjc-and-twisted/">PyObjC and Twisted</a>
+        <a href="/2012/10/selected-links/">More Out of Date Links</a>
       </li>
     
   </ul>
 </section>
-
-<section>
-  <h1>Latest Tweets</h1>
-  <ul id="tweets">
-    <li class="loading">Status updating...</li>
-  </ul>
-  <script type="text/javascript">
-    $.domReady(function(){
-      getTwitterFeed("mikemccracken", 0, true);
-    });
-  </script>
-  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
-  
-    <a href="http://twitter.com/mikemccracken" class="twitter-follow-button" data-show-count="false">Follow @mikemccracken</a>
-  
-</section>
-
 
 
   
@@ -285,7 +267,7 @@ Also, I&#8217;ve found it can mess with shell quoting as is, so sometimes I have
       var twitterWidgets = document.createElement('script');
       twitterWidgets.type = 'text/javascript';
       twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
       document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
     })();
   </script>

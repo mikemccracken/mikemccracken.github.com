@@ -4,7 +4,7 @@
   <title><![CDATA[Category: interfaces | michael-mccracken.net]]></title>
   <link href="http://michael-mccracken.net/blog/categories/interfaces/atom.xml" rel="self"/>
   <link href="http://michael-mccracken.net/"/>
-  <updated>2013-04-10T08:54:28-07:00</updated>
+  <updated>2013-09-12T12:34:42-07:00</updated>
   <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
@@ -19,11 +19,11 @@
     <updated>2011-03-04T04:16:07-08:00</updated>
     <id>http://michael-mccracken.net/2011/03/overlay-scrollbars-canonical-design</id>
     <content type="html"><![CDATA[<p>From the always-interesting Canonical Design blog:
-<a href="http://design.canonical.com/2011/03/introducing-overlay-scrollbars-in-unity/">Introducing Overlay Scrollbars in Unity</a>. (Who wouldn't love to see an Apple Design blog? It's fun to follow along as some serious, talented people rethink stuff we use everyday…)</p>
+<a href="http://design.canonical.com/2011/03/introducing-overlay-scrollbars-in-unity/">Introducing Overlay Scrollbars in Unity</a>. (Who wouldn&rsquo;t love to see an Apple Design blog? It&rsquo;s fun to follow along as some serious, talented people rethink stuff we use everyday…)</p>
 
-<p>Take a look at the video - and stick with it all the way through. At first I didn't like it but now I'm a fan. I like that they've expanded usable screen real estate by getting rid of the everpresent thumb, but kept a subtle visual indicator that there's more content - there's a small ~2px bar that scales like current thumbs do.</p>
+<p>Take a look at the video &ndash; and stick with it all the way through. At first I didn&rsquo;t like it but now I&rsquo;m a fan. I like that they&rsquo;ve expanded usable screen real estate by getting rid of the everpresent thumb, but kept a subtle visual indicator that there&rsquo;s more content &ndash; there&rsquo;s a small ~2px bar that scales like current thumbs do.</p>
 
-<p>My only concern would be that the little mini-thumb is too small and it will sometimes not be obvious that you can scroll. I think this happens on iOS, too - maybe it's not such a big deal.</p>
+<p>My only concern would be that the little mini-thumb is too small and it will sometimes not be obvious that you can scroll. I think this happens on iOS, too &ndash; maybe it&rsquo;s not such a big deal.</p>
 ]]></content>
   </entry>
   

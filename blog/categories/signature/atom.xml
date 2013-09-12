@@ -4,7 +4,7 @@
   <title><![CDATA[Category: signature | michael-mccracken.net]]></title>
   <link href="http://michael-mccracken.net/blog/categories/signature/atom.xml" rel="self"/>
   <link href="http://michael-mccracken.net/"/>
-  <updated>2013-04-10T08:54:28-07:00</updated>
+  <updated>2013-09-12T12:34:42-07:00</updated>
   <id>http://michael-mccracken.net/</id>
   <author>
     <name><![CDATA[Michael McCracken]]></name>
@@ -20,25 +20,25 @@
     <id>http://michael-mccracken.net/2012/10/selected-links</id>
     <content type="html"><![CDATA[<ul>
 <li><a href="http://hammerprinciple.com/therighttool">Programming Languages · Hammer Principle</a>
-  Very interesting survey site to answer the question "what language is right for what task?"</li>
+  Very interesting survey site to answer the question &ldquo;what language is right for what task?&rdquo;</li>
 <li><a href="http://james-iry.blogspot.co.uk/2010/05/types-la-chart.html">One Div Zero: Types à la Chart</a>
   A chart of languages according to type power/safety. Seems reasonable. Made me curious about the ones in the top right.</li>
 <li><a href="https://github.com/philsquared/Catch/wiki">Home · philsquared/Catch Wiki</a>
   C++ unit testing framework, all in headers, looks nice.</li>
-<li><a href="http://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html">ferd.ca -> An Open Letter to the Erlang Beginner (or Onlooker)</a>
+<li><a href="http://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html">ferd.ca &ndash;> An Open Letter to the Erlang Beginner (or Onlooker)</a>
   Interesting, balanced article about what makes erlang nice.</li>
-<li><p><a href="http://worrydream.com/oatmeal/blind.html">"Research is a blind date with knowledge." worrydream.com/oatmeal/blind.…</a></p></li>
+<li><p><a href="http://worrydream.com/oatmeal/blind.html">&ldquo;Research is a blind date with knowledge.&rdquo; worrydream.com/oatmeal/blind.…</a></p></li>
 <li><p><a href="http://mail.python.org/pipermail/pypy-dev/2012-October/010602.html">Splitting RPython (the language) and PyPy (a python interpreter) plan: mail.python.org/pipermail/pypy…</a>
   Sounds interesting. I wonder if RPython will grow in popularity separately.</p></li>
 <li><p><a href="http://saltandfat.com/post/33437971658">Double-corn tortillas</a>
-  I'd love to try this sometime.</p></li>
+  I&rsquo;d love to try this sometime.</p></li>
 <li><p><a href="https://github.com/clips/pattern">clips/pattern · GitHub</a>
   Web-mining in python. Lots of functionality here, BSD license.</p></li>
 <li><p><a href="http://www.brainpickings.org/index.php/2012/06/12/the-art-of-coffee-1961/">The Art of Coffee: A Mad Men Era Short Film | Brain Pickings</a>
-  I loved "This is Coffee!". 12 minute promotional short film from 1961 about coffee. It's wonderful to imagine the worn old mugs of my grandparents' generation new again, filled with something better than the electric-percolated canned junk I know they drank. Also great to see the Chemex in there, exactly the same as I use it today.</p></li>
+  I loved &ldquo;This is Coffee!&rdquo;. 12 minute promotional short film from 1961 about coffee. It&rsquo;s wonderful to imagine the worn old mugs of my grandparents' generation new again, filled with something better than the electric-percolated canned junk I know they drank. Also great to see the Chemex in there, exactly the same as I use it today.</p></li>
 <li><a href="http://worrydream.com/LearnableProgramming/">Learnable Programming</a>
   Very clear and well-argued essay about how to make a more-understandable programming environment. I agreed with everything, and was left wondering how to apply this line of thought to more complex software. (Everyone has seen this by the time I post this list.)</li>
-<li><a href="http://robrohan.com/2009/09/14/objc-signaturevo/">@objc.signature(‘v@:@@o<sup>@’)</sup> | Times New Rohan</a>
+<li><a href="http://robrohan.com/2009/09/14/objc-signaturevo/">@objc.signature(‘v@:@@o^@’) | Times New Rohan</a>
   List of objc.signature codes</li>
 </ul>
 

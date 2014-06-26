@@ -4,7 +4,7 @@
 .. slug: ivanka-majic-on-working-in-open-source
 .. link:
 .. description:
-.. tags: open source
+.. tags: open-source
 -->
 
 

@@ -4,7 +4,7 @@
 .. slug: links
 .. link:
 .. description:
-.. tags: haskell programming template-haskellhaskell GHC extensions programminghaskell template-haskell yesod designjavascript html presentations slideshttp testing tools webarchitecture scalability webdeslide slideshowhaskell programming functional-programming types dependent-typesimap email
+.. tags: haskell, programming, template-haskell, GHC extensions, programming, template-haskell, yesod, javascript, html, presentations, slides, testing, tools, webarchitecture, scalability, deslide, slideshow, programming, functional-programming, types, dependent-types, imap, email
 -->
 
 

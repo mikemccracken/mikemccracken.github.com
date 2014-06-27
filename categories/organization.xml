@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>michael-mccracken.net (organization)</title><link>http://michael-mccracken.net/</link><description></description><language>en</language><lastBuildDate>Fri, 27 Jun 2014 09:12:37 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Links for July 6th</title><link>http://michael-mccracken.net/posts/2011/07/links-for-july-6th.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;My shared links for July 6th:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.nature.com/news/2010/101013/full/467775a.html"&gt;Computational science: ...Error : Nature News&lt;/a&gt; - "…why scientific programming does not compute."&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I too have worked with large codebases from non-programmers. It can be difficult to tell a brilliant physicist that programming well is hard. After QED, nothing seems hard.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://attachments.me/"&gt;Attachments.me&lt;/a&gt; - A nice interface to searching your email, with a focus on attachments. But they're not a hosting provider , so it is not immediately clear what's stopping your email provider (say gmail) from adding this and wiping out the business?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://waffle.wootest.net/2011/07/06/perturbingly/"&gt;waffle -&amp;gt; Perturbingly&lt;/a&gt; - Jesper reading the tea leaves on Growl dropping features to get into the mac app store.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>email</category><category>links</category><category>organization</category><category>pinboard-links</category><category>programming</category><category>research</category><category>science</category><category>search</category><guid>http://michael-mccracken.net/posts/2011/07/links-for-july-6th.html</guid><pubDate>Thu, 07 Jul 2011 17:28:00 GMT</pubDate></item><item><title>New Release of EagleFiler</title><link>http://michael-mccracken.net/posts/2009/07/new-release-of-eaglefiler.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;From &lt;a href="http://c-command.com/blog/2009/07/28/eaglefiler-147/"&gt;C-Command Blog -  EagleFiler 1.4.7&lt;/a&gt;: a bunch of nice refinements.&lt;/p&gt;
+&lt;p&gt;I use EagleFiler to keep track of reference documents that I get in emails. Presentations, reports, etc - the kind of thing that would usually just get stored in the mail archive. Because I want a complete mail archive &lt;em&gt;and&lt;/em&gt; a fast way to get to the important stuff, I keep the important stuff in EagleFiler so I can add tags and searches don't get a lot of false hits.&lt;/p&gt;</description><category>mac</category><category>mail</category><category>organization</category><category>productivity</category><guid>http://michael-mccracken.net/posts/2009/07/new-release-of-eaglefiler.html</guid><pubDate>Tue, 28 Jul 2009 18:22:00 GMT</pubDate></item></channel></rss>

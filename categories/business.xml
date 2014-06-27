@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>michael-mccracken.net (business)</title><link>http://michael-mccracken.net/</link><description></description><language>en</language><lastBuildDate>Fri, 27 Jun 2014 09:12:41 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Links: Hacking, Music in Python, Rust &amp; unitasking</title><link>http://michael-mccracken.net/posts/2012/04/links-hacking-music-in-python-rust-unitaskimg.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;My shared links for April 5th through April 6th:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://lemire.me/blog/archives/2011/06/06/why-i-still-program/"&gt;Why I still program&lt;/a&gt; - "I believe that the rejection of programming as a lower activity can be explained by the Theory of the leisure class. In effect, we do not seek utility but prestige. There is no prestige in tool-making, cooking or farming. To maximize your prestige, you must rise up to the leisure class: you work must not be immediately useful."&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://lemire.me/blog/archives/2012/03/20/from-counting-citations-to-measuring-usage-help-needed/"&gt;From counting citations to measuring usage (help needed!)&lt;/a&gt; - Building a Better Citation Index&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://mailplaneapp.com/blog/entry/workhacks.com_top_3_gmail_management_apps_for_mac"&gt;workhacks.com: Top 3 Gmail Management Apps for Mac - Mailplane Blog&lt;/a&gt; - includes a list of gmail plugins that look useful&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://prezjordan.github.com/Melopy/"&gt;Melopy&lt;/a&gt; - 
+&lt;code&gt;  &lt;br&gt;
+    """
+    &amp;gt;&amp;gt;&amp;gt; from melopy import Melopy
+    &amp;gt;&amp;gt;&amp;gt; m = Melopy('mysong')
+    &amp;gt;&amp;gt;&amp;gt; m.add_quarter_note('A4')
+    &amp;gt;&amp;gt;&amp;gt; m.add_quarter_note('C#5')
+    &amp;gt;&amp;gt;&amp;gt; m.add_quarter_note('E5')
+    &amp;gt;&amp;gt;&amp;gt; m.render()
+    [==================================================] 100%
+    Done
+    """
+&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://doc.rust-lang.org/doc/tutorial.html#expression-syntax"&gt;Rust Language Tutorial: Expression Syntax&lt;/a&gt; - Starts out good, but the "leave out a semicolon to return a value" leaves a bad taste. Why overload semicolons like that? Why not just use 'ret'?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.deliberatism.com/blog/forget-self-improvement/"&gt;Forget Self-Improvement&lt;/a&gt; - &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://blogs.hbr.org/schwartz/2012/03/the-magic-of-doing-one-thing-a.html"&gt;The Magic of Doing One Thing at a Time - Tony Schwartz - Harvard Business Review&lt;/a&gt; - A few good points on avoiding multitasking burnout. Nothing too new, but maybe if people keep repeating it in places like HBR, then it'll start to become conventional business wisdom?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>business</category><category>citation</category><category>email</category><category>gmail</category><category>impact</category><category>libraries</category><category>links</category><category>machine-learning</category><category>mikechecksmail</category><category>multitasking</category><category>music</category><category>pinboard-links</category><category>productivity</category><category>programming</category><category>publication</category><category>python</category><category>ranking</category><category>research</category><category>rust</category><guid>http://michael-mccracken.net/posts/2012/04/links-hacking-music-in-python-rust-unitaskimg.html</guid><pubDate>Wed, 11 Apr 2012 23:15:00 GMT</pubDate></item><item><title>Links for August 12th through August 16th</title><link>http://michael-mccracken.net/posts/2011/08/links-for-august-12th-through-august-16th.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;My shared links for August 12th through August 16th:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://letoverlambda.com/index.cl/toc"&gt;Let Over Lambda&lt;/a&gt; - &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://fexpr.blogspot.com/2011/04/fexpr.html"&gt;Structural insight: Fexpr&lt;/a&gt; - &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://blog.businessofsoftware.org/2011/08/derek-sivers-at-business-of-software-2010-video-and-transcript-of-talk.html"&gt;Derek Sivers at Business of Software 2010. Video and transcript of talk - Business of Software Blog&lt;/a&gt; - &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://expertlabs.org/2011/08/expert-labs-recommendations-for-open-gov.html"&gt;A More Social Open Government - Expert Labs&lt;/a&gt; - &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.cocos2d-iphone.org/about"&gt;About | cocos2d for iPhone&lt;/a&gt; - &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://blog.gaborcselle.com/2010/02/how-to-replace-imap.html"&gt;Gabor hits Send: How to Replace IMAP&lt;/a&gt; - &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>Cite:rentzsch</category><category>business</category><category>ebook</category><category>entrepreneurship</category><category>links</category><category>lisp</category><category>pinboard-links</category><category>programming</category><guid>http://michael-mccracken.net/posts/2011/08/links-for-august-12th-through-august-16th.html</guid><pubDate>Mon, 22 Aug 2011 18:45:00 GMT</pubDate></item><item><title>I was listening to the [Core Intuition](...</title><link>http://michael-mccracken.net/posts/2009/07/i-was-listening-to-the-core-intuition.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;I was listening to the &lt;a href="http://www.coreint.org/"&gt;Core Intuition&lt;/a&gt; podcast on dog walks for a while, and I sent in a question they covered in &lt;a href="http://www.coreint.org/2009/05/episode-17-why-should-i-buy-this/"&gt;Episode 17&lt;/a&gt; (hi guys - better late than never).&lt;/p&gt;
+&lt;p&gt;Since I'm in research, I think about future trends and what things are going to be like 5, or 10 years out. It's fun, but it made me wonder when I listen to these indie dev guys - do they have a plan? What if web apps and Chrome OS take over everything (they won't) or everything has to be seamlessly synced with some "cloud" (it will)? How will their apps and businesses react?&lt;/p&gt;
+&lt;p&gt;In answering, Daniel and Manton made a great point that's a real positive for small, low-investment indie development - if the ground moves, they can pretty easily just stop what they're doing and retool. Changing feature plans is fast, starting a new app project is fast. Projects can be dropped without laying off a bunch of people.&lt;/p&gt;
+&lt;p&gt;It was a real lesson in the agility of indie development. Now if only they'd post another podcast, and Austin would cool off enough for me to walk the dog for longer than a few minutes…&lt;/p&gt;</description><category>business</category><category>coreintuition</category><category>indie</category><guid>http://michael-mccracken.net/posts/2009/07/i-was-listening-to-the-core-intuition.html</guid><pubDate>Tue, 14 Jul 2009 03:15:00 GMT</pubDate></item></channel></rss>

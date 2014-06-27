@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>michael-mccracken.net (statistics)</title><link>http://michael-mccracken.net/</link><description></description><language>en</language><lastBuildDate>Fri, 27 Jun 2014 09:12:39 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Links: Haskell, Music OCD Tools, Terrorism, Probability for Ranking things</title><link>http://michael-mccracken.net/posts/2012/04/links-haskell-music-ocd-tools-terrorism-probability-for-ranking-things.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;My shared links for March 30th through April 3rd:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://magicmaps.evanmiller.org/"&gt;Magic Maps: Now You See It.&lt;/a&gt; - Very cool app for working with maps and time series data&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://evanmiller.org/how-not-to-sort-by-average-rating.html"&gt;How Not To Sort By Average Rating&lt;/a&gt; - Shows the best way to sort by positive/negative rankings that is robust to small sample sizes&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://m.foreignaffairs.com/articles/66186/john-mueller-and-mark-g-stewart/hardly-existential"&gt;terrorism hardly existential threat. 2010&lt;/a&gt; - &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://mailplaneapp.com/blog/entry/workhacks.com_top_3_gmail_management_apps_for_mac/#When:12:06:06Z"&gt;workhacks.com: Top 3 Gmail Management Apps for Mac&lt;/a&gt; includes a list of gmail plugins that look useful &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.yesodweb.com/"&gt;Yesod Web Framework for Haskell&lt;/a&gt; - &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://beets.radbox.org/"&gt;beets: the music geek's media organizer&lt;/a&gt; - The purpose of beets is to get your music collection right once and for all. It catalogs your collection, automatically improving its metadata as it goes using the MusicBrainz database. (It also downloads cover art for albums it imports.) Then it provides a bouquet of tools for manipulating and accessing your music.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Because beets is designed as a library, it can do almost anything you can imagine for your music collection. Via plugins, beets becomes a panacea:&lt;/p&gt;
+&lt;p&gt;Embed and extract album art from files' tags.
+Listen to your library with a music player that speaks the MPD protocol and works with a staggering variety of interfaces.
+Fetch lyrics for all your songs from databases on the Web.
+Manage your MusicBrainz music collection.
+Analyze music files' metadata from the command line.
+Clean up crufty tags left behind by other, less-awesome tools.
+Browse your music library graphically through a Web browser and play it in any browser that supports HTML5 Audio.&lt;/p&gt;</description><category>apps</category><category>framework</category><category>gmail</category><category>haskell</category><category>links</category><category>maps</category><category>music</category><category>ocd</category><category>pinboard-links</category><category>plugins</category><category>policy</category><category>programming</category><category>ranking</category><category>score</category><category>statistics</category><category>tagging</category><category>terrorism</category><category>web</category><guid>http://michael-mccracken.net/posts/2012/04/links-haskell-music-ocd-tools-terrorism-probability-for-ranking-things.html</guid><pubDate>Fri, 06 Apr 2012 23:16:00 GMT</pubDate></item><item><title>Links: Structure editing, Unix History, OSS Legal Issues Primer</title><link>http://michael-mccracken.net/posts/2012/03/links-structure-editing-unix-history-oss-legal-issues-primer.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;My shared links for February 27th through March 1st:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://news.ycombinator.com/item?id=3649518"&gt;Pretty Lisp | Hacker News&lt;/a&gt; I don't like this. Great comment thread though - lots of people agree with me. I think maybe enthusiasm for structure editors is a sign of youthful optimism and inexperience.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://interviews.slashdot.org/story/04/10/18/1153211/rob-pike-responds"&gt;2004 Rob Pike Q&amp;amp;A Interview - Slashdot&lt;/a&gt; - "(And speaking of Doug, he's the unsung hero of Unix. He was manager of the group that produced it and a huge creative force in the group, but he's almost unknown in the Unix community. He invented a couple of things you might have heard of: pipes and - get this - macros. Well, someone had to do it and that someone was Doug. As Ken once said when we were talking one day in the Unix room, "There's no one smarter than Doug.") 
+"&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://news.ycombinator.com/item?id=3638045"&gt;How To Build a Naive Bayes Classifier | Hacker News&lt;/a&gt; - Useful comment thread about building naive bayes classifiers&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.softwarefreedom.org/resources/2008/foss-primer.html#x1-130002.5"&gt;A Legal Issues Primer for Open Source and Free Software Projects - Software Freedom Law Center&lt;/a&gt; - &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>bayes</category><category>bell-labs</category><category>foss</category><category>javascript</category><category>legal</category><category>links</category><category>open-source</category><category>parsing</category><category>pinboard-links</category><category>pratt</category><category>probability</category><category>programming</category><category>statistics</category><category>unix</category><guid>http://michael-mccracken.net/posts/2012/03/links-structure-editing-unix-history-oss-legal-issues-primer.html</guid><pubDate>Thu, 01 Mar 2012 20:53:00 GMT</pubDate></item></channel></rss>

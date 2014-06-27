@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>michael-mccracken.net (Buxton)</title><link>http://michael-mccracken.net/</link><description></description><language>en</language><lastBuildDate>Fri, 27 Jun 2014 09:12:38 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Links for July 19th through July 22nd</title><link>http://michael-mccracken.net/posts/2011/07/links-for-july-19th-through-july-22nd.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;My shared links for July 19th through July 22nd:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://nerdsonwallstreet.com/artificial-intelligence-and-wall-street-trading-309/"&gt;Artificial Intelligence Applications | Securities Trading | Nerds on Wall Street | Computational Finance&lt;/a&gt; - &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://ihnatko.com/2011/07/22/making-desktop-webapps-in-lion/"&gt;Making Desktop Webapps in Lion - Andy Ihnatko's Celestial Waste of Bandwidth (BETA)&lt;/a&gt; - Site-specific browsing gets OS support. Just in time for the inspiration for my webmail.app (GMail) to get permanently tagged with a social network's notification wart.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://objectivistc.tumblr.com/post/7872364181/tagged-pointers-and-fast-pathed-cfnumber-integers-in"&gt;Objectivist-C - Tagged pointers and fast-pathed CFNumber integers in Lion&lt;/a&gt; - Neat little trick to reduce the impact of boxing/unboxing. I haven't written cocoa code in a long time, so I'm not really clear on how often this would apply. I thought there were a lot of places where the API just uses raw ints already?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://putthison.com/post/6286554010/we-got-it-for-free-randolph-engineering-ive"&gt;Put This On • We Got It for Free: Randolph Engineering I've...&lt;/a&gt; - I need new sunglasses, and I'm too old for plastic surfer shades. Wear those to a business lunch and you look like a chump. But aviators can make you look like some kind of fratbro, so what to do? I turn to Put This On.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://dashes.com/anil/2011/07/if-your-websites-full-of-assholes-its-your-fault.html"&gt;If your website's full of assholes, it's your fault - Anil Dash&lt;/a&gt; - A great post about applying what we've learned over human history to make communities work, to the web.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;After all, the web is just people.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://research.microsoft.com/en-us/um/people/bibuxton/buxtoncollection/"&gt;Buxton collection&lt;/a&gt; - a gallery of technology design&lt;/li&gt;
+&lt;/ul&gt;</description><category>Buxton</category><category>cocoa</category><category>community</category><category>culture</category><category>interaction</category><category>links</category><category>lion</category><category>macosx</category><category>museum</category><category>optimization</category><category>people</category><category>performance</category><category>pinboard-links</category><category>ssb</category><category>sunglasses</category><category>tagged-pointer</category><category>web</category><guid>http://michael-mccracken.net/posts/2011/07/links-for-july-19th-through-july-22nd.html</guid><pubDate>Wed, 27 Jul 2011 20:34:00 GMT</pubDate></item></channel></rss>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>michael-mccracken.net (testing)</title><link>http://michael-mccracken.net/</link><description></description><language>en</language><lastBuildDate>Fri, 27 Jun 2014 09:12:41 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>More out of date links</title><link>http://michael-mccracken.net/posts/2012/10/selected-links.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;li&gt;&lt;a href="http://hammerprinciple.com/therighttool"&gt;Programming Languages · Hammer Principle&lt;/a&gt;
+    Very interesting survey site to answer the question "what language is right for what task?"&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://james-iry.blogspot.co.uk/2010/05/types-la-chart.html"&gt;One Div Zero: Types à la Chart&lt;/a&gt;
+    A chart of languages according to type power/safety. Seems reasonable. Made me curious about the ones in the top right. &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/philsquared/Catch/wiki"&gt;Home · philsquared/Catch Wiki&lt;/a&gt;
+    C++ unit testing framework, all in headers, looks nice.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html"&gt;ferd.ca -&amp;gt; An Open Letter to the Erlang Beginner (or Onlooker)&lt;/a&gt;
+    Interesting, balanced article about what makes erlang nice. &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://worrydream.com/oatmeal/blind.html"&gt;"Research is a blind date with knowledge." worrydream.com/oatmeal/blind.…&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://mail.python.org/pipermail/pypy-dev/2012-October/010602.html"&gt;Splitting RPython (the language) and PyPy (a python interpreter) plan: mail.python.org/pipermail/pypy…&lt;/a&gt;
+    Sounds interesting. I wonder if RPython will grow in popularity separately.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://saltandfat.com/post/33437971658"&gt;Double-corn tortillas&lt;/a&gt;
+    I'd love to try this sometime.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/clips/pattern"&gt;clips/pattern · GitHub&lt;/a&gt;
+    Web-mining in python. Lots of functionality here, BSD license.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.brainpickings.org/index.php/2012/06/12/the-art-of-coffee-1961/"&gt;The Art of Coffee: A Mad Men Era Short Film | Brain Pickings&lt;/a&gt;
+    I loved "This is Coffee!". 12 minute promotional short film from 1961 about coffee. It's wonderful to imagine the worn old mugs of my grandparents' generation new again, filled with something better than the electric-percolated canned junk I know they drank. Also great to see the Chemex in there, exactly the same as I use it today.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://worrydream.com/LearnableProgramming/"&gt;Learnable Programming&lt;/a&gt;
+    Very clear and well-argued essay about how to make a more-understandable programming environment. I agreed with everything, and was left wondering how to apply this line of thought to more complex software. (Everyone has seen this by the time I post this list.)&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://robrohan.com/2009/09/14/objc-signaturevo/"&gt;@objc.signature(‘v@:@@o^@’) | Times New Rohan&lt;/a&gt;
+    List of objc.signature codes &lt;/li&gt;
+</description><category>1961</category><category>c-plus-plus</category><category>coffee</category><category>erlang</category><category>film</category><category>javascript</category><category>languages</category><category>learning</category><category>objc signature</category><category>patterns</category><category>programming</category><category>programming-languages</category><category>recipe</category><category>software</category><category>teaching</category><category>testing</category><category>tortilla</category><category>types</category><guid>http://michael-mccracken.net/posts/2012/10/selected-links.html</guid><pubDate>Thu, 25 Oct 2012 19:35:00 GMT</pubDate></item><item><title>Links</title><link>http://michael-mccracken.net/posts/2012/10/links.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;li&gt;
+&lt;p&gt;&lt;a href="http://stackoverflow.com/questions/10857030/whats-so-bad-about-template-haskell"&gt;What's so bad about Template Haskell? - Stack Overflow&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A bunch of good answers to why Template Haskell is occasionally maligned.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://stackoverflow.com/questions/10845179/which-haskell-ghc-extensions-should-users-use-avoid/10849782#10849782"&gt;Which Haskell (GHC) extensions should users use/avoid? - Stack Overflow&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Interesting list of aesthetic judgements of haskell extensions. At press time I don't know what most of these words mean.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.yesodweb.com/blog/2011/04/yesod-template-haskell"&gt;Yesod and Template Haskell&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Short post on why Yesod uses template haskell (which has a bad rep)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://imakewebthings.com/deck.js/"&gt;deck.js » Modern HTML Presentations&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Best "Write your presentations in HTML" thing I've seen yet, although I'm not sure how great it'd be at complex visuals or builds. Yes sometimes builds are good! &lt;em&gt;SOMETIMES&lt;/em&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://redbot.org/"&gt;REDbot&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;RED is a robot that checks HTTP resources to see how they'll behave, pointing out common problems and suggesting improvements. Although it is not a HTTP conformance tester, it can find a number of HTTP-related issues. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/visi-lang/visi"&gt;.@dpp’s Visi looks to be exactly the thing when Soulver isn’t enough and spreadsheets are rigid github.com/visi-lang/visi #emerginglangs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Should I look at this before posting a link? Nah... But I will look at it, eventually! It looks interesting, I love this kind of stuff - although as usual I wonder if this is something you can already get in Mathematica but no one knows because it's so expensive.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://highscalability.com/blog/2012/7/30/prismatic-architecture-using-machine-learning-on-social-netw.html"&gt;High Scalability - Prismatic Architecture - Using Machine Learning on Social Networks to Figure Out What You Should Read on the Web &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Probably interesting? I skimmed this, I'm not gonna lie, I don't remember much.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://deslide.clusterfake.net/"&gt;Deslidefied HTML&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Really useful bookmark to make slideshow news articles readable on one page. I am using it all the time!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://pragprog.com/magazines/2012-09/thinking-functionally-with-haskell"&gt;Thinking Functionally with Haskell&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;""In which we explore what modern type systems bring to the table. Imagine an approach to programming where you write down some description of what your code should do, then before running your code you run some automatic tool to see if the code matches the description. That’s Test-driven development, you say!  Actually, this is what you are doing when you use static types in most languages too. Types are a description of the code’s inputs and outputs, and the check ensures that inputs and outputs match up and are used consistently. Modern type systems—such as in Haskell or above—are very flexible, and allow these descriptions to be quite detailed; plus they are not too obtrusive in use and often very helpful.  One point I’ll investigate here is how advances in types are converging with new ideas on testing, to the point where (I claim) the old distinctions are starting to blur and starting to open up exciting new possibilities—hence my suggestion that we need a new word to describe what we’re doing that is free from preconceptions and out-dated thinking.  So put aside your bad experiences from Java, and prepare to be amazed! ""&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://feedproxy.google.com/~r/ezyang/~3/3Vb6-OhkZws/"&gt;So you want to hack on IMAP…&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;"Well, first off, you’re horribly misinformed: you do not actually want to hack on IMAP." (I agree, IMAP bad.)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://waxy.org/2008/06/the_machine_that_changed_the_world/"&gt;The Machine That Changed the World: Great Brains - Waxy.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Documentary about computing history:
+"It's a whirlwind tour of computing before the Web, with brilliant archival footage and interviews with key players — several of whom passed away since the filming. Jointly produced by WGBH Boston and the BBC, it originally aired in the UK as The Dream Machine before its U.S. premiere in January 1992. Its broadcast was accompanied by a book co-written by the documentary's producer Jon Palfreman."&lt;/p&gt;
+&lt;/li&gt;
+</description><category>GHC extensions</category><category>dependent-types</category><category>deslide</category><category>email</category><category>functional-programming</category><category>haskell</category><category>html</category><category>imap</category><category>javascript</category><category>presentations</category><category>programming</category><category>scalability</category><category>slides</category><category>slideshow</category><category>template-haskell</category><category>testing</category><category>tools</category><category>types</category><category>webarchitecture</category><category>yesod</category><guid>http://michael-mccracken.net/posts/2012/10/links.html</guid><pubDate>Mon, 08 Oct 2012 07:47:00 GMT</pubDate></item><item><title>A Testing Story</title><link>http://michael-mccracken.net/posts/2012/10/a-testing-story.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;Tests are great! This year I've started working on a codebase with a
+significant unit test suite for the first time in a while, and good
+coverage has definitely come in handy. Now I'm going to share a 
+story where a single test did double duty.&lt;/p&gt;
+&lt;p&gt;Our filesystem events listening daemon was crashing occasionally on my
+system, and I didn't know how to reproduce it. No one else seemed to
+be getting these crashes, either. The system was saving a backtrace,
+and it was always the same, but I wasn't sure I believed its line
+numbers. As a start, I made a guess at the lines that were really
+failing, and added a ton of debug dumps to inspect the state. (Since
+this daemon is run as root using launchd, it's still easiest to just
+use the old printf-n'-stare debug method.)&lt;/p&gt;
+&lt;p&gt;Then I tried a lot of stuff to poke at it, even leaving Spotify on
+overnight in an attempt to recreate the conditions of the bug. No
+luck. It seemed like it would only crash when I wasn't trying to get
+it to crash - pretty frustrating.&lt;/p&gt;
+&lt;p&gt;I finally found it, but only after giving up for a while. I checked in
+again after working for a while on another project, and hey, lots of
+new crashes! With all my extra debug info, I could see what was going
+on - a string that couldn't be encoded in UTF-8 was being handled by
+some code that assumed it could be. It was a filesystem path with
+invalid characters.&lt;/p&gt;
+&lt;p&gt;What was the path that was killing my daemon? It was a temp file written
+by the test suite for the other project. It was a non-utf8 path,
+written to test the unicode handling of the GUI, and it had the
+wonderful (in retrospect) side effect of poking a bug in the daemon
+too. It's so satisfying when you find a bug's cause and it completely explains all the symptoms you were seeing.&lt;/p&gt;
+&lt;p&gt;One test exercising the unicode handling of multiple projects, now that's coverage!&lt;/p&gt;</description><category>testing</category><guid>http://michael-mccracken.net/posts/2012/10/a-testing-story.html</guid><pubDate>Wed, 03 Oct 2012 18:37:00 GMT</pubDate></item><item><title>Links: Flattr, Haskell, Haskell QuickCheck, and Stuart Cheshire (of Bolo fame)</title><link>http://michael-mccracken.net/posts/2012/04/links-flattr-haskell-haskell-quickcheck-and-stuart-cheshire-of-bolo-fame.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;My shared links for April 4th:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.stuartcheshire.org/rants/Networkdynamics.html"&gt;Stuart's "Law of Networkdynamics"&lt;/a&gt; - &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://flattr.com/"&gt;Flattr - Social micropayments&lt;/a&gt; - An interesting model that I hadn't heard of. You set a monthly amount to spend and when you see a flattr button, you click on it. They then divide your monthly amount among the people you clicked on that month.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Sounds great but I have never seen a button, unless it's been hidden among many other warts.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://bos.github.com/strange-loop-2011/slides/slides.html#(1)"&gt;Haskell: Functional Programming, Solid Code, Big Data (1)&lt;/a&gt; - Bryan O'Sullivan's Haskell tutorial from Strange Loop 2011&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.yellosoft.us/quickcheck"&gt;QuickCheck | YELLOSOFT&lt;/a&gt; - Lots of ports of QuickCheck&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://dan.bravender.us/2009/6/21/Simple_Quickcheck_implementation_for_Python.html"&gt;Simple Quickcheck implementation for Python&lt;/a&gt; - Random test generation that is not as nice as Haskell's quickcheck but will do the job.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>cite:wmf</category><category>crowdfunding</category><category>haskell</category><category>latency</category><category>links</category><category>money</category><category>pinboard-links</category><category>presentation</category><category>programming</category><category>python</category><category>quickcheck</category><category>social</category><category>support</category><category>testing</category><category>tutorial</category><guid>http://michael-mccracken.net/posts/2012/04/links-flattr-haskell-haskell-quickcheck-and-stuart-cheshire-of-bolo-fame.html</guid><pubDate>Fri, 06 Apr 2012 23:20:00 GMT</pubDate></item><item><title>Cram &amp; Simple testing for shell programs</title><link>http://michael-mccracken.net/posts/2011/04/cram-simple-testing-for-shell-programs.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;&lt;a href="http://bitheap.org/cram/"&gt;Cram&lt;/a&gt; is a test framework for command line programs, originally written for mercurial's test suite.&lt;/p&gt;
+&lt;p&gt;I like the approach - it just reads a shell transcript and runs the commands it finds. If the output doesn't match, it shows you a diff. It's kind of like doctest.&lt;/p&gt;
+&lt;p&gt;It looks refreshingly simple to get started with, something that so many other test frameworks fail horribly at.&lt;/p&gt;
+&lt;p&gt;A while ago, I wrote something similar for work. After trying and failing to find a testing framework that wasn't over-engineered, I wrote a script that looks in &lt;code&gt;./test/&lt;/code&gt;, and runs every file named &lt;code&gt;whatever.test&lt;/code&gt;, and compares output to files  &lt;code&gt;whatever.test.stdout&lt;/code&gt; and  &lt;code&gt;whatever.test.stderr&lt;/code&gt;, if they exist. 
+If not, it just uses the return value to determine success. &lt;/p&gt;
+&lt;p&gt;I loved how easy it was to add a test. Just write a script! There is no step two.&lt;/p&gt;
+&lt;p&gt;(&lt;code&gt;cram&lt;/code&gt; found via &lt;a href="http://ivory.idyll.org/blog/mar-11/trying-out-cram"&gt;Titus Brown&lt;/a&gt; )&lt;/p&gt;</description><category>programming</category><category>testing</category><guid>http://michael-mccracken.net/posts/2011/04/cram-simple-testing-for-shell-programs.html</guid><pubDate>Tue, 05 Apr 2011 21:36:00 GMT</pubDate></item><item><title>Stakeout info</title><link>http://michael-mccracken.net/posts/2009/09/stakeout-info.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;This post is here to prevent broken links, since I've noticed people coming here from a link to my old Stakeout page.&lt;/p&gt;
+&lt;p&gt;Stakeout was a program that runs something when files change, by watching for file changes at the system level using kqueue. It was intended to support running automated tests. The 2nd version even worked with growl to pop up info about the test success or failure.&lt;/p&gt;
+&lt;p&gt;I still have the &lt;a href="http://michael-mccracken.net/software/stakeout-2.tgz"&gt;Stakeout-2 tarball&lt;/a&gt; available, but I haven't tested it in years.&lt;/p&gt;
+&lt;p&gt;Why? I've been working on things that take too long to test, so I don't want to run a suite every time a file changes anymore. I still think it's a useful idea.&lt;/p&gt;</description><category>kqueue</category><category>stakeout</category><category>testing</category><guid>http://michael-mccracken.net/posts/2009/09/stakeout-info.html</guid><pubDate>Thu, 17 Sep 2009 04:42:00 GMT</pubDate></item></channel></rss>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>michael-mccracken.net (slideshow)</title><link>http://michael-mccracken.net/</link><description></description><language>en</language><lastBuildDate>Fri, 27 Jun 2014 09:12:40 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Links</title><link>http://michael-mccracken.net/posts/2012/10/links.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;li&gt;
+&lt;p&gt;&lt;a href="http://stackoverflow.com/questions/10857030/whats-so-bad-about-template-haskell"&gt;What's so bad about Template Haskell? - Stack Overflow&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A bunch of good answers to why Template Haskell is occasionally maligned.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://stackoverflow.com/questions/10845179/which-haskell-ghc-extensions-should-users-use-avoid/10849782#10849782"&gt;Which Haskell (GHC) extensions should users use/avoid? - Stack Overflow&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Interesting list of aesthetic judgements of haskell extensions. At press time I don't know what most of these words mean.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.yesodweb.com/blog/2011/04/yesod-template-haskell"&gt;Yesod and Template Haskell&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Short post on why Yesod uses template haskell (which has a bad rep)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://imakewebthings.com/deck.js/"&gt;deck.js » Modern HTML Presentations&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Best "Write your presentations in HTML" thing I've seen yet, although I'm not sure how great it'd be at complex visuals or builds. Yes sometimes builds are good! &lt;em&gt;SOMETIMES&lt;/em&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://redbot.org/"&gt;REDbot&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;RED is a robot that checks HTTP resources to see how they'll behave, pointing out common problems and suggesting improvements. Although it is not a HTTP conformance tester, it can find a number of HTTP-related issues. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/visi-lang/visi"&gt;.@dpp’s Visi looks to be exactly the thing when Soulver isn’t enough and spreadsheets are rigid github.com/visi-lang/visi #emerginglangs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Should I look at this before posting a link? Nah... But I will look at it, eventually! It looks interesting, I love this kind of stuff - although as usual I wonder if this is something you can already get in Mathematica but no one knows because it's so expensive.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://highscalability.com/blog/2012/7/30/prismatic-architecture-using-machine-learning-on-social-netw.html"&gt;High Scalability - Prismatic Architecture - Using Machine Learning on Social Networks to Figure Out What You Should Read on the Web &lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Probably interesting? I skimmed this, I'm not gonna lie, I don't remember much.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://deslide.clusterfake.net/"&gt;Deslidefied HTML&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Really useful bookmark to make slideshow news articles readable on one page. I am using it all the time!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://pragprog.com/magazines/2012-09/thinking-functionally-with-haskell"&gt;Thinking Functionally with Haskell&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;""In which we explore what modern type systems bring to the table. Imagine an approach to programming where you write down some description of what your code should do, then before running your code you run some automatic tool to see if the code matches the description. That’s Test-driven development, you say!  Actually, this is what you are doing when you use static types in most languages too. Types are a description of the code’s inputs and outputs, and the check ensures that inputs and outputs match up and are used consistently. Modern type systems—such as in Haskell or above—are very flexible, and allow these descriptions to be quite detailed; plus they are not too obtrusive in use and often very helpful.  One point I’ll investigate here is how advances in types are converging with new ideas on testing, to the point where (I claim) the old distinctions are starting to blur and starting to open up exciting new possibilities—hence my suggestion that we need a new word to describe what we’re doing that is free from preconceptions and out-dated thinking.  So put aside your bad experiences from Java, and prepare to be amazed! ""&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://feedproxy.google.com/~r/ezyang/~3/3Vb6-OhkZws/"&gt;So you want to hack on IMAP…&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;"Well, first off, you’re horribly misinformed: you do not actually want to hack on IMAP." (I agree, IMAP bad.)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://waxy.org/2008/06/the_machine_that_changed_the_world/"&gt;The Machine That Changed the World: Great Brains - Waxy.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Documentary about computing history:
+"It's a whirlwind tour of computing before the Web, with brilliant archival footage and interviews with key players — several of whom passed away since the filming. Jointly produced by WGBH Boston and the BBC, it originally aired in the UK as The Dream Machine before its U.S. premiere in January 1992. Its broadcast was accompanied by a book co-written by the documentary's producer Jon Palfreman."&lt;/p&gt;
+&lt;/li&gt;
+</description><category>GHC extensions</category><category>dependent-types</category><category>deslide</category><category>email</category><category>functional-programming</category><category>haskell</category><category>html</category><category>imap</category><category>javascript</category><category>presentations</category><category>programming</category><category>scalability</category><category>slides</category><category>slideshow</category><category>template-haskell</category><category>testing</category><category>tools</category><category>types</category><category>webarchitecture</category><category>yesod</category><guid>http://michael-mccracken.net/posts/2012/10/links.html</guid><pubDate>Mon, 08 Oct 2012 07:47:00 GMT</pubDate></item></channel></rss>

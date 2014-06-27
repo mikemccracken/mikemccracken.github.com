@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>michael-mccracken.net (modeling)</title><link>http://michael-mccracken.net/</link><description></description><language>en</language><lastBuildDate>Fri, 27 Jun 2014 09:12:36 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Links for January 12th through January 18th</title><link>http://michael-mccracken.net/posts/2012/01/links-for-january-12th-through-january-18th.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;My shared links for January 12th through January 18th:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://stevenf.com/notes/"&gt;Steven Frank: Notes: Home&lt;/a&gt; - &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.stanford.edu/~ttinoco/cvxpy/"&gt;CVXPY documentation -- CVXPY v0.0.1 documentation&lt;/a&gt; - Optimization, uses Disciplined Convex Programming&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://chplib.wordpress.com/2010/02/04/progression-supporting-optimisation-in-haskell/"&gt;Progression: Supporting Optimisation in Haskell « Communicating Haskell Processes&lt;/a&gt; - Tools for benchmarking haskell performance&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.jamesmolloy.co.uk/tutorial_html/1.-Environment%20setup.html"&gt;1.-Environment setup&lt;/a&gt; - &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.gprolog.org/"&gt;The GNU Prolog web site&lt;/a&gt; - Free GNU Prolog - supports ISO&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.ciaohome.org/"&gt;The Ciao System&lt;/a&gt; - "Ciao is a general-purpose programming language which supports logic, constraint, functional, higher-order, and object-oriented programming styles. Its main design objectives are high expressive power, extensibility, safety, reliability, and efficient execution"&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://marmalade-repo.org/"&gt;Marmalade: Spreadable Elisp&lt;/a&gt; - A repository for elisp packages. Uses ELPA. Didn't work when I tried it, but maybe a firewall issue?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.haskell.org/haddock/"&gt;Haddock Documentation Generator for Haskell&lt;/a&gt; - Really nice documentation generator for Haskell code.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I particularly like the synopsis tab.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://caml.inria.fr/pub/ml-archives/caml-list/2002/11/64c14acb90cb14bedb2cacb73338fb15.fr.html"&gt;Archives of the Caml mailing list &amp;gt; Message from Xavier Leroy [2002]&lt;/a&gt; - From 2002:
+"In summary: there is no SMP support in OCaml, and it is very very
+unlikely that there will ever be.  If you're into parallelism, better
+investigate message-passing interfaces."&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://caml.inria.fr/pub/ml-archives/caml-list/2002/04/a20d07d890dc2ebd525fbe3eed177492.en.html"&gt;Archives of the Caml mailing list &amp;gt; Message from Benjamin C. Pierce&lt;/a&gt; - Lots of links about CPS and continuations in Ocaml and others.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>Cite:rentzsch</category><category>Kernel</category><category>caml</category><category>concurrency</category><category>continuations</category><category>cps</category><category>cvxpy</category><category>documentation</category><category>elisp</category><category>emacs</category><category>functional-programming</category><category>funny</category><category>haskell</category><category>languages</category><category>links</category><category>lisp</category><category>modeling</category><category>ocaml</category><category>optimization</category><category>package-manager</category><category>parallelism</category><category>performance</category><category>pinboard-links</category><category>profiling</category><category>programming</category><category>prolog</category><category>python</category><category>sml</category><category>tools</category><guid>http://michael-mccracken.net/posts/2012/01/links-for-january-12th-through-january-18th.html</guid><pubDate>Thu, 19 Jan 2012 19:44:00 GMT</pubDate></item><item><title>Links for July 5th through July 6th</title><link>http://michael-mccracken.net/posts/2011/07/links-for-july-5th-through-july-6th.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;My shared links for July 5th through July 6th:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://design.canonical.com/2011/07/overlay-scrollbars-update/"&gt;Overlay Scrollbars - Update « Canonical Design&lt;/a&gt; - They have a video of the new scrollbar design for Ubuntu. 
+I'm not sure I like it but it's hard to say without using it first.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;One nit - I don't think it's obvious what happens to the red position bar (what to call that?) when you just press the arrows on the thumb instead of moving it around.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://code.google.com/p/pulp-or/"&gt;pulp-or - puLP: An LP modeler in Python - Google Project Hosting&lt;/a&gt; Linear Programming solvers!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://guide.couchdb.org/index.html"&gt;CouchDB: The Definitive Guide&lt;/a&gt; - The couchdb oreilly book. (free full text and drafts)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>books</category><category>couchdb</category><category>linearprogramming</category><category>links</category><category>modeling</category><category>optimization</category><category>pinboard-links</category><category>python</category><category>scrollbar</category><category>ui</category><category>video</category><guid>http://michael-mccracken.net/posts/2011/07/links-for-july-5th-through-july-6th.html</guid><pubDate>Wed, 06 Jul 2011 17:08:00 GMT</pubDate></item></channel></rss>

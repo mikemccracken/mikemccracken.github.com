@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>michael-mccracken.net (help)</title><link>http://michael-mccracken.net/</link><description></description><language>en</language><lastBuildDate>Fri, 27 Jun 2014 09:12:40 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How BibDesk generates Apple Help and a web manual</title><link>http://michael-mccracken.net/posts/2010/02/how-bibdesk-generates-apple-help-and-a-web-manual.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;This is something that had been on my old blog in 2006 and went away, so I'm reposting something I wrote to the macsb list a few years ago:&lt;/p&gt;
+&lt;p&gt;For the BibDesk open source project, we wanted to have legit in-app
+apple help, as well as a web page (and PDF), without maintaining
+separate sources, since we were all working out of spare time.&lt;/p&gt;
+&lt;p&gt;We tried a few free options, and eventually worked out something
+decent with Texinfo, a latex-like markup language that can be
+processed into latex (and then PDF) or HTML.&lt;/p&gt;
+&lt;p&gt;I wrote a custom init file to have the (standard) texi2html script
+print out apple help compatible HTML. One post-processing script and a
+simple xcode script build phase later, and we get apple help.&lt;/p&gt;
+&lt;p&gt;We also get a version a little more suitable for the web (more content
+per page) from the same source: &lt;a href="http://bibdesk.sf.net/manual/"&gt;http://bibdesk.sf.net/manual/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It's worked well for a couple of years, and it's a good choice if you
+don't mind learning texinfo (it's pretty nice compared to
+writing in Docbook or HTML, IMO), and very good for version-controlled collaboration,
+since it's just text.&lt;/p&gt;
+&lt;p&gt;For an example, here's what the help source text looks like:&lt;/p&gt;
+&lt;p&gt;http://bibdesk.svn.sourceforge.net/viewvc/bibdesk/trunk/bibdesk/English.lproj/BibDesk%20Help/bibdesk.texi?view=markup&lt;/p&gt;
+&lt;p&gt;The init file and other stuff is here:
+http://bibdesk.svn.sourceforge.net/viewvc/bibdesk/trunk/bibdesk/BibDesk%20Help/&lt;/p&gt;
+&lt;p&gt;If anyone's curious about it, feel free to ask me questions here. I'll try
+to remember how it works.&lt;/p&gt;</description><category>apple-help</category><category>bibdesk</category><category>help</category><category>texinfo</category><guid>http://michael-mccracken.net/posts/2010/02/how-bibdesk-generates-apple-help-and-a-web-manual.html</guid><pubDate>Wed, 17 Feb 2010 07:51:00 GMT</pubDate></item></channel></rss>

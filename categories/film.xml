@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>michael-mccracken.net (film)</title><link>http://michael-mccracken.net/</link><description></description><language>en</language><lastBuildDate>Fri, 27 Jun 2014 09:12:37 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>More out of date links</title><link>http://michael-mccracken.net/posts/2012/10/selected-links.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;li&gt;&lt;a href="http://hammerprinciple.com/therighttool"&gt;Programming Languages · Hammer Principle&lt;/a&gt;
+    Very interesting survey site to answer the question "what language is right for what task?"&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://james-iry.blogspot.co.uk/2010/05/types-la-chart.html"&gt;One Div Zero: Types à la Chart&lt;/a&gt;
+    A chart of languages according to type power/safety. Seems reasonable. Made me curious about the ones in the top right. &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/philsquared/Catch/wiki"&gt;Home · philsquared/Catch Wiki&lt;/a&gt;
+    C++ unit testing framework, all in headers, looks nice.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html"&gt;ferd.ca -&amp;gt; An Open Letter to the Erlang Beginner (or Onlooker)&lt;/a&gt;
+    Interesting, balanced article about what makes erlang nice. &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://worrydream.com/oatmeal/blind.html"&gt;"Research is a blind date with knowledge." worrydream.com/oatmeal/blind.…&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://mail.python.org/pipermail/pypy-dev/2012-October/010602.html"&gt;Splitting RPython (the language) and PyPy (a python interpreter) plan: mail.python.org/pipermail/pypy…&lt;/a&gt;
+    Sounds interesting. I wonder if RPython will grow in popularity separately.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://saltandfat.com/post/33437971658"&gt;Double-corn tortillas&lt;/a&gt;
+    I'd love to try this sometime.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/clips/pattern"&gt;clips/pattern · GitHub&lt;/a&gt;
+    Web-mining in python. Lots of functionality here, BSD license.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.brainpickings.org/index.php/2012/06/12/the-art-of-coffee-1961/"&gt;The Art of Coffee: A Mad Men Era Short Film | Brain Pickings&lt;/a&gt;
+    I loved "This is Coffee!". 12 minute promotional short film from 1961 about coffee. It's wonderful to imagine the worn old mugs of my grandparents' generation new again, filled with something better than the electric-percolated canned junk I know they drank. Also great to see the Chemex in there, exactly the same as I use it today.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://worrydream.com/LearnableProgramming/"&gt;Learnable Programming&lt;/a&gt;
+    Very clear and well-argued essay about how to make a more-understandable programming environment. I agreed with everything, and was left wondering how to apply this line of thought to more complex software. (Everyone has seen this by the time I post this list.)&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://robrohan.com/2009/09/14/objc-signaturevo/"&gt;@objc.signature(‘v@:@@o^@’) | Times New Rohan&lt;/a&gt;
+    List of objc.signature codes &lt;/li&gt;
+</description><category>1961</category><category>c-plus-plus</category><category>coffee</category><category>erlang</category><category>film</category><category>javascript</category><category>languages</category><category>learning</category><category>objc signature</category><category>patterns</category><category>programming</category><category>programming-languages</category><category>recipe</category><category>software</category><category>teaching</category><category>testing</category><category>tortilla</category><category>types</category><guid>http://michael-mccracken.net/posts/2012/10/selected-links.html</guid><pubDate>Thu, 25 Oct 2012 19:35:00 GMT</pubDate></item></channel></rss>

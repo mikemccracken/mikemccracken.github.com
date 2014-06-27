@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>michael-mccracken.net (citation)</title><link>http://michael-mccracken.net/</link><description></description><language>en</language><lastBuildDate>Fri, 27 Jun 2014 09:12:39 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Links: Hacking, Music in Python, Rust &amp; unitasking</title><link>http://michael-mccracken.net/posts/2012/04/links-hacking-music-in-python-rust-unitaskimg.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;My shared links for April 5th through April 6th:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://lemire.me/blog/archives/2011/06/06/why-i-still-program/"&gt;Why I still program&lt;/a&gt; - "I believe that the rejection of programming as a lower activity can be explained by the Theory of the leisure class. In effect, we do not seek utility but prestige. There is no prestige in tool-making, cooking or farming. To maximize your prestige, you must rise up to the leisure class: you work must not be immediately useful."&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://lemire.me/blog/archives/2012/03/20/from-counting-citations-to-measuring-usage-help-needed/"&gt;From counting citations to measuring usage (help needed!)&lt;/a&gt; - Building a Better Citation Index&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://mailplaneapp.com/blog/entry/workhacks.com_top_3_gmail_management_apps_for_mac"&gt;workhacks.com: Top 3 Gmail Management Apps for Mac - Mailplane Blog&lt;/a&gt; - includes a list of gmail plugins that look useful&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://prezjordan.github.com/Melopy/"&gt;Melopy&lt;/a&gt; - 
+&lt;code&gt;  &lt;br&gt;
+    """
+    &amp;gt;&amp;gt;&amp;gt; from melopy import Melopy
+    &amp;gt;&amp;gt;&amp;gt; m = Melopy('mysong')
+    &amp;gt;&amp;gt;&amp;gt; m.add_quarter_note('A4')
+    &amp;gt;&amp;gt;&amp;gt; m.add_quarter_note('C#5')
+    &amp;gt;&amp;gt;&amp;gt; m.add_quarter_note('E5')
+    &amp;gt;&amp;gt;&amp;gt; m.render()
+    [==================================================] 100%
+    Done
+    """
+&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://doc.rust-lang.org/doc/tutorial.html#expression-syntax"&gt;Rust Language Tutorial: Expression Syntax&lt;/a&gt; - Starts out good, but the "leave out a semicolon to return a value" leaves a bad taste. Why overload semicolons like that? Why not just use 'ret'?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.deliberatism.com/blog/forget-self-improvement/"&gt;Forget Self-Improvement&lt;/a&gt; - &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://blogs.hbr.org/schwartz/2012/03/the-magic-of-doing-one-thing-a.html"&gt;The Magic of Doing One Thing at a Time - Tony Schwartz - Harvard Business Review&lt;/a&gt; - A few good points on avoiding multitasking burnout. Nothing too new, but maybe if people keep repeating it in places like HBR, then it'll start to become conventional business wisdom?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>business</category><category>citation</category><category>email</category><category>gmail</category><category>impact</category><category>libraries</category><category>links</category><category>machine-learning</category><category>mikechecksmail</category><category>multitasking</category><category>music</category><category>pinboard-links</category><category>productivity</category><category>programming</category><category>publication</category><category>python</category><category>ranking</category><category>research</category><category>rust</category><guid>http://michael-mccracken.net/posts/2012/04/links-hacking-music-in-python-rust-unitaskimg.html</guid><pubDate>Wed, 11 Apr 2012 23:15:00 GMT</pubDate></item><item><title>Links for November 27th through December 1st</title><link>http://michael-mccracken.net/posts/2011/12/links-for-november-27th-through-december-1st.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;My shared links for November 27th through December 1st:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://acme.cat-v.org/"&gt;The Acme User Interface for Programmers&lt;/a&gt; - &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.cise.ufl.edu/research/sparse/matrices/SNAP/"&gt;UF Sparse Matrix Collection - SNAP group&lt;/a&gt; - collection of datasets including social networks&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.cs.umd.edu/hcil/ase/"&gt;Action Science Explorer (Formerly iOpener Workbench)&lt;/a&gt; - &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://tangra.si.umich.edu/clair/iopener/"&gt;iOpener Project&lt;/a&gt; - The goal of iOPENER (Information Organization for PENning Expositions on Research) is to generate readily-consumable surveys of different scientific domains and topics, targeted to different audiences and levels, e.g., expert specialists, scientists from related disciplines, educators, students, government decision makers, and citizens including minorities and underrepresented groups. Surveyed material is presented in different modalities, e.g., an enumerated list of articles, a bulleted list of key facts, a textual summary, or a visual presentation with zoom and filter capabilities. The original contributions of this research are in the creation of an infrastructure for automatically summarizing entire areas of scientific endeavor by linking three available technologies: (1) bibliometric lexical link mining; (2) summarization techniques; and (3) visualization tools for displaying both structure and content.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://news.ycombinator.com/item?id=3289750"&gt;I regularly hire women for 65% to 75% of what males make | Hacker News&lt;/a&gt; - Lots of tips on salary negotiation for both sexes in the comments thread&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://pjax.heroku.com/"&gt;pjax&lt;/a&gt; - ajax with permalinks&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.imdb.com/title/tt0378378/"&gt;Moog (2004) - IMDb&lt;/a&gt; See also Walter/Wendy Carlos… &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>CHI</category><category>acme</category><category>ajax</category><category>citation</category><category>datasets</category><category>design</category><category>development</category><category>documentary</category><category>editor</category><category>graphs</category><category>gui</category><category>hci</category><category>links</category><category>moog</category><category>movie</category><category>negotiation</category><category>networks</category><category>pinboard-links</category><category>pjax</category><category>plan9</category><category>programming</category><category>publication</category><category>research</category><category>social-networks</category><category>software</category><category>to-watch</category><category>visualization</category><category>web</category><guid>http://michael-mccracken.net/posts/2011/12/links-for-november-27th-through-december-1st.html</guid><pubDate>Tue, 27 Dec 2011 20:11:00 GMT</pubDate></item></channel></rss>

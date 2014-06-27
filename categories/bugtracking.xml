@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>michael-mccracken.net (bugtracking)</title><link>http://michael-mccracken.net/</link><description></description><language>en</language><lastBuildDate>Fri, 27 Jun 2014 09:12:40 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Links for July 1st through July 2nd</title><link>http://michael-mccracken.net/posts/2011/07/links-for-july-1st-through-july-2nd.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;My shared links for July 1st through July 2nd:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://paulstamatiou.com/startup-web-design-ux-crash-course"&gt;Crash Course: Design for Startups -- PaulStamatiou.com&lt;/a&gt; - Some design tips and a big reading list.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://amodernist.blogspot.com/2011/07/high-society-1901-1959.html"&gt;High Society (1901-1959)&lt;/a&gt; - Everything is a remix, including riffs in Jazz over forty years. Great YouTube examples. My favorite is the Benny Goodman.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://blog.roub.net/2011/07/distributed_bug_tracking_dvcs_.html"&gt;Distributed Bug Tracking Avoids Out-of-Sync Bugs and Code (Paul Roub)&lt;/a&gt; - Distributed bug tracking sounds great - I've had that idea before, and seen it elsewhere -  but this post didn't explain much about how it works in veracity, unfortunately.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://m.core77.com/blog/sketchnotes/sketchnotes_101_the_basics_of_visual_note-taking_19678.asp"&gt;Core77 intro to sketchnotes&lt;/a&gt; - How to start sketching notes. Step 2: Internet fame! Seriously though, I wish more people in research were comfortable sketching. So many dull labeled boxes on whiteboards.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://labix.org/python-constraint"&gt;python-constraint - Labix&lt;/a&gt; constraint solving library in python. Nice API.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>Dvcs</category><category>Jazz</category><category>Sketchnotes</category><category>bugtracking</category><category>constraint-solving</category><category>design</category><category>high-society</category><category>links</category><category>pinboard-links</category><category>python</category><category>scm</category><category>source-control</category><category>swing</category><guid>http://michael-mccracken.net/posts/2011/07/links-for-july-1st-through-july-2nd.html</guid><pubDate>Tue, 05 Jul 2011 16:28:00 GMT</pubDate></item></channel></rss>

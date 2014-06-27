@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="description" content="This is a weblog.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>michael-mccracken.net (old posts, page 6) | michael-mccracken.net</title>
+
+    
+            <link href="assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+
+    
+            <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
+
+      <link rel="canonical" href="http://michael-mccracken.net/index-6.html">
+
+
+
+    
+        <!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]-->
+
+    
+
+
+
+
+</head>
+<body>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://michael-mccracken.net/">
+
+                <span id="blog-title">michael-mccracken.net</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                
+                <li>
+<a href="archive.html">Archive</a>
+                </li>
+<li>
+<a href="categories/index.html">Tags</a>
+                </li>
+<li>
+<a href="rss.xml">RSS feed</a>
+
+                
+            </li>
+</ul>
+                
+<!-- Custom search -->
+<form method="get" id="search" action="http://duckduckgo.com/" class="navbar-form pull-left">
+<input type="hidden" name="sites" value="http://michael-mccracken.net/">
+<input type="hidden" name="k8" value="#444444">
+<input type="hidden" name="k9" value="#D51920">
+<input type="hidden" name="kt" value="h">
+<input type="text" name="q" maxlength="255" placeholder="Search…" class="span2" style="margin-top: 4px;">
+<input type="submit" value="DuckDuckGo Search" style="visibility: hidden;">
+</form>
+<!-- End of custom search -->
+
+
+            <ul class="nav navbar-nav navbar-right">
+                
+                
+                
+            </ul>
+        </div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav>
+
+<!-- End of Menubar -->
+
+<div class="container">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
+<div class="postindex">
+    <article class="h-entry post-text">
+    <header>
+        <h1 class="p-name entry-title"><a href="posts/2006/08/3-more-text-hack-projects-on-leveragesourceforgenet.html" class="u-url">3 more text hack projects on leverage.sourceforge.net</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Michael McCracken</span></p>
+            <p class="dateline"><a href="posts/2006/08/3-more-text-hack-projects-on-leveragesourceforgenet.html" rel="bookmark"><time class="published dt-published" datetime="2006-08-18T15:59:00-07:00" itemprop="datePublished" title="Publication date">2006-08-18 15:59</time></a></p>
+                <p class="commentline">
+        
+    <a href="posts/2006/08/3-more-text-hack-projects-on-leveragesourceforgenet.html#disqus_thread" data-disqus-identifier="cache/posts/2006/08/3-more-text-hack-projects-on-leveragesourceforgenet.html">Comments</a>
+
+
+        </p>
+</div>
+    </header>
+    <div class="e-content entry-content">
+    <p>13 months ago, I <a href="http://michael-mccracken.net/blog/blosxom.pl/computers/mac/programming/meetLeverage.html">"launched"</a> the <a href="http://leverage.sourceforge.net">leverage project</a> on sourceforge, supposed to be a place to house all the various OS X / Cocoa text manipulation hacks I've done, including my I-Search for NSTextView InputManager hack.</p>
+<p>I haven't touched leverage since, but today I added three more projects to the SVN repository with varying appeal and usability. I also added a mailing list, <a href="https://lists.sourceforge.net/lists/listinfo/leverage-discuss">leverage-discuss</a>.</p>
+<p>If you're interested in trying these out or working on one of these hacks, and want to ask a question, using that email list would be best, but you can also <a href="mailto:michael_mccracken@mac.com">email me</a> directly about them.</p>
+<h5>TextShape</h5>
+<p>Here's my 2004 blog post about it: <a href="http://michael-mccracken.net/blog/blosxom.pl/computers/mac/programming/meetTSV.html">"Usability and Editing Code: TextShapeView"</a> and here's the old home page for it, with a screenshot: <a href="http://michael-mccracken.net/?TextShapeView">TextShapeView</a>.</p>
+<p>The code is unchanged, but it works fine on 10.4.</p>
+<p><a href="http://svn.sourceforge.net/viewvc/leverage/textshape/trunk/">http://svn.sourceforge.net/viewvc/leverage/textshape/trunk/</a></p>
+<h5>TextStructure</h5>
+<p>A long time ago, so long I can't even find it with google, I posted somewhere about a hacked version of <a href="http://darkwing.uoregon.edu/~koch/texshop">TexShop</a> that had an outline view in a drawer that showed the section structure of your TeX document.</p>
+<p>I never got that working well enough to try adding it to TexShop, but I did realize that it's something that could be useful for other kinds of text as well.</p>
+<p>A big project, the TextStructure InputManager adds a key binding to NSTextView that pops up a window with an outline view that tries to represent the current text as an outline, using a scheme of regular expressions that mark some lines of text as "tags" with outline levels, depending on the text. It has a few regexps built in for LaTeX, ObjC, TODO &amp; FIXME lines, and email quoting (which doesn't quite make sense).</p>
+<p>You can also search the text for a regexp, and it will highlight the sections which contain a match.</p>
+<p>I don't have a screenshot just yet, but I'll post about it more later.</p>
+<p><a href="http://svn.sourceforge.net/viewvc/leverage/textstructure/trunk/">http://svn.sourceforge.net/viewvc/leverage/textstructure/trunk/</a></p>
+<h5>OEM : Open in Emacs</h5>
+<p>This is a new one, and a work-in-progress. It adds a key binding to open the text of the current text view in an emacs buffer, using a temporary file and <code>emacsclient</code>. It currently has no way to get the text back into the text view from the file when you're done editing it in emacs, and doesn't delete the file. But it's at least partially nifty...</p>
+<p><a href="http://svn.sourceforge.net/viewvc/leverage/oem/trunk/">http://svn.sourceforge.net/viewvc/leverage/oem/trunk/</a></p>
+<h5>ISIM: Incremental Search in NSTextView</h5>
+<p>Not new, but it's in there too:
+<a href="http://svn.sourceforge.net/viewvc/leverage/isim/trunk/">http://svn.sourceforge.net/viewvc/leverage/isim/trunk/</a></p>
+    </div>
+    </article>
+    <article class="h-entry post-text">
+    <header>
+        <h1 class="p-name entry-title"><a href="posts/2006/08/flextime-10-launches.html" class="u-url">FlexTime 1.0 Launches</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Michael McCracken</span></p>
+            <p class="dateline"><a href="posts/2006/08/flextime-10-launches.html" rel="bookmark"><time class="published dt-published" datetime="2006-08-17T15:25:00-07:00" itemprop="datePublished" title="Publication date">2006-08-17 15:25</time></a></p>
+                <p class="commentline">
+        
+    <a href="posts/2006/08/flextime-10-launches.html#disqus_thread" data-disqus-identifier="cache/posts/2006/08/flextime-10-launches.html">Comments</a>
+
+
+        </p>
+</div>
+    </header>
+    <div class="e-content entry-content">
+    <p>I've been using Red Sweater software's <a href="http://www.red-sweater.com/flextime/">FlexTime</a> for a while now, and Daniel just announced version 1.0.</p>
+<p>FlexTime is a repeating-timer program that is great for either set routines or one-off reminders. (It also has a pretty great name, don't you think?)</p>
+<p>It's a solid program that you can use for a number of things. It fills an important niche I care about - helping you deal with your #1 work tool also being your #1 toy.</p>
+<p>I use it to do a version of the <a href="http://www.43folders.com/2005/10/11/procrastination-hack-1025/">"(10+2)*"</a> procrastination hack that helps me get on track doing the things I need to do. It works really well, and I love that it lets me pause a routine if work is going really well.</p>
+<p>Perhaps the best endorsement I can give it is that even though it does what I need, I am constantly thinking of things I wish it did and ways to improve. Now that I've mentioned that, I guess I'll have to schedule some time to send my list over to Daniel...</p>
+<p>Well, time's up - back to work!</p>
+    </div>
+    </article>
+    <article class="h-entry post-text">
+    <header>
+        <h1 class="p-name entry-title"><a href="posts/2006/08/xcode-30.html" class="u-url">XCode 3.0</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Michael McCracken</span></p>
+            <p class="dateline"><a href="posts/2006/08/xcode-30.html" rel="bookmark"><time class="published dt-published" datetime="2006-08-07T23:27:00-07:00" itemprop="datePublished" title="Publication date">2006-08-07 23:27</time></a></p>
+                <p class="commentline">
+        
+    <a href="posts/2006/08/xcode-30.html#disqus_thread" data-disqus-identifier="cache/posts/2006/08/xcode-30.html">Comments</a>
+
+
+        </p>
+</div>
+    </header>
+    <div class="e-content entry-content">
+    <p>Apple's <a href="http://www.apple.com/macosx/leopard/xcode.html">XCode 3.0 preview page</a> is a cornucopia of new stuff that I somehow missed all day - until now.</p>
+<p>No doubt this is the stuff that everyone at WWDC is talking about. This page represents no less than 3 or 4 really significant changes and some really nice details. Here's a hit list that I haven't seen in any of the coverage I've been looking at today:</p>
+<ul>
+<li>
+<p><strong>Garbage Collection</strong> in ObjC. I'm curious about the details, but I'm also certain that it's a good thing. I really just think this is a no-brainer and we'll all be asking how we lived without it in a year.</p>
+</li>
+<li>
+<p><strong>Project Snapshots</strong> - lets you fiddle with projects and go back to a good state without involving SVN. Nice, it's like Word Versions for XCode. Handy, but a little puzzling why it seems to be duplicating version control functionality.</p>
+</li>
+<li>
+<p><strong>Research Assistant</strong> - A 'lightweight window' for reference and API docs. Long overdue, and sounds really handy. Basically what I <a href="http://michael-mccracken.net/blog/blosxom.pl/2004/07/07">asked for</a> in a Dashboard Widget long ago.</p>
+</li>
+<li>
+<p><strong><a href="http://www.sun.com/bigadmin/content/dtrace/">DTrace</a></strong> for Mac OS - this is an extremely useful and powerful dynamic tracing framework from Sun - with a <a href="http://www.sun.com/software/solaris/howtoguides/dtracehowto.jsp#1">DSL for tracing</a> called "D", and I'm really surprised to see it on OS X. This is nice.</p>
+</li>
+<li>
+<p>Leveraging DTrace, <strong>XRay</strong> visualizes program behavior. I think DTrace itself is more interesting, based on my experiences with visualization of parallel program behavior and developers (generally allergic) reaction to it, but it's interesting to see Apple give it a serious try. The ability to "track UI events" sounds tantalizingly useful.</p>
+</li>
+<li>
+<p>A new text editor - apparently it can shade text backgrounds according to scope. This could either be a non-starter or really great. I think some will love it after a while and some will hate it immediately. Which are you? Oh, it also does iChat-style popups on your breakpoints. Okay.</p>
+</li>
+<li>
+<p>Finally, Interface Builder 3.0, where they spend a lot of time talking about some extra palletized stuff you can drop in, which is all well and good, but then they drop the boom in the last two sentences: <strong><em>"Interface Builder 3.0 makes localization and diffing easier. And you can include your NIBs in global refactoring tasks."</em></strong> Whoa! That sound you just heard? <a href="http://michael-mccracken.net/blog/blosxom.pl/2004/07/07">It was me from 2004</a>, cheering them on.</p>
+</li>
+</ul>
+<p><strong>Update</strong>: <code>s/XCode/Xcode/</code> - thanks.</p>
+    </div>
+    </article>
+    <article class="h-entry post-text">
+    <header>
+        <h1 class="p-name entry-title"><a href="posts/2006/08/take-me-to-wwdc.html" class="u-url">Take me to WWDC!</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Michael McCracken</span></p>
+            <p class="dateline"><a href="posts/2006/08/take-me-to-wwdc.html" rel="bookmark"><time class="published dt-published" datetime="2006-08-03T19:51:00-07:00" itemprop="datePublished" title="Publication date">2006-08-03 19:51</time></a></p>
+                <p class="commentline">
+        
+    <a href="posts/2006/08/take-me-to-wwdc.html#disqus_thread" data-disqus-identifier="cache/posts/2006/08/take-me-to-wwdc.html">Comments</a>
+
+
+        </p>
+</div>
+    </header>
+    <div class="e-content entry-content">
+    <p>I can't make it in person to either WWDC or Buzz's party this year, and as a result, I'm bummed right out. But I haven't sulked, I thought of your feelings too. I came up with a way to make it seem kind of like I was there anyway. It's so crazy, it just might work:</p>
+<p><strong>Mike McCracken WWDC flashcards!</strong></p>
+<p>Just print one or all of the following pictures, and bring them with you to WWDC. They're all cropped to a 3x5 ratio, so you can tuck them into your HPDA and flash them when appropriate, like a soccer referee - I suggest the following interpretations:</p>
+<p>Use "Morning Mike" when you need a non-verbal way to tell someone that it's just too early to discuss APIs, GUIs, or what to do now that Apple makes a free version of your only product:</p>
+<p><a href="http://michael-mccracken.net/img/card0.jpg"><img alt="" src="http://michael-mccracken.net/img/card0.jpg"></a></p>
+<p>Use "Confused Mike (Afternoon session)" whenever someone says something that just doesn't make <em>sense</em>. Whether it's their fault, or yours! Bonus points for use when you see a new abuse of the human interface guidelines. This card may also be appropriate just after seeing the amazing demo of Apple's free version of your only product:</p>
+<p><a href="http://michael-mccracken.net/img/card1.jpg"><img alt="" src="http://michael-mccracken.net/img/card1.jpg"></a></p>
+<p>Use "Cheers Mike" to suggest a trip to the bar, get women to pose with you, or to celebrate the continued absence of a free version of your only product. This may be the only appropriate card to sport during Buzz's can't-miss <a href="http://weblog.scifihifi.com/2006/07/23/party-time-excellent/#comments">Weblogger's Party</a>:</p>
+<p><a href="http://michael-mccracken.net/img/card2.jpg"><img alt="" src="http://michael-mccracken.net/img/card2.jpg"></a></p>
+<p>But remember, those are only guidelines. Be creative - my WWDC experience is in your hands!</p>
+<p>If you take a picture with one of me, post it on flickr with the tag 'mikewwdc06' so I can see where I've been. Have fun at WWDC - to all of you and me!</p>
+    </div>
+    </article>
+    <article class="h-entry post-text">
+    <header>
+        <h1 class="p-name entry-title"><a href="posts/2006/08/universal-build-of-pcre.html" class="u-url">Universal build of PCRE?</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Michael McCracken</span></p>
+            <p class="dateline"><a href="posts/2006/08/universal-build-of-pcre.html" rel="bookmark"><time class="published dt-published" datetime="2006-08-03T02:45:00-07:00" itemprop="datePublished" title="Publication date">2006-08-03 02:45</time></a></p>
+                <p class="commentline">
+        
+    <a href="posts/2006/08/universal-build-of-pcre.html#disqus_thread" data-disqus-identifier="cache/posts/2006/08/universal-build-of-pcre.html">Comments</a>
+
+
+        </p>
+</div>
+    </header>
+    <div class="e-content entry-content">
+    <p>Dear Lazyweb, I wanted to polish up and push out a project I started more than two years ago in time for WWDC, but it requires <a href="http://www.pcre.org">PCRE</a>, and I can't seem to get PCRE to build for i386 in less than twenty minutes. Does anyone know of a universal build of a recent PCRE somewhere (or good specific instructions to build one?)</p>
+<p>Thanks,</p>
+<p>-mike</p>
+    </div>
+    </article>
+    <article class="h-entry post-text">
+    <header>
+        <h1 class="p-name entry-title"><a href="posts/2006/08/script-dictionary-documentation.html" class="u-url">Script Dictionary Documentation</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Michael McCracken</span></p>
+            <p class="dateline"><a href="posts/2006/08/script-dictionary-documentation.html" rel="bookmark"><time class="published dt-published" datetime="2006-08-01T13:13:00-07:00" itemprop="datePublished" title="Publication date">2006-08-01 13:13</time></a></p>
+                <p class="commentline">
+        
+    <a href="posts/2006/08/script-dictionary-documentation.html#disqus_thread" data-disqus-identifier="cache/posts/2006/08/script-dictionary-documentation.html">Comments</a>
+
+
+        </p>
+</div>
+    </header>
+    <div class="e-content entry-content">
+    <p>In relation to my previous post about <a href="http://michael-mccracken.net/wp/?p=55">instant replay in QuickTime Player</a> - The script dictionary almost looks like a program wrote the documentation. For example:</p>
+<p>"<strong>time scale</strong> (integer, r/o) : the time scale of the movie" (uh...) and</p>
+<p>"<strong>current time</strong> (integer) : the current time (can be set by name as well as number)" (units? what names?).</p>
+<p>I guess it all makes sense if you understand a lot about QuickTime movies, but is that the audience for the script dictionary? I suggest not.</p>
+<p>Developers: your script dictionary and its documentation are important user interface concerns - if you put as much consideration into the experience your users have with scripting as you do the GUI and documentation, it will create loyal power users. And they all have blogs these days, so that's free advertising too...</p>
+    </div>
+    </article>
+    <article class="h-entry post-text">
+    <header>
+        <h1 class="p-name entry-title"><a href="posts/2006/08/instant-replay-in-quicktime-player.html" class="u-url">Instant replay in QuickTime Player</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Michael McCracken</span></p>
+            <p class="dateline"><a href="posts/2006/08/instant-replay-in-quicktime-player.html" rel="bookmark"><time class="published dt-published" datetime="2006-08-01T13:12:00-07:00" itemprop="datePublished" title="Publication date">2006-08-01 13:12</time></a></p>
+                <p class="commentline">
+        
+    <a href="posts/2006/08/instant-replay-in-quicktime-player.html#disqus_thread" data-disqus-identifier="cache/posts/2006/08/instant-replay-in-quicktime-player.html">Comments</a>
+
+
+        </p>
+</div>
+    </header>
+    <div class="e-content entry-content">
+    <p>A feature I really miss from having a DVR is the '8 seconds back' button, to catch a play or repeat something funny.</p>
+<p>Recently I've been listening to recorded interviews we've been doing of HPC developers, and updating my notes (in <a href="http://voodoopad.com/">VoodooPad</a> using them. Since people mumble and use jargon I don't always understand, I decided I really needed an instant replay button in QuickTime Player. It'll come in handy if I watch sports on my laptop again, too.</p>
+<p>In order to get it, I wrote this quick AppleScript and bound it to a <a href="http://docs.blacktree.com/quicksilver/qstriggersprefpane?s=trigger">Quicksilver trigger</a>. If you run it while the movie is playing, it backs up 4 seconds and keeps playing from there.</p>
+<pre class="code literal-block"><span class="o">--</span> <span class="mi">4</span><span class="n">secondsback</span><span class="p">.</span><span class="n">scpt</span>
+<span class="n">tell</span> <span class="n">application</span> <span class="s">"QuickTime Player"</span>
+    <span class="n">set</span> <span class="n">theMovie</span> <span class="n">to</span> <span class="n">movie</span> <span class="mi">1</span>
+
+    <span class="n">set</span> <span class="n">ctime</span> <span class="n">to</span> <span class="n">current</span> <span class="n">time</span> <span class="n">of</span> <span class="n">theMovie</span>
+    <span class="n">set</span> <span class="n">tscale</span> <span class="n">to</span> <span class="n">time</span> <span class="n">scale</span> <span class="n">of</span> <span class="n">theMovie</span>
+
+    <span class="n">set</span> <span class="n">current</span> <span class="n">time</span> <span class="n">of</span> <span class="n">theMovie</span> <span class="n">to</span> <span class="n">ctime</span> <span class="o">-</span> <span class="p">(</span><span class="mi">4</span> <span class="o">*</span> <span class="n">tscale</span><span class="p">)</span>
+<span class="n">end</span> <span class="n">tell</span>
+</pre>
+
+
+<p>Update: I just realized that for transcribing interviews I also needed a 'play/pause' command that could control QuickTime Player while keeping it in the background, just as the 4secondsback script does. It's a really simple script, but since QuickTime Player lacks the convenient 'playpause' command that iTunes's scripting dictionary has, I had to do this:</p>
+<pre class="code literal-block"><span class="n">tell</span> <span class="n">application</span> <span class="s">"QuickTime Player"</span>
+    <span class="k">if</span> <span class="n">movie</span> <span class="mi">1</span> <span class="n">is</span> <span class="n">playing</span> <span class="n">then</span>
+        <span class="n">pause</span> <span class="n">movie</span> <span class="mi">1</span>
+    <span class="k">else</span>
+        <span class="n">play</span> <span class="n">movie</span> <span class="mi">1</span>
+    <span class="n">end</span> <span class="k">if</span>
+<span class="n">end</span> <span class="n">tell</span>
+</pre>
+
+
+<p>I have this set as a trigger for Control-Option-Space, and the 4secondsback script is control-option-'b'. This way I can listen, type, and control the recordings without leaving VoodooPad. Brilliant!</p>
+    </div>
+    </article>
+    <article class="h-entry post-text">
+    <header>
+        <h1 class="p-name entry-title"><a href="posts/2006/07/zoomr-yellow-tree.html" class="u-url">Zoomr, Yellow Tree</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Michael McCracken</span></p>
+            <p class="dateline"><a href="posts/2006/07/zoomr-yellow-tree.html" rel="bookmark"><time class="published dt-published" datetime="2006-07-19T02:55:00-07:00" itemprop="datePublished" title="Publication date">2006-07-19 02:55</time></a></p>
+                <p class="commentline">
+        
+    <a href="posts/2006/07/zoomr-yellow-tree.html#disqus_thread" data-disqus-identifier="cache/posts/2006/07/zoomr-yellow-tree.html">Comments</a>
+
+
+        </p>
+</div>
+    </header>
+    <div class="e-content entry-content">
+    <p>I've taken to carrying my camera around with me, for practice. It's lead to an unhealthy obsession with camera bags (of which there is no perfect single choice).</p>
+<p>It's also lead to maxing out my Flickr account quickly, and I have no cash for a Pro account. So, I thought I'd try the new  - <a href="http://zoomr.com">Zoomr 2.0</a>, and see what I like about it. Geotagging and Google maps integration is cool, and I like the trackbacks, but to be honest, the interface could be much cleaner. Lots of loud colors and bold text vie for attention with the photos, which should be the real focus of attention on a photo sharing site. At any rate, here's the first photo I uploaded to Zoomr, something I took while waiting for the 30 bus at UCSD:</p>
+<p><a href="http://beta.zooomr.com/photos/13417@Z01/80165/">
+<img alt="Yellow Tree" src="http://static.zooomr.com/images/e2885e4db38ea6f0230d613572aba8c230cb9883.jpg"></a></p>
+    </div>
+    </article>
+    <article class="h-entry post-text">
+    <header>
+        <h1 class="p-name entry-title"><a href="posts/2006/07/pacific-beach-night-photos.html" class="u-url">Pacific Beach Night Photos</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Michael McCracken</span></p>
+            <p class="dateline"><a href="posts/2006/07/pacific-beach-night-photos.html" rel="bookmark"><time class="published dt-published" datetime="2006-07-11T01:20:00-07:00" itemprop="datePublished" title="Publication date">2006-07-11 01:20</time></a></p>
+                <p class="commentline">
+        
+    <a href="posts/2006/07/pacific-beach-night-photos.html#disqus_thread" data-disqus-identifier="cache/posts/2006/07/pacific-beach-night-photos.html">Comments</a>
+
+
+        </p>
+</div>
+    </header>
+    <div class="e-content entry-content">
+    <p>Last night I took my camera with me on a late-night food run. On the way back, I stopped at the end of Felspar street and took some shots of the beach scene. My favorite two are already up at Flickr, but I thought I'd expand on them a bit here.</p>
+<p>This is the end of Crystal Pier, which houses a hotel (you can see the last of the cabins on the left). I took a bunch of these shots, playing with the sensitivity and exposure. This was the longest - at ISO 200 and f/4.0, exposed for about 10 seconds.</p>
+<p>Even with an f/1.4 lens, it was super dark and I had to focus manually. I set the camera on a post and used a 2-second delayed shutter to keep it still and out of my shaky hands.</p>
+<p><a href="http://www.flickr.com/photos/michaelmccracken/186275976/"><img alt="Crystal Pier" src="http://static.flickr.com/65/186275976_91ad85b289.jpg"></a></p>
+<p>For comparison, here's a version taken at ISO 1600 :</p>
+<p><img alt="Crystal Pier at ISO 1600" src="http://michael-mccracken.net/img/IMGP0243.jpg"></p>
+<p>Even reduced in size, you can really notice the noise.</p>
+<p>Here's a shot of a cleaning lady working at JRDN, the swank bar in the new Tower 23 hotel. Tower 23 doesn't really fit in in PB - it's way too self-conscious and preening of a place to feel natural in such a laid-back, seedy beach neighborhood. It seemed appropriate that on a Sunday night when the more relaxed established places like the PB Bar &amp; Grill and Longboards were really hopping, JRDN was closed - looking its ghostly best.</p>
+<p>I should have remembered that I'd set the 2-second delay before I took this shot - I had the woman framed well, hit the shutter and wondered what was going on. Luckily, she stayed in the door frame, but I could swear it was a better shot just two seconds before.</p>
+<p><a href="http://www.flickr.com/photos/michaelmccracken/186275981/"><img alt="Bar cleanup" src="http://static.flickr.com/17/186275981_97a6aa094c.jpg"></a></p>
+<p>Here's another missed shot opportunity, as she ducks behind the bar just as I find the right exposure and focus. I think the color in the other one makes it better, but the angle of the bar on this one has some promise. Shot through a couple of layers of glass, and manual focus - I'm sure it could be sharper if I'd kept trying.</p>
+<p><img alt="Bar cleanup 2" src="http://michael-mccracken.net/img/PB-20060710-3.jpg"></p>
+    </div>
+    </article>
+    <article class="h-entry post-text">
+    <header>
+        <h1 class="p-name entry-title"><a href="posts/2006/07/photos-buzz-4th.html" class="u-url">Photos, Buzz, 4th</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Michael McCracken</span></p>
+            <p class="dateline"><a href="posts/2006/07/photos-buzz-4th.html" rel="bookmark"><time class="published dt-published" datetime="2006-07-06T03:20:00-07:00" itemprop="datePublished" title="Publication date">2006-07-06 03:20</time></a></p>
+                <p class="commentline">
+        
+    <a href="posts/2006/07/photos-buzz-4th.html#disqus_thread" data-disqus-identifier="cache/posts/2006/07/photos-buzz-4th.html">Comments</a>
+
+
+        </p>
+</div>
+    </header>
+    <div class="e-content entry-content">
+    <p><a href="http://www.flickr.com/photos/michaelmccracken/182960262/"><img alt="Buzz and the TLR" src="http://static.flickr.com/54/182960262_c764eb8881_m.jpg"></a> </p>
+<p><a href="http://weblog.scifihifi.com/">Buzz Andersen</a> was in town for the 4th of July, and we both took a few photos, up on Flickr: <a href="http://flickr.com/photos/ldandersen/tags/sandiego/">Buzz's San Diego Photos</a>, and <a href="http://flickr.com/photos/michaelmccracken/tags/buzz/">my photos of Buzz</a>.</p>
+<p>When I get the film back from the <a href="http://flickr.com/photos/michaelmccracken/tags/yashica/">Yashica</a>, I'll scan some more photos in.</p>
+<p>In the meantime, I've been getting more into photography, so if you want the full MMC web experience, you could subscribe to a <a href="http://flickr.com/services/feeds/photos_public.gne?id=51035756035@N01&amp;format;=rss_200">feed of my photos</a>, which should already be part of my <a href="http://feeds.feedburner.com/Michael-mccrackennet">feedburner feed</a>. And if you're a fellow Flickr photo nut, feel free to add me as a contact and tell me when I reach  photo genius.</p>
+<p>PS, I've been working with the <a href="http://labs.adobe.com/technologies/lightroom/">Adobe Lightroom beta</a> to process my pictures lately. I really like the focus on workflow, and the UI is very responsive on my old PowerBook G4. It does get a little slower when dealing with 6MP RAW photos, but almost never beachballs. Furthermore, single key shortcuts are priceless for a program aimed at serious users.</p>
+    </div>
+    </article>
+</div>
+
+        <nav class="postindexpager">
+        <ul class="pager">
+            <li class="previous">
+                <a href="index-7.html" rel="prev">Newer posts</a>
+            </li>
+            <li class="next">
+                <a href="index-5.html" rel="next">Older posts</a>
+            </li>
+        </ul>
+        </nav>
+
+
+        
+       <script>var disqus_shortname="michaelmccrackennet";(function(){var a=document.createElement("script");a.async=true;a.src="//"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
+
+
+
+
+
+        </div>
+        <!--End of body content-->
+
+        <footer>
+            Contents © 2014         <a href="mailto:michael.mccracken@gmail.com">Michael McCracken</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
+            
+        </footer>
+    </div>
+</div>
+
+
+            <script src="assets/js/all-nocdn.js"></script>
+    
+
+    <script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1818984-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</body>
+</html>

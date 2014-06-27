@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>michael-mccracken.net (dbus)</title><link>http://michael-mccracken.net/</link><description></description><language>en</language><lastBuildDate>Fri, 27 Jun 2014 09:12:38 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Links: screen for X, computer history, Linux</title><link>http://michael-mccracken.net/posts/2012/02/links-screen-for-x-computer-history-linux.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;My shared links for February 21st through February 22nd:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://xpra.org/"&gt;http://xpra.org/ (Wayland - Beyond X (The H) [LWN.net])&lt;/a&gt; - a 'screen' for X exists. A SCREEN FOR X EXISTS!!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://rogerbraun.net/a-client-side-bayes-classifier-for-hacker-new"&gt;A client-side Bayes classifier for Hacker News - Japomatik&lt;/a&gt; - Very cool idea. I'd like to see if I can bend it to my purposes - flag all comments by people under, say, 28 years old.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://conservancy.umn.edu/handle/59493"&gt;University of Minnesota Digital Conservancy: Oral history interviews&lt;/a&gt; - "CBI holds one of the world's largest collections of research-grade oral history interviews relating to the history of computers, software, and networking. Most of the 300-plus oral histories have been developed in conjunction with grant-funded research projects on topics such as the development of the software industry, the influence of the Defense Advanced Research Projects Agency (DARPA), and the early history of computer science departments."&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.dgp.toronto.edu/people/stam/reality/Research/pdf/GDC03.pdf"&gt;Real-Time Fluid Dynamics for Games&lt;/a&gt; - from Jos Stam at Alias | Wavefront, at GDC 2003.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://news.ycombinator.com/item?id=3594236"&gt;This article is not well-informed. I worked on or sat next to people who worked ... | Hacker News&lt;/a&gt; - Linux history. didn't bother to read orig. article&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://design.canonical.com/2012/02/the-unity-design-process-and-how-you-can-play-a-part-in-it/"&gt;The Unity design process (and how you can play a part in it)&lt;/a&gt; - to read&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.kungfugrippe.com/post/17727827043"&gt;(via Photo | Mike Industries)&lt;/a&gt; - basketball face&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>X</category><category>basketball</category><category>bayes</category><category>classifier</category><category>computing</category><category>dbus</category><category>design</category><category>fluid-dynamics</category><category>games</category><category>history</category><category>hn</category><category>interviews</category><category>javascript</category><category>links</category><category>linux</category><category>physics</category><category>pinboard-links</category><category>programming</category><category>screen</category><category>simulation</category><category>ubuntu</category><category>visualization</category><category>x11</category><guid>http://michael-mccracken.net/posts/2012/02/links-screen-for-x-computer-history-linux.html</guid><pubDate>Wed, 22 Feb 2012 19:53:00 GMT</pubDate></item></channel></rss>

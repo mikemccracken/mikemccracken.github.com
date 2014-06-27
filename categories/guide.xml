@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>michael-mccracken.net (guide)</title><link>http://michael-mccracken.net/</link><description></description><language>en</language><lastBuildDate>Fri, 27 Jun 2014 09:12:39 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Links for September 27th through October 14th</title><link>http://michael-mccracken.net/posts/2011/10/links-for-september-27th-through-october-14th.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;My shared links for September 27th through October 14th:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://code.google.com/p/pyprocessing/"&gt;pyprocessing - A Processing-like environment for doing graphics with Python - Google Project Hosting&lt;/a&gt; - processing in python. uses pyglet. installs very easily&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.ece.ucdavis.edu/~jowens/commonerrors.html"&gt;Common Errors in Technical Writing&lt;/a&gt; - A list of common errors and peeves in technical writing. Very useful.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://soft.vub.ac.be/~smarr/renaissance/"&gt;Renaissance: Harness Emergence to Avoid the Concurrency Trap&lt;/a&gt; - Languages for non-deterministic computing, and a manycore squeak VM&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://waxy.org/2011/09/geeks_guide_to_portland_2011/"&gt;Geek's Guide to Portland 2011 - Waxy.org&lt;/a&gt; - &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://candyspotting.com/index.php/cards/holiday/houndstooth-snowsuit.html"&gt;Candyspotting - Houndstooth Snowsuit Card - Holiday&lt;/a&gt; - &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://blog.llvm.org/2011/09/greedy-register-allocation-in-llvm-30.html"&gt;LLVM Project Blog: Greedy Register Allocation in LLVM 3.0&lt;/a&gt; - &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://ergo.human.cornell.edu/CUESitStand.html"&gt;CUergo: Sitting and Standing&lt;/a&gt; - Short version: sit at your desk, but get up every 20 minutes and move around for 2 minutes. That's probably a good time to focus your eyes somewhere else too.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://pandas.sourceforge.net/"&gt;pandas: powerful Python data analysis toolkit -- pandas v0.4.0 documentation&lt;/a&gt; - python package for labeled multidimensional data&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>bibtex</category><category>christmas</category><category>concurrency</category><category>exascale</category><category>food</category><category>gift</category><category>graphics</category><category>greeting-card</category><category>guide</category><category>languages</category><category>latex</category><category>links</category><category>ly</category><category>pinboard-links</category><category>portland</category><category>processing</category><category>programming</category><category>python</category><category>research</category><category>sly</category><category>smalltalk</category><category>squeak</category><category>tips</category><category>travel</category><category>visualization</category><category>winter</category><category>writing</category><guid>http://michael-mccracken.net/posts/2011/10/links-for-september-27th-through-october-14th.html</guid><pubDate>Mon, 24 Oct 2011 23:58:00 GMT</pubDate></item></channel></rss>

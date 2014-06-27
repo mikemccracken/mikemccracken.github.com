@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The TRIPS processor | michael-mccracken.net</title>
+
+    
+            <link href="../../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+
+    
+            <link rel="alternate" type="application/rss+xml" title="RSS" href="../../../rss.xml">
+
+      <link rel="canonical" href="http://michael-mccracken.net/posts/2007/04/the-trips-processor.html">
+
+
+
+    
+        <!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]-->
+
+    
+
+
+    
+
+    <meta name="author" content="Michael McCracken">
+    
+        <meta name="og:title" content="The TRIPS processor">
+        <meta name="og:url" content="http://michael-mccracken.net/posts/2007/04/the-trips-processor.html">
+            <meta name="og:description" content="The UT-Austin TRIPS project will be unveiling their new processor next Monday. (event details)
+This is a pretty interesting attempt to get around the problems facing processor design today. Clock spee">
+        <meta name="og:site_name" content="michael-mccracken.net">
+        <meta name="og:type" content="article">
+
+    
+
+    
+
+
+
+</head>
+<body>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://michael-mccracken.net/">
+
+                <span id="blog-title">michael-mccracken.net</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                
+                <li>
+<a href="../../../archive.html">Archive</a>
+                </li>
+<li>
+<a href="../../../categories/index.html">Tags</a>
+                </li>
+<li>
+<a href="../../../rss.xml">RSS feed</a>
+
+                
+            </li>
+</ul>
+                
+<!-- Custom search -->
+<form method="get" id="search" action="http://duckduckgo.com/" class="navbar-form pull-left">
+<input type="hidden" name="sites" value="http://michael-mccracken.net/">
+<input type="hidden" name="k8" value="#444444">
+<input type="hidden" name="k9" value="#D51920">
+<input type="hidden" name="kt" value="h">
+<input type="text" name="q" maxlength="255" placeholder="Search…" class="span2" style="margin-top: 4px;">
+<input type="submit" value="DuckDuckGo Search" style="visibility: hidden;">
+</form>
+<!-- End of custom search -->
+
+
+            <ul class="nav navbar-nav navbar-right">
+                
+                
+                
+            </ul>
+        </div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav>
+
+<!-- End of Menubar -->
+
+<div class="container">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article">
+    
+    <header>
+        
+    <h1 class="p-name entry-title" itemprop="headline name"><a href="#" class="u-url">The TRIPS processor</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Michael McCracken</span></p>
+            <p class="dateline"><a href="#" rel="bookmark"><time class="published dt-published" datetime="2007-04-25T11:01:00-07:00" itemprop="datePublished" title="Publication date">2007-04-25 11:01</time></a></p>
+                <p class="commentline">
+        
+    <a href="the-trips-processor.html#disqus_thread" data-disqus-identifier="cache/posts/2007/04/the-trips-processor.html">Comments</a>
+
+
+            
+
+        </p>
+</div>
+        
+
+    </header>
+
+    <div class="e-content entry-content" itemprop="articleBody text">
+    <p>The UT-Austin <a href="http://www.cs.utexas.edu/~trips/">TRIPS project</a> will be unveiling their new processor next Monday. (<a href="http://oea.cs.utexas.edu/articles/index2007/trips_unveiling07.html">event details</a>)</p>
+<p>This is a pretty interesting attempt to get around the problems facing processor design today. Clock speeds have stalled, but the actual Moore's Law - the one about transistor count, not "speed" - is still going, so we have the problem of what to do with just a lot of copies of basically the same old chip?</p>
+<p>A lot of answers you hear involve pushing that complexity up to the programmer, forcing more people to become parallel programmers. This is almost certain to happen at least a little, but let's hope we don't have to give up on the sequential programming model completely. If you think software is bad now…</p>
+<p>The TRIPS processor is an example of another approach - placing more of the burden of finding and using parallelism onto the compiler and architecture, keeping programmers' heads above water. It's pretty exciting to see something this different make its way into actual silicon.</p>
+<p>The basic idea is that instead of a single piece of control logic organizing the actions of multiple functional units, finding concurrency within a window of instructions using reordering, the TRIPS processor is distributed at the lowest level - each functional unit is a mini-processor (called a tile), and instructions executing on separate processor tiles communicate operands directly, not through a register file. Usually this is described as executing a graph of instructions instead of a single instruction at a time.</p>
+<p>Current processors certainly don't just execute one instruction at a time, and they do plenty of moving instructions around, so I tend to see this explicit-data-graph description as just the far end of a spectrum that starts with old superscalar designs, continues through out-of-order processors and multithreaded architectures, and currently seems to end here.</p>
+<p>A TRIPS processor can run four thread contexts at once, with an instruction window of 1024 instructions to reorder and 256 memory operations in flight at once. For comparison, the late '90s Tera MTA ran 128 threads at once (128 different program counters), and the 2003-vintage Cray X1 processors kept track of 512 memory operations at once. Just like TRIPS, each of those architectures required extensive compiler support for good performance.</p>
+<p>A particularly interesting point is the fully partitioned L1 cache - meaning that there are multiple distributed L1 caches on the chip, so where your instructions are physically executing will be important for performance - if they're near the cache bank holding their operands, they will execute sooner.</p>
+<p>The natural question when looking at a new and interesting architecture like this, especially one that promises a tera-op on a chip, is whether it will make its way to a laptop you can buy anytime soon. I have no idea if the UT team has any industry deals in the works, but I would bet against something like this becoming mainstream quickly - the fact that these architectures rely so much on a custom compiler with aggressive optimization means that a lot of dirty work is required to move existing software to it.</p>
+<p>It will be interesting to follow this project and see how their actual hardware performs.</p>
+    </div>
+    <aside class="postpromonav">
+    <nav>
+    
+        <ul itemprop="keywords" class="tags">
+           <li><a class="tag p-category" href="../../../categories/hpc.html" rel="tag">HPC</a></li>
+           <li><a class="tag p-category" href="../../../categories/compilers.html" rel="tag">compilers</a></li>
+           <li><a class="tag p-category" href="../../../categories/computers.html" rel="tag">computers</a></li>
+           <li><a class="tag p-category" href="../../../categories/research.html" rel="tag">research</a></li>
+        </ul>
+
+    
+        <ul class="pager">
+            <li class="previous">
+                <a href="hack-like-a-champion-today.html" rel="prev" title="Hack Like a Champion Today">Previous post</a>
+            </li>
+            <li class="next">
+                <a href="../05/hpc-blogs-and-news-sites.html" rel="next" title="HPC blogs and news sites">Next post</a>
+            </li>
+        </ul>
+
+    </nav>
+    </aside>
+        <section class="comments">
+        <h2>Comments</h2>
+        
+        
+        <div id="disqus_thread"></div>
+        <script>
+        var disqus_shortname ="michaelmccrackennet",
+            disqus_url="http://michael-mccracken.net/posts/2007/04/the-trips-processor.html",
+        disqus_title="The TRIPS processor",
+        disqus_identifier="cache/posts/2007/04/the-trips-processor.html",
+        disqus_config = function () {
+            this.language = "en";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+    <a href="//disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        </section>
+    
+
+</article>
+
+        
+       <script>var disqus_shortname="michaelmccrackennet";(function(){var a=document.createElement("script");a.async=true;a.src="//"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
+
+
+
+        </div>
+        <!--End of body content-->
+
+        <footer>
+            Contents © 2014         <a href="mailto:michael.mccracken@gmail.com">Michael McCracken</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
+            
+        </footer>
+    </div>
+</div>
+
+
+            <script src="../../../assets/js/all-nocdn.js"></script>
+    
+
+    <script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1818984-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</body>
+</html>

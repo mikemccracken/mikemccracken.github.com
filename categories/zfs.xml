@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>michael-mccracken.net (zfs)</title><link>http://michael-mccracken.net/</link><description></description><language>en</language><lastBuildDate>Fri, 27 Jun 2014 09:12:39 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Links for January 3rd through January 5th</title><link>http://michael-mccracken.net/posts/2012/01/links-for-january-3rd-through-january-5th.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;My shared links for January 3rd through January 5th:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://edge.org/responses/what-scientific-concept-would-improve-everybodys-cognitive-toolkit"&gt;2011 Annual Question | Edge : "what scientific concept would improve everybody's cognitive toolkit"&lt;/a&gt; - As usual more thought provoking essays than will fit in my head, but seriously, what is "A Proxemic of Urban Sexuality" getting at?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://mhall119.com/2012/01/simplified-unity-lens-development-with-singlet/"&gt;Simplified Unity Lens Development with Singlet | Michael Hall's Blog&lt;/a&gt; - &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://code.google.com/p/llvm-py/"&gt;llvm-py - Python bindings for LLVM - Google Project Hosting&lt;/a&gt; - &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://mython.org/"&gt;The Mython Programming Language&lt;/a&gt; - "Mython is an extensible variant of the Python programming language. Mython makes Python extensible by adding two things: parametric quotation statement, and compile-time metaprogramming. The parametric quote statement is simply syntactic sugar for saying "run some function on this embedded string". Compile-time metaprogramming allows you to evaluate that function on the embedded string at compile time. This gives you added choice, both in terms of what your code looks like, and when you want to evaluate that code."&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.solarisinternals.com/wiki/index.php/Solaris_Internals_and_Performance_FAQ"&gt;Solaris Internals and Performance FAQ - Siwiki&lt;/a&gt; - Main Page for Solaris Internals Wiki. Tons of info about Solaris' er, Internals.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>dtrace</category><category>essays</category><category>lens</category><category>links</category><category>llvm</category><category>metaprogramming</category><category>mython</category><category>oracle</category><category>performance</category><category>philosophy</category><category>pinboard-links</category><category>python</category><category>science</category><category>solaris</category><category>sun</category><category>ubuntu</category><category>unity</category><category>wiki</category><category>zfs</category><guid>http://michael-mccracken.net/posts/2012/01/links-for-january-3rd-through-january-5th.html</guid><pubDate>Wed, 11 Jan 2012 20:14:00 GMT</pubDate></item></channel></rss>

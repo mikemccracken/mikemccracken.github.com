@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>michael-mccracken.net (HUD)</title><link>http://michael-mccracken.net/</link><description></description><language>en</language><lastBuildDate>Fri, 27 Jun 2014 09:12:40 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Links for January 23rd through January 25th</title><link>http://michael-mccracken.net/posts/2012/01/links-for-january-23rd-through-january-25th.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;My shared links for January 23rd through January 25th:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://design.canonical.com/2012/01/introducing-the-hud-say-hello-to-the-future-of-the-menu/"&gt;Introducing the HUD. Say hello to the future of the menu. « Canonical Design&lt;/a&gt; - Canonical is moving towards no menus and just using a quicksilver-style "HUD" smart text interface. That's great - menus stink and this gives a path to voice control too, but there's a big discovery problem to be attacked (which menus also have but not as bad).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://voices.canonical.com/ubuntuone/?p=1342"&gt;Ubuntu One Blog » Blog Archive » U1DB technical preview release: tell us what you think!&lt;/a&gt; - Blog post announcing u1db preview&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://people.canonical.com/~aquarius/u1db-docs/"&gt;U1DB -- u1db v0.0.1.dev.0 documentation&lt;/a&gt; - Developer preview documentation. Their summary:
+"
+U1DB is a database API for synchronised databases of JSON documents. It's simple to use in applications, and allows apps to store documents and synchronise them between machines and devices. U1DB itself is not a database: instead, it's an API which can be backed by any database for storage. This means that you can use u1db on different platforms, from different languages, and backed on to different databases, and sync between all of them.
+"&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>HUD</category><category>WIMP</category><category>canonical</category><category>cloud</category><category>database</category><category>desktop</category><category>links</category><category>linux</category><category>menu</category><category>pinboard-links</category><category>python</category><category>sync</category><category>u1db</category><category>ubuntu</category><category>ubuntu-one</category><category>ui</category><guid>http://michael-mccracken.net/posts/2012/01/links-for-january-23rd-through-january-25th.html</guid><pubDate>Fri, 27 Jan 2012 19:57:00 GMT</pubDate></item></channel></rss>

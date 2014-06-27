@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>michael-mccracken.net (programming editors)</title><link>http://michael-mccracken.net/</link><description></description><language>en</language><lastBuildDate>Fri, 27 Jun 2014 09:12:39 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>'Editor Wars'</title><link>http://michael-mccracken.net/posts/2012/08/editor-wars.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;An idea I'd like to see: Editor Wars, the game of hacking at code.&lt;/p&gt;
+&lt;p&gt;Hackers compete on how fast they can complete code editing tasks from
+a variety of languages, with results plotted and dissected on a 
+web leaderboard. The idea is not to evaluate language understanding or
+design, but simply editing skill and speed in the kind of thing that
+editor flame wars start over. &lt;/p&gt;
+&lt;p&gt;The tasks could be simple refactorings, like renaming a function
+throughout a source tree, or extracting code into a method. I'd expect
+this would show advantages of specialized refactoring tools in some
+IDEs. Other tasks might be more complex, like writing a new set of
+functions, a whole class, or adding functions to a class to conform to
+a protocol or interface. Good template support and autocomplete might
+be an advantage here. Or maybe you want to add conditional debug
+logging around a set of functions, with each call having a separate
+hardcoded counter value? Surely powerful macros win this task?
+Naturally, new tasks could be submitted by the public, and voted on.
+Each task would have a "correct" answer, but if you're really clever
+you could always suggest a better correct answer.&lt;/p&gt;
+&lt;p&gt;Use of extensions and custom macros would be happily encouraged, as
+long as you can share what you've used. &lt;/p&gt;
+&lt;p&gt;You'd need either an editor plugin or at least something that watches
+files efficiently to get the split-second timing your contestants will
+demand. Ideally you'd be able to record keystrokes and grab the source
+for any macros you call, then the site would be able to show a replay
+for the viewing public.&lt;/p&gt;
+&lt;p&gt;It'd be fascinating to learn how other people use your favorite editor
+by watching the best of the best compete. Not to mention, just imagine
+the forum threads arguing over the graphs from the vast database of
+editor timings.&lt;/p&gt;
+&lt;p&gt;Anyone want to build this?&lt;/p&gt;</description><category>programming editors</category><guid>http://michael-mccracken.net/posts/2012/08/editor-wars.html</guid><pubDate>Fri, 17 Aug 2012 06:44:00 GMT</pubDate></item></channel></rss>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>michael-mccracken.net (ubuntutouch)</title><link>http://michael-mccracken.net/</link><description></description><language>en</language><lastBuildDate>Fri, 27 Jun 2014 09:12:40 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Flashing a Nexus device with Ubuntu Touch from Mac OS X</title><link>http://michael-mccracken.net/posts/2013/09/flashing-ubuntu-touch-from-osx.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;I've been working with Ubuntu Touch recently, using VirtualBox to run
+Ubuntu Saucy as a guest on my Mac, and while it does work to connect
+to the device once it's installed, the process of reflashing is
+difficult. The manual steps on the Ubuntu Wiki
+&lt;a href="https://wiki.ubuntu.com/Touch/Install"&gt;Touch/Install&lt;/a&gt; page work for
+the old way, via &lt;code&gt;phablet-flash cdimage-touch&lt;/code&gt;, with the caveat that
+you may have to manually reboot the device and/or re-connect the USB
+in between steps.&lt;/p&gt;
+&lt;p&gt;However, as of &lt;a href="https://lists.launchpad.net/ubuntu-phone/msg04004.html"&gt;this email last week&lt;/a&gt;, the official way
+to flash phones is using the system images via &lt;code&gt;phablet-flash
+ubuntu-system&lt;/code&gt;, which has a different set of files.&lt;/p&gt;
+&lt;p&gt;Instead of just muddling through and updating the manual instructions,
+I decided to see if phablet-flash would run natively on the Mac. After
+a bit of python dependency resolution, it does. Here's what I did:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Download the &lt;a href="http://developer.android.com/sdk/index.html"&gt;Android SDK tools&lt;/a&gt;. You only really need the "SDK Tools", not the whole ADT Bundle, so I clicked on "Use an existing IDE" at the bottom of that page, to get the smaller installer.&lt;/li&gt;
+&lt;li&gt;Unpack the archive and run ./android. Install the platform-tools (and nothing else).&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add the platform-tools/ directory to your $PATH for convenience.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;(Optional) create a virtualenv for the python dependencies, and activate it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pip install&lt;/code&gt; each of &lt;code&gt;configobj&lt;/code&gt; &lt;code&gt;pyxdg&lt;/code&gt;, and &lt;code&gt;pyliblzma&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;get &lt;a href="http://bazaar.canonical.com/"&gt;bazaar&lt;/a&gt; if you don't already have it.&lt;/li&gt;
+&lt;li&gt;branch phablet-tools: &lt;code&gt;bzr branch lp:phablet-tools&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd phablet-tools &amp;amp;&amp;amp; python setup.py build&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;At this point, &lt;code&gt;phablet-flash ubuntu-system&lt;/code&gt; should work smoothly, with all transfers and reboots and timeouts going as expected.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The only minor hiccup is that it apparently doesn't get ~/Downloads/
+from pyxdg, but it just means that you'll get the images saved to
+~/phablet-flash instead of ~/Downloads/phablet-flash. No big deal.&lt;/p&gt;</description><category>nexus</category><category>ubuntu</category><category>ubuntutouch</category><guid>http://michael-mccracken.net/posts/2013/09/flashing-ubuntu-touch-from-osx.html</guid><pubDate>Thu, 12 Sep 2013 17:40:00 GMT</pubDate></item></channel></rss>

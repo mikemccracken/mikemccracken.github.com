@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>michael-mccracken.net (libraries)</title><link>http://michael-mccracken.net/</link><description></description><language>en</language><lastBuildDate>Fri, 27 Jun 2014 09:12:36 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Links: Hacking, Music in Python, Rust &amp; unitasking</title><link>http://michael-mccracken.net/posts/2012/04/links-hacking-music-in-python-rust-unitaskimg.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;My shared links for April 5th through April 6th:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://lemire.me/blog/archives/2011/06/06/why-i-still-program/"&gt;Why I still program&lt;/a&gt; - "I believe that the rejection of programming as a lower activity can be explained by the Theory of the leisure class. In effect, we do not seek utility but prestige. There is no prestige in tool-making, cooking or farming. To maximize your prestige, you must rise up to the leisure class: you work must not be immediately useful."&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://lemire.me/blog/archives/2012/03/20/from-counting-citations-to-measuring-usage-help-needed/"&gt;From counting citations to measuring usage (help needed!)&lt;/a&gt; - Building a Better Citation Index&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://mailplaneapp.com/blog/entry/workhacks.com_top_3_gmail_management_apps_for_mac"&gt;workhacks.com: Top 3 Gmail Management Apps for Mac - Mailplane Blog&lt;/a&gt; - includes a list of gmail plugins that look useful&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://prezjordan.github.com/Melopy/"&gt;Melopy&lt;/a&gt; - 
+&lt;code&gt;  &lt;br&gt;
+    """
+    &amp;gt;&amp;gt;&amp;gt; from melopy import Melopy
+    &amp;gt;&amp;gt;&amp;gt; m = Melopy('mysong')
+    &amp;gt;&amp;gt;&amp;gt; m.add_quarter_note('A4')
+    &amp;gt;&amp;gt;&amp;gt; m.add_quarter_note('C#5')
+    &amp;gt;&amp;gt;&amp;gt; m.add_quarter_note('E5')
+    &amp;gt;&amp;gt;&amp;gt; m.render()
+    [==================================================] 100%
+    Done
+    """
+&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://doc.rust-lang.org/doc/tutorial.html#expression-syntax"&gt;Rust Language Tutorial: Expression Syntax&lt;/a&gt; - Starts out good, but the "leave out a semicolon to return a value" leaves a bad taste. Why overload semicolons like that? Why not just use 'ret'?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.deliberatism.com/blog/forget-self-improvement/"&gt;Forget Self-Improvement&lt;/a&gt; - &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://blogs.hbr.org/schwartz/2012/03/the-magic-of-doing-one-thing-a.html"&gt;The Magic of Doing One Thing at a Time - Tony Schwartz - Harvard Business Review&lt;/a&gt; - A few good points on avoiding multitasking burnout. Nothing too new, but maybe if people keep repeating it in places like HBR, then it'll start to become conventional business wisdom?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>business</category><category>citation</category><category>email</category><category>gmail</category><category>impact</category><category>libraries</category><category>links</category><category>machine-learning</category><category>mikechecksmail</category><category>multitasking</category><category>music</category><category>pinboard-links</category><category>productivity</category><category>programming</category><category>publication</category><category>python</category><category>ranking</category><category>research</category><category>rust</category><guid>http://michael-mccracken.net/posts/2012/04/links-hacking-music-in-python-rust-unitaskimg.html</guid><pubDate>Wed, 11 Apr 2012 23:15:00 GMT</pubDate></item></channel></rss>

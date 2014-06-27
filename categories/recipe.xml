@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>michael-mccracken.net (recipe)</title><link>http://michael-mccracken.net/</link><description></description><language>en</language><lastBuildDate>Fri, 27 Jun 2014 09:12:39 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Links: Simulation, Programming, Crab Cakes and Hockey Player Usage Charts</title><link>http://michael-mccracken.net/posts/2013/04/links.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;li&gt;&lt;a href="http://lambda-the-ultimate.org/node/4710"&gt;DYNAMO&lt;/a&gt;
+    Someone has rewritten one of the earliest simulation systems in JavaScript (the fate of all interesting software). Also includes a link to an article about the history of simulation software that sounds very interesting.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://feeds.seriouseats.com/~r/seriouseatsfeaturesvideos/~3/yfScRT6TNzw/the-food-lab-crab-cakes.html"&gt;The Food Lab: The Crabbiest Crab Cakes&lt;/a&gt;
+    I love crab cakes, but I'm not sure I really want to try to make them at home. If I do, I'll use these tips. The Food Lab is fun stuff.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://mjtsai.com/blog/2013/03/30/debug-it/"&gt;Debug It!&lt;/a&gt;
+    A review of a book on debugging, which is a topic that I think should be taught right alongside programming. See also &lt;a href="http://whyprogramsfail.com"&gt;"Why Programs Fail"&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.givedirectly.org/"&gt;GiveDirectly: introducing a radical new way to give! | GiveDirectly&lt;/a&gt;
+    Send cash straight to poor people. If their assertions are true, it's a really interesting idea, and I can't believe it hasn't been done before. It also seems transparently better than microloans.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/ContinuumIO/Bokeh"&gt;ContinuumIO/Bokeh · GitHub&lt;/a&gt;
+    Something to look out for -- a Python ggplot that works with HTML5 is a great idea. "Bokeh (pronounced boh-Kay) is an implementation of Grammar of Graphics for Python, that also supports the customized rendering flexibility of Protovis and d3. Although it is a Python library, its primary output backend is HTML5 Canvas.  There are many excellent plotting packages for Python, but they generally do not optimize for the particular needs of statistical plotting (easy faceting, bulk application of aesthetic and visual parameters across categorical variables, pleasing default color palettes for categorical data, etc.). The goal of Bokeh is to provide a compelling Python equivalent of ggplot in R."&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://kk.org/cooltools/archives/10441"&gt;FitDesk X1&lt;/a&gt;
+    Level up from a standing desk? I'd love to try this for a day.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://lambda-the-ultimate.org/node/4699"&gt;Concurrent Revisions&lt;/a&gt;
+    DVCS-like concurrent programming. Interesting sounding research - I haven't read it yet...&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.hockeyabstract.com/playerusagecharts"&gt;Many thanks to @robvollmannhl and the good folks at Hockey Abstract for these great interactive Player Usage Charts: hockeyabstract.com/playerusagecha…&lt;/a&gt;
+    Player Usage Charts are fascinating, but I can never figure out why people always change the axes so that the dots fill the space. It makes it impossible to compare two charts, and it's not obvious, so you end up comparing charts without realizing that it's meaningless.&lt;/li&gt;
+</description><category>Debugging</category><category>Recipe books</category><category>charity</category><category>crab-cake</category><category>data-analysis</category><category>giving</category><category>plotting</category><category>programming</category><category>python</category><category>recipe</category><category>research</category><guid>http://michael-mccracken.net/posts/2013/04/links.html</guid><pubDate>Wed, 10 Apr 2013 15:41:00 GMT</pubDate></item><item><title>More out of date links</title><link>http://michael-mccracken.net/posts/2012/10/selected-links.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;li&gt;&lt;a href="http://hammerprinciple.com/therighttool"&gt;Programming Languages · Hammer Principle&lt;/a&gt;
+    Very interesting survey site to answer the question "what language is right for what task?"&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://james-iry.blogspot.co.uk/2010/05/types-la-chart.html"&gt;One Div Zero: Types à la Chart&lt;/a&gt;
+    A chart of languages according to type power/safety. Seems reasonable. Made me curious about the ones in the top right. &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/philsquared/Catch/wiki"&gt;Home · philsquared/Catch Wiki&lt;/a&gt;
+    C++ unit testing framework, all in headers, looks nice.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html"&gt;ferd.ca -&amp;gt; An Open Letter to the Erlang Beginner (or Onlooker)&lt;/a&gt;
+    Interesting, balanced article about what makes erlang nice. &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://worrydream.com/oatmeal/blind.html"&gt;"Research is a blind date with knowledge." worrydream.com/oatmeal/blind.…&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://mail.python.org/pipermail/pypy-dev/2012-October/010602.html"&gt;Splitting RPython (the language) and PyPy (a python interpreter) plan: mail.python.org/pipermail/pypy…&lt;/a&gt;
+    Sounds interesting. I wonder if RPython will grow in popularity separately.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://saltandfat.com/post/33437971658"&gt;Double-corn tortillas&lt;/a&gt;
+    I'd love to try this sometime.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/clips/pattern"&gt;clips/pattern · GitHub&lt;/a&gt;
+    Web-mining in python. Lots of functionality here, BSD license.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.brainpickings.org/index.php/2012/06/12/the-art-of-coffee-1961/"&gt;The Art of Coffee: A Mad Men Era Short Film | Brain Pickings&lt;/a&gt;
+    I loved "This is Coffee!". 12 minute promotional short film from 1961 about coffee. It's wonderful to imagine the worn old mugs of my grandparents' generation new again, filled with something better than the electric-percolated canned junk I know they drank. Also great to see the Chemex in there, exactly the same as I use it today.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://worrydream.com/LearnableProgramming/"&gt;Learnable Programming&lt;/a&gt;
+    Very clear and well-argued essay about how to make a more-understandable programming environment. I agreed with everything, and was left wondering how to apply this line of thought to more complex software. (Everyone has seen this by the time I post this list.)&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://robrohan.com/2009/09/14/objc-signaturevo/"&gt;@objc.signature(‘v@:@@o^@’) | Times New Rohan&lt;/a&gt;
+    List of objc.signature codes &lt;/li&gt;
+</description><category>1961</category><category>c-plus-plus</category><category>coffee</category><category>erlang</category><category>film</category><category>javascript</category><category>languages</category><category>learning</category><category>objc signature</category><category>patterns</category><category>programming</category><category>programming-languages</category><category>recipe</category><category>software</category><category>teaching</category><category>testing</category><category>tortilla</category><category>types</category><guid>http://michael-mccracken.net/posts/2012/10/selected-links.html</guid><pubDate>Thu, 25 Oct 2012 19:35:00 GMT</pubDate></item><item><title>Links: Chicken Pasta, Parsing, DEVONsphere and superpages!</title><link>http://michael-mccracken.net/posts/2012/02/links-for-february-15th-through-february-20th.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;My shared links for February 15th through February 20th:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.firebirdsrestaurants.com/blog/?p=553"&gt;Firebirds Restaurants » Blog Archive » Firebirds Chicken Pasta&lt;/a&gt; I made the sauce. Delicious! I can only assume the whole thing will come together. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://dickgrune.com/Books/PTAPG_2nd_Edition/"&gt;Parsing Techniques - Second Edition&lt;/a&gt; - &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.devontechnologies.com/products/devonsphere/devonsphere-express.html"&gt;DEVONsphere Express -- Make your Mac smarter - DEVONtechnologies&lt;/a&gt; - Context aware search. Menu extra for 10.6.6+
+(See also my XRA, nat.org/dashboard, and others. nice looking realization of the dream by DEVONtech... &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.stanford.edu/~stinson/cs240/cs240_1/revs/superpages.txt"&gt;&lt;/a&gt; - Superpages allow each entry in the TLB to map a large physical memory
+region into a virtual address space. INCREASES TLB coverage; REDUCES TLB
+misses; &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Challenges of superpages:
+(1) superpage allocation &amp;amp; promotion
+(2) fragmentation control&lt;/p&gt;</description><category>TLB</category><category>XRA</category><category>ancho</category><category>compilers</category><category>computer-science</category><category>context-search</category><category>creamsauce</category><category>dashboard</category><category>links</category><category>operating-systems</category><category>parsing</category><category>pasta</category><category>pinboard-links</category><category>recipe</category><category>research</category><category>superpages</category><guid>http://michael-mccracken.net/posts/2012/02/links-for-february-15th-through-february-20th.html</guid><pubDate>Tue, 21 Feb 2012 03:04:00 GMT</pubDate></item></channel></rss>

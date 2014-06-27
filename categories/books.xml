@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>michael-mccracken.net (books)</title><link>http://michael-mccracken.net/</link><description></description><language>en</language><lastBuildDate>Fri, 27 Jun 2014 09:12:37 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Links for July 5th through July 6th</title><link>http://michael-mccracken.net/posts/2011/07/links-for-july-5th-through-july-6th.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;My shared links for July 5th through July 6th:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://design.canonical.com/2011/07/overlay-scrollbars-update/"&gt;Overlay Scrollbars - Update « Canonical Design&lt;/a&gt; - They have a video of the new scrollbar design for Ubuntu. 
+I'm not sure I like it but it's hard to say without using it first.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;One nit - I don't think it's obvious what happens to the red position bar (what to call that?) when you just press the arrows on the thumb instead of moving it around.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://code.google.com/p/pulp-or/"&gt;pulp-or - puLP: An LP modeler in Python - Google Project Hosting&lt;/a&gt; Linear Programming solvers!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://guide.couchdb.org/index.html"&gt;CouchDB: The Definitive Guide&lt;/a&gt; - The couchdb oreilly book. (free full text and drafts)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>books</category><category>couchdb</category><category>linearprogramming</category><category>links</category><category>modeling</category><category>optimization</category><category>pinboard-links</category><category>python</category><category>scrollbar</category><category>ui</category><category>video</category><guid>http://michael-mccracken.net/posts/2011/07/links-for-july-5th-through-july-6th.html</guid><pubDate>Wed, 06 Jul 2011 17:08:00 GMT</pubDate></item><item><title>Goodbye, Kurt Vonnegut</title><link>http://michael-mccracken.net/posts/2007/04/goodbye-kurt-vonnegut.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;After I heard the news today, I found this in my &lt;a href="http://web.pitas.com/mmc/"&gt;oldest weblog&lt;/a&gt;, from October 1999:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;To quote a bathroom stall in west Patee library, "READ VONNEGUT!"&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;He will be missed, but at least you can still go read Vonnegut.&lt;/p&gt;</description><category>books</category><guid>http://michael-mccracken.net/posts/2007/04/goodbye-kurt-vonnegut.html</guid><pubDate>Thu, 12 Apr 2007 16:17:00 GMT</pubDate></item></channel></rss>

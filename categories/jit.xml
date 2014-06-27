@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>michael-mccracken.net (JIT)</title><link>http://michael-mccracken.net/</link><description></description><language>en</language><lastBuildDate>Fri, 27 Jun 2014 09:12:40 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Links: JS, LaTeX, Live drawing and sound.</title><link>http://michael-mccracken.net/posts/2012/03/links-js-latex-live-drawing-and-sound.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;My shared links for March 5th through March 17th:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://codemirror.net/"&gt;CodeMirror&lt;/a&gt; - "CodeMirror is a JavaScript library that can be used to create a relatively pleasant editor interface for code-like content ― computer programs, HTML markup, and similar. If a mode has been written for the language you are editing, the code will be coloured, and the editor will optionally help you with indentation."&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://tacosw.com/latexian/"&gt;Latexian: A LaTeX Editor for Mac OS X&lt;/a&gt; - Nice looking latex editor with live preview.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;10.6 or higher so I can't try it just now.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.youtube.com/watch?v=JupqhcT4ONY"&gt;Core Graphics live - YouTube&lt;/a&gt; - Demo of live-preview graphics drawing tool&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://drc-fir.sourceforge.net/"&gt;DRC: Digital Room Correction&lt;/a&gt; - "RC is a program used to generate correction filters for acoustic compensation of HiFi and audio systems in general, including listening room compensation. DRC generates just the FIR correction filters, which can be used with a real time or offline convolver to provide real time or offline correction. DRC doesn't provide convolution features, and provides only some simplified, although really accurate, measuring tools."&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/shoaibkamil/asp/wiki"&gt;ASP: A SEJITS Implementation for Python * shoaibkamil/asp Wiki * GitHub&lt;/a&gt; - &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>JIT</category><category>acoustic</category><category>audio</category><category>coregraphics</category><category>drawing</category><category>editor</category><category>home-theater</category><category>javascript</category><category>latex</category><category>links</category><category>mac</category><category>macosx</category><category>pinboard-links</category><category>programming</category><category>python</category><category>sejits</category><category>speakers</category><category>syntax-highlighting</category><guid>http://michael-mccracken.net/posts/2012/03/links-js-latex-live-drawing-and-sound.html</guid><pubDate>Mon, 19 Mar 2012 21:29:00 GMT</pubDate></item></channel></rss>

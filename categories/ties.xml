@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>michael-mccracken.net (ties)</title><link>http://michael-mccracken.net/</link><description></description><language>en</language><lastBuildDate>Fri, 27 Jun 2014 09:12:37 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Links: Cheap wardrobe, App Stores, Javascript &amp; Parsing.</title><link>http://michael-mccracken.net/posts/2012/03/links-cheap-wardrobe-app-stores-javascript-parsing.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;My shared links for February 23rd:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://putthison.com/post/17161826063"&gt;Strategic Frugality If you're just starting to build a...&lt;/a&gt; - where you can skimp!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.chuqui.com/2012/02/dealing-with-crap-apps-in-the-catalog/"&gt;Dealing with Crap apps in the catalog…&lt;/a&gt; - chuq on the tough problem of policing app stores.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.jslint.com/"&gt;JSLint,The JavaScript Code Quality Tool&lt;/a&gt; - From Douglas Crockford&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.javascriptlint.com/"&gt;JavaScript Lint&lt;/a&gt; - &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://zaach.github.com/jison/"&gt;Jison&lt;/a&gt; - javascript bison with a yacc-alike too&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://effbot.org/zone/simple-top-down-parsing.htm"&gt;Simple Top-Down Parsing in Python&lt;/a&gt; - Pratt Parsing in Python. (After Douglas Crockford's Javascript version)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;def expression(rbp=0):
+    global token
+    t = token
+    token = next()
+    left = t.nud()
+    while rbp &amp;lt; token.lbp:
+        t = token
+        token = next()
+        left = t.led(left)
+    return left&lt;/p&gt;</description><category>apple</category><category>appstore</category><category>clothes</category><category>dressing</category><category>javascript</category><category>led</category><category>links</category><category>lint</category><category>nud</category><category>parser-generator</category><category>parsing</category><category>pinboard-links</category><category>pratt</category><category>programming</category><category>put-this-on</category><category>python</category><category>ties</category><category>tools</category><category>wardrobe</category><guid>http://michael-mccracken.net/posts/2012/03/links-cheap-wardrobe-app-stores-javascript-parsing.html</guid><pubDate>Thu, 01 Mar 2012 20:51:00 GMT</pubDate></item></channel></rss>

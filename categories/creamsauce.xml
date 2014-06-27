@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>michael-mccracken.net (creamsauce)</title><link>http://michael-mccracken.net/</link><description></description><language>en</language><lastBuildDate>Fri, 27 Jun 2014 09:12:40 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Links: Chicken Pasta, Parsing, DEVONsphere and superpages!</title><link>http://michael-mccracken.net/posts/2012/02/links-for-february-15th-through-february-20th.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;My shared links for February 15th through February 20th:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.firebirdsrestaurants.com/blog/?p=553"&gt;Firebirds Restaurants » Blog Archive » Firebirds Chicken Pasta&lt;/a&gt; I made the sauce. Delicious! I can only assume the whole thing will come together. &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://dickgrune.com/Books/PTAPG_2nd_Edition/"&gt;Parsing Techniques - Second Edition&lt;/a&gt; - &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.devontechnologies.com/products/devonsphere/devonsphere-express.html"&gt;DEVONsphere Express -- Make your Mac smarter - DEVONtechnologies&lt;/a&gt; - Context aware search. Menu extra for 10.6.6+
+(See also my XRA, nat.org/dashboard, and others. nice looking realization of the dream by DEVONtech... &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.stanford.edu/~stinson/cs240/cs240_1/revs/superpages.txt"&gt;&lt;/a&gt; - Superpages allow each entry in the TLB to map a large physical memory
+region into a virtual address space. INCREASES TLB coverage; REDUCES TLB
+misses; &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Challenges of superpages:
+(1) superpage allocation &amp;amp; promotion
+(2) fragmentation control&lt;/p&gt;</description><category>TLB</category><category>XRA</category><category>ancho</category><category>compilers</category><category>computer-science</category><category>context-search</category><category>creamsauce</category><category>dashboard</category><category>links</category><category>operating-systems</category><category>parsing</category><category>pasta</category><category>pinboard-links</category><category>recipe</category><category>research</category><category>superpages</category><guid>http://michael-mccracken.net/posts/2012/02/links-for-february-15th-through-february-20th.html</guid><pubDate>Tue, 21 Feb 2012 03:04:00 GMT</pubDate></item></channel></rss>

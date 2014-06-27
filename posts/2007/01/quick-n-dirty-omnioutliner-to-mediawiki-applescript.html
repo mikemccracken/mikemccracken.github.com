@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quick n' Dirty OmniOutliner to MediaWiki Applescript | michael-mccracken.net</title>
+
+    
+            <link href="../../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+
+    
+            <link rel="alternate" type="application/rss+xml" title="RSS" href="../../../rss.xml">
+
+      <link rel="canonical" href="http://michael-mccracken.net/posts/2007/01/quick-n-dirty-omnioutliner-to-mediawiki-applescript.html">
+
+
+
+    
+        <!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]-->
+
+    
+
+
+    
+
+    <meta name="author" content="Michael McCracken">
+    
+        <meta name="og:title" content="Quick n' Dirty OmniOutliner to MediaWiki Applescript">
+        <meta name="og:url" content="http://michael-mccracken.net/posts/2007/01/quick-n-dirty-omnioutliner-to-mediawiki-applescript.html">
+            <meta name="og:description" content="The other day, I had a big outline on a wiki that I wanted to edit in OmniOutliner so I could hide and move things around with a real outliner, then export it back out to the wiki.
+I managed to get it">
+        <meta name="og:site_name" content="michael-mccracken.net">
+        <meta name="og:type" content="article">
+
+    
+
+    
+
+
+
+</head>
+<body>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://michael-mccracken.net/">
+
+                <span id="blog-title">michael-mccracken.net</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                
+                <li>
+<a href="../../../archive.html">Archive</a>
+                </li>
+<li>
+<a href="../../../categories/index.html">Tags</a>
+                </li>
+<li>
+<a href="../../../rss.xml">RSS feed</a>
+
+                
+            </li>
+</ul>
+                
+<!-- Custom search -->
+<form method="get" id="search" action="http://duckduckgo.com/" class="navbar-form pull-left">
+<input type="hidden" name="sites" value="http://michael-mccracken.net/">
+<input type="hidden" name="k8" value="#444444">
+<input type="hidden" name="k9" value="#D51920">
+<input type="hidden" name="kt" value="h">
+<input type="text" name="q" maxlength="255" placeholder="Search…" class="span2" style="margin-top: 4px;">
+<input type="submit" value="DuckDuckGo Search" style="visibility: hidden;">
+</form>
+<!-- End of custom search -->
+
+
+            <ul class="nav navbar-nav navbar-right">
+                
+                
+                
+            </ul>
+        </div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav>
+
+<!-- End of Menubar -->
+
+<div class="container">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article">
+    
+    <header>
+        
+    <h1 class="p-name entry-title" itemprop="headline name"><a href="#" class="u-url">Quick n' Dirty OmniOutliner to MediaWiki Applescript</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Michael McCracken</span></p>
+            <p class="dateline"><a href="#" rel="bookmark"><time class="published dt-published" datetime="2007-01-30T18:42:00-08:00" itemprop="datePublished" title="Publication date">2007-01-30 18:42</time></a></p>
+                <p class="commentline">
+        
+    <a href="quick-n-dirty-omnioutliner-to-mediawiki-applescript.html#disqus_thread" data-disqus-identifier="cache/posts/2007/01/quick-n-dirty-omnioutliner-to-mediawiki-applescript.html">Comments</a>
+
+
+            
+
+        </p>
+</div>
+        
+
+    </header>
+
+    <div class="e-content entry-content" itemprop="articleBody text">
+    <p>The other day, I had a big outline on a wiki that I wanted to edit in <a href="http://www.omnigroup.com/applications/omnioutliner/">OmniOutliner</a> so I could hide and move things around with a real outliner, then export it back out to the wiki.</p>
+<p>I managed to get it into OO with copy and paste and a lot of RSI-inducing tabbing, but the text export options can't be massaged to export MediaWiki-style (eg, '#' for level one, '##' for level two).</p>
+<p>So I wrote a quick Applescript to get the data out and get me back on my way. I thought I'd post it in case it would be useful to anyone else:</p>
+<pre class="code literal-block"><span class="n">tell</span> <span class="n">front</span> <span class="n">document</span> <span class="n">of</span> <span class="n">application</span> <span class="s">"OmniOutliner Professional"</span>
+
+    <span class="n">set</span> <span class="n">expText</span> <span class="n">to</span> <span class="s">""</span>
+
+    <span class="n">repeat</span> <span class="n">with</span> <span class="n">aRow</span> <span class="n">in</span> <span class="n">rows</span>
+        <span class="n">set</span> <span class="n">rowText</span> <span class="n">to</span> <span class="s">""</span>
+        <span class="o">--</span> <span class="n">start</span> <span class="n">from</span> <span class="mi">2</span> <span class="n">to</span> <span class="n">treat</span> <span class="n">top</span> <span class="n">levels</span> <span class="n">as</span> <span class="n">headers</span>
+        <span class="n">repeat</span> <span class="n">with</span> <span class="n">i</span> <span class="n">from</span> <span class="mi">2</span> <span class="n">to</span> <span class="n">level</span> <span class="n">of</span> <span class="n">aRow</span>
+            <span class="n">set</span> <span class="n">rowText</span> <span class="n">to</span> <span class="n">rowText</span> <span class="o">&amp;</span> <span class="s">"#"</span>
+        <span class="n">end</span> <span class="n">repeat</span>
+        <span class="n">set</span> <span class="n">rowText</span> <span class="n">to</span> <span class="n">rowText</span> <span class="o">&amp;</span> <span class="s">" "</span> <span class="o">&amp;</span> <span class="n">topic</span> <span class="n">of</span> <span class="n">aRow</span>
+        <span class="n">set</span> <span class="n">expText</span> <span class="n">to</span> <span class="n">expText</span> <span class="o">&amp;</span> <span class="k">return</span> <span class="o">&amp;</span> <span class="n">rowText</span>
+    <span class="n">end</span> <span class="n">repeat</span>
+
+    <span class="n">set</span> <span class="n">the</span> <span class="n">clipboard</span> <span class="n">to</span> <span class="n">expText</span>
+
+    <span class="n">display</span> <span class="n">dialog</span> <span class="s">"The exported text is in the clipboard."</span>
+<span class="n">end</span> <span class="n">tell</span>
+</pre>
+
+
+<p>Update: see the comments for a version for TWiki. Thanks, Peter!</p>
+    </div>
+    <aside class="postpromonav">
+    <nav>
+    
+        <ul itemprop="keywords" class="tags">
+           <li><a class="tag p-category" href="../../../categories/mac.html" rel="tag">mac</a></li>
+           <li><a class="tag p-category" href="../../../categories/web.html" rel="tag">web</a></li>
+        </ul>
+
+    
+        <ul class="pager">
+            <li class="previous">
+                <a href="take-control-of-os-x-backups.html" rel="prev" title="Take Control of OS X Backups">Previous post</a>
+            </li>
+            <li class="next">
+                <a href="../02/mac-programming-collaborative-bookmarks.html" rel="next" title="Mac programming collaborative bookmarks?">Next post</a>
+            </li>
+        </ul>
+
+    </nav>
+    </aside>
+        <section class="comments">
+        <h2>Comments</h2>
+        
+        
+        <div id="disqus_thread"></div>
+        <script>
+        var disqus_shortname ="michaelmccrackennet",
+            disqus_url="http://michael-mccracken.net/posts/2007/01/quick-n-dirty-omnioutliner-to-mediawiki-applescript.html",
+        disqus_title="Quick n' Dirty OmniOutliner to MediaWiki Applescript",
+        disqus_identifier="cache/posts/2007/01/quick-n-dirty-omnioutliner-to-mediawiki-applescript.html",
+        disqus_config = function () {
+            this.language = "en";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+    <a href="//disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        </section>
+    
+
+</article>
+
+        
+       <script>var disqus_shortname="michaelmccrackennet";(function(){var a=document.createElement("script");a.async=true;a.src="//"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
+
+
+
+        </div>
+        <!--End of body content-->
+
+        <footer>
+            Contents © 2014         <a href="mailto:michael.mccracken@gmail.com">Michael McCracken</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
+            
+        </footer>
+    </div>
+</div>
+
+
+            <script src="../../../assets/js/all-nocdn.js"></script>
+    
+
+    <script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1818984-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</body>
+</html>

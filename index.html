@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="description" content="This is a weblog.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>michael-mccracken.net | michael-mccracken.net</title>
+
+    
+            <link href="assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+
+    
+            <link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
+
+      <link rel="canonical" href="http://michael-mccracken.net/">
+
+
+
+    
+        <!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]-->
+
+    
+
+
+
+
+</head>
+<body>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://michael-mccracken.net/">
+
+                <span id="blog-title">michael-mccracken.net</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                
+                <li>
+<a href="archive.html">Archive</a>
+                </li>
+<li>
+<a href="categories/index.html">Tags</a>
+                </li>
+<li>
+<a href="rss.xml">RSS feed</a>
+
+                
+            </li>
+</ul>
+                
+<!-- Custom search -->
+<form method="get" id="search" action="http://duckduckgo.com/" class="navbar-form pull-left">
+<input type="hidden" name="sites" value="http://michael-mccracken.net/">
+<input type="hidden" name="k8" value="#444444">
+<input type="hidden" name="k9" value="#D51920">
+<input type="hidden" name="kt" value="h">
+<input type="text" name="q" maxlength="255" placeholder="Search…" class="span2" style="margin-top: 4px;">
+<input type="submit" value="DuckDuckGo Search" style="visibility: hidden;">
+</form>
+<!-- End of custom search -->
+
+
+            <ul class="nav navbar-nav navbar-right">
+                
+                
+                
+            </ul>
+        </div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav>
+
+<!-- End of Menubar -->
+
+<div class="container">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
+<div class="postindex">
+    <article class="h-entry post-text">
+    <header>
+        <h1 class="p-name entry-title"><a href="posts/2013/09/flashing-ubuntu-touch-from-osx.html" class="u-url">Flashing a Nexus device with Ubuntu Touch from Mac OS X</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Michael McCracken</span></p>
+            <p class="dateline"><a href="posts/2013/09/flashing-ubuntu-touch-from-osx.html" rel="bookmark"><time class="published dt-published" datetime="2013-09-12T10:40:00-07:00" itemprop="datePublished" title="Publication date">2013-09-12 10:40</time></a></p>
+                <p class="commentline">
+        
+    <a href="posts/2013/09/flashing-ubuntu-touch-from-osx.html#disqus_thread" data-disqus-identifier="cache/posts/2013/09/flashing-ubuntu-touch-from-osx.html">Comments</a>
+
+
+        </p>
+</div>
+    </header>
+    <div class="e-content entry-content">
+    <p>I've been working with Ubuntu Touch recently, using VirtualBox to run
+Ubuntu Saucy as a guest on my Mac, and while it does work to connect
+to the device once it's installed, the process of reflashing is
+difficult. The manual steps on the Ubuntu Wiki
+<a href="https://wiki.ubuntu.com/Touch/Install">Touch/Install</a> page work for
+the old way, via <code>phablet-flash cdimage-touch</code>, with the caveat that
+you may have to manually reboot the device and/or re-connect the USB
+in between steps.</p>
+<p>However, as of <a href="https://lists.launchpad.net/ubuntu-phone/msg04004.html">this email last week</a>, the official way
+to flash phones is using the system images via <code>phablet-flash
+ubuntu-system</code>, which has a different set of files.</p>
+<p>Instead of just muddling through and updating the manual instructions,
+I decided to see if phablet-flash would run natively on the Mac. After
+a bit of python dependency resolution, it does. Here's what I did:</p>
+<ol>
+<li>Download the <a href="http://developer.android.com/sdk/index.html">Android SDK tools</a>. You only really need the "SDK Tools", not the whole ADT Bundle, so I clicked on "Use an existing IDE" at the bottom of that page, to get the smaller installer.</li>
+<li>Unpack the archive and run ./android. Install the platform-tools (and nothing else).</li>
+<li>
+<p>Add the platform-tools/ directory to your $PATH for convenience.</p>
+</li>
+<li>
+<p>(Optional) create a virtualenv for the python dependencies, and activate it.</p>
+</li>
+<li>
+<code>pip install</code> each of <code>configobj</code> <code>pyxdg</code>, and <code>pyliblzma</code>
+</li>
+<li>get <a href="http://bazaar.canonical.com/">bazaar</a> if you don't already have it.</li>
+<li>branch phablet-tools: <code>bzr branch lp:phablet-tools</code>
+</li>
+<li><code>cd phablet-tools &amp;&amp; python setup.py build</code></li>
+<li>At this point, <code>phablet-flash ubuntu-system</code> should work smoothly, with all transfers and reboots and timeouts going as expected.</li>
+</ol>
+<p>The only minor hiccup is that it apparently doesn't get ~/Downloads/
+from pyxdg, but it just means that you'll get the images saved to
+~/phablet-flash instead of ~/Downloads/phablet-flash. No big deal.</p>
+    </div>
+    </article>
+    <article class="h-entry post-text">
+    <header>
+        <h1 class="p-name entry-title"><a href="posts/2013/04/links.html" class="u-url">Links: Simulation, Programming, Crab Cakes and Hockey Player Usage Charts</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Michael McCracken</span></p>
+            <p class="dateline"><a href="posts/2013/04/links.html" rel="bookmark"><time class="published dt-published" datetime="2013-04-10T08:41:00-07:00" itemprop="datePublished" title="Publication date">2013-04-10 08:41</time></a></p>
+                <p class="commentline">
+        
+    <a href="posts/2013/04/links.html#disqus_thread" data-disqus-identifier="cache/posts/2013/04/links.html">Comments</a>
+
+
+        </p>
+</div>
+    </header>
+    <div class="e-content entry-content">
+    
+<li>
+<a href="http://lambda-the-ultimate.org/node/4710">DYNAMO</a>
+    Someone has rewritten one of the earliest simulation systems in JavaScript (the fate of all interesting software). Also includes a link to an article about the history of simulation software that sounds very interesting.</li>
+<li>
+<a href="http://feeds.seriouseats.com/~r/seriouseatsfeaturesvideos/~3/yfScRT6TNzw/the-food-lab-crab-cakes.html">The Food Lab: The Crabbiest Crab Cakes</a>
+    I love crab cakes, but I'm not sure I really want to try to make them at home. If I do, I'll use these tips. The Food Lab is fun stuff.</li>
+<li>
+<a href="http://mjtsai.com/blog/2013/03/30/debug-it/">Debug It!</a>
+    A review of a book on debugging, which is a topic that I think should be taught right alongside programming. See also <a href="http://whyprogramsfail.com">"Why Programs Fail"</a>
+</li>
+<li>
+<a href="http://www.givedirectly.org/">GiveDirectly: introducing a radical new way to give! | GiveDirectly</a>
+    Send cash straight to poor people. If their assertions are true, it's a really interesting idea, and I can't believe it hasn't been done before. It also seems transparently better than microloans.</li>
+<li>
+<a href="https://github.com/ContinuumIO/Bokeh">ContinuumIO/Bokeh · GitHub</a>
+    Something to look out for -- a Python ggplot that works with HTML5 is a great idea. "Bokeh (pronounced boh-Kay) is an implementation of Grammar of Graphics for Python, that also supports the customized rendering flexibility of Protovis and d3. Although it is a Python library, its primary output backend is HTML5 Canvas.  There are many excellent plotting packages for Python, but they generally do not optimize for the particular needs of statistical plotting (easy faceting, bulk application of aesthetic and visual parameters across categorical variables, pleasing default color palettes for categorical data, etc.). The goal of Bokeh is to provide a compelling Python equivalent of ggplot in R."</li>
+<li>
+<a href="http://kk.org/cooltools/archives/10441">FitDesk X1</a>
+    Level up from a standing desk? I'd love to try this for a day.</li>
+<li>
+<a href="http://lambda-the-ultimate.org/node/4699">Concurrent Revisions</a>
+    DVCS-like concurrent programming. Interesting sounding research - I haven't read it yet...</li>
+<li>
+<a href="http://www.hockeyabstract.com/playerusagecharts">Many thanks to @robvollmannhl and the good folks at Hockey Abstract for these great interactive Player Usage Charts: hockeyabstract.com/playerusagecha…</a>
+    Player Usage Charts are fascinating, but I can never figure out why people always change the axes so that the dots fill the space. It makes it impossible to compare two charts, and it's not obvious, so you end up comparing charts without realizing that it's meaningless.</li>
+
+    </div>
+    </article>
+    <article class="h-entry post-text">
+    <header>
+        <h1 class="p-name entry-title"><a href="posts/2013/02/mock-nested-properties-with-python-mock.html" class="u-url">Mock nested properties with python-mock</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Michael McCracken</span></p>
+            <p class="dateline"><a href="posts/2013/02/mock-nested-properties-with-python-mock.html" rel="bookmark"><time class="published dt-published" datetime="2013-02-21T15:05:00-08:00" itemprop="datePublished" title="Publication date">2013-02-21 15:05</time></a></p>
+                <p class="commentline">
+        
+    <a href="posts/2013/02/mock-nested-properties-with-python-mock.html#disqus_thread" data-disqus-identifier="cache/posts/2013/02/mock-nested-properties-with-python-mock.html">Comments</a>
+
+
+        </p>
+</div>
+    </header>
+    <div class="e-content entry-content">
+    <p>Python's <a href="http://www.voidspace.org.uk/python/mock/">mock</a> library (part of stdlib in 3.3+) is a great tool for writing concise tests.
+Its documentation is very good, and rewards multiple reads - but I found one thing that wasn't totally clear, even after looking through a few times.
+I wanted to use PropertyMock to mock nested Properties. Specifically, I had patched the python Gnome-introspection wrapper for libsoup at the top level <code>Soup</code> objcet, and I also wanted to replace one of its nested constant properties, Soup.MemoryUse.COPY with a sentinel that I controlled, for later comparison. </p>
+<p>The idiom for PropertyMock is to assign a PropertyMock to the type object of the Mock object whose property you want control of.
+What I found is that because Mocks auto-create properties, it's possible to do nested mocking in one line, like this:</p>
+<pre class="code literal-block"><span class="kn">import</span> <span class="nn">mock</span>
+<span class="n">m</span> <span class="o">=</span> <span class="n">mock</span><span class="o">.</span><span class="n">Mock</span><span class="p">()</span>
+<span class="nb">type</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">a</span><span class="o">.</span><span class="n">b</span><span class="o">.</span><span class="n">c</span><span class="p">)</span><span class="o">.</span><span class="n">d</span> <span class="o">=</span> <span class="n">mock</span><span class="o">.</span><span class="n">PropertyMock</span><span class="p">(</span><span class="n">return_value</span> <span class="o">=</span> <span class="n">mock</span><span class="o">.</span><span class="n">sentinel</span><span class="o">.</span><span class="n">my_value</span><span class="p">)</span>
+<span class="k">assert</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">a</span><span class="o">.</span><span class="n">b</span><span class="o">.</span><span class="n">c</span><span class="o">.</span><span class="n">d</span> <span class="o">==</span> <span class="n">mock</span><span class="o">.</span><span class="n">sentinel</span><span class="o">.</span><span class="n">my_value</span><span class="p">)</span>
+</pre>
+
+
+<p>So my soup example looks roughly like this (mixing testing and tested code, and repeating literals for brevity):</p>
+<pre class="code literal-block"><span class="n">json_body</span> <span class="o">=</span> <span class="s">"{}"</span>
+<span class="k">with</span> <span class="n">patch</span><span class="p">(</span><span class="n">gi</span><span class="o">.</span><span class="n">repository</span><span class="o">.</span><span class="n">Soup</span><span class="p">)</span> <span class="k">as</span> <span class="n">mock_soup</span><span class="p">:</span>
+    <span class="kn">from</span> <span class="nn">gi.repository</span> <span class="kn">import</span> <span class="n">Soup</span>
+    <span class="nb">type</span><span class="p">(</span><span class="n">mock_soup</span><span class="o">.</span><span class="n">MemoryUse</span><span class="p">)</span><span class="o">.</span><span class="n">COPY</span> <span class="o">=</span> <span class="n">mock</span><span class="o">.</span><span class="n">PropertyMock</span><span class="p">(</span><span class="n">return_value</span><span class="o">=</span><span class="n">mock</span><span class="o">.</span><span class="n">sentinel</span><span class="o">.</span><span class="n">COPY</span><span class="p">)</span>
+
+    <span class="c"># tested code:</span>
+    <span class="n">message</span> <span class="o">=</span> <span class="n">Soup</span><span class="o">.</span><span class="n">Message</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="s">"POST"</span><span class="p">,</span> <span class="s">"http://fake.com/api"</span><span class="p">)</span>
+    <span class="n">message</span><span class="o">.</span><span class="n">set_request</span><span class="p">(</span><span class="s">'application/json'</span><span class="p">,</span> <span class="n">Soup</span><span class="o">.</span><span class="n">MemoryUse</span><span class="o">.</span><span class="n">COPY</span><span class="p">,</span> <span class="n">json_body</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">json_body</span><span class="p">))</span>
+
+    <span class="c"># checking:</span>
+    <span class="k">assert</span><span class="p">(</span><span class="n">mock_soup</span><span class="o">.</span><span class="n">mock_calls</span> <span class="o">==</span> <span class="p">[</span><span class="n">mock</span><span class="o">.</span><span class="n">call</span><span class="o">.</span><span class="n">Message</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="s">"POST"</span><span class="p">,</span> <span class="s">"http://fake.com/api"</span><span class="p">),</span> 
+                                    <span class="n">mock</span><span class="o">.</span><span class="n">call</span><span class="o">.</span><span class="n">Message</span><span class="o">.</span><span class="n">new</span><span class="p">()</span><span class="o">.</span><span class="n">set_request</span><span class="p">(</span><span class="s">'application/json'</span><span class="p">,</span> 
+                                                                        <span class="n">sentinel</span><span class="o">.</span><span class="n">COPY</span> <span class="c"># &lt;--- this was the point</span>
+                                                                        <span class="s">"{}"</span><span class="p">,</span> <span class="mi">2</span><span class="p">)])</span>
+</pre>
+
+
+<p>It's often possible to think of a shorter, clearer use of the mock library after revisiting a problem, but so far this still seems good. Let me know in the comments if you have a suggestion for improvements.</p>
+    </div>
+    </article>
+    <article class="h-entry post-text">
+    <header>
+        <h1 class="p-name entry-title"><a href="posts/2013/02/dont-snooze.html" class="u-url">Don't Snooze</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Michael McCracken</span></p>
+            <p class="dateline"><a href="posts/2013/02/dont-snooze.html" rel="bookmark"><time class="published dt-published" datetime="2013-02-08T08:18:00-08:00" itemprop="datePublished" title="Publication date">2013-02-08 08:18</time></a></p>
+                <p class="commentline">
+        
+    <a href="posts/2013/02/dont-snooze.html#disqus_thread" data-disqus-identifier="cache/posts/2013/02/dont-snooze.html">Comments</a>
+
+
+        </p>
+</div>
+    </header>
+    <div class="e-content entry-content">
+    <p>Mailbox is a new iPhone email app that grabbed a lot of attention recently, partly because of their waiting list for using it.
+It's a gmail-only system that stores copies of your email on Mailbox's servers, so they can do new features beyond the standard mail client.
+Even though I got through the waiting list a week ago, I haven't tried it myself, because I wasn't </p>
+<p>I have a few religious beliefs about email.
+One is that processing incoming email is different from </p>
+<p>that you should only process a message once - when you first see it, you should decide what to do next with it, even if that's "read it again later", </p>
+<p>I call it a religion because I believe it, but I don't always practice
+it. I have an inbox full of things I've looked at once and am
+procrastinating on, partly because it's hard to move things to the
+todo list that I use from Gmail. It annoys me every time I look at my
+email, and I've forgotten important things that I left sitting
+there. This is exactly why I think it's important that our tools
+encourage good habits, instead of encoding bad ones.</p>
+    </div>
+    </article>
+    <article class="h-entry post-text">
+    <header>
+        <h1 class="p-name entry-title"><a href="posts/2012/12/mac-irc-clients.html" class="u-url">Mac IRC clients</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Michael McCracken</span></p>
+            <p class="dateline"><a href="posts/2012/12/mac-irc-clients.html" rel="bookmark"><time class="published dt-published" datetime="2012-12-13T09:03:00-08:00" itemprop="datePublished" title="Publication date">2012-12-13 09:03</time></a></p>
+                <p class="commentline">
+        
+    <a href="posts/2012/12/mac-irc-clients.html#disqus_thread" data-disqus-identifier="cache/posts/2012/12/mac-irc-clients.html">Comments</a>
+
+
+        </p>
+</div>
+    </header>
+    <div class="e-content entry-content">
+    <p>At Canonical, we are spread all over and keep in touch via IRC. I've
+tried out a bunch of IRC clients, but nothing is quite right. I'll
+explain. Here's a list of some things I want from a client - it's
+probably not complete, but it'll do for now:</p>
+<ol>
+<li>
+<p>Don't crash. A bouncer makes crashes recoverable, but I shouldn't
+ have to use one just to keep the backlog around.</p>
+</li>
+<li>
+<p>I need to search the backlog. Incremental search is best.</p>
+</li>
+<li>
+<p>Show multiple channels at once, in one window.</p>
+</li>
+<li>
+<p>Highlight mentions of my nick so I can glance at a window and see if anyone's asking me something. Use Growl or notification center, too.</p>
+</li>
+<li>
+<p>Make it obvious when I've disconnected, and reconnect robustly.</p>
+</li>
+<li>
+<p>Let me hide/fade out join/leave notifications and other admin messages.</p>
+</li>
+<li>
+<p>Keep my place so I know what messages are new.</p>
+</li>
+<li>
+<p>Make it obvious which channel I'm looking at, and even more
+ obvious which channel I'm about to type in. (Nothing is great at this)</p>
+</li>
+<li>
+<p>Spell-check is nice, but autocorrect is awful for IRC and
+ technical discussions. Needs a global switch.</p>
+</li>
+<li>
+<p>Don't show unread counts. Some channels are chatty and I'm just in them listening for my name.</p>
+</li>
+</ol>
+<p>Here are the clients I've tried and why they aren't quite perfect:</p>
+<h3><a href="http://colloquy.info">Colloquy</a></h3>
+<p>Colloquy is a nice full-featured open source client. I've used it the
+most. However - it doesn't show multiple channels in one window at the
+same time, and doesn't keep your place. I've had some problems with
+reconnection, where I thought IRC was quiet when I was actually just
+disconnected and didn't know it.</p>
+<p>I have to turn autocorrect off for each room I'm in, which I only
+remember after the first time it really annoys me by mangling some
+jargon.</p>
+<p>There's also some general buggy behavior, and I have a short list of
+bugs I'd like to report someday, but I don't have time to fix them.</p>
+<p>Years ago I hacked my own version of a place marker that I liked, but
+I can't remember why it didn't make it in, and of course the code is
+lost now.</p>
+<p>The backlog search looks like it should be powerful, but in my
+experience it just doesn't work - it never displays any results. I'm
+not sure what the deal is there.</p>
+<p>(As a side note, Colloquy's iPhone app is the only iPhone IRC client
+I've used. It seems to work fine, and I don't use it enough to have
+specific gripes. Just having to have IRC open on my phone is
+guaranteed to annoy me more than the software itself could.)</p>
+<h3><a href="http://www.emacswiki.org/ERC">Emacs ERC</a></h3>
+<p>My current setup is just to run ERC in an emacs window alongside my
+code editing.  This has super flexible window splitting and size
+management and unbeatable search for your backlog, since it's just
+another emacs buffer. There's another nice benefit - if you're writing
+about code, emacs' tab-completion for strings across all buffers means
+that you can easily autocomplete SomeReallyLongFunctionName in
+chats. This saves a lot of typing and cut n' pasting. When you do need
+to cut n' paste, it's nicer to do it between emacs buffers than
+between apps.</p>
+<p>The defaults are not ideal, as usual with emacs you need to dig around
+to find a good setup.</p>
+<p>There's a module to colorize nicknames according to a hash of the
+name, so it's easier to tell people apart. Other clients have similar
+features but I think I like emacs' the best for some reason - maybe
+the palette is nicer.</p>
+<p>There's a module to mark your place that only works if you left the
+cursor in the backlog, which is a little weird. It will highlight my
+nick when mentioned, but not the whole line.</p>
+<p>Since it's open source, I have the same problem as Colloquy, it's
+hackable, but I don't really have time for that. And emacs is fun to
+hack on, so it's a potentially dangerous time sink.</p>
+<h3><a href="http://conceitedsoftware.com/products/linkinus">Linkinus</a></h3>
+<p>This is a nice client with some minor flaws and a little flakiness. I
+liked it but moved on because of minor annoyances.</p>
+<p>It has a kind-of nifty "conversation tracking" feature that tries to
+highlight messages in a back-and-forth when you hover over it with the
+mouse (but only in the currently selected channel). It's not really
+that useful, but I think it could be if pushed further. I'd like to
+see more clients try this kind of thing, since separating multiple
+concurrent conversations is hard on IRC, and it can be hard to avoid
+them.</p>
+<p>Lets you display multiple channels in one window, but that needs some
+improvement. There's just one text-entry field so it's easy to type
+something to the wrong channel. </p>
+<p>The split display has some issues. The split channel views don't show
+you the channel name anywhere, and in some cases don't even show you
+the channel topic, which may or may not be helpful anyway. So it can
+take some effort to figure out what channel you're looking at,
+especially if there are many of the same people talking on two
+channels.</p>
+<p>It can save a set of channels as a group, but it doesn't save the
+relative sizes of the splits in the group, so if you want to flip
+between groups, you'd better be OK with even splits.</p>
+<p>Finally, it only supports vertical splits, so with more than two
+channels, you just get a couple unreadably long lines per channel.</p>
+<p>It has a very barebones backlog search, but it does work.</p>
+<p>They've also clearly tried to re-design the account setup / prefs
+experience, but I'm not a big fan of an inspector palette - I wanted
+to compare settings between two servers and it will only show me one
+at a time. This was also the biggest point of flakiness, where some
+edits wouldn't commit and I couldn't tell if the settings were being
+changed.</p>
+<h3><a href="http://www.codeux.com/textual/">Textual</a></h3>
+<p>Textual is an open-source app
+<a href="http://github.com/Codeux/Textual">(github.com/Codeux/Textual)</a> that
+is for sale on the Mac app store. This is an interesting approach that
+I think has some merit - people may still contribute code or bug
+fixes, but it's also nice to know that if the app ever gets abandoned,
+it could be resurrected. That said, I tried building from source to
+enable a quick hack once but the master branch didn't build for me, so
+they're not trying to make it easy.</p>
+<p>It lets me hide some admin messages, has automatic &amp;
+manual scrollback markers to keep track of what I've missed.</p>
+<p>This has a setting to "Track conversations using nickname
+highlighting" but I couldn't really tell what it was doing.</p>
+<p>This also has a pretty barebones search, but again, it works.</p>
+<p>I tried this for a few days and liked it, but ultimately switched
+away, I think mostly because you can't display multiple channels -
+there's just one window and it doesn't split up.</p>
+<h3><a href="http://mediaware.sk/ware/?page_id=35">Mango</a></h3>
+<p>I haven't tried Mango. The screenshots in the App Store and feature
+listings don't lead me to believe that it's anything significantly
+different from the others. I'd be glad to hear from fans, though.</p>
+<p>So, what do you use? Have I missed anything great?</p>
+    </div>
+    </article>
+    <article class="h-entry post-text">
+    <header>
+        <h1 class="p-name entry-title"><a href="posts/2012/10/selected-links.html" class="u-url">More out of date links</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Michael McCracken</span></p>
+            <p class="dateline"><a href="posts/2012/10/selected-links.html" rel="bookmark"><time class="published dt-published" datetime="2012-10-25T12:35:00-07:00" itemprop="datePublished" title="Publication date">2012-10-25 12:35</time></a></p>
+                <p class="commentline">
+        
+    <a href="posts/2012/10/selected-links.html#disqus_thread" data-disqus-identifier="cache/posts/2012/10/selected-links.html">Comments</a>
+
+
+        </p>
+</div>
+    </header>
+    <div class="e-content entry-content">
+    
+<li>
+<a href="http://hammerprinciple.com/therighttool">Programming Languages · Hammer Principle</a>
+    Very interesting survey site to answer the question "what language is right for what task?"</li>
+<li>
+<a href="http://james-iry.blogspot.co.uk/2010/05/types-la-chart.html">One Div Zero: Types à la Chart</a>
+    A chart of languages according to type power/safety. Seems reasonable. Made me curious about the ones in the top right. </li>
+<li>
+<a href="https://github.com/philsquared/Catch/wiki">Home · philsquared/Catch Wiki</a>
+    C++ unit testing framework, all in headers, looks nice.</li>
+<li>
+<a href="http://ferd.ca/an-open-letter-to-the-erlang-beginner-or-onlooker.html">ferd.ca -&gt; An Open Letter to the Erlang Beginner (or Onlooker)</a>
+    Interesting, balanced article about what makes erlang nice. </li>
+<li>
+<p><a href="http://worrydream.com/oatmeal/blind.html">"Research is a blind date with knowledge." worrydream.com/oatmeal/blind.…</a></p>
+</li>
+<li>
+<p><a href="http://mail.python.org/pipermail/pypy-dev/2012-October/010602.html">Splitting RPython (the language) and PyPy (a python interpreter) plan: mail.python.org/pipermail/pypy…</a>
+    Sounds interesting. I wonder if RPython will grow in popularity separately.</p>
+</li>
+<li>
+<p><a href="http://saltandfat.com/post/33437971658">Double-corn tortillas</a>
+    I'd love to try this sometime.</p>
+</li>
+<li>
+<p><a href="https://github.com/clips/pattern">clips/pattern · GitHub</a>
+    Web-mining in python. Lots of functionality here, BSD license.</p>
+</li>
+<li>
+<p><a href="http://www.brainpickings.org/index.php/2012/06/12/the-art-of-coffee-1961/">The Art of Coffee: A Mad Men Era Short Film | Brain Pickings</a>
+    I loved "This is Coffee!". 12 minute promotional short film from 1961 about coffee. It's wonderful to imagine the worn old mugs of my grandparents' generation new again, filled with something better than the electric-percolated canned junk I know they drank. Also great to see the Chemex in there, exactly the same as I use it today.</p>
+</li>
+<li>
+<a href="http://worrydream.com/LearnableProgramming/">Learnable Programming</a>
+    Very clear and well-argued essay about how to make a more-understandable programming environment. I agreed with everything, and was left wondering how to apply this line of thought to more complex software. (Everyone has seen this by the time I post this list.)</li>
+<li>
+<a href="http://robrohan.com/2009/09/14/objc-signaturevo/">@objc.signature(‘v@:@@o^@’) | Times New Rohan</a>
+    List of objc.signature codes </li>
+
+    </div>
+    </article>
+    <article class="h-entry post-text">
+    <header>
+        <h1 class="p-name entry-title"><a href="posts/2012/10/links.html" class="u-url">Links</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Michael McCracken</span></p>
+            <p class="dateline"><a href="posts/2012/10/links.html" rel="bookmark"><time class="published dt-published" datetime="2012-10-08T00:47:00-07:00" itemprop="datePublished" title="Publication date">2012-10-08 00:47</time></a></p>
+                <p class="commentline">
+        
+    <a href="posts/2012/10/links.html#disqus_thread" data-disqus-identifier="cache/posts/2012/10/links.html">Comments</a>
+
+
+        </p>
+</div>
+    </header>
+    <div class="e-content entry-content">
+    
+<li>
+<p><a href="http://stackoverflow.com/questions/10857030/whats-so-bad-about-template-haskell">What's so bad about Template Haskell? - Stack Overflow</a></p>
+<p>A bunch of good answers to why Template Haskell is occasionally maligned.</p>
+</li>
+<li>
+<p><a href="http://stackoverflow.com/questions/10845179/which-haskell-ghc-extensions-should-users-use-avoid/10849782#10849782">Which Haskell (GHC) extensions should users use/avoid? - Stack Overflow</a></p>
+<p>Interesting list of aesthetic judgements of haskell extensions. At press time I don't know what most of these words mean.</p>
+</li>
+<li>
+<p><a href="http://www.yesodweb.com/blog/2011/04/yesod-template-haskell">Yesod and Template Haskell</a></p>
+<p>Short post on why Yesod uses template haskell (which has a bad rep)</p>
+</li>
+<li>
+<p><a href="http://imakewebthings.com/deck.js/">deck.js » Modern HTML Presentations</a></p>
+<p>Best "Write your presentations in HTML" thing I've seen yet, although I'm not sure how great it'd be at complex visuals or builds. Yes sometimes builds are good! <em>SOMETIMES</em>.</p>
+</li>
+<li>
+<p><a href="http://redbot.org/">REDbot</a></p>
+<p>RED is a robot that checks HTTP resources to see how they'll behave, pointing out common problems and suggesting improvements. Although it is not a HTTP conformance tester, it can find a number of HTTP-related issues. </p>
+</li>
+<li>
+<p><a href="https://github.com/visi-lang/visi">.@dpp’s Visi looks to be exactly the thing when Soulver isn’t enough and spreadsheets are rigid github.com/visi-lang/visi #emerginglangs</a></p>
+<p>Should I look at this before posting a link? Nah... But I will look at it, eventually! It looks interesting, I love this kind of stuff - although as usual I wonder if this is something you can already get in Mathematica but no one knows because it's so expensive.</p>
+</li>
+<li>
+<p><a href="http://highscalability.com/blog/2012/7/30/prismatic-architecture-using-machine-learning-on-social-netw.html">High Scalability - Prismatic Architecture - Using Machine Learning on Social Networks to Figure Out What You Should Read on the Web </a></p>
+<p>Probably interesting? I skimmed this, I'm not gonna lie, I don't remember much.</p>
+</li>
+<li>
+<p><a href="http://deslide.clusterfake.net/">Deslidefied HTML</a></p>
+<p>Really useful bookmark to make slideshow news articles readable on one page. I am using it all the time!</p>
+</li>
+<li>
+<p><a href="http://pragprog.com/magazines/2012-09/thinking-functionally-with-haskell">Thinking Functionally with Haskell</a></p>
+<p>""In which we explore what modern type systems bring to the table. Imagine an approach to programming where you write down some description of what your code should do, then before running your code you run some automatic tool to see if the code matches the description. That’s Test-driven development, you say!  Actually, this is what you are doing when you use static types in most languages too. Types are a description of the code’s inputs and outputs, and the check ensures that inputs and outputs match up and are used consistently. Modern type systems—such as in Haskell or above—are very flexible, and allow these descriptions to be quite detailed; plus they are not too obtrusive in use and often very helpful.  One point I’ll investigate here is how advances in types are converging with new ideas on testing, to the point where (I claim) the old distinctions are starting to blur and starting to open up exciting new possibilities—hence my suggestion that we need a new word to describe what we’re doing that is free from preconceptions and out-dated thinking.  So put aside your bad experiences from Java, and prepare to be amazed! ""</p>
+</li>
+<li>
+<p><a href="http://feedproxy.google.com/~r/ezyang/~3/3Vb6-OhkZws/">So you want to hack on IMAP…</a></p>
+<p>"Well, first off, you’re horribly misinformed: you do not actually want to hack on IMAP." (I agree, IMAP bad.)</p>
+</li>
+<li>
+<p><a href="http://waxy.org/2008/06/the_machine_that_changed_the_world/">The Machine That Changed the World: Great Brains - Waxy.org</a></p>
+<p>Documentary about computing history:
+"It's a whirlwind tour of computing before the Web, with brilliant archival footage and interviews with key players — several of whom passed away since the filming. Jointly produced by WGBH Boston and the BBC, it originally aired in the UK as The Dream Machine before its U.S. premiere in January 1992. Its broadcast was accompanied by a book co-written by the documentary's producer Jon Palfreman."</p>
+</li>
+
+    </div>
+    </article>
+    <article class="h-entry post-text">
+    <header>
+        <h1 class="p-name entry-title"><a href="posts/2012/10/a-testing-story.html" class="u-url">A Testing Story</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Michael McCracken</span></p>
+            <p class="dateline"><a href="posts/2012/10/a-testing-story.html" rel="bookmark"><time class="published dt-published" datetime="2012-10-03T11:37:00-07:00" itemprop="datePublished" title="Publication date">2012-10-03 11:37</time></a></p>
+                <p class="commentline">
+        
+    <a href="posts/2012/10/a-testing-story.html#disqus_thread" data-disqus-identifier="cache/posts/2012/10/a-testing-story.html">Comments</a>
+
+
+        </p>
+</div>
+    </header>
+    <div class="e-content entry-content">
+    <p>Tests are great! This year I've started working on a codebase with a
+significant unit test suite for the first time in a while, and good
+coverage has definitely come in handy. Now I'm going to share a 
+story where a single test did double duty.</p>
+<p>Our filesystem events listening daemon was crashing occasionally on my
+system, and I didn't know how to reproduce it. No one else seemed to
+be getting these crashes, either. The system was saving a backtrace,
+and it was always the same, but I wasn't sure I believed its line
+numbers. As a start, I made a guess at the lines that were really
+failing, and added a ton of debug dumps to inspect the state. (Since
+this daemon is run as root using launchd, it's still easiest to just
+use the old printf-n'-stare debug method.)</p>
+<p>Then I tried a lot of stuff to poke at it, even leaving Spotify on
+overnight in an attempt to recreate the conditions of the bug. No
+luck. It seemed like it would only crash when I wasn't trying to get
+it to crash - pretty frustrating.</p>
+<p>I finally found it, but only after giving up for a while. I checked in
+again after working for a while on another project, and hey, lots of
+new crashes! With all my extra debug info, I could see what was going
+on - a string that couldn't be encoded in UTF-8 was being handled by
+some code that assumed it could be. It was a filesystem path with
+invalid characters.</p>
+<p>What was the path that was killing my daemon? It was a temp file written
+by the test suite for the other project. It was a non-utf8 path,
+written to test the unicode handling of the GUI, and it had the
+wonderful (in retrospect) side effect of poking a bug in the daemon
+too. It's so satisfying when you find a bug's cause and it completely explains all the symptoms you were seeing.</p>
+<p>One test exercising the unicode handling of multiple projects, now that's coverage!</p>
+    </div>
+    </article>
+    <article class="h-entry post-text">
+    <header>
+        <h1 class="p-name entry-title"><a href="posts/2012/09/disposable.html" class="u-url">disposable</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Michael McCracken</span></p>
+            <p class="dateline"><a href="posts/2012/09/disposable.html" rel="bookmark"><time class="published dt-published" datetime="2012-09-06T08:17:00-07:00" itemprop="datePublished" title="Publication date">2012-09-06 08:17</time></a></p>
+                <p class="commentline">
+        
+    <a href="posts/2012/09/disposable.html#disqus_thread" data-disqus-identifier="cache/posts/2012/09/disposable.html">Comments</a>
+
+
+        </p>
+</div>
+    </header>
+    <div class="e-content entry-content">
+    <p>Computing gadgets don't last long enough. I wanted to write a lot
+about this, but since I don't have good answers, I figured I might as
+well just pose some questions.</p>
+<p>All the time, we're throwing out something that still works, 
+because there's something new that works better. </p>
+<p>Working better is great! Faster chips and better screens and cameras
+make our lives easier and help us make cool new stuff. </p>
+<p>I used to work near people designing processors, so I know it's plenty
+hard just to keep that part of the system progressing. And I know that
+newer stuff will use less energy, which is great. I know that people
+designing data centers think hard about their efficiency, and upgrade
+ruthlessly to improve it.</p>
+<p>But how carefully are we considering the impact of getting rid of all
+that old equipment? How do we compare whether it's really, globally,
+ethically, better to improve speed &amp; efficiency vs. just keep using
+old stuff? How do we factor in things like 
+<a href="http://en.wikipedia.org/wiki/Coltan_mining_and_ethics">resources mined in conflict zones</a>?</p>
+<p>I recently remodeled a house, and among all the advice I read, I
+remember this best: "The greenest building material is the one that's
+already there." (It was about floors. We put in new bamboo
+anyway. That old parquet was awful, but I hope the new stuff stays
+there for a hundred years or more.)</p>
+<p>I know that designing e.g., a great modern smartphone, is extremely
+difficult, even 'only' considering functionality, space and power
+constraints. Designing something that small and integrated that could
+still be upgraded partially, keeping around parts that still work,
+sounds near impossible, but wouldn't it be great? It sounds like a fun
+challenge.</p>
+    </div>
+    </article>
+    <article class="h-entry post-text">
+    <header>
+        <h1 class="p-name entry-title"><a href="posts/2012/08/editor-wars.html" class="u-url">'Editor Wars'</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Michael McCracken</span></p>
+            <p class="dateline"><a href="posts/2012/08/editor-wars.html" rel="bookmark"><time class="published dt-published" datetime="2012-08-16T23:44:00-07:00" itemprop="datePublished" title="Publication date">2012-08-16 23:44</time></a></p>
+                <p class="commentline">
+        
+    <a href="posts/2012/08/editor-wars.html#disqus_thread" data-disqus-identifier="cache/posts/2012/08/editor-wars.html">Comments</a>
+
+
+        </p>
+</div>
+    </header>
+    <div class="e-content entry-content">
+    <p>An idea I'd like to see: Editor Wars, the game of hacking at code.</p>
+<p>Hackers compete on how fast they can complete code editing tasks from
+a variety of languages, with results plotted and dissected on a 
+web leaderboard. The idea is not to evaluate language understanding or
+design, but simply editing skill and speed in the kind of thing that
+editor flame wars start over. </p>
+<p>The tasks could be simple refactorings, like renaming a function
+throughout a source tree, or extracting code into a method. I'd expect
+this would show advantages of specialized refactoring tools in some
+IDEs. Other tasks might be more complex, like writing a new set of
+functions, a whole class, or adding functions to a class to conform to
+a protocol or interface. Good template support and autocomplete might
+be an advantage here. Or maybe you want to add conditional debug
+logging around a set of functions, with each call having a separate
+hardcoded counter value? Surely powerful macros win this task?
+Naturally, new tasks could be submitted by the public, and voted on.
+Each task would have a "correct" answer, but if you're really clever
+you could always suggest a better correct answer.</p>
+<p>Use of extensions and custom macros would be happily encouraged, as
+long as you can share what you've used. </p>
+<p>You'd need either an editor plugin or at least something that watches
+files efficiently to get the split-second timing your contestants will
+demand. Ideally you'd be able to record keystrokes and grab the source
+for any macros you call, then the site would be able to show a replay
+for the viewing public.</p>
+<p>It'd be fascinating to learn how other people use your favorite editor
+by watching the best of the best compete. Not to mention, just imagine
+the forum threads arguing over the graphs from the vast database of
+editor timings.</p>
+<p>Anyone want to build this?</p>
+    </div>
+    </article>
+</div>
+
+        <nav class="postindexpager">
+        <ul class="pager">
+            <li class="next">
+                <a href="index-25.html" rel="next">Older posts</a>
+            </li>
+        </ul>
+        </nav>
+
+
+        
+       <script>var disqus_shortname="michaelmccrackennet";(function(){var a=document.createElement("script");a.async=true;a.src="//"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
+
+
+
+
+
+        </div>
+        <!--End of body content-->
+
+        <footer>
+            Contents © 2014         <a href="mailto:michael.mccracken@gmail.com">Michael McCracken</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
+            
+        </footer>
+    </div>
+</div>
+
+
+            <script src="assets/js/all-nocdn.js"></script>
+    
+
+    <script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1818984-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</body>
+</html>

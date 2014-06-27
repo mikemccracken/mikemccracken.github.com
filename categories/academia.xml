@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>michael-mccracken.net (academia)</title><link>http://michael-mccracken.net/</link><description></description><language>en</language><lastBuildDate>Fri, 27 Jun 2014 09:12:37 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Links: More PyPy, Academia, Censorship we Love, and Monads</title><link>http://michael-mccracken.net/posts/2012/03/more-pypy-academia-censorship-we-love-and-monads.html</link><dc:creator>Michael McCracken</dc:creator><description>&lt;p&gt;My shared links for March 1st through March 5th:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://stackoverflow.com/questions/8452396/does-pypy-translate-itself/8569919#8569919"&gt;python - Does PyPY translate itself? - Stack Overflow&lt;/a&gt; - An informative answer about how PyPy works&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://lars.com/2011/01/08/on-reviewing-research-papers/"&gt;On reviewing research papers « Lars Bergstrom&lt;/a&gt; - So, PL has a culture of really useful reviews, huh?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.paulgraham.com/love.html"&gt;How to Do What You Love&lt;/a&gt; - "If you think something's supposed to hurt, you're less likely to notice if you're doing it wrong. That about sums up my experience of graduate school."&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Boom!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://www.themillions.com/2012/03/ban-this-book-an-uncensored-look-at-the-lorax-and-other-dangerous-books.html"&gt;The Millions : Ban This Book: An Uncensored Look At The Lorax And Other Dangerous Books&lt;/a&gt; - &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="http://blog.sigfpe.com/2006/08/you-could-have-invented-monads-and.html"&gt;A Neighborhood of Infinity: You Could Have Invented Monads! (And Maybe You Already Have.)&lt;/a&gt; - A practical way of thinking about monads.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description><category>academia</category><category>haskell</category><category>links</category><category>monads</category><category>pg</category><category>pinboard-links</category><category>programming</category><category>publishing</category><category>pypy</category><category>python</category><category>research</category><category>rpy</category><guid>http://michael-mccracken.net/posts/2012/03/more-pypy-academia-censorship-we-love-and-monads.html</guid><pubDate>Tue, 06 Mar 2012 19:39:00 GMT</pubDate></item></channel></rss>

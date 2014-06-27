@@ -1,0 +1,80 @@
+import cPickle
+import getpass
+import os
+
+import datetime
+
+import pinboard
+
+#username = raw_input("Pinboard username")
+username = 'mmc'
+password = getpass.getpass("Pinboard password: ")
+
+pconn = pinboard.open(username, password)
+
+num_posts = raw_input("how many posts? (10) ")
+
+if num_posts != '':
+    num_posts = int(num_posts)
+else:
+    num_posts = 10
+
+links = pconn.posts(count=num_posts)
+
+timestr = datetime.datetime.now().strftime('%Y-%m-%d')
+
+seen = {}
+if os.path.exists("seen.txt"):
+    with open("seen.txt") as seenf:
+        for line in seenf.readlines():
+            used, url = line[0], line[2:-1]  # strip space and line ending
+            seen[url] = used
+
+
+newpoststr = ''
+tags = set()
+for link in links:
+    url = link['href']
+    if url in seen:
+        continue
+    print link['description'], link['href']
+    cmd = raw_input("Use? y/N: ")
+    if cmd == 'y':
+        newpoststr += "* [%s](%s)\n\t%s\n" % (link['description'],
+                                              url,
+                                              link['extended'])
+        map(tags.add, link['tags'])
+        seen[url] = 'y'
+    else:
+        seen[url] = 'n'
+
+tags_str = ' '.join(tags)
+
+with open("seen.txt", 'w+') as seenf:
+    for url, used in seen.items():
+        seenf.write("%s %s\n" % (used, url))
+
+
+filename = "octopress/source/_posts/%s-links.markdown" % timestr
+
+
+timestr_hm = datetime.datetime.now().strftime('%Y-%m-%d %H:%M')
+
+header = """---
+layout: post
+title: Links
+date: %s
+comments: true
+categories: %s
+---
+""" % (timestr_hm, tags_str)
+
+s = header + newpoststr
+
+f = open(filename, 'w')
+f.write(s.encode('utf-8'))
+f.close()
+
+print "opening emacs on ", filename
+
+os.system('emacs -nw %s' % filename)

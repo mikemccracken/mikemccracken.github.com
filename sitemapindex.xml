@@ -25,6 +25,10 @@
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://michael-mccracken.net/categories/acheme.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://michael-mccracken.net/categories/acm.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
@@ -53,6 +57,10 @@
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://michael-mccracken.net/categories/algorithms.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://michael-mccracken.net/categories/alpha.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
@@ -70,6 +78,10 @@
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/animation.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/categories/app.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
@@ -122,6 +134,10 @@
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/austin.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/categories/autotuning.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
@@ -181,6 +197,10 @@
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://michael-mccracken.net/categories/blogging.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://michael-mccracken.net/categories/book.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
@@ -226,6 +246,10 @@
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/c.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/categories/calculator.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
@@ -401,6 +425,10 @@
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://michael-mccracken.net/categories/constraints.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://michael-mccracken.net/categories/context-search.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
@@ -414,6 +442,10 @@
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/cookbook.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/categories/cookie.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
@@ -445,7 +477,15 @@
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://michael-mccracken.net/categories/crdt.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://michael-mccracken.net/categories/creamsauce.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/categories/criticism.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
@@ -534,6 +574,10 @@
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/development.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/categories/diagram.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
@@ -645,11 +689,19 @@
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://michael-mccracken.net/categories/estate.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://michael-mccracken.net/categories/etiquette.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/eudora.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/categories/eventual-consistency.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
@@ -674,6 +726,10 @@
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/fashion.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/categories/fatherhood.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
@@ -702,6 +758,10 @@
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/filters.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/categories/finance.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
@@ -809,6 +869,10 @@
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://michael-mccracken.net/categories/gluten-free.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://michael-mccracken.net/categories/gmail.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
@@ -869,6 +933,10 @@
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://michael-mccracken.net/categories/growing.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://michael-mccracken.net/categories/growl.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
@@ -926,6 +994,14 @@
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/home-theater.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/categories/housing.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/categories/howto.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
@@ -1041,6 +1117,10 @@
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://michael-mccracken.net/categories/internet.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://michael-mccracken.net/categories/interviews.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
@@ -1118,6 +1198,10 @@
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/kwaga.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/categories/language.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
@@ -1309,6 +1393,10 @@
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://michael-mccracken.net/categories/merging.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://michael-mccracken.net/categories/merlinmann.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
@@ -1441,6 +1529,10 @@
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://michael-mccracken.net/categories/nikola.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://michael-mccracken.net/categories/nlp.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
@@ -1473,6 +1565,10 @@
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://michael-mccracken.net/categories/oatmeal.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://michael-mccracken.net/categories/objc-signature.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
@@ -1482,6 +1578,10 @@
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/ocd.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/categories/octopress.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
@@ -1541,11 +1641,19 @@
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://michael-mccracken.net/categories/paleo.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://michael-mccracken.net/categories/parallel.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/parallelism.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/categories/parenting.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
@@ -1621,6 +1729,10 @@
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://michael-mccracken.net/categories/pittsburgh.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://michael-mccracken.net/categories/pixar.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
@@ -1634,6 +1746,10 @@
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/plan9.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/categories/plants.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
@@ -1749,7 +1865,15 @@
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://michael-mccracken.net/categories/quickref.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://michael-mccracken.net/categories/quiet.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/categories/racket.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
@@ -1773,11 +1897,19 @@
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://michael-mccracken.net/categories/real.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://michael-mccracken.net/categories/recipe-books.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/recipe.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/categories/reference.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
@@ -1962,6 +2094,10 @@
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/solaris.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/categories/solver.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
@@ -2209,7 +2345,15 @@
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://michael-mccracken.net/categories/tree.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://michael-mccracken.net/categories/tufte.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/categories/tuning.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>
@@ -2270,6 +2414,10 @@
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/unix.xml</loc>
+  <lastmod>2014-06-27</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/categories/up.xml</loc>
   <lastmod>2014-06-27</lastmod>
  </sitemap>
  <sitemap>

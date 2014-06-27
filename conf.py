@@ -154,12 +154,12 @@ TIMEZONE = "America/Los_Angeles"
 #
 
 POSTS = (
-    ("posts/*.md", "posts", "post.tmpl"),
-    ("posts/*.txt", "posts", "post.tmpl"),
+    ("posts/*.md", "", "post.tmpl"),
+    ("posts/*.txt", "", "post.tmpl"),
 )
 PAGES = (
-    ("stories/*.md", "stories", "story.tmpl"),
-    ("stories/*.txt", "stories", "story.tmpl"),
+    ("stories/*.md", "pages", "story.tmpl"),
+    ("stories/*.txt", "pages", "story.tmpl"),
 )
 
 # One or more folders containing files to be copied as-is into the output.
@@ -510,7 +510,7 @@ STRIP_INDEXES = True
 # This can be disabled on a per-page/post basis by adding
 #    .. pretty_url: False
 # to the metadata
-# PRETTY_URLS = False
+PRETTY_URLS = True
 
 # If True, publish future dated posts right away instead of scheduling them.
 # Defaults to False.

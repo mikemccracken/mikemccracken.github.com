@@ -4,7 +4,7 @@
 .. slug: links
 .. link:
 .. description:
-.. tags: Debugging data-analysis crab-cake giving programming recipe python Recipe books Research plotting charity
+.. tags: Debugging, data-analysis, crab-cake, giving, programming, recipe, python, Recipe books, Research, plotting, charity
 -->
 
 * [DYNAMO](http://lambda-the-ultimate.org/node/4710)

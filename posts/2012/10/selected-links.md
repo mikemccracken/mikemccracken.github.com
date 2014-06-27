@@ -4,7 +4,7 @@
 .. slug: selected-links
 .. link:
 .. description:
-.. tags: software, languages, programming, programming-languages, types, c++, testing, erlang, recipe, tortilla, javascript, patterns, coffee, 1961, film, learning, teaching, objc signature
+.. tags: software, languages, programming, programming-languages, types, c-plus-plus, testing, erlang, recipe, tortilla, javascript, patterns, coffee, 1961, film, learning, teaching, objc signature
 -->
 
 * [Programming Languages · Hammer Principle](http://hammerprinciple.com/therighttool)

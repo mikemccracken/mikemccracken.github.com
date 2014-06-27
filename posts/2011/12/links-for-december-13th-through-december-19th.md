@@ -4,7 +4,7 @@
 .. slug: links-for-december-13th-through-december-19th
 .. link:
 .. description:
-.. tags: links, (Source:, architecture, community, documentary, empirical-software-engineering, http://twitter.com/insideHPC/status/146761306207301633), medicine, movies, opensource, pinboard-links, productivity, programming, software
+.. tags: links, architecture, community, documentary, empirical-software-engineering, http://twitter.com/insideHPC/status/146761306207301633), medicine, movies, opensource, pinboard-links, productivity, programming, software
 -->
 
 

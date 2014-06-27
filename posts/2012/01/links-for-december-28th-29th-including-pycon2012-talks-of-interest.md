@@ -4,7 +4,7 @@
 .. slug: links-for-december-28th-29th-including-pycon2012-talks-of-interest
 .. link:
 .. description:
-.. tags: links, (Source:, AI, alpha, analysis, blog, china, code, code-generation, computer-architecture, data, database, DSL, email, filesystem, FUSE, gcc, graph, graph-processing, http://twitter.com/Pinboard/status/152568546424143872), jinja, linkgrammar, mailman, matplotlib, network, nlp, opencog, parsing, pinboard-links, pycon2012, python, python3, REST, science, sqlalchemy, static-analysis, sunway, talk, templating, text, time-series, visualization
+.. tags: links, AI, alpha, analysis, blog, china, code, code-generation, computer-architecture, data, database, DSL, email, filesystem, FUSE, gcc, graph, graph-processing, jinja, linkgrammar, mailman, matplotlib, network, nlp, opencog, parsing, pinboard-links, pycon2012, python, python3, REST, science, sqlalchemy, static-analysis, sunway, talk, templating, text, time-series, visualization
 -->
 
 

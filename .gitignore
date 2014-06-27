@@ -1,0 +1,10 @@
+.bundle
+.DS_Store
+.sass-cache
+.gist-cache
+.pygments-cache
+public
+vendor
+.doit.db
+conf.pyc
+cache

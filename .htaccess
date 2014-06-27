@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^(feed|atom)/ http://michael-mccracken.net/rss.xml [R=301]
+RewriteRule ^feed$ http://michael-mccracken.net/rss.xml [R=301]
+RewriteRule ^index.rdf http://michael-mccracken.net/rss.xml [R=301]
+RewriteRule ^atom.xml http://michael-mccracken.net/rss.xml [R=301]

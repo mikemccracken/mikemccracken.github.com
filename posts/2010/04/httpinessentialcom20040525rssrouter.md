@@ -4,7 +4,7 @@
 .. slug: httpinessentialcom20040525rssrouter
 .. link:
 .. description:
-.. tags: email, brent_simmons, mail_framework, mikehcecksmail, system_support
+.. tags: email, brent_simmons, mail_framework, mikechecksmail, system_support
 -->
 
 

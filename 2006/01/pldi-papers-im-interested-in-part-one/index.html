@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PLDI Papers I'm interested in, part one | michael-mccracken.net</title>
+
+    
+            <link href="../../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
+
+    
+            <link rel="alternate" type="application/rss+xml" title="RSS" href="../../../rss.xml">
+
+      <link rel="canonical" href="http://michael-mccracken.net/2006/01/pldi-papers-im-interested-in-part-one/">
+
+
+
+    
+        <!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]-->
+
+    
+
+
+    
+
+    <meta name="author" content="Michael McCracken">
+    
+        <meta name="og:title" content="PLDI Papers I'm interested in, part one">
+        <meta name="og:url" content="http://michael-mccracken.net/2006/01/pldi-papers-im-interested-in-part-one/">
+            <meta name="og:description" content="I mentioned that I'd post about some of the papers I found interesting from this year's PLDI conference. Disclaimer: for the most part this is based on reading the abstracts only, so this shouldn't be">
+        <meta name="og:site_name" content="michael-mccracken.net">
+        <meta name="og:type" content="article">
+
+    
+
+    
+
+
+
+</head>
+<body>
+
+<!-- Menubar -->
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+<!-- This keeps the margins nice -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://michael-mccracken.net/">
+
+                <span id="blog-title">michael-mccracken.net</span>
+            </a>
+        </div>
+<!-- /.navbar-header -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                
+                <li>
+<a href="../../../archive.html">Archive</a>
+                </li>
+<li>
+<a href="../../../categories/index.html">Tags</a>
+                </li>
+<li>
+<a href="../../../rss.xml">RSS feed</a>
+
+                
+            </li>
+</ul>
+                
+<!-- Custom search -->
+<form method="get" id="search" action="http://duckduckgo.com/" class="navbar-form pull-left">
+<input type="hidden" name="sites" value="http://michael-mccracken.net/">
+<input type="hidden" name="k8" value="#444444">
+<input type="hidden" name="k9" value="#D51920">
+<input type="hidden" name="kt" value="h">
+<input type="text" name="q" maxlength="255" placeholder="Search…" class="span2" style="margin-top: 4px;">
+<input type="submit" value="DuckDuckGo Search" style="visibility: hidden;">
+</form>
+<!-- End of custom search -->
+
+
+            <ul class="nav navbar-nav navbar-right">
+                
+                
+                
+            </ul>
+        </div>
+<!-- /.navbar-collapse -->
+    </div>
+<!-- /.container -->
+</nav>
+
+<!-- End of Menubar -->
+
+<div class="container">
+    <div class="body-content">
+        <!--Body content-->
+        <div class="row">
+            
+            
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article">
+    
+    <header>
+        
+    <h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">PLDI Papers I'm interested in, part one</a></h1>
+
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">Michael McCracken</span></p>
+            <p class="dateline"><a href="." rel="bookmark"><time class="published dt-published" datetime="2006-01-26T17:39:00-08:00" itemprop="datePublished" title="Publication date">2006-01-26 17:39</time></a></p>
+                <p class="commentline">
+        
+    <a href=".#disqus_thread" data-disqus-identifier="cache/posts/2006/01/pldi-papers-im-interested-in-part-one.html">Comments</a>
+
+
+            
+
+        </p>
+</div>
+        
+
+    </header>
+
+    <div class="e-content entry-content" itemprop="articleBody text">
+    <p>I mentioned that I'd post about some of the papers I found interesting from this year's PLDI conference. Disclaimer: for the most part this is based on reading the abstracts only, so this shouldn't be considered a thorough review.</p>
+<p>Session one is Transactions. I will probably look through these, especially the first paper, <em>"The Atomos Transactional Programming Language"</em> [1] from Stanford, because transactional memory and processing seems to be a consensus pick for the next big thing, and <a href="http://www.computerhistory.org/events/lectures/smith_01232001/">Burton Smith</a> once told me that languages using transactional memory and invariants with respect to state are his bet for what can solve the parallel programming problem. (What problem? It's too hard to write good parallel code.) So, I want to see what a transactional language looks like.</p>
+<p>There's a paper in the Compilers session that looks like a cool idea for improving analysis - <em>"A Framework for Unrestricted Whole-Program Optimization"</em> [2]. The <a href="http://liberty.princeton.edu/Publications/index.php?abs=1&amp;setselect;=pldi06_pbe">abstract</a> says they have a way for intra-procedural passes to work on arbitrary subgraphs of the program, so they're not just limited by procedural boundaries, and don't have to rely on inlining to optimize across calls. I'm curious what languages it supports, and how the scheme would work with dynamic languages.</p>
+<p>A paper about dynamic software updating, <em>"Practical Dynamic Software updating for C"</em> [3] (<a href="http://www.cs.umd.edu/projects/dsu/">project link</a>) is also interesting, because it seems like a step towards the way things should work. Essentially, they compile a program so that it can be easily updated without stopping it. They do it in a way that doesn't violate type-safety and sounds reasonably efficient. It reminds me of Apple's ZeroLink and Fix &amp; Continue (note that those aren't the first examples of such technology), and I'm curious how similar it is. Certainly I don't think Fix &amp; Continue tries to guarantee type-safety.</p>
+<p>The parallelism session should be interesting, and I'm most curious to see an abstract for <em>"Shared Memory Programming for Large Scale Machines"</em> [4], I can't tell from the title if they are introducing a new language or measuring an existing technique. I have a note to myself somewhere to look for a full copy of that paper.</p>
+<p>Power has been a big deal in HPC and mobile devices for a while, and now it's everyone's problem, so <em>"Reducing NoC Energy Consumption Through Compiler-Directed Channel Voltage Scaling"</em> [5] caught my eye. I'm always interested to learn about power usage effects of different kinds of code, since I have found it to be satisfyingly unintuitive at times. (Maybe I should've taken more EE classes!) Also, this is a paper from Penn State, and I'm curious what research they've got going on back at my alma mater.</p>
+<p>I'll probably read everything in the Runtime Optimization and Profiling session, but <em>"Online Performance Auditing: Using Hot Optimizations Without Getting Burned"</em> [6] is particularly interesting, since I know Brad Calder and his students do really good work, and I honestly didn't know what Jeremy was up to. I should probably be more social around the department. (These guys are at UCSD)</p>
+<p>OK, I'm not out of interesting papers, but I'm going to stop here for now. Check out the program, let me know what you think is cool - am I missing something really great?</p>
+<h5>References</h5>
+<p>[1] "The Atomos Transactional Programming Language"
+Brian D. Carlstrom, JaeWoong Chung, Austen McDonald, Hassan Chafi,
+Christos Kozyrakis and Kunle Olukotun.</p>
+<p>[2] "A Framework for Unrestricted Whole-Program Optimization"
+Spyridon Triantafyllis, Matthew J. Bridges, Easwaran Raman, Guilherme Ottoni, and David I. August</p>
+<p>[3] "Practical Dynamic Software Updating for C"
+Iulian Neamtiu, Michael Hicks, Gareth Stoyle and Manuel Oriol</p>
+<p>[4] "Shared Memory Programming for Large Scale Machines"
+Christopher Barton, Calin Cascaval, Siddhartha Chatterjee, George Almasi, Yili Zheng, Montse Farreras, Jose Amaral</p>
+<p>[5] "Reducing NoC Energy Consumption Through Compiler-Directed Channel Voltage Scaling"
+Guangyu Chen, Feihui Li, Mahmut Kandemir, Mary Irwin</p>
+<p>[6] "Online Performance Auditing: Using Hot Optimizations Without Getting Burned"
+Jeremy Lau, Matthew Arnold, Michael Hind, Brad Calder</p>
+    </div>
+    <aside class="postpromonav">
+    <nav>
+    
+        <ul itemprop="keywords" class="tags">
+           <li><a class="tag p-category" href="../../../categories/compilers/" rel="tag">compilers</a></li>
+           <li><a class="tag p-category" href="../../../categories/grad-school/" rel="tag">grad-school</a></li>
+           <li><a class="tag p-category" href="../../../categories/research/" rel="tag">research</a></li>
+        </ul>
+
+    
+        <ul class="pager">
+            <li class="previous">
+                <a href="../pldi-2006-papers/" rel="prev" title="PLDI 2006 Papers">Previous post</a>
+            </li>
+            <li class="next">
+                <a href="../yojimbo-hit-and-miss/" rel="next" title="Yojimbo, hit and miss">Next post</a>
+            </li>
+        </ul>
+
+    </nav>
+    </aside>
+        <section class="comments">
+        <h2>Comments</h2>
+        
+        
+        <div id="disqus_thread"></div>
+        <script>
+        var disqus_shortname ="michaelmccrackennet",
+            disqus_url="http://michael-mccracken.net/2006/01/pldi-papers-im-interested-in-part-one/",
+        disqus_title="PLDI Papers I'm interested in, part one",
+        disqus_identifier="cache/posts/2006/01/pldi-papers-im-interested-in-part-one.html",
+        disqus_config = function () {
+            this.language = "en";
+        };
+        (function() {
+            var dsq = document.createElement('script'); dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+    <a href="//disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+        </section>
+    
+
+</article>
+
+        
+       <script>var disqus_shortname="michaelmccrackennet";(function(){var a=document.createElement("script");a.async=true;a.src="//"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
+
+
+
+        </div>
+        <!--End of body content-->
+
+        <footer>
+            Contents © 2014         <a href="mailto:michael.mccracken@gmail.com">Michael McCracken</a> - Powered by         <a href="http://getnikola.com" rel="nofollow">Nikola</a>         
+            
+        </footer>
+    </div>
+</div>
+
+
+            <script src="../../../assets/js/all-nocdn.js"></script>
+    
+
+    <script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1818984-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+</body>
+</html>

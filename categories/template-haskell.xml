@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>michael-mccracken.net (template-haskell)</title><link>http://michael-mccracken.net/</link><description></description><language>en</language><lastBuildDate>Fri, 27 Jun 2014 12:24:49 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Links</title><link>http://michael-mccracken.net/2012/10/links/</link><dc:creator>Michael McCracken</dc:creator><description>&lt;li&gt;
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>michael-mccracken.net (template-haskell)</title><link>http://michael-mccracken.net/</link><description></description><language>en</language><lastBuildDate>Tue, 17 Mar 2015 08:29:59 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Links</title><link>http://michael-mccracken.net/2012/10/links/</link><dc:creator>Michael McCracken</dc:creator><description>&lt;li&gt;
 &lt;p&gt;&lt;a href="http://stackoverflow.com/questions/10857030/whats-so-bad-about-template-haskell"&gt;What's so bad about Template Haskell? - Stack Overflow&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;A bunch of good answers to why Template Haskell is occasionally maligned.&lt;/p&gt;
 &lt;/li&gt;

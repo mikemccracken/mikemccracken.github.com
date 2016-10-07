@@ -6,5 +6,7 @@
 public
 vendor
 .doit.db
+.doit.db.db
+__pycache__/
 conf.pyc
 cache

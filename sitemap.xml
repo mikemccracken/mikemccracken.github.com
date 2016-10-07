@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://michael-mccracken.net/</loc>
-  <lastmod>2016-10-07T17:33:00Z</lastmod>
+  <lastmod>2016-10-07T18:22:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2005/</loc>
@@ -1182,10 +1182,6 @@
   <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
-  <loc>http://michael-mccracken.net/2015/11/trying-out-org-mode/</loc>
-  <lastmod>2015-11-13T19:12:00Z</lastmod>
- </url>
- <url>
   <loc>http://michael-mccracken.net/2016/</loc>
   <lastmod>2016-10-07T17:33:00Z</lastmod>
  </url>
@@ -1231,10 +1227,6 @@
  </url>
  <url>
   <loc>http://michael-mccracken.net/archive/2014/</loc>
-  <lastmod>2015-11-13T19:12:00Z</lastmod>
- </url>
- <url>
-  <loc>http://michael-mccracken.net/archive/2015/</loc>
   <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>

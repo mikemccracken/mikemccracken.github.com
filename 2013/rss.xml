@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>michael-mccracken.net</title><link>http://michael-mccracken.net/</link><description></description><atom:link rel="self" href="http://michael-mccracken.net/2013/rss.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Thu, 06 Oct 2016 21:02:29 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Flashing a Nexus device with Ubuntu Touch from Mac OS X</title><link>http://michael-mccracken.net/2013/09/flashing-ubuntu-touch-from-osx/</link><dc:creator>Michael McCracken</dc:creator><description>&lt;div&gt;&lt;p&gt;I've been working with Ubuntu Touch recently, using VirtualBox to run
+Ubuntu Saucy as a guest on my Mac, and while it does work to connect
+to the device once it's installed, the process of reflashing is
+difficult. The manual steps on the Ubuntu Wiki
+&lt;a href="https://wiki.ubuntu.com/Touch/Install"&gt;Touch/Install&lt;/a&gt; page work for
+the old way, via &lt;code&gt;phablet-flash cdimage-touch&lt;/code&gt;, with the caveat that
+you may have to manually reboot the device and/or re-connect the USB
+in between steps.&lt;/p&gt;
+&lt;p&gt;However, as of &lt;a href="https://lists.launchpad.net/ubuntu-phone/msg04004.html"&gt;this email last week&lt;/a&gt;, the official way
+to flash phones is using the system images via &lt;code&gt;phablet-flash
+ubuntu-system&lt;/code&gt;, which has a different set of files.&lt;/p&gt;
+&lt;p&gt;Instead of just muddling through and updating the manual instructions,
+I decided to see if phablet-flash would run natively on the Mac. After
+a bit of python dependency resolution, it does. Here's what I did:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Download the &lt;a href="http://developer.android.com/sdk/index.html"&gt;Android SDK tools&lt;/a&gt;. You only really need the "SDK Tools", not the whole ADT Bundle, so I clicked on "Use an existing IDE" at the bottom of that page, to get the smaller installer.&lt;/li&gt;
+&lt;li&gt;Unpack the archive and run ./android. Install the platform-tools (and nothing else).&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add the platform-tools/ directory to your $PATH for convenience.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;(Optional) create a virtualenv for the python dependencies, and activate it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pip install&lt;/code&gt; each of &lt;code&gt;configobj&lt;/code&gt; &lt;code&gt;pyxdg&lt;/code&gt;, and &lt;code&gt;pyliblzma&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;get &lt;a href="http://bazaar.canonical.com/"&gt;bazaar&lt;/a&gt; if you don't already have it.&lt;/li&gt;
+&lt;li&gt;branch phablet-tools: &lt;code&gt;bzr branch lp:phablet-tools&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cd phablet-tools &amp;amp;&amp;amp; python setup.py build&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;At this point, &lt;code&gt;phablet-flash ubuntu-system&lt;/code&gt; should work smoothly, with all transfers and reboots and timeouts going as expected.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The only minor hiccup is that it apparently doesn't get ~/Downloads/
+from pyxdg, but it just means that you'll get the images saved to
+~/phablet-flash instead of ~/Downloads/phablet-flash. No big deal.&lt;/p&gt;&lt;/div&gt;</description><category>nexus</category><category>ubuntu</category><category>ubuntutouch</category><guid>http://michael-mccracken.net/2013/09/flashing-ubuntu-touch-from-osx/</guid><pubDate>Thu, 12 Sep 2013 17:40:00 GMT</pubDate></item><item><title>Links: Simulation, Programming, Crab Cakes and Hockey Player Usage Charts</title><link>http://michael-mccracken.net/2013/04/links/</link><dc:creator>Michael McCracken</dc:creator><description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://lambda-the-ultimate.org/node/4710"&gt;DYNAMO&lt;/a&gt;
+    Someone has rewritten one of the earliest simulation systems in JavaScript (the fate of all interesting software). Also includes a link to an article about the history of simulation software that sounds very interesting.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://feeds.seriouseats.com/~r/seriouseatsfeaturesvideos/~3/yfScRT6TNzw/the-food-lab-crab-cakes.html"&gt;The Food Lab: The Crabbiest Crab Cakes&lt;/a&gt;
+    I love crab cakes, but I'm not sure I really want to try to make them at home. If I do, I'll use these tips. The Food Lab is fun stuff.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://mjtsai.com/blog/2013/03/30/debug-it/"&gt;Debug It!&lt;/a&gt;
+    A review of a book on debugging, which is a topic that I think should be taught right alongside programming. See also &lt;a href="http://whyprogramsfail.com"&gt;"Why Programs Fail"&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.givedirectly.org/"&gt;GiveDirectly: introducing a radical new way to give! | GiveDirectly&lt;/a&gt;
+    Send cash straight to poor people. If their assertions are true, it's a really interesting idea, and I can't believe it hasn't been done before. It also seems transparently better than microloans.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/ContinuumIO/Bokeh"&gt;ContinuumIO/Bokeh · GitHub&lt;/a&gt;
+    Something to look out for -- a Python ggplot that works with HTML5 is a great idea. "Bokeh (pronounced boh-Kay) is an implementation of Grammar of Graphics for Python, that also supports the customized rendering flexibility of Protovis and d3. Although it is a Python library, its primary output backend is HTML5 Canvas.  There are many excellent plotting packages for Python, but they generally do not optimize for the particular needs of statistical plotting (easy faceting, bulk application of aesthetic and visual parameters across categorical variables, pleasing default color palettes for categorical data, etc.). The goal of Bokeh is to provide a compelling Python equivalent of ggplot in R."&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://kk.org/cooltools/archives/10441"&gt;FitDesk X1&lt;/a&gt;
+    Level up from a standing desk? I'd love to try this for a day.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://lambda-the-ultimate.org/node/4699"&gt;Concurrent Revisions&lt;/a&gt;
+    DVCS-like concurrent programming. Interesting sounding research - I haven't read it yet...&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.hockeyabstract.com/playerusagecharts"&gt;Many thanks to @robvollmannhl and the good folks at Hockey Abstract for these great interactive Player Usage Charts: hockeyabstract.com/playerusagecha…&lt;/a&gt;
+    Player Usage Charts are fascinating, but I can never figure out why people always change the axes so that the dots fill the space. It makes it impossible to compare two charts, and it's not obvious, so you end up comparing charts without realizing that it's meaningless.&lt;/li&gt;
+&lt;/ul&gt;</description><category>charity</category><category>crab-cake</category><category>data-analysis</category><category>Debugging</category><category>giving</category><category>plotting</category><category>programming</category><category>python</category><category>recipe</category><category>Recipe books</category><category>research</category><guid>http://michael-mccracken.net/2013/04/links/</guid><pubDate>Wed, 10 Apr 2013 15:41:00 GMT</pubDate></item><item><title>Mock nested properties with python-mock</title><link>http://michael-mccracken.net/2013/02/mock-nested-properties-with-python-mock/</link><dc:creator>Michael McCracken</dc:creator><description>&lt;div&gt;&lt;p&gt;Python's &lt;a href="http://www.voidspace.org.uk/python/mock/"&gt;mock&lt;/a&gt; library (part of stdlib in 3.3+) is a great tool for writing concise tests.
+Its documentation is very good, and rewards multiple reads - but I found one thing that wasn't totally clear, even after looking through a few times.
+I wanted to use PropertyMock to mock nested Properties. Specifically, I had patched the python Gnome-introspection wrapper for libsoup at the top level &lt;code&gt;Soup&lt;/code&gt; objcet, and I also wanted to replace one of its nested constant properties, Soup.MemoryUse.COPY with a sentinel that I controlled, for later comparison. &lt;/p&gt;
+&lt;p&gt;The idiom for PropertyMock is to assign a PropertyMock to the type object of the Mock object whose property you want control of.
+What I found is that because Mocks auto-create properties, it's possible to do nested mocking in one line, like this:&lt;/p&gt;
+&lt;pre class="code literal-block"&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;mock&lt;/span&gt;
+&lt;span class="n"&gt;m&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;mock&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Mock&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;span class="nb"&gt;type&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;d&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;mock&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;PropertyMock&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;return_value&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;mock&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sentinel&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;my_value&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;assert&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;d&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="n"&gt;mock&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sentinel&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;my_value&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;
+
+
+&lt;p&gt;So my soup example looks roughly like this (mixing testing and tested code, and repeating literals for brevity):&lt;/p&gt;
+&lt;pre class="code literal-block"&gt;&lt;span class="n"&gt;json_body&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;"{}"&lt;/span&gt;
+&lt;span class="k"&gt;with&lt;/span&gt; &lt;span class="n"&gt;patch&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;gi&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;repository&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Soup&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;mock_soup&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;gi.repository&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Soup&lt;/span&gt;
+    &lt;span class="nb"&gt;type&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;mock_soup&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;MemoryUse&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;COPY&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;mock&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;PropertyMock&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;return_value&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;mock&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sentinel&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;COPY&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+    &lt;span class="c"&gt;# tested code:&lt;/span&gt;
+    &lt;span class="n"&gt;message&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Soup&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Message&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;new&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"POST"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;"http://fake.com/api"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;message&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set_request&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'application/json'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;Soup&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;MemoryUse&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;COPY&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;json_body&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;json_body&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+
+    &lt;span class="c"&gt;# checking:&lt;/span&gt;
+    &lt;span class="k"&gt;assert&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;mock_soup&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;mock_calls&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;mock&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;call&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Message&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;new&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"POST"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;"http://fake.com/api"&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; 
+                                    &lt;span class="n"&gt;mock&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;call&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Message&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;new&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;set_request&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'application/json'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; 
+                                                                        &lt;span class="n"&gt;sentinel&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;COPY&lt;/span&gt; &lt;span class="c"&gt;# &amp;lt;--- this was the point&lt;/span&gt;
+                                                                        &lt;span class="s"&gt;"{}"&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)])&lt;/span&gt;
+&lt;/pre&gt;
+
+
+&lt;p&gt;It's often possible to think of a shorter, clearer use of the mock library after revisiting a problem, but so far this still seems good. Let me know in the comments if you have a suggestion for improvements.&lt;/p&gt;&lt;/div&gt;</description><guid>http://michael-mccracken.net/2013/02/mock-nested-properties-with-python-mock/</guid><pubDate>Thu, 21 Feb 2013 23:05:00 GMT</pubDate></item><item><title>Don't Snooze</title><link>http://michael-mccracken.net/2013/02/dont-snooze/</link><dc:creator>Michael McCracken</dc:creator><description>&lt;div&gt;&lt;p&gt;Mailbox is a new iPhone email app that grabbed a lot of attention recently, partly because of their waiting list for using it.
+It's a gmail-only system that stores copies of your email on Mailbox's servers, so they can do new features beyond the standard mail client.
+Even though I got through the waiting list a week ago, I haven't tried it myself, because I wasn't &lt;/p&gt;
+&lt;p&gt;I have a few religious beliefs about email.
+One is that processing incoming email is different from &lt;/p&gt;
+&lt;p&gt;that you should only process a message once - when you first see it, you should decide what to do next with it, even if that's "read it again later", &lt;/p&gt;
+&lt;p&gt;I call it a religion because I believe it, but I don't always practice
+it. I have an inbox full of things I've looked at once and am
+procrastinating on, partly because it's hard to move things to the
+todo list that I use from Gmail. It annoys me every time I look at my
+email, and I've forgotten important things that I left sitting
+there. This is exactly why I think it's important that our tools
+encourage good habits, instead of encoding bad ones.&lt;/p&gt;&lt;/div&gt;</description><guid>http://michael-mccracken.net/2013/02/dont-snooze/</guid><pubDate>Fri, 08 Feb 2013 16:18:00 GMT</pubDate></item></channel></rss>

@@ -1,3771 +1,3928 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://michael-mccracken.net/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-07T17:33:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2005/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-06T21:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2005/12/bounty-county/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2005/12/discontinuing-blapp/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2005/12/macsbug-in-gdb/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2005/12/reading-chm-files-on-os-x/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2005/12/terrapass/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2005/12/test-wordpress/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-06T21:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/01/focus/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/01/lapwarmer/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/01/on-reviewing/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/01/pldi-2006-papers/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/01/pldi-papers-im-interested-in-part-one/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/01/sending-large-files/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/01/takk-etc/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/01/universal-i-search/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/01/universal/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/01/yojimbo-hit-and-miss/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/02/car-art-ucsd/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/02/curious-pasting-in-mailapp/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/02/introducing-lens/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/02/jorge-cham-and-the-power-of-procrastination/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/02/locations-and-travel-time-in-calendar-apps/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/02/newertech-battery/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/02/oreilly-etech-conference/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/02/state-of-the-union/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/02/talk-bart-miller-and-dyninst/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/02/ucsd-nixes-google-desktop/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/02/voodoopad-lines-to-ical-todos/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/02/whats-hot-in-cs/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/03/applescript-hooks-everywhere/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/03/concurrency-is-about-to-be-everybodys-problem/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/03/mail-message-to-ical-todo-script/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/03/marsedit-112/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/03/matt-pond-pa/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/03/really-couldve-used-a-magsafe-plug-today/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/03/static-bug-checking-in-open-source-software/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/03/tomorrows-professor-blog/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/03/voodoopad-life/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/03/what-a-relief/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/04/buying-my-tv-from-the-itunes-music-store/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/04/dear-innovative-and-revolutionary-management-school/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/04/full-screen-focus/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/04/ingredients-prunes-salt/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/05/nhl-playoff-series-season-pass-on-itunes/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/05/part-time-development-and-money/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/05/supercomputers-as-art-and-cultural-artifacts/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/05/webmail-is-not-web-browsing/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/05/webmailapp-follow-up/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/05/xcode-23-hidden-gem-interface-builder-254/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/06/browser-history-take-the-users-perspective/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/06/macresearchorg-bibdesk-killer-app/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/07/pacific-beach-night-photos/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/07/photos-buzz-4th/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/07/zoomr-yellow-tree/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/08/3-more-text-hack-projects-on-leveragesourceforgenet/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/08/autofill-bibdesk-and-dc-html/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/08/flextime-10-launches/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/08/instant-replay-in-quicktime-player/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/08/script-dictionary-documentation/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/08/take-me-to-wwdc/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/08/textstructure-screencast/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/08/universal-build-of-pcre/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/08/xcode-30/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/09/more-windows/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/09/mydreamapp-finalists/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/09/portable-gut-check/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/09/step-back-why-laptops/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/09/windows-user/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/10/back-it-up/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/10/dear-gmail-spam-filter/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/10/itunes-skip-count/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/10/supercomputing-2006-bof-is-99-utilization-of-a-supercomputer-a-good-thing/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/11/gtd-habits/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/11/nhl-on-google-video/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/11/universal-addressservice/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/12/burnout/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/12/leopard-developer-technologies/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2006/12/midnight-inbox/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/2006/index-1.html</loc>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/2006/index-2.html</loc>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/2006/index-3.html</loc>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/2006/index-4.html</loc>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/2006/index-5.html</loc>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/2006/index-6.html</loc>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/2006/index-7.html</loc>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-06T21:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/01/bibdesk-1-3/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/01/bibdesk-and-the-hcite-microformat/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/01/bibdesk-openurl-script-workflow/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/01/iphone-multitouch-screen/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/01/leopard-tech-talk-jan-19-la/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/01/quick-n-dirty-omnioutliner-to-mediawiki-applescript/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/01/take-control-of-os-x-backups/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/02/bibdesk-bibtex-and-subversion-from-terrell-russell/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/02/fran-allen-to-receive-turing-award/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/02/linking-the-os-x-clipboard-and-xterms-selection/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/02/mac-programming-collaborative-bookmarks/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/02/new-assembly-native-apps-in-python-and-ruby/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/02/red-sweaters-marsedit/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/02/share-how-you-use-bibdesk/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/03/a-script-for-text-placeholders-in-voodoopad/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/03/stallman-at-ucsd/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/04/announcing-skim-stop-printing-start-skimming/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/04/goodbye-kurt-vonnegut/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/04/hack-like-a-champion-today/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/04/the-trips-processor/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/05/hpc-blogs-and-news-sites/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/06/the-read-once-email-client-and-reference-emails/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/07/free-advice-about-a-pro-email-client/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/07/it-could-work-a-3rd-party-email-client-for-os-x/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/07/nslocalizedstring-can-set-errno/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/07/processing-email/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/08/skim-07/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/09/that-windows-feeling/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/10/the-editing-pass/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2007/11/taskpaper-adds-just-enough-to-stick/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/2007/index-1.html</loc>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/2007/index-2.html</loc>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2008/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-06T21:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2008/01/twitter-stats-in-svg-using-gnuplot/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2008/01/what-is-site-reliability-engineering-at-google/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2008/02/pyobjc-notes/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2008/02/voodoopad-35/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2008/03/two-hours/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2008/08/go-juggle-an-attention-callback/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2008/11/text-field-jumble/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2009/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-06T21:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2009/02/something-buckets/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2009/07/i-was-listening-to-the-core-intuition/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2009/07/i-wouldnt-normally-post-something-abou/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2009/07/new-release-of-eaglefiler/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2009/07/subversion-clients/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2009/07/svn-in-emacs-vs-textmate/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2009/07/with-all-the-news-about-web-fonts-lately/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2009/08/from-blog-abi-sh-silent-diving-seagulls-an-xmpp-interface-for-desktop-notifications/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2009/08/from-spamsievehttptwitter-comspa/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2009/08/from-the-hn-threadhttpnews-ycombin/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2009/08/lolstartups-while-at-the-gtug-campout-in-mountain-view-jacob/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2009/08/prompted-by-a-thread-on-the-ever-useful/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2009/08/visible-bindings/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2009/09/an-update-on-the-incremental-search-plug/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2009/09/better-svn-workflow-in-emacs/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2009/09/just-wasted-a-lot-of-time-doing-a-clean/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2009/09/stakeout-info/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2009/09/textshapeview/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2009/09/tinkering/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2009/10/email-death-link-dump/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2009/10/etiquette-for-the-resend-ping/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2009/10/id-like-to-see-a-community-run-version/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2009/11/app-history/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2009/11/if-your-childhood-memories-include-an-sg/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2009/11/measuring-pdfs-with-skim/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/2009/index-1.html</loc>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/2009/index-2.html</loc>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-06T21:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/02/how-bibdesk-generates-apple-help-and-a-web-manual/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/02/tinkering-in-the-sideshow/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/03/html-mail-is-here-to-stay-so-a-client-needs-to-handle-it-well-since-images-in-html-mail-are-securi/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/03/httpisgdb0k5b/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/03/lets-start-things-off-with-a-key-shortcut-gripe-from-thunderbird-3-forward-is-e28c98-l-not-e28c98-f/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/03/lets-talk-some-more-email-philosophy-an-email-client-should-help-you-quickly-get-through-new-email/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/03/snakes-on-demand-how-to-write-a-python-launchd-agent/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/03/why-mikechecksmail/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/04/conversation-view-keeping-up-with-lists/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/04/delight-innovation/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/04/getting-notes-to-work-with-latex-beamer-and-skim/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/04/httpinessentialcom20040525rssrouter/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/04/i-have-a-minor-obsession-with-email-clie/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/04/just-something-i-noticed-in-postbox-just-now-when-i-select-a-thread-it-marks-every-message-as-rea/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/04/mozilla-raindrop/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/04/new-ideas-in-email-kwaga/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/04/postbox/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/04/public-list-tests-the-firehose/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/04/send-again/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/04/the-workstation-is-not-dead/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/04/two-way-street/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/04/unread-counts/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/05/a-quick-note-about-mobile-me-mail-beta/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/05/dealing-with-high-traffic-lists-and-filters/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/05/filters-thunderbird-3/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/05/i-ran-across-this-video-in-my-bookmarks-this-looks-like-the-result-of-yahoo-acquiring-xoopithttpxoopitcom-it-looks-like-theyve-got-a-platform-for-building-applications-that-users-can-add-into-their-we/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/05/software-aging-well-vs-ui-that-triggers-ocd/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/06/52tigernet-on-new-mobileme-webmail-client/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/06/filters-gmail/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/06/short-send-shortcut/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2010/08/i-think-the-less-an-email-application-does-the-better-feature-rich-ones-only-encourage-users-to-move-in-id-rather-spend-my-time-somewhere-else/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/2010/index-1.html</loc>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/2010/index-2.html</loc>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/2010/index-3.html</loc>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-06T21:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/02/detailed-usability-review-of-thunderbird/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/02/maybe-i-shouldve-called-this-mike-checks-out-ive-decided-im-going-to-be-less-ambitious-about/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/03/early-days-of-java-in-sun-labs-chuck-mcmanis-on-hn-via-manuel-simoni/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/03/macos-x-is-an-unsuitable-platform-for-web-development/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/03/mailperspectives/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/03/overlay-scrollbars-canonical-design/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/03/quick-note-mailmate/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/04/adam-engst-on-gmail-at-tidbits/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/04/austin-restaurants/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/04/cram-simple-testing-for-shell-programs/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/04/fresh-air-stan-getz-in-the-50s/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/04/handling-reference-emails/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/04/merging-mikechecksmail/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/04/postbox-2-5s-new-addressing-widget/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/04/thunderbird-conversations-github/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/04/volatile-and-decentralized-the-death-of-intel-labs-and-what-it-means-for-industrial-research/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/05/coyote-tracks-text-editor-intervention/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/05/ivanka-majic-on-working-in-open-source/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/05/kickingbearc2bb-regarding-objective-c-copland-2010/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/05/more-postbox-2-5-teases/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/05/squeezing-a-cs-research-idea/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/06/blog-archives-and-old-times/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/06/email-charters-lists-as-parties/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/06/email-workflow/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/06/link-the-axis-of-eval-whats-a-condition-system-and-why-do-you-want-one/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/06/link-the-future-of-computing-performance-game-over-or-next-level/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/06/links-for-june-29th/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/07/links-for-july-11th/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/07/links-for-july-12th-through-july-15th/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/07/links-for-july-19th-through-july-22nd/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/07/links-for-july-1st-through-july-2nd/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/07/links-for-july-5th-through-july-6th/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/07/links-for-july-6th/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/07/links-for-july-7th/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/07/links-for-june-29th-through-june-30th/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/07/links-for-june-30th-through-july-1st/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/07/voodoopad-omnifocus-and-terminal-integration-wish-list/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/08/links-for-august-12th-through-august-16th/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/08/links-for-august-18th-through-august-19th/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/08/links-for-july-27th-through-july-30th/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/09/links-for-august-22nd/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/09/links-for-august-23rd-through-september-1st/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/09/links-for-september-4th-through-september-6th/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/10/links-for-october-22nd-through-october-24th/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/10/links-for-september-27th-through-october-14th/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/11/getting-bill-gates-wrong/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/11/links-for-october-25th-through-november-4th/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/12/links-for-december-13th-through-december-19th/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/12/links-for-december-22nd/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/12/links-for-november-10th-through-november-18th/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/12/links-for-november-19th-through-november-25th/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/12/links-for-november-27th-through-december-1st/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2011/12/links-for-november-4th-through-november-8th/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/2011/index-1.html</loc>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/2011/index-2.html</loc>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/2011/index-3.html</loc>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/2011/index-4.html</loc>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/2011/index-5.html</loc>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-06T21:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/01/links-for-december-28th-29th-including-pycon2012-talks-of-interest/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/01/links-for-january-11th-2/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/01/links-for-january-11th/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/01/links-for-january-12th-through-january-18th/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/01/links-for-january-20th-through-january-21st/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/01/links-for-january-23rd-through-january-25th/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/01/links-for-january-3rd-through-january-5th/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/01/links-for-january-5th-through-january-10th/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/02/links-for-february-15th-through-february-20th/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/02/links-for-february-3rd-through-february-6th/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/02/links-for-february-7th-through-february-9th/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/02/links-for-january-27th-through-february-3rd/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/02/links-screen-for-x-computer-history-linux/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/02/skim-knockoffs-on-the-mac-app-store/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/03/canonical-design-blog-on-where-small-pieces-loosely-joined-needs-some-tweaking/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/03/links-cheap-wardrobe-app-stores-javascript-parsing/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/03/links-for-mid-march-see-scalable-python-around-corners-and-future-spies-on-facebook/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/03/links-js-latex-live-drawing-and-sound/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/03/links-structure-editing-unix-history-oss-legal-issues-primer/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/03/more-pypy-academia-censorship-we-love-and-monads/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/04/links-flattr-haskell-haskell-quickcheck-and-stuart-cheshire-of-bolo-fame/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/04/links-hacking-music-in-python-rust-unitaskimg/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/04/links-haskell-music-ocd-tools-terrorism-probability-for-ranking-things/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/08/editor-wars/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/08/no-more-wordpress/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/08/selected-links-from-this-summer/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/09/disposable/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/10/a-testing-story/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/10/links/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/10/selected-links/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2012/12/mac-irc-clients/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/2012/index-1.html</loc>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/2012/index-2.html</loc>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/2012/index-3.html</loc>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2013/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-06T21:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2013/02/dont-snooze/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2013/02/mock-nested-properties-with-python-mock/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2013/04/links/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2013/09/flashing-ubuntu-touch-from-osx/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2014/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-06T21:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2014/06/links-for-June-27-2014/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/2015/</loc>
+  <lastmod>2016-10-06T21:02:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/2015/02/photos-2015/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
-  <loc>http://michael-mccracken.net/archive.html</loc>
-  <lastmod>2015-03-17</lastmod>
+  <loc>http://michael-mccracken.net/2015/11/trying-out-org-mode/</loc>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/2016/</loc>
+  <lastmod>2016-10-07T17:33:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/2016/10/more-photos/</loc>
+  <lastmod>2016-10-07T17:33:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/archive/2005/</loc>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/archive/2006/</loc>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/archive/2007/</loc>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/archive/2008/</loc>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/archive/2009/</loc>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/archive/2010/</loc>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/archive/2011/</loc>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/archive/2012/</loc>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/archive/2013/</loc>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/archive/2014/</loc>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/archive/2015/</loc>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/archive/2016/</loc>
+  <lastmod>2016-10-07T17:33:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/archive/archive.html</loc>
+  <lastmod>2016-10-07T17:44:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/1961/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/3rd-party-utilities/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/about/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/academia/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/accessories/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/acheme/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/acm/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/acme/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/acoustic/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/addressbook/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/advice/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/ai/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/ajax/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/algorithms/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/alpha/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/amazons3/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/analysis/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/ancho/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/animation/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/app/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/apple-help/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/apple-mail/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/apple/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/applemail/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/applescript/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/apps/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/appstore/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/architecture/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/arm/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/art/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/attachments/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/audio/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/austin/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/autotuning/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/awards/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/backup/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/basketball/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/bayes/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/beethoven/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/bell-labs/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/berkeley/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/best-practices/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/bibdesk/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/bibliography/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/bibtex/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/blinkenlights/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/blog-software/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/blog/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/blogging/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/book/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/books/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/bootcamp/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/braun/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/brent_simmons/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/bugtracking/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/bulk-mail/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/business/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/buxton/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/c-declarations/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/c-plus-plus/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/c/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/calculator/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/caml/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/canonical/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/case/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/cdecl/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/chandler/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/change-tracking/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/charity/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/charles-schulz/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/cheating/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/chi/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/china/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/christmas/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/cia/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/circles/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/citation/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/citerentzsch/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/citewmf/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/classification/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/classifier/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/clothes/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/cloud/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/clutter/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/cms/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/cmu/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/coach/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/cocoa/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/code-generation/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/code/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/coffee/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/colorize/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/community/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/compiler/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/compilers/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/computation/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/computer-architecture/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/computer-chess/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/computer-graphics/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/computer-science/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/computers/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/computing/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/concurrency/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/conditions/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/constraint-solving/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/constraints/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/context-search/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/continuations/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/conversation-view/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/cookbook/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/cookie/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/copyright/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/coregraphics/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/coreintuition/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/couchdb/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/course/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/cps/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/crab-cake/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/crdt/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/creamsauce/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/criticism/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/crowdfunding/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/culture/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/cvxpy/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/dashboard/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/data-analysis/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/data-structures/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/data/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/database/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/datasets/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/date/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/dateutil/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/dbus/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/debugging/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/declaration/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/delight/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/demo/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/dependent-types/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/design/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/desktop/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/desktopvswebapps/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/deslide/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/development/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/diagram/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/digital-camera/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/dimension/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/dmca/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/documentary/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/documentation/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/drawing/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/dressing/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/dsl/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/dtrace/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/dvcs/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/ebook/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/eclipse/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/editor/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/education/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/electropaint/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/elisp/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/emacs/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/email-charter/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/email-client/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/email/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/empirical-software-engineering/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/encoding/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/entertainment/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/entrepreneurship/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/ergonomics/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/erlang/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/essays/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/estate/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/etiquette/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/eudora/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/eventual-consistency/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/exascale/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/exceptions/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/extensibility/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/extensible-compilers/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/facebook/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/fashion/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/fatherhood/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/feel/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/filesystem/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/filing/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/filler/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/film/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/filtering/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/filters/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/finance/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/find/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/flickr/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/fluid-dynamics/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/focus/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/food/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/foot-switch/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/forward/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/foss/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/framework/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/free-software/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/freeware/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/fts/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/functional-programming/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/functional/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/funding/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/funny/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/fuse/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/future/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/games/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/gcc/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/generator/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/generators/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/ghc-extensions/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/ghc/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/gift/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/gifts/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/git-annex/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/git/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/giving/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/gluten-free/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/gmail/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/gnome/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/gnu/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/go-outside-and-live/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/google/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/googleplus/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/government/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/gpl/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/gpu/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/grad-school/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/graph-processing/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/graph/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/graphics/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/graphs/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/greeting-card/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/growing/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/growl/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/gui/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/guide/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/hack/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/hand/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/haskell/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/hci/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/hcite/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/help/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/high-society/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/hipster/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/history/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/hn/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/hockey/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/home-theater/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/housing/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/howto/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/hpc/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/html-mail/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/html/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/httptwittercominsidehpcstatus146761306207301633/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/hud/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/humor/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/i-search/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/ibm/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/ical/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/icon/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/idiomatic/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/image/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/imaging/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/imap/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/impact/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/importance/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/improvement/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/inbox-zero/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/inbox/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/inboxzero/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/incremental-search/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/indev/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/indie/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/innovation/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/inspiration/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/interaction/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/interfaces/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/internet-of-things/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/internet/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/interviews/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/ios/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/ipad/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/iphone/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/irc/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/java/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/javascript/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/jazz/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/jinja/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/jit/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/journalism/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/journals/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/kernel/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/key-shortcuts/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/keyboard-shortcut/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/kickstarter/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/kids/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/kindle/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/kqueue/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/kwaga/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/language/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/languages/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/laptop/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/laser/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/latency/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/latex/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/launchd/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/learning/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/lectures/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/led/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/legal/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/lens/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/libraries/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/library/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/linearprogramming/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/linkgrammar/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/links/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/lint/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/linux/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/lion/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/lisp/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/lists/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/llvm/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/localization/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/location/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/logging/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/loremipsum/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/lost-time/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/ly/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/mac-app-store/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/mac/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/macdev/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/machine-learning/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/macosx/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/mail/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/mail_framework/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/mailapp/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/mailman/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/mailmate/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/mailperspectives/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/mailsmith/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/mainframe/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/maps/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/matplotlib/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/me/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/medicine/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/melancholy/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/menu/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/merging/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/merlinmann/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/meta-blogging/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/meta/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/metadata/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/metaprogramming/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/microformats/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/mikechecksmail/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/minimalism/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/misfeature/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/mit-ai/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/mit/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/mobile/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/modeling/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/monads/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/money/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/monitoring/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/moog/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/movie/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/movies/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/mozilla-labs/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/mozilla/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/multiprocessing/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/multitasking/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/museum/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/music/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/mython/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/negotiation/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/netiquette/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/network/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/networking/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/networks/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/new-ideas-in-email/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/nexus/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/nikola/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/nlp/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/nltk/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/norway/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/nostalgia/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/notification/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/notifications/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/nstextview/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/nud/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/oatmeal/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/objc-signature/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/ocaml/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/ocd/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/octopress/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/ohnonotagain/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/online/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/open-access/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/open-source/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/openaccess/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/opencog/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/opensource/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/operating-systems/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/optimization/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/oracle/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/organization/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/osx/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/pacific-beach/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/package-manager/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/paleo/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/parallel/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/parallelism/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/parenting/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/parlab/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/parser-generator/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/parsing/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/pasta/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/patents/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/patterns/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/peanuts/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/pedal/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/people/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/performance/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/personalized-search/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/pg/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/philosophy/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/photo/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/photography/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/photos/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/physics/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/pinboard-links/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/pittsburgh/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/pixar/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/pjax/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/pl/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/plan9/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/plants/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/plotting/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/plugin/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/plugins/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/policy/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/portland/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/postbox/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/power/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/pratt/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/presentation/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/presentations/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/probability/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/processing/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/productivity/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/professional/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/profiling/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/programming-editors/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/programming-languages/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/programming/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/prolog/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/prosperity/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/publication/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/publishing/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/put-this-on/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/pycon2012/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/pypy/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/python/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/python3/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/quickcheck/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/quickref/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/quiet/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/racket/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/ragel/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/raindrop/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/rams/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/ranking/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/reading/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/real/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/recipe-books/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/recipe/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/reference/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/reinteract/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/rendering/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/research/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/rest/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/review/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/reviews/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/rms/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/rpy/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/rust/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/scala/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/scalability/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/scam/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/schroeder/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/science/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/scm/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/score/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/screen/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/screensaver/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/script-utility-productivity/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/script/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/scripting/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/scripts/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/scrollbar/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/search/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/sejits/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/send-again/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/send/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/sentiment/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/sgi/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/shell/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/shoes/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/sig/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/simulation/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/sketchnotes/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/skim/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/sleeve/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/slides/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/slideshow/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/sly/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/smalltalk/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/sml/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/social-networks/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/social/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/socialnetworks/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/software/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/solaris/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/solver/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/source-control/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/spamsieve/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/speakers/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/spies/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/sports/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/spycam/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/sql/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/sqlalchemy/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/squeak/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/ssb/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/stakeout/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/state-machines/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/static-analysis/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/statistics/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/stm/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/style/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/sun/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/sunglasses/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/sunway/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/superpages/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/support/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/surgery/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/svn/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/swing/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/sync/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/syntax-highlighting/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/system360/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/system_support/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/tactile/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/tagged-pointer/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/tagging/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/talk/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/talks/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/tbird-3/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/teaching/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/template-haskell/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/templating/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/terrorism/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/testing/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/texinfo/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/text-classification/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/text-editors/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/text-search/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/text/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/thunderbird-3/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/thunderbird/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/tidbits/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/ties/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/time-management/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/time-series/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/time/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/tinkering/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/tips/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/tlb/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/tm/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/to-watch/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/tool/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/tools/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/tortilla/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/transactional-memory/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/travel/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/tree/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/tufte/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/tuning/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/tutorial/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/tv/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/twitter/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/types/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/typesetting/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/typography/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/u1db/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/ubuntu-one/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/ubuntu/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/ubuntutouch/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/udacity/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/ui/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/unicode/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/unity/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/unix/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/up/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/usb/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/utf-8/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/vc/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/video-lectures/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/video/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/visualization/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/vm/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/voodoopad/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/wardrobe/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/wave/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/web/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/webarchitecture/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/webdev/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/webkit/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/webmail/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/whitelist/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/wiki/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/wimp/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/windows/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/winter/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/wisdom/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/wordpress/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/workflow/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/workstation/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/writing/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/wwdc/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/x-windows/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/x/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/x11/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/xbase/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/xmpp/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/xra/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/xtend/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/yahoo-mail/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/yesod/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/categories/zfs/</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/index-1.html</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/index-10.html</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/index-11.html</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/index-12.html</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/index-13.html</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/index-14.html</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/index-15.html</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/index-16.html</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/index-17.html</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/index-18.html</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/index-19.html</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/index-2.html</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/index-20.html</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/index-21.html</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/index-22.html</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/index-23.html</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/index-24.html</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/index-25.html</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://michael-mccracken.net/index-26.html</loc>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/index-3.html</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/index-4.html</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/index-5.html</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/index-6.html</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/index-7.html</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/index-8.html</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
  <url>
   <loc>http://michael-mccracken.net/index-9.html</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-07T17:52:00Z</lastmod>
  </url>
 </urlset>

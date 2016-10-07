@@ -1,2587 +1,2636 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>http://michael-mccracken.net/2005/rss.xml</loc>
+  <lastmod>2016-10-06T21:02:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/2006/rss.xml</loc>
+  <lastmod>2016-10-06T21:02:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/2007/rss.xml</loc>
+  <lastmod>2016-10-06T21:02:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/2008/rss.xml</loc>
+  <lastmod>2016-10-06T21:02:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/2009/rss.xml</loc>
+  <lastmod>2016-10-06T21:02:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/2010/rss.xml</loc>
+  <lastmod>2016-10-06T21:02:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/2011/rss.xml</loc>
+  <lastmod>2016-10-06T21:02:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/2012/rss.xml</loc>
+  <lastmod>2016-10-06T21:02:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/2013/rss.xml</loc>
+  <lastmod>2016-10-06T21:02:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/2014/rss.xml</loc>
+  <lastmod>2016-10-06T21:02:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/2015/rss.xml</loc>
+  <lastmod>2016-10-06T21:02:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://michael-mccracken.net/2016/rss.xml</loc>
+  <lastmod>2016-10-07T17:39:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://michael-mccracken.net/categories/1961.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/3rd-party-utilities.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/about.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/academia.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/accessories.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/acheme.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/acm.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/acme.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/acoustic.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/addressbook.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/advice.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/ai.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/ajax.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/algorithms.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/alpha.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/amazons3.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/analysis.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/ancho.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/animation.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/app.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/apple-help.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/apple-mail.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/apple.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/applemail.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/applescript.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/apps.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/appstore.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/architecture.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/arm.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/art.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/attachments.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/audio.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/austin.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/autotuning.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/awards.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/backup.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/basketball.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/bayes.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/beethoven.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/bell-labs.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/berkeley.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/best-practices.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/bibdesk.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/bibliography.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/bibtex.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/blinkenlights.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/blog-software.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/blog.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/blogging.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/book.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/books.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/bootcamp.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/braun.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/brent_simmons.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/bugtracking.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/bulk-mail.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/business.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/buxton.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/c-declarations.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/c-plus-plus.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/c.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/calculator.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/caml.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/canonical.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/case.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/cdecl.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/chandler.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/change-tracking.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/charity.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/charles-schulz.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/cheating.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/chi.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/china.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/christmas.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/cia.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/circles.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/citation.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/citerentzsch.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/citewmf.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/classification.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/classifier.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/clothes.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/cloud.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/clutter.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/cms.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/cmu.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/coach.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/cocoa.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/code-generation.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/code.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/coffee.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/colorize.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/community.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/compiler.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/compilers.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/computation.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/computer-architecture.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/computer-chess.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/computer-graphics.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/computer-science.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/computers.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/computing.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/concurrency.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/conditions.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/constraint-solving.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/constraints.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/context-search.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/continuations.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/conversation-view.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/cookbook.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/cookie.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/copyright.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/coregraphics.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/coreintuition.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/couchdb.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/course.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/cps.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/crab-cake.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/crdt.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/creamsauce.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/criticism.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/crowdfunding.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/culture.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/cvxpy.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/dashboard.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/data-analysis.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/data-structures.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/data.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/database.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/datasets.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/date.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/dateutil.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/dbus.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/debugging.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/declaration.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/delight.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/demo.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/dependent-types.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/design.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/desktop.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/desktopvswebapps.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/deslide.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/development.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/diagram.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/digital-camera.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/dimension.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/dmca.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/documentary.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/documentation.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/drawing.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/dressing.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/dsl.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/dtrace.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/dvcs.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/ebook.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/eclipse.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/editor.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/education.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/electropaint.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/elisp.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/emacs.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-06T21:02:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/email-charter.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/email-client.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/email.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/empirical-software-engineering.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/encoding.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/entertainment.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/entrepreneurship.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/ergonomics.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/erlang.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/essays.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/estate.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/etiquette.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/eudora.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/eventual-consistency.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/exascale.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/exceptions.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/extensibility.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/extensible-compilers.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/facebook.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/fashion.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/fatherhood.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/feel.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/filesystem.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/filing.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/filler.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/film.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/filtering.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/filters.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/finance.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/find.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/flickr.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/fluid-dynamics.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/focus.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/food.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/foot-switch.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/forward.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/foss.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/framework.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/free-software.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/freeware.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/fts.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/functional-programming.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/functional.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/funding.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/funny.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/fuse.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/future.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/games.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/gcc.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/generator.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/generators.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/ghc-extensions.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/ghc.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/gift.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/gifts.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/git-annex.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/git.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/giving.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/gluten-free.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/gmail.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/gnome.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/gnu.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/go-outside-and-live.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/google.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/googleplus.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/government.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/gpl.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/gpu.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/grad-school.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/graph-processing.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/graph.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/graphics.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/graphs.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/greeting-card.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/growing.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/growl.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/gui.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/guide.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/hack.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/hand.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/haskell.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/hci.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/hcite.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/help.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/high-society.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/hipster.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/history.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/hn.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/hockey.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/home-theater.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/housing.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/howto.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/hpc.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/html-mail.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/html.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/httptwittercominsidehpcstatus146761306207301633.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/hud.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/humor.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/i-search.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/ibm.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/ical.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/icon.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/idiomatic.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/image.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/imaging.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/imap.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/impact.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/importance.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/improvement.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/inbox-zero.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/inbox.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/inboxzero.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/incremental-search.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/indev.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/indie.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/innovation.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/inspiration.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/interaction.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/interfaces.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/internet-of-things.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/internet.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/interviews.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/ios.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/ipad.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/iphone.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/irc.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/java.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/javascript.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/jazz.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/jinja.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/jit.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/journalism.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/journals.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/kernel.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/key-shortcuts.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/keyboard-shortcut.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/kickstarter.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/kids.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/kindle.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/kqueue.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/kwaga.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/language.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/languages.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/laptop.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/laser.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/latency.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/latex.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/launchd.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/learning.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/lectures.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/led.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/legal.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/lens.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/libraries.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/library.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/linearprogramming.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/linkgrammar.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/links.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/lint.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/linux.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/lion.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/lisp.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/lists.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/llvm.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/localization.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/location.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/logging.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/loremipsum.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/lost-time.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/ly.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/mac-app-store.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/mac.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/macdev.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/machine-learning.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/macosx.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/mail.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/mail_framework.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/mailapp.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/mailman.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/mailmate.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/mailperspectives.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/mailsmith.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/mainframe.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/maps.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/matplotlib.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/me.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/medicine.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/melancholy.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/menu.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/merging.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/merlinmann.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/meta-blogging.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/meta.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/metadata.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/metaprogramming.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/microformats.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/mikechecksmail.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/minimalism.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/misfeature.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/mit-ai.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/mit.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/mobile.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/modeling.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/monads.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/money.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/monitoring.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/moog.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/movie.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/movies.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/mozilla-labs.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/mozilla.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/multiprocessing.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/multitasking.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/museum.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/music.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/mython.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/negotiation.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/netiquette.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/network.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/networking.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/networks.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/new-ideas-in-email.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/nexus.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/nikola.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/nlp.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/nltk.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/norway.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/nostalgia.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/notification.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/notifications.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/nstextview.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/nud.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/oatmeal.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/objc-signature.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/ocaml.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/ocd.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/octopress.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/ohnonotagain.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/online.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/open-access.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/open-source.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/openaccess.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/opencog.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/opensource.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/operating-systems.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/optimization.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/oracle.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/organization.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/osx.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/pacific-beach.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/package-manager.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/paleo.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/parallel.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/parallelism.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/parenting.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/parlab.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/parser-generator.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/parsing.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/pasta.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/patents.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/patterns.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/peanuts.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/pedal.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/people.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/performance.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/personalized-search.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/pg.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/philosophy.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/photo.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/photography.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/photos.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-07T17:39:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/physics.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/pinboard-links.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/pittsburgh.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/pixar.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/pjax.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/pl.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/plan9.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/plants.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/plotting.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/plugin.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/plugins.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/policy.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/portland.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/postbox.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/power.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/pratt.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/presentation.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/presentations.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/probability.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/processing.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/productivity.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/professional.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/profiling.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/programming-editors.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/programming-languages.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/programming.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/prolog.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/prosperity.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/publication.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/publishing.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/put-this-on.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/pycon2012.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/pypy.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/python.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/python3.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/quickcheck.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/quickref.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/quiet.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/racket.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/ragel.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/raindrop.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/rams.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/ranking.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/reading.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/real.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/recipe-books.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/recipe.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/reference.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/reinteract.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/rendering.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/research.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/rest.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/review.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/reviews.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/rms.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/rpy.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/rust.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/scala.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/scalability.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/scam.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/schroeder.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/science.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/scm.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/score.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/screen.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/screensaver.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/script-utility-productivity.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/script.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/scripting.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/scripts.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/scrollbar.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/search.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/sejits.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/send-again.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/send.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/sentiment.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/sgi.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/shell.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/shoes.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/sig.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/simulation.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/sketchnotes.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/skim.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/sleeve.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/slides.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/slideshow.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/sly.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/smalltalk.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/sml.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/social-networks.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/social.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/socialnetworks.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/software.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/solaris.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/solver.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/source-control.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/spamsieve.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/speakers.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/spies.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/sports.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/spycam.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/sql.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/sqlalchemy.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/squeak.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/ssb.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/stakeout.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/state-machines.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/static-analysis.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/statistics.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/stm.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/style.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/sun.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/sunglasses.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/sunway.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/superpages.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/support.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/surgery.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/svn.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/swing.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/sync.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/syntax-highlighting.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/system360.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/system_support.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/tactile.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/tagged-pointer.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/tagging.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/talk.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/talks.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/tbird-3.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/teaching.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/template-haskell.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/templating.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/terrorism.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/testing.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/texinfo.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/text-classification.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/text-editors.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/text-search.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/text.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/thunderbird-3.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/thunderbird.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/tidbits.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/ties.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/time-management.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/time-series.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/time.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/tinkering.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/tips.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/tlb.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/tm.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/to-watch.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/tool.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/tools.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/tortilla.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/transactional-memory.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/travel.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/tree.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/tufte.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/tuning.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/tutorial.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/tv.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/twitter.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/types.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/typesetting.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/typography.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/u1db.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/ubuntu-one.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/ubuntu.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/ubuntutouch.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/udacity.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/ui.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/unicode.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/unity.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/unix.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/up.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/usb.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/utf-8.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/vc.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/video-lectures.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/video.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/visualization.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/vm.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/voodoopad.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/wardrobe.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/wave.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/web.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/webarchitecture.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/webdev.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/webkit.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/webmail.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/whitelist.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/wiki.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/wimp.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/windows.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/winter.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/wisdom.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/wordpress.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/workflow.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/workstation.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/writing.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/wwdc.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/x-windows.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/x.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/x11.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/xbase.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/xmpp.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/xra.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/xtend.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/yahoo-mail.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/yesod.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/categories/zfs.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2015-11-13T19:12:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/rss.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-07T17:39:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://michael-mccracken.net/sitemap.xml</loc>
-  <lastmod>2015-03-17</lastmod>
+  <lastmod>2016-10-07T17:53:00Z</lastmod>
  </sitemap>
 </sitemapindex>

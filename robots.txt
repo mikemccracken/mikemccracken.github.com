@@ -1,2 +1,4 @@
 Sitemap: http://michael-mccracken.net/sitemapindex.xml
 
+User-Agent: *
+Host: michael-mccracken.net

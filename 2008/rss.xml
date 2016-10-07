@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>michael-mccracken.net</title><link>http://michael-mccracken.net/</link><description></description><atom:link rel="self" href="http://michael-mccracken.net/2008/rss.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Thu, 06 Oct 2016 21:02:28 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>iCal's Text Field Jumble</title><link>http://michael-mccracken.net/2008/11/text-field-jumble/</link><dc:creator>Michael McCracken</dc:creator><description>&lt;div&gt;&lt;p&gt;I've written here before about text fields, particularly the problem of having a good-looking 'display' mode and a separate 'edit' mode for data you don't edit so often, like in AddressBook.&lt;/p&gt;
+&lt;p&gt;The most recent version of iCal decided that events are write-once-read-many as well. You now have to use cmd-E to get into edit mode, while cmd-I just gives you a small display mode.&lt;/p&gt;
+&lt;p&gt;I'm mostly OK with that, although I find I edit events about as often as I look at their info windows - after editing I usually just deal with alarms, not the events themselves. The casual glance at the time and title is always enough - I think either you're looking at the time and title or you're editing. I don't see the appeal in the new 'info-only' mode (if it's actually new - it seems new.)&lt;/p&gt;
+&lt;p&gt;However, the change does highlight the jumble of editable text fields and text-like fields in the edit window:
+&lt;a href="http://michael-mccracken.net/wp2/wp-content/uploads/2008/11/pastedgraphic-1.tiff"&gt;&lt;img alt="" src="http://michael-mccracken.net/wp2/wp-content/uploads/2008/11/pastedgraphic-1.tiff"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://michael-mccracken.net/wp2/wp-content/uploads/2008/11/pastedgraphic.tiff"&gt;&lt;img alt="" src="http://michael-mccracken.net/wp2/wp-content/uploads/2008/11/pastedgraphic.tiff"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The "Add Attendees" link and the "None" placeholder for url act the same - you click on them, and enter text.
+One's a link and one's mute gray text. Why?
+For my part, I think the gray text is too understated, and the link is too garish.&lt;/p&gt;
+&lt;p&gt;There are other differences: you can tab to the "url" field, but you can't tab to "attendees"... until you add one, then you can. Once you click on either of them, the url field pops up a plain white raised NSTextField, but the attendees field is sunken and translucent, apparently an NSTokenField?&lt;/p&gt;
+&lt;p&gt;Both of the blue links could also be buttons. I'm still not completely sold on replacing buttons with links, but I can understand the trend. I think a small plus-sign button would be fine for "Add File", though, and "Attendees" ought to be a text field. Why force the user to use the mouse when adding data to an event?&lt;/p&gt;
+&lt;p&gt;All in all, I think the "Add Attendees" link/field is pretty strange. I'm curious if I missing a precedent somewhere.&lt;/p&gt;&lt;/div&gt;</description><category>cocoa</category><category>mac</category><category>programming</category><category>ui</category><guid>http://michael-mccracken.net/2008/11/text-field-jumble/</guid><pubDate>Sun, 02 Nov 2008 22:38:00 GMT</pubDate></item><item><title>go juggle — an attention callback</title><link>http://michael-mccracken.net/2008/08/go-juggle-an-attention-callback/</link><dc:creator>Michael McCracken</dc:creator><description>&lt;div&gt;&lt;p&gt;Sometimes progress on a project for me consists of a few short bursts of activity in between stretches of waiting for some long-running thing to complete so I can figure out what I need to do with it next.&lt;/p&gt;
+&lt;p&gt;Because I always have more than one project going, I don't actually wait much. I just switch workspaces and try to make progress on the next thing. If I can't make progress on anything immediate, I'll end up checking email or looking up something for a side project.&lt;/p&gt;
+&lt;p&gt;This kind of multitasking is inefficient, but inevitable when I might have to wait for 20 minutes or more for a compute job or a compile to finish.&lt;/p&gt;
+&lt;p&gt;The problem with this approach is that the things I'm waiting for often finish while I'm off doing something else, and if I get too involved, the low-priority research or emails will eat up my day while the high-priority work sits waiting for me.&lt;/p&gt;
+&lt;p&gt;I've attacked this problem in the past when using OS X with &lt;a href="http://michael-mccracken.net/2008/08/go-juggle-an-attention-callback/gr"&gt;growl&lt;/a&gt;, but I can't call growlnotify from remote systems. However, I just found &lt;a href="http://michael-mccracken.net/2008/08/go-juggle-an-attention-callback/dzen"&gt;dzen&lt;/a&gt; for X Windows, a lightweight notification display utility that compiles easily on every system I've tried, and works remotely with ssh X forwarding.&lt;/p&gt;
+&lt;p&gt;I wrote a simple script called &lt;code&gt;go&lt;/code&gt;, which just executes its arguments and runs &lt;code&gt;dzen&lt;/code&gt; when it's done. Now I type (for example) &lt;code&gt;go make&lt;/code&gt; and I can switch over to something else, confident that I'll see a big popup window letting me know when I can get back to working on my highest priority project.&lt;/p&gt;
+&lt;p&gt;Here's basically the entire &lt;code&gt;go&lt;/code&gt; script:&lt;/p&gt;
+&lt;table class="codehilitetable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;1
+2
+3
+4
+5&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre class="code literal-block"&gt;&lt;span class="c"&gt;#!/bin/ksh&lt;/span&gt;
+&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="nv"&gt;$@&lt;/span&gt;
+&lt;span class="nv"&gt;$@&lt;/span&gt;
+&lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="nv"&gt;$@&lt;/span&gt; completed on &lt;span class="sb"&gt;`&lt;/span&gt;hostname&lt;span class="sb"&gt;`&lt;/span&gt; &lt;span class="se"&gt;\&lt;/span&gt;
+ &lt;span class="p"&gt;|&lt;/span&gt; dzen2 -p -h &lt;span class="m"&gt;64&lt;/span&gt; -bg darkblue
+&lt;/pre&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+&lt;p&gt;It's simple but it's working great for me. I've tried some improvements like randomizing window placement to avoid overlapping notifications, but the simple version above really does all I need.&lt;/p&gt;
+&lt;p&gt;Finally, a couple of details. zsh always seems to want to spell-check 'go', so I really named it '~/bin/executeAndNotify.sh' and just aliased 'go' to that.
+Also, I've found it can mess with shell quoting as is, so sometimes I have to do &lt;code&gt;'somecommand ; go echo done'&lt;/code&gt;. If someone has a tip on getting the quoting right in the script, I'd love to hear it. The problem crops up when you try something like 'go make CC="cc -g"' - the quotes don't make it through.&lt;/p&gt;&lt;/div&gt;</description><category>computers</category><category>productivity</category><category>script utility productivity</category><category>scripts</category><category>X Windows</category><guid>http://michael-mccracken.net/2008/08/go-juggle-an-attention-callback/</guid><pubDate>Fri, 29 Aug 2008 02:31:00 GMT</pubDate></item><item><title>Two hours</title><link>http://michael-mccracken.net/2008/03/two-hours/</link><dc:creator>Michael McCracken</dc:creator><description>&lt;div&gt;&lt;p&gt;Daniel Jalkut just &lt;a href="http://www.red-sweater.com/blog/481/it-should-be-free"&gt;wrote about&lt;/a&gt; a desktop bookmarking app called &lt;a href="http://codesorcery.net/pukka/"&gt;Pukka&lt;/a&gt;, which despite being apparently nice enough to warrant a positive review, was simple enough that Leo Laporte wasn't comfortable just saying it cost $15. I felt like adding to the discussion after a few commenters described the app as trivial - in one case saying that any good programmer could write it in two hours.&lt;/p&gt;
+&lt;p&gt;This bothered me, so I downloaded Pukka and gave it a try. I was curious to see if it was indeed trivial.&lt;/p&gt;
+&lt;p&gt;While it definitely doesn't seem like the most feature-rich program up front, there's a lot of stuff in there - it works with more than one bookmarking site, it integrates with RSS readers, uses the OS X keychain, includes Bonjour discovery of nearby users, and has AppleScript support.&lt;/p&gt;
+&lt;p&gt;Further, it shows attention to detail. Although I may not agree with some of Justin's UI design choices, it's clear that he spent time thinking about bookmarking workflow. I know in some of my projects, just pondering design choices takes hours - drawing mockups, and trying things out.&lt;/p&gt;
+&lt;p&gt;End-user app development isn't just programming, and programming isn't just typing.&lt;/p&gt;
+&lt;p&gt;I think it's fair to say that that although you might be able to retype the code by hand in a few hours, Pukka represents a good chunk of serious work. I'm sure the mac developers in the audience will agree - Applescript support alone is almost guaranteed to be more than two hours of work.&lt;/p&gt;
+&lt;p&gt;I'm glad that there's a market for small apps and small developers, and I hope downwards price pressure from large subsidized or bundled apps doesn't kill that off.&lt;/p&gt;&lt;/div&gt;</description><category>mac</category><guid>http://michael-mccracken.net/2008/03/two-hours/</guid><pubDate>Fri, 28 Mar 2008 02:42:00 GMT</pubDate></item><item><title>VoodooPad 3.5</title><link>http://michael-mccracken.net/2008/02/voodoopad-35/</link><dc:creator>Michael McCracken</dc:creator><description>&lt;div&gt;&lt;p&gt;From Flying Meat, &lt;a href="http://flyingmeat.com/voodoopad"&gt;VoodooPad&lt;/a&gt; 3.5 is out.
+(&lt;a href="http://www.flyingmeat.com/fs/flystashweb.cgi/2dc35f78-ac3e-01dc-01d4-c0cbe4c4bd91"&gt;release notes here&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;It's a solid update, including welcome image-editor integration and more. I thought I'd point out my favorite feature in the release notes:&lt;/p&gt;
+&lt;p&gt;"You can now edit pages and sort the results in the search window (woo!)."&lt;/p&gt;
+&lt;p&gt;I like this because it matches a kind of manual refactoring habit I picked up with Project Builder / XCode's excellent "Find in Project…" window - I search for a keyword that marks places I need to look at and edit the files right in the search window. (Note: &lt;a href="http://www.gnu.org/software/emacs/manual/html_node/emacs/Other-Repeating-Search.html"&gt;'occur-mode' and kin&lt;/a&gt; are a powerful way to do the same in Emacs…)&lt;/p&gt;
+&lt;p&gt;It's a powerful habit if you plan for it, by using comments in code to keep track of what you've touched when making a lot of cross-cutting changes, like &lt;code&gt;# @addsearch&lt;/code&gt; Then when you think you're done with a change, you can run a quick search to see if you forgot to fix anything.&lt;/p&gt;
+&lt;p&gt;Sometimes in VoodooPad notes, I'll write in placeholders like that comment when I don't have a bit of information yet, and now I can follow my trails the same way I do in code.&lt;/p&gt;
+&lt;p&gt;Thanks, Gus!&lt;/p&gt;&lt;/div&gt;</description><category>mac</category><category>VoodooPad</category><guid>http://michael-mccracken.net/2008/02/voodoopad-35/</guid><pubDate>Tue, 12 Feb 2008 00:00:00 GMT</pubDate></item><item><title>PyObjC notes</title><link>http://michael-mccracken.net/2008/02/pyobjc-notes/</link><dc:creator>Michael McCracken</dc:creator><description>&lt;div&gt;&lt;p&gt;I've been hacking around with &lt;a href="http://pyobjc.sf.net"&gt;PyObjC&lt;/a&gt;, the Python-ObjC/Cocoa bridge recently, and it's quickly becoming my favorite way to write Cocoa apps. It's really natural to mix Python idioms with Cocoa objects.&lt;/p&gt;
+&lt;p&gt;The latest version of PyObjC is 2.0, it's installed by default on OS X 10.5, and XCode now includes templates for starting a PyObjC project. There's even code autocomplete in XCode for PyObjC and IB integration, so aside from some smart-indenting issues, writing PyObjC in XCode is almost as natural as writing in ObjC.&lt;/p&gt;
+&lt;p&gt;I thought I'd post a few nice shortcuts and tips here.&lt;/p&gt;
+&lt;p&gt;You can use tuples for NSRect/Range/Point, for instance, this -&lt;/p&gt;
+&lt;pre class="code literal-block"&gt;r = NSInsetRect(((0, 0) ,
+                 (100, 100)),
+                10, 10)
+&lt;/pre&gt;
+
+
+&lt;p&gt;creates this NSRect -&lt;/p&gt;
+&lt;pre class="code literal-block"&gt;NSRect origin=
+       size=&amp;gt;
+&lt;/pre&gt;
+
+
+&lt;p&gt;Passing python arrays as NSArray instances (and dictionaries as NSDictionaries) works great, but sometimes you need to pass a C array. The Python 'array' module handles that nicely:&lt;/p&gt;
+&lt;pre class="code literal-block"&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;array&lt;/span&gt;
+&lt;span class="n"&gt;g&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;NSGradient&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;alloc&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;
+   &lt;span class="n"&gt;initWithColors_locations_colorSpace_&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;
+    &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;NSColor&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;whiteColor&lt;/span&gt;&lt;span class="p"&gt;(),&lt;/span&gt;
+     &lt;span class="n"&gt;NSColor&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;blackColor&lt;/span&gt;&lt;span class="p"&gt;()],&lt;/span&gt;
+
+    &lt;span class="n"&gt;array&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;array&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'f'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mf"&gt;0.0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;1.0&lt;/span&gt;&lt;span class="p"&gt;]),&lt;/span&gt;
+    &lt;span class="n"&gt;NSColorSpace&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;deviceRGBColorSpace&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;
+&lt;/pre&gt;
+
+
+&lt;p&gt;ObjC selectors are just python strings in PyObjC.&lt;/p&gt;
+&lt;pre class="code literal-block"&gt;defNC.addObserver_selector_name_object_(self,
+  'windowDidResize:',
+  NSWindowDidResizeNotification,
+  self)
+# or
+self.performSelectorOnMainThread_withObject_waitUntilDone_('doIt:', None, False)
+# or
+if o.respondsToSelector_("fun:"): return o.fun_(a)
+&lt;/pre&gt;
+
+
+&lt;p&gt;Finally, something that comes in handy when working with KVC, the  '_' method now defined on NSObjects in PyObjC:&lt;/p&gt;
+&lt;pre class="code literal-block"&gt;o = 
+print o._.myKey
+o._.myKey = 44
+# is equivalent to:
+print o.valueForKey_('myKey')
+o.setValue_forKey_(44, 'myKey')
+&lt;/pre&gt;
+
+
+&lt;p&gt;That last example is straight from the &lt;a href="http://pyobjc.sourceforge.net/NEWS-2.0.html"&gt;NEWS page&lt;/a&gt;, where lots of other useful info can be found.&lt;/p&gt;&lt;/div&gt;</description><category>computers</category><category>mac</category><category>programming</category><guid>http://michael-mccracken.net/2008/02/pyobjc-notes/</guid><pubDate>Fri, 01 Feb 2008 19:07:00 GMT</pubDate></item><item><title>What is Site Reliability Engineering at Google</title><link>http://michael-mccracken.net/2008/01/what-is-site-reliability-engineering-at-google/</link><dc:creator>Michael McCracken</dc:creator><description>&lt;div&gt;&lt;p&gt;I've been looking around for some more detailed information about the "Site Reliability Engineering" positions at Google.
+Apparently the role is a real mix of very large-scale system administration, planning and automation.&lt;/p&gt;
+&lt;p&gt;I've collected some links to public info about the job.&lt;/p&gt;
+&lt;p&gt;The Google channel has &lt;a href="http://www.youtube.com/watch?v=y31STIrwtlk"&gt;a promotional video&lt;/a&gt; from one engineer about the role - he tells a quick story about being on call to monitor and address problems with Google talk.&lt;/p&gt;
+&lt;p&gt;A set of &lt;a href="http://www.ukuug.org/events/spring2007/programme/ThatCouldntHappenToUs.pdf"&gt;slides from a talk by James Youngman&lt;/a&gt; at the UK Unix &amp;amp; Open Systems User's Group gives a good description of the general task, and dives deeper into two specific examples - powering down failed disks, and protecting data with checksums, exploring how straightforward ideas can explode at scale.
+(These slides also have potentially the best proprietary-information disclaimer I've ever seen: "This has been written entirely in ASCII. No EBCDIC or animal fat.")&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://sysadmin.miniconf.org/2006/pollmann_google_lightning_talk.ppt"&gt;Here&lt;/a&gt; is another set of slides with a quick overview, from a 'lightning talk'.&lt;/p&gt;
+&lt;p&gt;A sampling of what Google SRE engineers put in their public resumes about their job includes quite a span - from troubleshooting mission critical services to writing automation software (in Python).&lt;/p&gt;
+&lt;p&gt;And finally, an &lt;a href="http://googleresearch.blogspot.com/2006/03/hiring-lake-wobegon-strategy.html"&gt;interesting post from 2006&lt;/a&gt; about the theory behind Google's hiring strategy, summarized as "only hire candidates who are above the mean of your current employees".&lt;/p&gt;&lt;/div&gt;</description><category>computers</category><guid>http://michael-mccracken.net/2008/01/what-is-site-reliability-engineering-at-google/</guid><pubDate>Sun, 13 Jan 2008 21:58:00 GMT</pubDate></item><item><title>Twitter Stats in SVG using gnuplot</title><link>http://michael-mccracken.net/2008/01/twitter-stats-in-svg-using-gnuplot/</link><dc:creator>Michael McCracken</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;a href="http://twitter.com/dacort"&gt;Damon Cortesi&lt;/a&gt; just shared a handy script for grabbing your tweets and compiling some stats about when you post to twitter and who you reply to.&lt;/p&gt;
+&lt;p&gt;His script generates a list of numbers and included a Numbers template to paste them into. Since I don't have Numbers, I've modified &lt;a href="http://dcortesi.com/2007/12/27/twitter-stats/"&gt;his script&lt;/a&gt; to write a file that can be read by &lt;a href="http://gnuplot.info"&gt;gnuplot&lt;/a&gt;, and wrote a basic gnuplot script to output an SVG file version of the stats.&lt;/p&gt;
+&lt;p&gt;While I was at it, I changed it so it no longer counts "@someone" separately from "@someone:".&lt;/p&gt;
+&lt;p&gt;Both scripts are right here - &lt;a href="http://michael-mccracken.net/twitter/gnuplot_twitterstats.tgz"&gt;gnuplot_twitterstats.tgz&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It uses gnuplot 4.2, which you can get on OS X with &lt;a href="http://www.macports.org/"&gt;macports&lt;/a&gt; using &lt;code&gt;port install gnuplot +no_x11'&lt;/code&gt;. (Or it's a pretty easy build on its own, see the &lt;a href="http://gnuplot.sourceforge.net/download.html"&gt;gnuplot download page&lt;/a&gt; )&lt;/p&gt;
+&lt;p&gt;Here are my stats:
+Sorry, it looks like your browser doesn't support SVG. You're really not missing much.
+&lt;a href="http://michael-mccracken.net/twitter/2007stats.svg"&gt;Click here for a full-screen version.&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</description><category>scripts</category><category>web</category><guid>http://michael-mccracken.net/2008/01/twitter-stats-in-svg-using-gnuplot/</guid><pubDate>Wed, 02 Jan 2008 21:15:00 GMT</pubDate></item></channel></rss>
